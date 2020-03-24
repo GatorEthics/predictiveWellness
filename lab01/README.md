@@ -16,7 +16,7 @@
 * [Lego EV3 Robot](#lego-ev3-robot)
 * [Robotic Field Day Activities](#robotic-field-day-activities)
 * [SSH Legacy Option Configuration](#ssh-Legacy-option-configuration)
-* [Uploading Programs Using `ssh`](#Uploading-programs)
+* [Uploading Programs Using SSH](#Uploading-programs-using-ssh)
 * [Required Deliverables](#required-deliverables)
 
 ## Agreement
@@ -112,7 +112,7 @@ Host ip_of_your_robot
 HostKeyAlgorithms +ssh-dss
 ```
 
-## Uploading Programs Using `ssh.`
+## Uploading Programs Using SSH
 If you would like to use `ssh` (instead of the USB cable) to upload jar files to your robot, you can follow the following steps:
 
 1. You can copy jar files from your workspace on your computer to the robot through ssh by using the regular `scp` command. For example, if I wanted to copy Test.jar from my workspace into ‘programs’ directory on the robot, then after I changed into my workspace directory, I would type:
