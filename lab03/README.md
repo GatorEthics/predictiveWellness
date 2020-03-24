@@ -23,25 +23,25 @@ This laboratory assignment will be completed in groups of three or four(max). Yo
 follow the team guidelines generated in our AI group.
 
 ## Lab Team Work Guidelines
-1. **Organization and function:**
+#### 1. **Organization and function:**
   * Team will delegate one member to be a team manager. In teams of two, the role of the team manager will be restricted to initiating the project on GitHub and resolving merge issues.
   * The project work will be distributed evenly among the team members. The work of being a team manager should count toward work distribution.
   * The team will work collaboratively to create a detailed project work plan with clear deadlines.
   * Teams must ensure that the project’s scope is feasible and that every member of the team is comfortable with the projected scope.
 
-2. **Communication:**
+#### 2. **Communication:**
   * All team members must promptly respond to the other team members’ communication.
   * All team members must regularly check and respond to Slack messages and GitHub
 issues.
   * Each team member should keep their communication clear and concise.
 
-3. **Interaction:**
+#### 3. **Interaction:**
   * Conflicts within the team should be first brought to the team leader first. If unresolved, they should be elevated to the instructor.
   * All team members must recognize and avoid biases.
   * Each team member must act in a professional and in a respectful manner.
   * All team members must attend the scheduled team meetings and be punctual.
 
-4. **Project Problem Solving and Decision Making:**
+#### 4. **Project Problem Solving and Decision Making:**
   * During problem solving teams should utilize collaborative brainstorming and researching tactics.
   * During brainstorming each team must ensure that every member is able to express their ideas, solutions, concerns, etc.
   * The decisions about the project are to be made collaboratively. If a decision can not be reached, a majority vote should be the deciding factor, or, in case of a draw, the instructor’s input should be the deciding vote.
