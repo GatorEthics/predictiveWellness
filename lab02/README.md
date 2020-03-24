@@ -1,4 +1,4 @@
-# CMPSC 311- Lab 2: Robotic Agents
+# CMPSC 311- Robotic Agents: Lab 2
 **Instructor:** Janyl Jumadinova, Fall 2019
 
 **Assigned:** 11 September 2019
