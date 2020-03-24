@@ -66,7 +66,7 @@ You have been given an R source code file `src/geneExpAnalysis.r` which you are 
 
 1. **What does gsub() do in this code block?**
 2. **What does the plot on the next line show?**
-3. **Plot 2 is a scaled view of the same information from Plot 1. Why is scaling helpful when viewing these results of Plot 2 ?**
+3. **Plot 2 is a scaled view of the same information from Plot 1. Why is scaling helpful when viewing these results of Plot 2?**
 4. **What is the function “mutate()” doing in this code block?**
 5. **What is the function “summarise()” doing in this code block?**
 6. **Interpret the results of Plot 3.**
@@ -100,7 +100,7 @@ The below questions concern this premise.
 
 ## Required Deliverables
 
-1. File `writing/report.md`: Your **labeled** answers to the **18** questions in bold (included in this assignment sheet and also in the source code itself `src/geneExpAnalysis.r`
+1. File `writing/report.md`: Your **labeled** answers to the **18 questions in bold** (included in this assignment sheet and also in the source code itself `src/geneExpAnalysis.r`
 2. Your response to the ethical question is to be included at the end of your `writing/report.md`
 
 When you have finished, please ensure that the GitHub web site has your pushed work by visiting your repository at the site. Please see the instructor if you have any questions about assignment submission.
