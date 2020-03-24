@@ -1,0 +1,19 @@
+---
+name: lab3
+break: true
+indent: 4
+---
+
+# --> check the technical writing for various characteristics
+writing/report.md:
+    ConfirmFileExists
+    CountFileWords --count 400
+    CountMarkdownTags --tag "heading" --count 4
+    #CountMarkdownTags --tag "code_block" --count 3
+    #CountMarkdownTags --tag "code" --count 2
+    CountMarkdownTags --tag "list" --count 2
+    MatchFileFragment --fragment "Your Name" --count 0 --exact
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+
+# --> check that the number of commits in the Git repository is beyond a threshold
+CountCommits --count 3
