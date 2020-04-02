@@ -1,0 +1,41 @@
+// available commands:
+// "gradle grade": run GatorGrader to assess completion of learning objectives
+// "gradle check": run checkstyle to assess code quality
+// "gradle clean": clean the project of all derived files
+// "gradle build": create the bytecode from the source code
+// "gradle run": run the program and produce output
+
+buildscript {
+  repositories {
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
+    mavenLocal()
+    dependencies {
+      // other option, only needed for specifying a specific version of the Gradle plugin:
+      // classpath "gradle.plugin.org.gatored:gatorgradle:0.4.4"
+      classpath "gradle.plugin.org.gatored:gatorgradle:+"
+    }
+  }
+}
+
+//please run after gradle build
+plugins {
+  id 'com.github.sherter.google-java-format' version '0.8'
+}
+
+// apply the version of the gradle plugin
+apply plugin: 'c'
+apply plugin: 'org.gatored.gatorgradle'
+
+// declare the repositories that are used to meet dependencies
+repositories {
+  mavenLocal()
+  jcenter()
+  mavenCentral()
+}
+
+// specify the use of the gradle version
+wrapper {
+  gradleVersion = '4.9'
+}
