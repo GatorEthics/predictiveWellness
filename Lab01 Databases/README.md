@@ -1,4 +1,4 @@
-# Idea for database project #1
+# Idea for database lab #1
 
 - create a simple database
 
