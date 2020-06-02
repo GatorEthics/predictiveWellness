@@ -31,3 +31,9 @@ YouTube, Prostate cancer, Social media, Dissemination, Misinformation
 
 ###### Reference:
 Loeb, Stacy, et al. "Dissemination of misinformative and biased information about prostate cancer on YouTube." European urology 75.4 (2019): 564-567.
+
+###### Notes:
+
+
+##### Quotes:
+"A study of 51 YouTube videos performed in 2008 reported that 73% had fair to poor information content and 69% were biased towards screening or treatment [4]. The authors concluded that YouTube is an inadequate source of PCa information. Since then, there has been a more than 1000-fold increase in YouTube videos about PCa [6] but there are limited data on the nature and quality of current information."
