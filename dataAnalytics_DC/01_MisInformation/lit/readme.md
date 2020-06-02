@@ -13,7 +13,7 @@ news, media bias, NLP, topic modelling, south-african politics
 Cornelissen, Laurenz A., et al. "A Computational Analysis of News Media Bias: A South African Case Study." Proceedings of the South African Institute of Computer Scientists and Information Technologists 2019. 2019. 1-10.
 
 ###### Notes:
-This paper particularly focuses on the different computational methods, and is a bit long, used to extract topics and analyze sentiments from articles of specific media houses, which would then help classify and tag the articles to show the major theme they pertain to. The South-African population is generally opposed to any media that is partisan, and the media is strongly "regarded with distrust." Therefor, any news articles that show allegiance to a specific ideology or political party, particularly ones that align with the current government's party contribute to the distrust of the government. They used R-heavy data collection techniques to clean their data as well as perform sentiment analysis and topic extraction
+This paper particularly focuses on the different computational methods, and is a bit long, used to extract topics and analyze sentiments from articles of specific media houses, which would then help classify and tag the articles to show the major theme they pertain to. The South-African population is generally opposed to any media that is partisan, and the media is strongly "regarded with distrust." Therefore, any news articles that show allegiance to a specific ideology or political party, particularly ones that align with the current government's party contribute to the distrust of the government. They used R-heavy data collection techniques to clean their data as well as perform sentiment analysis and topic extraction
 
 ###### Quote:
  __
@@ -33,7 +33,7 @@ YouTube, Prostate cancer, Social media, Dissemination, Misinformation
 Loeb, Stacy, et al. "Dissemination of misinformative and biased information about prostate cancer on YouTube." European urology 75.4 (2019): 564-567.
 
 ###### Notes:
-
+The aim of the study was not to figure out the extent to which the youtube audience receives biased information about prostate cancer, but "to perform a comprehensive study of YouTube videos on PCa that included validated instruments for content evaluation and comparisons between quality and user popularity and dissemination." They scored videos using the DISCERN quality criteria for consumer health information, as well as study-specific constructs such as including intended audience, favoring new technology, recommending complementary/alternative medicine, commercial bias, and extent of misinformation (not too deeply). They found that very few videos summarized information, provided sources, or discussed multiple options, and only about 50% defined medical terms, divided information into sections, or addressed users directly when describing actions. They conclude that "many popular videos about PCa on YouTube lack key elements of shared decision-making and contain biased content." I find it worrying to note how quickly misinformation was expanded upon after being disseminated. 
 
 ##### Quotes:
 "A study of 51 YouTube videos performed in 2008 reported that 73% had fair to poor information content and 69% were biased towards screening or treatment [4]. The authors concluded that YouTube is an inadequate source of PCa information. Since then, there has been a more than 1000-fold increase in YouTube videos about PCa [6] but there are limited data on the nature and quality of current information."
