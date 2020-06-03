@@ -4,7 +4,7 @@
 
 ## Madelyn Kapfhammer
 
-# Basics of Fitness Tracking and Wellness Apps
+### Basics of Fitness Tracking and Wellness Apps
 
 [Downside of fitness trackers and health apps is loss of privacy](https://theconversation.com/downside-of-fitness-trackers-and-health-apps-is-loss-of-privacy-69870)
 
@@ -46,7 +46,7 @@
 
 - Terms of app use include that data can be used by companies in many different ways, however users generally do not read all of the Terms and Conditions, does responsibility fall on the company or the user?
 
-# Artificial Intelligence and Wellness
+### Artificial Intelligence and Wellness
 
 [The emerging artificial intelligence wellness landscape: Opportunities and areas of ethical debate](https://medium.com/@lkcyber/the-emerging-artificial-intelligence-wellness-landscape-802caf9638de)
 
@@ -69,7 +69,7 @@
 - 
 
 
-# Ethical Implications 
+### Ethical Implications
 
 [Ethical dimensions of using artifical intelligence in Health Care](https://journalofethics.ama-assn.org/article/ethical-dimensions-using-artificial-intelligence-health-care/2019-02)
 
@@ -83,3 +83,14 @@
 
 - 
 
+### Existing Wellness Data
+
+### Accessing Medical Databases with Python
+
+PubMed is a database that helps with collecting information from medical articles
+
+[PyMed on GitHub](https://github.com/gijswobben/pymed)
+
+[PyMed API](https://pypi.org/project/pymed/)
+
+[NCBI's Entrez databases](https://biopython-tutorial.readthedocs.io/en/latest/notebooks/09%20-%20Accessing%20NCBIs%20Entrez%20databases.html)
