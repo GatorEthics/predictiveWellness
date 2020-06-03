@@ -54,3 +54,15 @@ Google Flu Trends was originally a highly accurate data-based service, but their
 
 ###### Quote:
 _“There are a lot of small data problems that occur in big data,” says Spiegelhalter. “They don't disappear because you've got lots of the stuff. They get worse.”_
+
+
+
+#### Fourth Peer-Reviewed paper
+_Don’t forget people in the use of big data for development_ by Joshua Blumenstock
+
+##### Abstract
+Today, 95% of the global population has mobile-phone coverage, and the number of people who own a phone is rising fast (see ‘Dialling up’)1. Phones generate troves of personal data on billions of people, including those who live on a few dollars a day. So aid organizations, researchers and private companies are looking at ways in which this ‘data revolution’ could transform international development.
+
+Some businesses are starting to make their data and tools available to those trying to solve humanitarian problems. The Earth-imaging company Planet in San Francisco, California, for example, makes its high-resolution satellite pictures freely available after natural disasters so that researchers and aid organizations can coordinate relief efforts. Meanwhile, organizations such as the World Bank and the United Nations are recruiting teams of data scientists to apply their skills in statistics and machine learning to challenges in international development.
+
+But in the rush to find technological solutions to complex global problems there’s a danger of researchers and others being distracted by the technology and losing track of the key hardships and constraints that are unique to each local context. Designing data-enabled applications that work in the real world will require a slower approach that pays much more attention to the people behind the numbers.
