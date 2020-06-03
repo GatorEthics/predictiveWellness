@@ -85,6 +85,12 @@
 
 ### Existing Wellness Data
 
+[Health Data](https://healthdata.gov/)
+
+[15 open datasets for healthcare](https://medium.com/@ODSC/15-open-datasets-for-healthcare-830b19980d9)
+
+[18 free life sciences, healthcare and medical daasets for machine learning](https://lionbridge.ai/datasets/18-free-life-sciences-medical-datasets-for-machine-learning/)
+
 ### Accessing Medical Databases with Python
 
 PubMed is a database that helps with collecting information from medical articles
