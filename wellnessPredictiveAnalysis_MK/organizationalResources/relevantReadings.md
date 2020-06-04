@@ -134,6 +134,16 @@
 
 [18 free life sciences, healthcare and medical daasets for machine learning](https://lionbridge.ai/datasets/18-free-life-sciences-medical-datasets-for-machine-learning/)
 
+---
+
+[One year of FitBit ChargeHR data](https://www.kaggle.com/alketcecaj/one-year-of-fitbit-chargehr-data)
+
+[Body motion and vital signs](https://archive.ics.uci.edu/ml/datasets/MHEALTH+Dataset)
+
+[MIMIC](https://mimic.physionet.org/)
+
+[National Health and Nurtition Examination Survey](https://www.cdc.gov/nchs/nhanes/index.htm)
+
 ### Accessing Medical Databases with Python
 
 PubMed is a database that helps with collecting information from medical articles
