@@ -10,6 +10,10 @@ One in five adults living in the United States use fitness trackers and health-r
 
 #### Utilized Resources
 
+- [National Institute of Health & National Library of Medicine's PubMed](https://pubmed.ncbi.nlm.nih.gov/)
+
+- [PyMed, PubMed Access Through Python](https://github.com/gijswobben/pymed)
+
 #### Showcase of Ethical Concerns
 
 The purpose of this tool is to specifically aid students in having complex conversations about data collection and the ethics surrounding it. Specifically, this tool focuses on the impact of releasing personal health and wellness information. Artifical intelligence is a quickly growing field, raising ethical debates daily. In the case of healthcare, AI is beginning to be used for both diagnostics, and personalized medicine. However, with this growing field, arise concerns related to privacy, informed consent, and patient autonomy. This tool will give students insight into how personal health data can, and often is used, allowing them to form opinions about the ethics surrounding this field. In an artifical intelligence course, one of the most important ideas is to integrate the teaching of ethics, and allow students to form their own opinions about the use and growth of AI. This program will aid in incorporating ethics into courses at Allegheny College.
