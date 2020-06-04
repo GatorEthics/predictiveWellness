@@ -5,8 +5,7 @@
 # 4) Pattern matching functions. These recognise four engines of pattern description. The most common is regular expressions, but there are three other tools.
 
 install.packages("stringr")
-install.packages("devtools")
-devtools::install_github("tidyverse/stringr")
+
 
 # 
 # All functions in stringr start with str_ and take a vector of strings as the first argument
@@ -17,7 +16,7 @@ str_c(x, collapse = ", ")
 # WHITESPACE
 # str_pad adds whitespace to either the right, left, or both sides of a string, default pads to the left
 x <- c("abc", "defghi")
-str_pad(y, 5)
+str_pad(x, 5)
 
 # str_trim does the opposite, removing either leading or trailing whitespaces
 x <- c("  a   ", "b   ",  "   c")
