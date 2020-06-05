@@ -152,6 +152,8 @@
 
 [NHANES US Health Data 2017-2018 on Kaggle](https://www.kaggle.com/moradnejad/nhanes-questionnaires-datasets-20172018-csv?)
 
+[15 minute heart rate dataset](http://ecg.mit.edu/time-series/)
+
 ### Accessing Medical Databases with Python
 
 PubMed is a database that helps with collecting information from medical articles
