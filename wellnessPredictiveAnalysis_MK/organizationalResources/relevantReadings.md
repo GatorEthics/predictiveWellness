@@ -136,13 +136,21 @@
 
 ---
 
-[One year of FitBit ChargeHR data](https://www.kaggle.com/alketcecaj/one-year-of-fitbit-chargehr-data)
+[One year of FitBit ChargeHR data on Kaggle](https://www.kaggle.com/alketcecaj/one-year-of-fitbit-chargehr-data)
 
 [Body motion and vital signs](https://archive.ics.uci.edu/ml/datasets/MHEALTH+Dataset)
 
 [MIMIC](https://mimic.physionet.org/)
 
 [National Health and Nurtition Examination Survey](https://www.cdc.gov/nchs/nhanes/index.htm)
+
+[Heart Disease UCI on Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci)
+
+[Heart Disease on Kaggle](https://www.kaggle.com/johnsmith88/heart-disease-dataset)
+
+[National Health and Nutrition Examination Survey 2013-2014 on Kaggle](https://www.kaggle.com/cdc/national-health-and-nutrition-examination-survey?select=questionnaire.csv)
+
+[NHANES US Health Data 2017-2018 on Kaggle](https://www.kaggle.com/moradnejad/nhanes-questionnaires-datasets-20172018-csv?)
 
 ### Accessing Medical Databases with Python
 
