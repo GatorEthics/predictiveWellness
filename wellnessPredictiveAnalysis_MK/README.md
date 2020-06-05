@@ -14,9 +14,11 @@ One in five adults living in the United States use fitness trackers and health-r
 
 - [PyMed, PubMed Access Through Python](https://github.com/gijswobben/pymed)
 
-[One year of FitBit ChargeHR data by Alket Cacaj on Kaggle](https://www.kaggle.com/alketcecaj/one-year-of-fitbit-chargehr-data)
+- [One year of FitBit ChargeHR data by Alket Cacaj on Kaggle](https://www.kaggle.com/alketcecaj/one-year-of-fitbit-chargehr-data)
 
-[2017-2018 National Health and Nutrition Examination Survey on Kaggle](https://www.kaggle.com/moradnejad/nhanes-questionnaires-datasets-20172018-csv?)
+- [2013-2014 National Health and Nutrition Examination Survey by the CDC on Kaggle](https://www.kaggle.com/cdc/national-health-and-nutrition-examination-survey)
+
+- [2017-2018 National Health and Nutrition Examination Survey on Kaggle](https://www.kaggle.com/moradnejad/nhanes-questionnaires-datasets-20172018-csv?)
 
 #### Showcase of Ethical Concerns
 
