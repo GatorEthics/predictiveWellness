@@ -2,7 +2,8 @@
 # documents as a single vector by providing a better way of constructing a document-term matrix.
 # The following code was taken from https://cran.r-project.org/web/packages/text2vec/vignettes/text-vectorization.html
 # and focuses on sentiment analysis.
-
+# This library seems a bit complex and uses more machine learning methods, many of which went over my
+# my head while typing out this demo code on my own, I will ask questions as I present.
 install.packages(text2vec)
 install.packages(data.table)
 install.packages(magrittr)
