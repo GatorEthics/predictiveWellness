@@ -13,7 +13,7 @@ install.packages(magrittr)
 library(text2vec)
 library(data.table)
 library(magrittr)
-data("movie_review") # this dataset consists of 5000 movie reviews, each makred positive or negative
+data("movie_review") # this dataset consists of 5000 movie reviews, each marked positive or negative
 setDT(movie_review)
 setkey(movie_review, id)
 set.seed(2017L)
