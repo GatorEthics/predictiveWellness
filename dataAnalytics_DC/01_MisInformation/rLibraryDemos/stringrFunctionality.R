@@ -4,6 +4,8 @@
 # 3) Locale sensitive operations whose operations will vary from locale to locale.
 # 4) Pattern matching functions. These recognise four engines of pattern description. The most common is regular expressions, but there are three other tools.
 
+install.packages("tidyverse")
+# library(tidyverse)
 install.packages("stringr")
 
 
