@@ -16,4 +16,4 @@ for article in database_results:
     #     if None in article.keywords:
     #         article.keywords.remove(None)
     #     keywords = '", "'.join(article.keywords)
-    print(f'{article_id} - {date} - {title}\n{abstract}\n')
+    print(f"{article_id} - {date} - {title}\n{abstract}\n")
