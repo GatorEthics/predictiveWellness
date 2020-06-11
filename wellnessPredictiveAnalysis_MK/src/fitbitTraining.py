@@ -1,7 +1,10 @@
+"""A program to create training data based on medical literature."""
+
 import pandas as pd
 
 
 def label_steps(dataframe):
+    """Label the data according to daily steps."""
     for i, j in dataframe.iterrows():
         if j["Steps"] < 7500:
             j["Step_labels"] = "LPA"
@@ -11,9 +14,11 @@ def label_steps(dataframe):
             j["Step_labels"] = "HPA"
         if j["Steps"] > 12500:
             j["Step_labels"] = "VHPA"
+        print(j["Step_labels"])
 
 
 def label_minutes_sitting(dataframe):
+    """Label the data according to total minutes sitting daily."""
     for i, j in dataframe.iterrows():
         hours_sitting = j["Minutes_sitting"] / 60
         if hours_sitting < 4:
@@ -28,6 +33,7 @@ def label_minutes_sitting(dataframe):
 
 
 def label_physical_activity(dataframe):
+    """Label data according to daily physical activity."""
     for i, j in dataframe.iterrows():
         physical_activity = (
             j["Minutes_moderate_activity"] + j["Minutes_intense_activity"]
