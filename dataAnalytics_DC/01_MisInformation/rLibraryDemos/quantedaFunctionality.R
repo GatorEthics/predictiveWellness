@@ -9,8 +9,11 @@ summary(data_corpus_inaugural)
 
 # all information used id from the cran, https://cran.r-project.org/web/packages/quanteda/vignettes/quickstart.html
 
-# we use readtext() to takea a file or fileset from disk or a URL, and returns a type of data.frame that can be used directly with the corpus() constructor function, to create a quanteda corpus object
-# readtext() works on text (.txt) files, comma-separated-value (.csv) files, XML formatted data, data from the Facebook API, in JSON format, data from the Twitter API, in JSON format, and generic JSON data.
+# we use readtext() to takea a file or fileset from disk or a URL, and returns a type of data.frame
+# that can be used directly with the corpus() constructor function, to create a quanteda corpus object
+# readtext() works on text (.txt) files, comma-separated-value (.csv) files, XML formatted data, data
+# from the Facebook API, in JSON format, data from the Twitter API, in JSON format, and generic JSON
+# data.
 
 # build a new corpus from the texts
 corp_uk <- corpus(data_char_ukimmig2010)  
@@ -18,13 +21,15 @@ corp_uk <- corpus(data_char_ukimmig2010)
 # to summarize the texts from a corpus, we can call a summary() method defined for a corpus
 summary(corp_uk)
 
-# we could add some document-level variables, we can do this using the R’s names() function to get the names of the character vector data_char_ukimmig2010, and assign this to a document variable (docvar)
+# we could add some document-level variables, we can do this using the R’s names() function to get the
+# names of the character vector data_char_ukimmig2010, and assign this to a document variable (docvar)
 docvars(corp_uk, "Party") <- names(data_char_ukimmig2010)
 docvars(corp_uk, "Year") <- 2010
 summary(corp_uk)
 
-# texts in corpus are not designed to be changed internally through cleanin or processing 
-# texts can be extracted from the corpus and assigned to new objects, but the idea is that the corpus will remain as an original reference copy
+# texts in corpus are not designed to be changed internally through cleaning or processing 
+# texts can be extracted from the corpus and assigned to new objects, but the idea is that the corpus
+# will remain as an original reference copy
 
 # to extract texts from a corpus, we use an extractor, called texts().
 texts(data_corpus_inaugural)[2]
@@ -39,12 +44,13 @@ summary(corp3)
 summary(corpus_subset(data_corpus_inaugural, Year > 1990))
 summary(corpus_subset(data_corpus_inaugural, President == "Adams"))
 
-# the keywords-in-context function performs a search for a word and allows us to view the contexts in which it occurs
+# the keywords-in-context function performs a search for a word and allows us to view the contexts in
+# which it occurs
 kwic(data_corpus_inaugural, pattern = "terror")
 
 # using phrase() we can also look up multi-word expressions.
 kwic(data_corpus_inaugural, pattern = phrase("United States")) %>%
-  head()
+  head() # show the context of the first six appearances
 
 # inspect the document-level variables
 head(docvars(data_corpus_inaugural))
@@ -83,4 +89,5 @@ dfmat_inaug_post1990 <- dfm(dfmat_inaug_post1990,
 head(stopwords("en"), 20)
 
 # to access a list of the most frequently occurring features, we can use topfeatures()
+dfmat_uk <- dfm(data_char_ukimmig2010, remove = stopwords("english"), remove_punct = TRUE)
 topfeatures(dfmat_uk, 20) # 20 most frequent words
