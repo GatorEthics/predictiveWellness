@@ -51,4 +51,4 @@ if __name__ == "__main__":
     label_steps(fitbit_data)
     label_minutes_sitting(fitbit_data)
     label_physical_activity(fitbit_data)
-    combine_labels(fitbit_data)
+    # combine_labels(fitbit_data)
