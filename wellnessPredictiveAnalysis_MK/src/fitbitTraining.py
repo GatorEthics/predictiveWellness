@@ -30,11 +30,6 @@ def label_minutes_sitting(dataframe):
         if hours_sitting >= 11:
             dataframe.at[i, "Sitting_labels"] = "Very high risk metabolic syndrome"
 
-        # if dataframe.at[i, "Sitting_labels"] == "nan":
-        #     print("Sitting label incorrect: ")
-        #     print(dataframe.at[i, "Minutes_sitting"])
-        # print(j["Sitting_labels"])
-
 
 def label_physical_activity(dataframe):
     """Label data according to daily physical activity."""
@@ -62,38 +57,6 @@ def create_query(fitbit_df, article_df):
     article_df.Query = article_df.Query.astype(str)
     for i, j in fitbit_df.iterrows():
         article_df.at[i, "Query"] = j["Step_labels"] + " AND " + j["Sitting_labels"] + " AND " + j["Activity_labels"]
-    
-    # print(dataframe["Query"])
-
-
-def access_database(fitbit_df, article_df):
-    database = PubMed(tool="PredictiveWellness", email="kapfhammerm@allegheny.edu")
-
-    for i, j in article_df.iterrows():
-        print(j["Query"])
-        query = j + 1["Query"]
-        print(query)
-        # database_results = database.query(query, max_results=2)
-        # article_df.at[i, "Results"] = database_results
-    #     print(database_results)
-        # for article in database_results:
-        #     article_id = article.pubmed_id
-        #     title = article.title
-        #     date = article.publication_date
-        # article_df.at[i, "ArticleID"] = article_id
-            # print(title, date)
-        #     # abstract = article.abstract
-        #     for i, j in article_df:
-        #         # article_df.at[i, "ArticleID"] = article_id
-        #         article_df.at[i, "Date_published"] = date
-        #         article_df.at[i, "Article_title"] = title
-
-
-#             # if article.keywords:
-#             #     if None in article.keywords:
-#             #         article.keywords.remove(None)
-#             #     keywords = '", "'.join(article.keywords)
-#             # print(f"{article_id} - {date} - {title}\n{abstract}\n")
 
 
 if __name__ == "__main__":
@@ -106,5 +69,3 @@ if __name__ == "__main__":
     create_query(fitbit_data, articles)
     articles.to_csv("updated_data.csv")
     # print(fitbit_data["Query"])
-    access_database(fitbit_data, articles)
-
