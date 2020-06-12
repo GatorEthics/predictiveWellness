@@ -1,6 +1,7 @@
 """A program to create training data based on medical literature."""
 
 import pandas as pd
+from pymed import PubMed
 
 
 def label_steps(dataframe):
@@ -13,16 +14,6 @@ def label_steps(dataframe):
             dataframe.at[i, "Step_labels"] = "MPA"
         if j["Steps"] > 1000:
             dataframe.at[i, "Step_labels"] = "HPA"
-
-        # if 10000 < j["Steps"] < 12500:
-        #     dataframe.at[i, "Step_labels"] = "HPA"
-        # if j["Steps"] >= 12500:
-        #     dataframe.at[i, "Step_labels"] = "VHPA"
-        # if dataframe.at[i, "Step_labels"] == "nan":
-        #     print("Steps label incorrect: ")
-        #     print(dataframe.at[i, "Steps"])
-
-        # print(j["Step_labels"])
 
 
 def label_minutes_sitting(dataframe):
@@ -48,7 +39,6 @@ def label_minutes_sitting(dataframe):
 def label_physical_activity(dataframe):
     """Label data according to daily physical activity."""
     dataframe.Activity_labels = dataframe.Activity_labels.astype(str)
-    # high_risk = "HRCD"
     for i, j in dataframe.iterrows():
         physical_activity = (
             j["Minutes_moderate_activity"] + j["Minutes_intense_activity"]
@@ -60,17 +50,33 @@ def label_physical_activity(dataframe):
         if physical_activity > 30:
             dataframe.at[i, "Activity_labels"] = "LRCD"
 
-        # if dataframe.at[i, "Activity_labels"] == "nan":
-        #     print("Activity label incorrect: ")
-        #     print(physical_activity)
-        # print(j["Activity_labels"])
-
 
 def combine_labels(dataframe):
     dataframe.Labels = dataframe.Labels.astype(str)
     for i, j in dataframe.iterrows():
         dataframe.at[i, "Labels"] = j["Step_labels"] + ", " + j["Sitting_labels"] + ", " + dataframe["Activity_labels"]
     # print(dataframe["Labels"])
+
+def create_query(dataframe):
+    dataframe.Query = dataframe.Query.astype(str)
+
+
+def access_database(dataframe):
+    database = PubMed(tool="PredictiveWellness", email="kapfhammerm@allegheny.edu")
+    for i, j in dataframe.iterrows():
+        query = j["Labels"]
+    database_results = database.query(query, max_results=2)
+
+    for article in database_results:
+        article_id = article.pubmed_id
+        title = article.title
+        date = article.publication_date
+        abstract = article.abstract
+        # if article.keywords:
+        #     if None in article.keywords:
+        #         article.keywords.remove(None)
+        #     keywords = '", "'.join(article.keywords)
+    print(f"{article_id} - {date} - {title}\n{abstract}\n")
 
 
 if __name__ == "__main__":
@@ -79,4 +85,5 @@ if __name__ == "__main__":
     label_minutes_sitting(fitbit_data)
     label_physical_activity(fitbit_data)
     combine_labels(fitbit_data)
-    print(fitbit_data)
+    # print(fitbit_data)
+    access_database(fitbit_data)
