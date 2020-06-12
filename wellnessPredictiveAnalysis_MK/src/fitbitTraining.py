@@ -7,14 +7,21 @@ def label_steps(dataframe):
     """Label the data according to daily steps."""
     dataframe.Step_labels = dataframe.Step_labels.astype(str)
     for i, j in dataframe.iterrows():
-        if j["Steps"] < 7500:
+        if j["Steps"] <= 7500:
             dataframe.at[i, "Step_labels"] = "LPA"
         if 7500 < j["Steps"] < 1000:
             dataframe.at[i, "Step_labels"] = "MPA"
-        if 10000 < j["Steps"] < 12500:
+        if j["Steps"] > 1000:
             dataframe.at[i, "Step_labels"] = "HPA"
-        if j["Steps"] > 12500:
-            dataframe.at[i, "Step_labels"] = "VHPA"
+
+        # if 10000 < j["Steps"] < 12500:
+        #     dataframe.at[i, "Step_labels"] = "HPA"
+        # if j["Steps"] >= 12500:
+        #     dataframe.at[i, "Step_labels"] = "VHPA"
+        # if dataframe.at[i, "Step_labels"] == "nan":
+        #     print("Steps label incorrect: ")
+        #     print(dataframe.at[i, "Steps"])
+
         # print(j["Step_labels"])
 
 
@@ -23,14 +30,18 @@ def label_minutes_sitting(dataframe):
     dataframe.Sitting_labels = dataframe.Sitting_labels.astype(str)
     for i, j in dataframe.iterrows():
         hours_sitting = j["Minutes_sitting"] / 60
-        if hours_sitting < 4:
+        if hours_sitting <= 4:
             dataframe.at[i, "Sitting_labels"] = "LRMS"
         if 4 < hours_sitting < 8:
             dataframe.at[i, "Sitting_labels"] = "MRMS"
         if 8 < hours_sitting < 11:
             dataframe.at[i, "Sitting_labels"] = "HRMS"
-        if hours_sitting > 11:
+        if hours_sitting >= 11:
             dataframe.at[i, "Sitting_labels"] = "VHRMS"
+
+        # if dataframe.at[i, "Sitting_labels"] == "nan":
+        #     print("Sitting label incorrect: ")
+        #     print(dataframe.at[i, "Minutes_sitting"])
         # print(j["Sitting_labels"])
 
 
@@ -48,14 +59,22 @@ def label_physical_activity(dataframe):
             dataframe.at[i, "Activity_labels"] = "MRCD"
         if physical_activity > 30:
             dataframe.at[i, "Activity_labels"] = "LRCD"
+
+        # if dataframe.at[i, "Activity_labels"] == "nan":
+        #     print("Activity label incorrect: ")
+        #     print(physical_activity)
         # print(j["Activity_labels"])
 
 
-# def combine_labels(dataframe):
-#     # print(dataframe.Activity_labels)
-#     # dataframe["Labels"] = dataframe["Steps_labels"].str.cat(dataframe["Sitting_labels"], sep=", ")
-#     for i, j in dataframe.iterrows():
-#         print(j["Activity_labels"])
+def combine_labels(dataframe):
+    dataframe["Labels"] = (
+        dataframe["Step_labels"]
+        + ", "
+        + dataframe["Sitting_labels"]
+        + ", "
+        + dataframe["Activity_labels"]
+    )
+    # print(dataframe["Labels"])
 
 
 if __name__ == "__main__":
@@ -63,5 +82,5 @@ if __name__ == "__main__":
     label_steps(fitbit_data)
     label_minutes_sitting(fitbit_data)
     label_physical_activity(fitbit_data)
-    print(fitbit_data)
-    # combine_labels(fitbit_data)
+    # print(fitbit_data)
+    combine_labels(fitbit_data)
