@@ -67,13 +67,9 @@ def label_physical_activity(dataframe):
 
 
 def combine_labels(dataframe):
-    dataframe["Labels"] = (
-        dataframe["Step_labels"]
-        + ", "
-        + dataframe["Sitting_labels"]
-        + ", "
-        + dataframe["Activity_labels"]
-    )
+    dataframe.Labels = dataframe.Labels.astype(str)
+    for i, j in dataframe.iterrows():
+        dataframe.at[i, "Labels"] = j["Step_labels"] + ", " + j["Sitting_labels"] + ", " + dataframe["Activity_labels"]
     # print(dataframe["Labels"])
 
 
@@ -82,5 +78,5 @@ if __name__ == "__main__":
     label_steps(fitbit_data)
     label_minutes_sitting(fitbit_data)
     label_physical_activity(fitbit_data)
-    # print(fitbit_data)
     combine_labels(fitbit_data)
+    print(fitbit_data)
