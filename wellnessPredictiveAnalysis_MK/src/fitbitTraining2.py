@@ -1,3 +1,5 @@
+"""A program to determine health risks with fitness data."""
+
 import pandas as pd
 from pymed import PubMed
 
@@ -31,19 +33,6 @@ def label_diabetes(df):
             df.at[i, "Diabetes"] = "Type II Diabetes"
 
 
-def label_good_health(df):
-    df.Health = df.Health.astype(str)
-    for i, j in df.iterrows():
-        if j["CD"] == "nan" and j["MS"] == "nan" and j["Diabetes"] == "nan":
-            df.at[i, "Health"] = "Good health"
-        # physical_activity = (
-        #     j["Minutes_moderate_activity"] + j["Minutes_intense_activity"]
-        # )
-        # hours_sitting = j["Minutes_sitting"] / 60
-        # if physical_activity >= 30 and hours_sitting <= 4 and j["Steps"] >= 10000:
-        #     df.at[i, "Health"] = "Good health"
-
-
 def label_health_risks(df):
     df.Health = df.Health.astype(str)
     health = " "
@@ -54,20 +43,11 @@ def label_health_risks(df):
             health = health + "Metabolic Syndrome, "
         if j["Diabetes"] != "nan":
             health = health + "Type II Diabetes "
+        if j["CD"] == "nan" and j["MS"] == "nan" and j["Diabetes"] == "nan":
+            health = "Good health"
         df.at[i, "Health"] = health
         health = ""
         # print(health)
-        
-
-# def label_moderate_health(df):
-#     df.Health = df.Health.astype(str)
-#     for i, j in df.iterrows():
-#         physical_activity = (
-#             j["Minutes_moderate_activity"] + j["Minutes_intense_activity"]
-#         )
-#         hours_sitting = j["Minutes_sitting"] / 60
-#         if 15 <= physical_activity <= 30 and 4 <= hours_sitting <= 8 and 7500 <= j["Steps"] <= 10000:
-#             df.at[i, "Health"] = "Moderate Health"
 
 
 if __name__ == "__main__":
@@ -75,7 +55,7 @@ if __name__ == "__main__":
     label_cardiovascular_disease(fitbit_data)
     label_metabolic_syndrome(fitbit_data)
     label_diabetes(fitbit_data)
-    label_good_health(fitbit_data)
+    # label_good_health(fitbit_data)
     # label_moderate_health(fitbit_data)
     label_health_risks(fitbit_data)
     fitbit_data.to_csv("updated_data.csv")
