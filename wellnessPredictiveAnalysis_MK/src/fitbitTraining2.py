@@ -5,6 +5,7 @@ from pymed import PubMed
 
 
 def label_cardiovascular_disease(df):
+    """Label cardiovascular disease risk based on physical activity and hours sitting."""
     df.CD = df.CD.astype(str)
     for i, j in df.iterrows():
         physical_activity = (
@@ -16,6 +17,7 @@ def label_cardiovascular_disease(df):
 
 
 def label_metabolic_syndrome(df):
+    """Label metabolic syndrome risk based on hours sitting and daily steps."""
     df.MS = df.MS.astype(str)
     for i, j in df.iterrows():
         hours_sitting = j["Minutes_sitting"] / 60
@@ -24,6 +26,7 @@ def label_metabolic_syndrome(df):
 
 
 def label_diabetes(df):
+    """Label type II diabetes risk based on physical activity and daily steps."""
     df.Diabetes = df.Diabetes.astype(str)
     for i, j in df.iterrows():
         physical_activity = (
@@ -34,6 +37,7 @@ def label_diabetes(df):
 
 
 def label_health_risks(df):
+    """Determine health risks based on labels, or lack of labels."""
     df.Health = df.Health.astype(str)
     health = " "
     for i, j in df.iterrows():
@@ -47,7 +51,6 @@ def label_health_risks(df):
             health = "Good health"
         df.at[i, "Health"] = health
         health = ""
-        # print(health)
 
 
 if __name__ == "__main__":
@@ -55,7 +58,5 @@ if __name__ == "__main__":
     label_cardiovascular_disease(fitbit_data)
     label_metabolic_syndrome(fitbit_data)
     label_diabetes(fitbit_data)
-    # label_good_health(fitbit_data)
-    # label_moderate_health(fitbit_data)
     label_health_risks(fitbit_data)
     fitbit_data.to_csv("updated_data.csv")
