@@ -53,10 +53,32 @@ def label_health_risks(df):
         health = ""
 
 
+def create_labels(df):
+    """Label data with corresponding 0,1,2 for machine learning."""
+    # Good Health: 0
+    # Cardiovascular disease risk: 1
+    # Metabolic syndrome risk: 2
+    # Type II diabetes risk: 3
+    df.Labels = df.Labels.astype(str)
+    labels = ""
+    for i, j in df.iterrows():
+        if j["CD"] != "nan":
+            labels = labels + "1, "
+        if j["MS"] != "nan":
+            labels = labels + "2, "
+        if j["Diabetes"] != "nan":
+            labels = labels + "3"
+        if j["CD"] == "nan" and j["MS"] == "nan" and j["Diabetes"] == "nan":
+            labels = "0"
+        df.at[i, "Labels"] = labels
+        labels = ""
+
+
 if __name__ == "__main__":
     fitbit_data = pd.read_csv("datasetAccess/FitBitData.csv")
     label_cardiovascular_disease(fitbit_data)
     label_metabolic_syndrome(fitbit_data)
     label_diabetes(fitbit_data)
     label_health_risks(fitbit_data)
+    create_labels(fitbit_data)
     fitbit_data.to_csv("updated_data.csv")
