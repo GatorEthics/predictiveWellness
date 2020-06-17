@@ -12,6 +12,7 @@ pydocstyle = "*"
 [packages]
 pymed = "*"
 pandas = "*"
+faker = "*"
 
 [requires]
 python_version = "3.7"
