@@ -14,6 +14,7 @@ def label_cardiovascular_disease(df):
         hours_sitting = j["Minutes_sitting"] / 60
         if physical_activity < 30 and hours_sitting > 8:
             df.at[i, "CD"] = "Cardiovascular disease"
+            # and j["BP"] >= 130 and j["HR"] >= 80
 
 
 def label_metabolic_syndrome(df):
@@ -23,6 +24,7 @@ def label_metabolic_syndrome(df):
         hours_sitting = j["Minutes_sitting"] / 60
         if j["Steps"] < 7500 and hours_sitting > 8:
             df.at[i, "MS"] = "Metabolic syndrome"
+            # and j["BP"] >= 130
 
 
 def label_diabetes(df):
@@ -34,6 +36,7 @@ def label_diabetes(df):
         )
         if physical_activity < 30 and j["Steps"] < 7500:
             df.at[i, "Diabetes"] = "Type II Diabetes"
+            # and j["BP"] >= 120
 
 
 def label_health_risks(df):
