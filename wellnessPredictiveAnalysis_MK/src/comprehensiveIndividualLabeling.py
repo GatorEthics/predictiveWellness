@@ -2,13 +2,11 @@
 
 import pandas as pd
 from pymed import PubMed
-import numpy a
 
 
 def label_cardiovascular_disease(df):
     """Label cardiovascular disease risk based on physical activity and hours sitting."""
-    df2.CD = df.CD.astype(str)
-    cd_list = []
+    df.CD = df.CD.astype(str)
     for i, j in df.iterrows():
         physical_activity = (
             j["Minutes_moderate_activity"] + j["Minutes_intense_activity"]
