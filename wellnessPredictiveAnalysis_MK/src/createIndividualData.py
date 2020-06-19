@@ -19,27 +19,75 @@ def randomize_int(min, max, increments):
     return integer_list
 
 
-def create_heart_rate(df):
+def create_heart_rate(df1):
     min = 50
     max = 110
     increments = 1
     integer_list = randomize_int(min, max, increments)
     heart_rate_array = np.array(integer_list)
-    df["HR"] = heart_rate_array
+    df1["HR"] = heart_rate_array
 
 
-def create_blood_pressure(df):
+def create_blood_pressure(df1):
     min = 110
     max = 145
     increments = 1
     integer_list = randomize_int(min, max, increments)
     blood_pressure_array = np.array(integer_list)
-    df["BP"] = blood_pressure_array
+    df1["BP"] = blood_pressure_array
+
+
+def create_more_steps(df2):
+    min = 0
+    max = 26500
+    increments = 1
+    integer_list = randomize_int(min, max, increments)
+    steps_array = np.array(integer_list)
+    df2["Steps"] = steps_array
+
+
+def create_minutes_sitting(df2):
+    min = 400
+    max = 1450
+    increments = 1
+    integer_list = randomize_int(min, max, increments)
+    sitting_array = np.array(integer_list)
+    df2["Minutes_sitting"] = sitting_array
+
+
+def create_moderate_activity(df2):
+    min = 0
+    max = 100
+    increments = 1
+    integer_list = randomize_int(min, max, increments)
+    moderate_array = np.array(integer_list)
+    df2["Minutes_moderate_activity"] = moderate_array
+
+
+def create_intense_activity(df2):
+    min = 0
+    max = 150
+    increments = 1
+    integer_list = randomize_int(min, max, increments)
+    intense_array = np.array(integer_list)
+    df2["Minutes_intense_activity"] = intense_array
+
+
+def combine_data(df1, df2):
+    frames = [df1, df2]
+    result = pd.concat(frames)
+    return result
 
 
 if __name__ == "__main__":
     fitbit_data = pd.read_csv("datasetAccess/FitBitData.csv")
+    fitbit_data2 = pd.read_csv("datasetAccess/FitBitData2.csv")
     randomize_int(10, 100, 1)
     create_heart_rate(fitbit_data)
     create_blood_pressure(fitbit_data)
-    fitbit_data.to_csv("FitBitData.csv")
+    create_more_steps(fitbit_data2)
+    create_minutes_sitting(fitbit_data2)
+    create_moderate_activity(fitbit_data2)
+    create_intense_activity(fitbit_data2)
+    individual_data = combine_data(fitbit_data, fitbit_data2)
+    individual_data.to_csv("updated_data.csv")
