@@ -2,11 +2,13 @@
 
 import pandas as pd
 from pymed import PubMed
+import numpy a
 
 
 def label_cardiovascular_disease(df):
     """Label cardiovascular disease risk based on physical activity and hours sitting."""
-    df.CD = df.CD.astype(str)
+    df2.CD = df.CD.astype(str)
+    cd_list = []
     for i, j in df.iterrows():
         physical_activity = (
             j["Minutes_moderate_activity"] + j["Minutes_intense_activity"]
@@ -14,6 +16,7 @@ def label_cardiovascular_disease(df):
         hours_sitting = j["Minutes_sitting"] / 60
         if physical_activity < 30 and hours_sitting > 8:
             df.at[i, "CD"] = "Cardiovascular disease"
+
             # and j["BP"] >= 130 and j["HR"] >= 80
 
 
@@ -78,10 +81,10 @@ def create_labels(df):
 
 
 if __name__ == "__main__":
-    fitbit_data = pd.read_csv("datasetAccess/FitBitData.csv")
-    label_cardiovascular_disease(fitbit_data)
-    label_metabolic_syndrome(fitbit_data)
-    label_diabetes(fitbit_data)
-    label_health_risks(fitbit_data)
-    create_labels(fitbit_data)
-    fitbit_data.to_csv("updated_data.csv")
+    individual_data = pd.read_csv("individual_data.csv")
+    label_cardiovascular_disease(individual_data)
+    label_metabolic_syndrome(individual_data)
+    label_diabetes(individual_data)
+    label_health_risks(individual_data)
+    create_labels(individual_data)
+    individual_data.to_csv("individual_data.csv")

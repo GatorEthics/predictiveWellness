@@ -90,4 +90,4 @@ if __name__ == "__main__":
     create_moderate_activity(fitbit_data2)
     create_intense_activity(fitbit_data2)
     individual_data = combine_data(fitbit_data, fitbit_data2)
-    individual_data.to_csv("updated_data.csv")
+    individual_data.to_csv("individual_data.csv")
