@@ -4,6 +4,8 @@
 
 ## Madelyn Kapfhammer
 
+**[Sharing and utilizing health data for AI applications](https://www.hhs.gov/sites/default/files/sharing-and-utilizing-health-data-for-ai-applications.pdf)**
+
 ### Basics of Fitness Tracking and Wellness Apps
 
 [Downside of fitness trackers and health apps is loss of privacy](https://theconversation.com/downside-of-fitness-trackers-and-health-apps-is-loss-of-privacy-69870)
@@ -50,38 +52,79 @@
 
 [The emerging artificial intelligence wellness landscape: Opportunities and areas of ethical debate](https://medium.com/@lkcyber/the-emerging-artificial-intelligence-wellness-landscape-802caf9638de)
 
-- 
+- National Wellness Institute wellness perspective: Wellness is comprised of size dimensions, emotional, spiritual, intellectual, occupational, physical and social
 
-[Artificial intelligence in medicine raises legal and ethical concerns](https://theconversation.com/artificial-intelligence-in-medicine-raises-legal-and-ethical-concerns-122504#:~:text=AI%20can%20draw%20upon%20purchasing,information%20about%20an%20individual's%20health.&text=Researchers%20are%20already%20using%20AI,opioid%20abuse%20and%20even%20suicide.)
+- OECD wellness perspective: measure quality of life with health status, work-life balanca, education and skills, social connections, civic engagement, environmental quality, personal security, and subjective well-being
 
-- 
+- Three mediums of AI in wellness: intangible, tangible, and embedded
 
-[Sharing and utilizing health data for AI applications](https://www.hhs.gov/sites/default/files/sharing-and-utilizing-health-data-for-ai-applications.pdf)
+- Intangible: no physical form, communicated through sound, notification, or running in background
 
-- 
+- AI startup Mindstrong working to predict emotional health concerns before they arise by accessing phone use patterns when someone is relaxing/upset
+
+- AI applications that are used as electronic "therapists"
+
+- Tangible: AI in a physical form
+
+- Sleep technologies which take environment factors and give feedback about sleep cycles and sleep quality
+
+- Embedded: AI fused with out brain through invasive or non-invasive mechanism
+
+- Brain computer interfaces still in process of being approved and created
 
 [Predictive analytics in health care](https://www2.deloitte.com/us/en/insights/topics/analytics/predictive-analytics-health-care-value-risks.html)
 
-- 
+- Predictive analytics: making predictions about unknown future events or activities that lead to decisions, evaluate historical and real-time data and make predictions about the future
+
+- Enhance accuracy of diagnosis/treatment, and epidemiology to access public health risk factors
+
+- Enable the use of prognostic analytics to allow doctors to find cures for certain diseases
+
+- Examine large datasets (big data) and form predictions based on them
+
+- Generate profiles of a community and health patterns with medical condition information, showing high smoking rates, high levels of obesity etc.
+
+- Then gives insights for risk scores about a community
+
+- Puts an impact on decision-making processes
+
+- Problems with algorithm bias
+
+- Privacy concerns - doctors are under pressure to combine care with data capture
 
 [That mental health app might share your data without telling you](https://www.theverge.com/2019/4/20/18508382/apps-mental-health-smoking-cessation-data-sharing-privacy-facebook-google-advertising)
 
-- 
+- Only a fraction of apps disclose that they share data collected from their users
 
+- Some apps sharing information with Facebook
+
+- Lack of data security is a concern including health diaries, reports about individual substance use, and usernames
+
+- Give third parties information about an individual's mental health
+
+- University of New South Wales discovered that 92% of a 36 app study shared data with at least one third party (Facebook and Google-run services)
 
 ### Ethical Implications
 
 [Ethical dimensions of using artifical intelligence in Health Care](https://journalofethics.ama-assn.org/article/ethical-dimensions-using-artificial-intelligence-health-care/2019-02)
 
-- 
+- Threat to patient preference, safety and privacy
 
-[Privacy, compliance, and ethical issues with predictive people analytics](https://paulvanderlaken.com/2018/11/12/privacy-compliance-ethical-issues-predictive-people-analytics/)
+- There is a lack of policy guidelines for health/wellness artificial intelligence
 
-- 
+- Though AI has the possibility of improving medical care tremendously, it is necessary to protect confidentiality, informed consent, and patietnt autonomy
 
-[The legal and ethical concerns that arise from using complex predictive analytics in health care](https://pubmed.ncbi.nlm.nih.gov/25006139/)
+- Should be integarated into future education
 
-- 
+[Artificial intelligence in medicine raises legal and ethical concerns](https://theconversation.com/artificial-intelligence-in-medicine-raises-legal-and-ethical-concerns-122504#:~:text=AI%20can%20draw%20upon%20purchasing,information%20about%20an%20individual's%20health.&text=Researchers%20are%20already%20using%20AI,opioid%20abuse%20and%20even%20suicide.)
+
+- Potential for discrimination, AI can use purchasing records, income data, and criminal records that can come with health record datasets
+
+- AI to predict medical conditions including [heart disease](https://www.theverge.com/2018/2/19/17027902/google-verily-ai-algorithm-eye-scan-heart-disease-cardiovascular-risk), [stroke](https://www.itnonline.com/content/fda-clears-first-ai-powered-clinical-decision-support-software-stroke), diabetes, and [cognitive decline](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5880633/)
+
+- Americans with Disabilites Act does not prohibit discrimination based on future medical problems (only current/past diagnoses)
+
+- Need explansion of HIPAA Privacy Rule
 
 ### Existing Wellness Data
 
@@ -90,6 +133,26 @@
 [15 open datasets for healthcare](https://medium.com/@ODSC/15-open-datasets-for-healthcare-830b19980d9)
 
 [18 free life sciences, healthcare and medical daasets for machine learning](https://lionbridge.ai/datasets/18-free-life-sciences-medical-datasets-for-machine-learning/)
+
+---
+
+[One year of FitBit ChargeHR data on Kaggle](https://www.kaggle.com/alketcecaj/one-year-of-fitbit-chargehr-data)
+
+[Body motion and vital signs](https://archive.ics.uci.edu/ml/datasets/MHEALTH+Dataset)
+
+[MIMIC](https://mimic.physionet.org/)
+
+[National Health and Nurtition Examination Survey](https://www.cdc.gov/nchs/nhanes/index.htm)
+
+[Heart Disease UCI on Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci)
+
+[Heart Disease on Kaggle](https://www.kaggle.com/johnsmith88/heart-disease-dataset)
+
+[National Health and Nutrition Examination Survey 2013-2014 on Kaggle](https://www.kaggle.com/cdc/national-health-and-nutrition-examination-survey?select=questionnaire.csv)
+
+[NHANES US Health Data 2017-2018 on Kaggle](https://www.kaggle.com/moradnejad/nhanes-questionnaires-datasets-20172018-csv?)
+
+[15 minute heart rate dataset](http://ecg.mit.edu/time-series/)
 
 ### Accessing Medical Databases with Python
 
