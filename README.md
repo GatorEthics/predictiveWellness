@@ -23,7 +23,7 @@ One in five adults living in the United States use fitness trackers and health-r
 
 #### Utilized Libraries and Packages
 
-- Python's [Faker](https://faker.readthedocs.io/en/master/); a package which allows the generation of fake data. For full instructions on using Faker please visit [here]()
+- Python's [Faker](https://faker.readthedocs.io/en/master/); a package which allows the generation of fake data. For full instructions on using Faker please visit [here](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/faker/fakerInstructions.md)
 
 
 #### Showcase of Ethical Concerns
