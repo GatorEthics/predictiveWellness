@@ -19,24 +19,24 @@ def randomize_int(min, max, increments, amount):
     return integer_list
 
 
-def create_heart_rate(df1):
-    min = 50
-    max = 110
-    increments = 1
-    amount = 1000
-    integer_list = randomize_int(min, max, increments, amount)
-    heart_rate_array = np.array(integer_list)
-    df1["HR"] = heart_rate_array
+# def create_heart_rate(df1):
+#     min = 50
+#     max = 110
+#     increments = 1
+#     amount = 367
+#     integer_list = randomize_int(min, max, increments, amount)
+#     heart_rate_array = np.array(integer_list)
+#     df1["HR"] = heart_rate_array
 
 
-def create_blood_pressure(df1):
-    min = 110
-    max = 145
-    increments = 1
-    amount = 1000
-    integer_list = randomize_int(min, max, increments, amount)
-    blood_pressure_array = np.array(integer_list)
-    df1["BP"] = blood_pressure_array
+# def create_blood_pressure(df1):
+#     min = 110
+#     max = 145
+#     increments = 1
+#     amount = 367
+#     integer_list = randomize_int(min, max, increments, amount)
+#     blood_pressure_array = np.array(integer_list)
+#     df1["BP"] = blood_pressure_array
 
 
 def create_more_steps(df2):
@@ -92,7 +92,7 @@ if __name__ == "__main__":
     create_minutes_sitting(fitbit_data2)
     create_moderate_activity(fitbit_data2)
     create_intense_activity(fitbit_data2)
-    create_heart_rate(fitbit_data)
-    create_blood_pressure(fitbit_data)
+    # create_heart_rate(fitbit_data)
+    # create_blood_pressure(fitbit_data)
     individual_data = combine_data(fitbit_data, fitbit_data2)
     individual_data.to_csv("individual_data.csv")

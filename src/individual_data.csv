@@ -1,733 +1,1003 @@
-,Unnamed: 0,Unnamed: 0.1,Date,Steps,Minutes_sitting,Minutes_of_slow_activity,Minutes_moderate_activity,Minutes_intense_activity,HR,BP,CD,MS,Diabetes,Health,Labels
-0,0,0,08-05-2015,905.0,1355,46.0,0,0,104.0,134.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes," Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-1,1,1,09-05-2015,18925.0,611,316.0,61,60,74.0,136.0,nan,nan,nan,Good health,0
-2,2,2,10-05-2015,14228.0,602,226.0,14,77,98.0,112.0,nan,nan,nan,Good health,0
-3,3,3,11-05-2015,6756.0,749,190.0,23,4,106.0,126.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-4,4,4,12-05-2015,5020.0,876,171.0,0,0,76.0,142.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-5,5,5,13-05-2015,7790.0,726,172.0,34,18,52.0,141.0,nan,nan,nan,Good health,0
-6,6,6,14-05-2015,5614.0,782,216.0,13,1,66.0,135.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-7,7,7,15-05-2015,8169.0,801,218.0,8,7,82.0,129.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-8,8,8,16-05-2015,19971.0,532,247.0,101,118,81.0,140.0,nan,nan,nan,Good health,0
-9,9,9,17-05-2015,8520.0,606,186.0,46,73,75.0,132.0,nan,nan,nan,Good health,0
-10,10,10,18-05-2015,11998.0,936,189.0,18,51,108.0,123.0,nan,nan,nan,Good health,0
-11,11,11,19-05-2015,12425.0,827,186.0,18,54,100.0,142.0,nan,nan,nan,Good health,0
-12,12,12,20-05-2015,6008.0,783,214.0,15,2,103.0,118.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-13,13,13,21-05-2015,16291.0,616,237.0,48,52,69.0,128.0,nan,nan,nan,Good health,0
-14,14,14,22-05-2015,6111.0,820,190.0,14,5,80.0,118.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-15,15,15,23-05-2015,17928.0,533,262.0,79,132,72.0,116.0,nan,nan,nan,Good health,0
-16,16,16,24-05-2015,13893.0,641,222.0,33,140,87.0,126.0,nan,nan,nan,Good health,0
-17,17,17,25-05-2015,5109.0,861,200.0,0,0,107.0,144.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-18,18,18,26-05-2015,4430.0,1269,156.0,0,0,108.0,119.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-19,19,19,27-05-2015,7498.0,692,196.0,64,50,63.0,129.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-20,20,20,28-05-2015,8490.0,771,212.0,8,13,82.0,116.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-21,21,21,29-05-2015,5650.0,789,208.0,0,0,58.0,114.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-22,22,22,30-05-2015,21479.0,503,230.0,55,153,68.0,131.0,nan,nan,nan,Good health,0
-23,23,23,31-05-2015,18995.0,660,269.0,86,43,58.0,140.0,nan,nan,nan,Good health,0
-24,24,24,01-06-2015,16836.0,586,248.0,35,70,98.0,145.0,nan,nan,nan,Good health,0
-25,25,25,02-06-2015,15944.0,640,214.0,15,93,56.0,116.0,nan,nan,nan,Good health,0
-26,26,26,03-06-2015,14273.0,721,178.0,16,89,89.0,132.0,nan,nan,nan,Good health,0
-27,27,27,04-06-2015,16.06,724,239.0,38,70,101.0,137.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-28,28,28,05-06-2015,13594.0,677,215.0,36,52,66.0,130.0,nan,nan,nan,Good health,0
-29,29,29,06-06-2015,15480.0,520,246.0,78,42,108.0,123.0,nan,nan,nan,Good health,0
-30,30,30,07-06-2015,19440.0,966,210.0,28,130,84.0,145.0,nan,nan,nan,Good health,0
-31,31,31,08-06-2015,13926.0,701,265.0,63,29,95.0,140.0,nan,nan,nan,Good health,0
-32,32,32,09-06-2015,11338.0,806,228.0,43,31,101.0,138.0,nan,nan,nan,Good health,0
-33,33,33,10-06-2015,7140.0,785,220.0,20,4,88.0,143.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-34,34,34,11-06-2015,15449.0,676,205.0,39,64,107.0,126.0,nan,nan,nan,Good health,0
-35,35,35,12-06-2015,11920.0,593,352.0,34,11,59.0,113.0,nan,nan,nan,Good health,0
-36,36,36,13-06-2015,26444.0,549,429.0,56,56,69.0,145.0,nan,nan,nan,Good health,0
-37,37,37,14-06-2015,12335.0,1245,88.0,10,93,56.0,110.0,nan,nan,nan,Good health,0
-38,38,38,15-06-2015,14137.0,642,305.0,8,51,96.0,115.0,nan,nan,nan,Good health,0
-39,39,39,16-06-2015,11568.0,734,189.0,17,54,54.0,135.0,nan,nan,nan,Good health,0
-40,40,40,17-06-2015,16813.0,709,202.0,2,110,107.0,110.0,nan,nan,nan,Good health,0
-41,41,41,18-06-2015,15217.0,641,280.0,44,59,104.0,141.0,nan,nan,nan,Good health,0
-42,42,42,19-06-2015,13158.0,715,171.0,30,66,93.0,131.0,nan,nan,nan,Good health,0
-43,43,43,20-06-2015,19311.0,519,291.0,55,93,71.0,125.0,nan,nan,nan,Good health,0
-44,44,44,21-06-2015,16186.0,637,229.0,52,75,80.0,130.0,nan,nan,nan,Good health,0
-45,45,45,22-06-2015,12713.0,631,225.0,24,44,85.0,114.0,nan,nan,nan,Good health,0
-46,46,46,23-06-2015,9132.0,777,223.0,32,15,56.0,122.0,nan,nan,nan,Good health,0
-47,47,47,24-06-2015,20239.0,621,292.0,37,95,72.0,124.0,nan,nan,nan,Good health,0
-48,48,48,25-06-2015,11199.0,737,227.0,36,20,77.0,125.0,nan,nan,nan,Good health,0
-49,49,49,26-06-2015,20269.0,720,218.0,54,99,70.0,119.0,nan,nan,nan,Good health,0
-50,50,50,27-06-2015,11655.0,670,220.0,28,53,89.0,144.0,nan,nan,nan,Good health,0
-51,51,51,28-06-2015,12314.0,601,290.0,25,51,90.0,138.0,nan,nan,nan,Good health,0
-52,52,52,29-06-2015,12586.0,735,234.0,35,49,108.0,115.0,nan,nan,nan,Good health,0
-53,53,53,30-06-2015,12445.0,635,200.0,18,58,63.0,115.0,nan,nan,nan,Good health,0
-54,54,54,01-07-2015,14193.0,669,210.0,47,70,85.0,130.0,nan,nan,nan,Good health,0
-55,55,55,02-07-2015,11560.0,708,158.0,25,67,80.0,142.0,nan,nan,nan,Good health,0
-56,56,56,03-07-2015,15695.0,648,248.0,63,54,78.0,141.0,nan,nan,nan,Good health,0
-57,57,57,04-07-2015,9747.0,646,253.0,22,19,105.0,116.0,nan,nan,nan,Good health,0
-58,58,58,05-07-2015,15731.0,567,317.0,52,55,83.0,129.0,nan,nan,nan,Good health,0
-59,59,59,06-07-2015,8391.0,877,136.0,36,30,66.0,145.0,nan,nan,nan,Good health,0
-60,60,60,07-07-2015,8326.0,1118,217.0,10,3,53.0,128.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-61,61,61,08-07-2015,14241.0,700,234.0,22,59,101.0,117.0,nan,nan,nan,Good health,0
-62,62,62,09-07-2015,7298.0,836,290.0,10,1,108.0,145.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-63,63,63,10-07-2015,10644.0,683,283.0,36,17,85.0,131.0,nan,nan,nan,Good health,0
-64,64,64,11-07-2015,12371.0,639,194.0,46,60,108.0,144.0,nan,nan,nan,Good health,0
-65,65,65,12-07-2015,7580.0,607,258.0,16,0,50.0,123.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-66,66,66,13-07-2015,12168.0,731,212.0,52,60,55.0,145.0,nan,nan,nan,Good health,0
-67,67,67,14-07-2015,15135.0,740,167.0,47,87,96.0,128.0,nan,nan,nan,Good health,0
-68,68,68,15-07-2015,14996.0,573,321.0,50,54,103.0,138.0,nan,nan,nan,Good health,0
-69,69,69,16-07-2015,8704.0,697,225.0,31,29,75.0,115.0,nan,nan,nan,Good health,0
-70,70,70,17-07-2015,12739.0,761,247.0,47,47,95.0,134.0,nan,nan,nan,Good health,0
-71,71,71,18-07-2015,13247.0,484,317.0,31,47,102.0,130.0,nan,nan,nan,Good health,0
-72,72,72,19-07-2015,11660.0,680,286.0,5,53,100.0,125.0,nan,nan,nan,Good health,0
-73,73,73,20-07-2015,13702.0,708,246.0,48,43,92.0,128.0,nan,nan,nan,Good health,0
-74,74,74,21-07-2015,11240.0,732,208.0,52,24,90.0,121.0,nan,nan,nan,Good health,0
-75,75,75,22-07-2015,13262.0,1093,166.0,33,70,50.0,122.0,nan,nan,nan,Good health,0
-76,76,76,23-07-2015,9090.0,719,234.0,23,23,89.0,121.0,nan,nan,nan,Good health,0
-77,77,77,24-07-2015,15779.0,618,346.0,48,21,81.0,112.0,nan,nan,nan,Good health,0
-78,78,78,25-07-2015,6174.0,677,231.0,13,4,102.0,126.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-79,79,79,26-07-2015,11614.0,503,301.0,2,40,105.0,140.0,nan,nan,nan,Good health,0
-80,80,80,27-07-2015,13460.0,822,190.0,29,64,71.0,114.0,nan,nan,nan,Good health,0
-81,81,81,28-07-2015,10000.0,803,230.0,44,11,65.0,115.0,nan,nan,nan,Good health,0
-82,82,82,29-07-2015,10680.0,634,322.0,21,4,96.0,118.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-83,83,83,30-07-2015,14105.0,718,225.0,60,44,70.0,119.0,nan,nan,nan,Good health,0
-84,84,84,31-07-2015,9194.0,784,198.0,7,0,95.0,112.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-85,85,85,01-08-2015,17497.0,1092,219.0,54,45,105.0,115.0,nan,nan,nan,Good health,0
-86,86,86,02-08-2015,5765.0,544,245.0,6,6,54.0,144.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-87,87,87,03-08-2015,15362.0,683,226.0,65,54,62.0,135.0,nan,nan,nan,Good health,0
-88,88,88,04-08-2015,9870.0,793,186.0,28,32,108.0,143.0,nan,nan,nan,Good health,0
-89,89,89,05-08-2015,14502.0,520,250.0,41,59,86.0,127.0,nan,nan,nan,Good health,0
-90,90,90,06-08-2015,14652.0,562,350.0,42,20,64.0,143.0,nan,nan,nan,Good health,0
-91,91,91,07-08-2015,7628.0,638,283.0,11,8,65.0,125.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-92,92,92,08-08-2015,13877.0,609,206.0,57,51,101.0,123.0,nan,nan,nan,Good health,0
-93,93,93,09-08-2015,11433.0,561,236.0,40,35,59.0,136.0,nan,nan,nan,Good health,0
-94,94,94,10-08-2015,13655.0,985,285.0,8,23,101.0,127.0,nan,nan,nan,Good health,0
-95,95,95,11-08-2015,13535.0,1348,44.0,4,14,84.0,138.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-96,96,96,12-08-2015,1883.0,1370,70.0,0,0,78.0,141.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-97,97,97,13-08-2015,11354.0,694,366.0,4,10,55.0,132.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-98,98,98,14-08-2015,11532.0,572,301.0,26,10,55.0,115.0,nan,nan,nan,Good health,0
-99,99,99,15-08-2015,6129.0,635,256.0,8,1,70.0,130.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-100,100,100,16-08-2015,6238.0,688,267.0,0,0,106.0,117.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-101,101,101,17-08-2015,15572.0,515,472.0,33,14,82.0,141.0,nan,nan,nan,Good health,0
-102,102,102,18-08-2015,10886.0,639,292.0,27,20,109.0,131.0,nan,nan,nan,Good health,0
-103,103,103,19-08-2015,12213.0,421,381.0,13,8,81.0,122.0,nan,nan,nan,Good health,0
-104,104,104,20-08-2015,12929.0,565,425.0,25,18,56.0,125.0,nan,nan,nan,Good health,0
-105,105,105,21-08-2015,16365.0,461,329.0,45,16,69.0,111.0,nan,nan,nan,Good health,0
-106,106,106,22-08-2015,17252.0,481,382.0,19,42,85.0,127.0,nan,nan,nan,Good health,0
-107,107,107,23-08-2015,14537.0,518,345.0,19,47,68.0,117.0,nan,nan,nan,Good health,0
-108,108,108,24-08-2015,13404.0,685,192.0,38,71,95.0,124.0,nan,nan,nan,Good health,0
-109,109,109,25-08-2015,10.94,697,199.0,52,50,57.0,133.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-110,110,110,26-08-2015,10032.0,757,175.0,45,45,85.0,120.0,nan,nan,nan,Good health,0
-111,111,111,27-08-2015,14008.0,544,334.0,18,35,71.0,131.0,nan,nan,nan,Good health,0
-112,112,112,28-08-2015,12149.0,1051,369.0,9,11,102.0,137.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-113,113,113,29-08-2015,19977.0,648,395.0,23,74,109.0,113.0,nan,nan,nan,Good health,0
-114,114,114,30-08-2015,11924.0,1421,0.0,0,0,84.0,116.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-115,115,115,31-08-2015,10757.0,1187,145.0,43,65,63.0,119.0,nan,nan,nan,Good health,0
-116,116,116,01-09-2015,12229.0,689,421.0,17,16,101.0,124.0,nan,nan,nan,Good health,0
-117,117,117,02-09-2015,10330.0,770,248.0,16,15,88.0,112.0,nan,nan,nan,Good health,0
-118,118,118,03-09-2015,11689.0,1043,182.0,50,51,85.0,144.0,nan,nan,nan,Good health,0
-119,119,119,04-09-2015,15627.0,606,284.0,50,55,87.0,114.0,nan,nan,nan,Good health,0
-120,120,120,05-09-2015,10681.0,656,240.0,15,30,68.0,111.0,nan,nan,nan,Good health,0
-121,121,121,06-09-2015,7907.0,654,287.0,0,0,78.0,117.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-122,122,122,07-09-2015,9487.0,1156,152.0,40,28,55.0,122.0,nan,nan,nan,Good health,0
-123,123,123,08-09-2015,8253.0,1137,91.0,16,29,88.0,117.0,nan,nan,nan,Good health,0
-124,124,124,09-09-2015,22238.0,355,407.0,87,85,101.0,135.0,nan,nan,nan,Good health,0
-125,125,125,10-09-2015,10650.0,940,198.0,38,42,74.0,115.0,nan,nan,nan,Good health,0
-126,126,126,11-09-2015,12038.0,700,201.0,44,57,70.0,133.0,nan,nan,nan,Good health,0
-127,127,127,12-09-2015,11.48,462,315.0,8,13,86.0,117.0,nan,nan,Type II Diabetes,Type II Diabetes ,3
-128,128,128,13-09-2015,9199.0,600,361.0,15,8,65.0,112.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-129,129,129,14-09-2015,9564.0,1118,168.0,43,46,68.0,111.0,nan,nan,nan,Good health,0
-130,130,130,15-09-2015,9019.0,755,144.0,72,25,61.0,122.0,nan,nan,nan,Good health,0
-131,131,131,16-09-2015,10239.0,675,192.0,35,46,62.0,121.0,nan,nan,nan,Good health,0
-132,132,132,17-09-2015,7739.0,741,211.0,17,10,102.0,117.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-133,133,133,18-09-2015,12620.0,773,170.0,59,39,61.0,140.0,nan,nan,nan,Good health,0
-134,134,134,19-09-2015,14.225999999999999,669,291.0,35,41,52.0,123.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-135,135,135,20-09-2015,3858.0,1255,185.0,0,0,89.0,113.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-136,136,136,21-09-2015,17603.0,1053,223.0,56,67,92.0,111.0,nan,nan,nan,Good health,0
-137,137,137,22-09-2015,10699.0,655,252.0,32,21,66.0,144.0,nan,nan,nan,Good health,0
-138,138,138,23-09-2015,7261.0,908,135.0,14,18,80.0,137.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-139,139,139,24-09-2015,10608.0,1107,177.0,63,52,54.0,116.0,nan,nan,nan,Good health,0
-140,140,140,25-09-2015,12271.0,548,323.0,34,24,55.0,126.0,nan,nan,nan,Good health,0
-141,141,141,26-09-2015,9998.0,782,327.0,0,0,93.0,114.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-142,142,142,27-09-2015,5757.0,800,270.0,0,0,98.0,124.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-143,143,143,28-09-2015,8995.0,826,171.0,45,33,58.0,114.0,nan,nan,nan,Good health,0
-144,144,144,29-09-2015,7553.0,789,163.0,54,15,106.0,129.0,nan,nan,nan,Good health,0
-145,145,145,30-09-2015,6494.0,711,208.0,26,5,59.0,132.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-146,146,146,01-10-2015,7951.0,667,191.0,40,9,109.0,137.0,nan,nan,nan,Good health,0
-147,147,147,02-10-2015,7424.0,801,179.0,43,25,52.0,121.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-148,148,148,03-10-2015,6813.0,1315,75.0,41,9,103.0,113.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-149,149,149,04-10-2015,3991.0,1136,163.0,0,0,55.0,142.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-150,150,150,05-10-2015,9725.0,988,268.0,24,14,107.0,139.0,nan,nan,nan,Good health,0
-151,151,151,06-10-2015,8936.0,780,205.0,46,27,94.0,112.0,nan,nan,nan,Good health,0
-152,152,152,07-10-2015,6565.0,841,157.0,27,20,109.0,116.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-153,153,153,08-10-2015,7865.0,1118,204.0,32,13,103.0,135.0,nan,nan,nan,Good health,0
-154,154,154,09-10-2015,8718.0,976,65.0,0,0,84.0,122.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-155,155,155,10-10-2015,12364.0,1046,234.0,29,32,93.0,126.0,nan,nan,nan,Good health,0
-156,156,156,11-10-2015,5216.0,1243,175.0,17,5,75.0,132.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-157,157,157,12-10-2015,6580.0,1246,104.0,57,33,103.0,140.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-158,158,158,13-10-2015,7015.0,1244,130.0,37,29,95.0,120.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-159,159,159,14-10-2015,8103.0,1219,215.0,4,2,83.0,123.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-160,160,160,15-10-2015,6962.0,1234,115.0,57,28,67.0,113.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-161,161,161,16-10-2015,16478.0,643,304.0,8,43,83.0,120.0,nan,nan,nan,Good health,0
-162,162,162,17-10-2015,11603.0,732,236.0,38,22,101.0,120.0,nan,nan,nan,Good health,0
-163,163,163,18-10-2015,11429.0,962,269.0,8,17,65.0,131.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-164,164,164,19-10-2015,6293.0,854,226.0,0,0,104.0,143.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-165,165,165,20-10-2015,7269.0,1290,105.0,22,23,63.0,126.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-166,166,166,21-10-2015,4471.0,1134,165.0,0,0,107.0,117.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-167,167,167,22-10-2015,17913.0,1053,210.0,39,75,93.0,138.0,nan,nan,nan,Good health,0
-168,168,168,23-10-2015,5431.0,678,166.0,9,13,87.0,121.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-169,169,169,24-10-2015,11672.0,663,222.0,48,29,102.0,110.0,nan,nan,nan,Good health,0
-170,170,170,25-10-2015,14777.0,597,302.0,57,39,110.0,140.0,nan,nan,nan,Good health,0
-171,171,171,26-10-2015,9171.0,767,273.0,30,7,76.0,136.0,nan,nan,nan,Good health,0
-172,172,172,27-10-2015,8807.0,810,224.0,29,12,87.0,142.0,nan,nan,nan,Good health,0
-173,173,173,28-10-2015,5623.0,779,170.0,19,3,67.0,129.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-174,174,174,29-10-2015,12910.0,1091,258.0,24,20,78.0,132.0,nan,nan,nan,Good health,0
-175,175,175,30-10-2015,8805.0,821,170.0,51,29,81.0,134.0,nan,nan,nan,Good health,0
-176,176,176,31-10-2015,7107.0,510,277.0,0,0,92.0,126.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-177,177,177,01-11-2015,3862.0,889,166.0,0,0,91.0,119.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-178,178,178,02-11-2015,7368.0,1279,126.0,22,13,94.0,145.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-179,179,179,03-11-2015,6269.0,1430,10.0,0,0,108.0,110.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-180,180,180,04-11-2015,8520.0,662,191.0,43,24,100.0,139.0,nan,nan,nan,Good health,0
-181,181,181,05-11-2015,8116.0,827,228.0,37,8,72.0,115.0,nan,nan,nan,Good health,0
-182,182,182,06-11-2015,8268.0,776,145.0,75,22,55.0,131.0,nan,nan,nan,Good health,0
-183,183,183,07-11-2015,14489.0,525,280.0,52,68,70.0,112.0,nan,nan,nan,Good health,0
-184,184,184,08-11-2015,9212.0,508,198.0,27,53,89.0,144.0,nan,nan,nan,Good health,0
-185,185,185,09-11-2015,9.5,756,218.0,28,13,57.0,127.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-186,186,186,10-11-2015,11151.0,705,198.0,40,79,81.0,118.0,nan,nan,nan,Good health,0
-187,187,187,11-11-2015,12351.0,981,181.0,66,24,87.0,125.0,nan,nan,nan,Good health,0
-188,188,188,12-11-2015,10.67,684,162.0,17,61,90.0,140.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-189,189,189,13-11-2015,5574.0,1209,156.0,8,16,71.0,132.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-190,190,190,14-11-2015,11587.0,608,159.0,41,103,104.0,128.0,nan,nan,nan,Good health,0
-191,191,191,15-11-2015,9499.0,738,167.0,28,44,62.0,132.0,nan,nan,nan,Good health,0
-192,192,192,16-11-2015,13788.0,978,282.0,31,61,65.0,118.0,nan,nan,nan,Good health,0
-193,193,193,17-11-2015,18361.0,543,366.0,73,42,51.0,129.0,nan,nan,nan,Good health,0
-194,194,194,18-11-2015,14055.0,673,268.0,53,27,96.0,134.0,nan,nan,nan,Good health,0
-195,195,195,19-11-2015,11927.0,726,305.0,21,37,67.0,136.0,nan,nan,nan,Good health,0
-196,196,196,20-11-2015,15221.0,464,316.0,40,58,57.0,115.0,nan,nan,nan,Good health,0
-197,197,197,21-11-2015,8568.0,1174,249.0,3,14,95.0,110.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-198,198,198,22-11-2015,3284.0,1269,98.0,3,8,64.0,122.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-199,199,199,23-11-2015,9408.0,682,295.0,31,14,73.0,131.0,nan,nan,nan,Good health,0
-200,200,200,24-11-2015,10261.0,1182,210.0,2,46,100.0,120.0,nan,nan,nan,Good health,0
-201,201,201,25-11-2015,8218.0,1142,155.0,50,22,60.0,125.0,nan,nan,nan,Good health,0
-202,202,202,26-11-2015,9760.0,1130,214.0,61,30,71.0,124.0,nan,nan,nan,Good health,0
-203,203,203,27-11-2015,10769.0,725,222.0,60,42,77.0,138.0,nan,nan,nan,Good health,0
-204,204,204,28-11-2015,11671.0,643,375.0,7,15,102.0,134.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-205,205,205,29-11-2015,14444.0,618,258.0,39,51,53.0,136.0,nan,nan,nan,Good health,0
-206,206,206,30-11-2015,23313.0,550,389.0,67,75,56.0,112.0,nan,nan,nan,Good health,0
-207,207,207,01-12-2015,16810.0,750,152.0,9,97,100.0,135.0,nan,nan,nan,Good health,0
-208,208,208,02-12-2015,10745.0,634,174.0,48,62,59.0,136.0,nan,nan,nan,Good health,0
-209,209,209,03-12-2015,10784.0,774,201.0,25,68,104.0,112.0,nan,nan,nan,Good health,0
-210,210,210,04-12-2015,10740.0,1100,146.0,39,52,94.0,120.0,nan,nan,nan,Good health,0
-211,211,211,05-12-2015,8531.0,723,325.0,0,0,64.0,138.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-212,212,212,06-12-2015,12738.0,811,244.0,45,35,52.0,114.0,nan,nan,nan,Good health,0
-213,213,213,07-12-2015,13520.0,672,261.0,13,50,102.0,126.0,nan,nan,nan,Good health,0
-214,214,214,08-12-2015,15884.0,962,248.0,25,123,86.0,120.0,nan,nan,nan,Good health,0
-215,215,215,09-12-2015,10026.0,803,204.0,29,38,90.0,138.0,nan,nan,nan,Good health,0
-216,216,216,10-12-2015,11868.0,1190,170.0,26,54,108.0,143.0,nan,nan,nan,Good health,0
-217,217,217,11-12-2015,12381.0,1096,212.0,30,52,109.0,141.0,nan,nan,nan,Good health,0
-218,218,218,12-12-2015,7157.0,605,290.0,0,0,84.0,145.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-219,219,219,13-12-2015,7055.0,690,248.0,19,6,88.0,110.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-220,220,220,14-12-2015,9348.0,827,179.0,22,42,93.0,112.0,nan,nan,nan,Good health,0
-221,221,221,15-12-2015,8566.0,898,137.0,28,33,54.0,141.0,nan,nan,nan,Good health,0
-222,222,222,16-12-2015,9786.0,1118,159.0,29,28,51.0,130.0,nan,nan,nan,Good health,0
-223,223,223,17-12-2015,8371.0,1069,146.0,31,24,57.0,129.0,nan,nan,nan,Good health,0
-224,224,224,18-12-2015,9428.0,1141,220.0,43,21,90.0,139.0,nan,nan,nan,Good health,0
-225,225,225,19-12-2015,13742.0,579,357.0,15,22,62.0,113.0,nan,nan,nan,Good health,0
-226,226,226,20-12-2015,15636.0,550,316.0,56,23,88.0,136.0,nan,nan,nan,Good health,0
-227,227,227,21-12-2015,12778.0,664,313.0,42,6,103.0,122.0,nan,nan,nan,Good health,0
-228,228,228,22-12-2015,7378.0,838,176.0,33,12,86.0,145.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-229,229,229,23-12-2015,0.0,1440,0.0,0,0,57.0,115.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-230,230,230,24-12-2015,6.452000000000001,1217,223.0,0,0,75.0,118.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-231,231,231,25-12-2015,7837.0,663,332.0,0,0,55.0,110.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-232,232,232,26-12-2015,6504.0,588,282.0,0,0,73.0,135.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-233,233,233,27-12-2015,6444.0,746,252.0,0,0,103.0,136.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-234,234,234,28-12-2015,7845.0,686,337.0,0,0,57.0,130.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-235,235,235,29-12-2015,12260.0,636,375.0,3,26,52.0,110.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-236,236,236,30-12-2015,12154.0,617,276.0,6,45,88.0,123.0,nan,nan,nan,Good health,0
-237,237,237,31-12-2015,7801.0,577,362.0,0,0,51.0,110.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-238,238,238,01-01-2016,10460.0,685,375.0,0,0,62.0,110.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-239,239,239,02-01-2016,13837.0,601,339.0,15,36,61.0,143.0,nan,nan,nan,Good health,0
-240,240,240,03-01-2016,12517.0,1034,272.0,9,49,95.0,116.0,nan,nan,nan,Good health,0
-241,241,241,04-01-2016,10366.0,650,235.0,53,30,57.0,122.0,nan,nan,nan,Good health,0
-242,242,242,05-01-2016,12127.0,682,284.0,47,28,80.0,117.0,nan,nan,nan,Good health,0
-243,243,243,06-01-2016,11327.0,613,314.0,5,32,63.0,122.0,nan,nan,nan,Good health,0
-244,244,244,07-01-2016,11098.0,720,247.0,53,30,96.0,129.0,nan,nan,nan,Good health,0
-245,245,245,08-01-2016,12395.0,567,405.0,7,8,101.0,127.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-246,246,246,09-01-2016,6643.0,676,283.0,0,0,53.0,121.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-247,247,247,10-01-2016,8846.0,1167,183.0,36,29,109.0,116.0,nan,nan,nan,Good health,0
-248,248,248,11-01-2016,9642.0,758,247.0,44,24,93.0,140.0,nan,nan,nan,Good health,0
-249,249,249,12-01-2016,9982.0,839,222.0,30,26,51.0,135.0,nan,nan,nan,Good health,0
-250,250,250,13-01-2016,6613.0,857,205.0,13,3,84.0,115.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-251,251,251,14-01-2016,12161.0,719,198.0,34,60,77.0,111.0,nan,nan,nan,Good health,0
-252,252,252,15-01-2016,14837.0,687,210.0,58,71,89.0,127.0,nan,nan,nan,Good health,0
-253,253,253,16-01-2016,16.759,589,333.0,23,59,56.0,138.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-254,254,254,17-01-2016,9602.0,547,279.0,4,15,103.0,117.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-255,255,255,18-01-2016,3761.0,998,99.0,5,3,66.0,126.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-256,256,256,19-01-2016,7456.0,1215,103.0,22,35,54.0,118.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-257,257,257,20-01-2016,16755.0,551,331.0,24,51,64.0,143.0,nan,nan,nan,Good health,0
-258,258,258,21-01-2016,11937.0,699,254.0,57,32,54.0,132.0,nan,nan,nan,Good health,0
-259,259,259,22-01-2016,14577.0,519,391.0,34,22,91.0,117.0,nan,nan,nan,Good health,0
-260,260,260,23-01-2016,17541.0,570,358.0,50,45,69.0,119.0,nan,nan,nan,Good health,0
-261,261,261,24-01-2016,39.0,1076,5.0,0,0,72.0,127.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-262,262,262,25-01-2016,6610.0,1270,93.0,24,26,77.0,111.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-263,263,263,26-01-2016,13073.0,790,166.0,52,61,61.0,112.0,nan,nan,nan,Good health,0
-264,264,264,27-01-2016,9997.0,759,164.0,52,28,53.0,112.0,nan,nan,nan,Good health,0
-265,265,265,28-01-2016,10707.0,753,262.0,57,18,82.0,123.0,nan,nan,nan,Good health,0
-266,266,266,29-01-2016,9952.0,760,233.0,30,26,79.0,126.0,nan,nan,nan,Good health,0
-267,267,267,30-01-2016,9774.0,519,357.0,16,2,52.0,145.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-268,268,268,31-01-2016,6260.0,671,298.0,0,0,88.0,130.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-269,269,269,01-02-2016,11426.0,911,192.0,48,43,56.0,133.0,nan,nan,nan,Good health,0
-270,270,270,02-02-2016,10466.0,802,152.0,48,48,94.0,112.0,nan,nan,nan,Good health,0
-271,271,271,03-02-2016,12866.0,767,271.0,45,28,75.0,141.0,nan,nan,nan,Good health,0
-272,272,272,04-02-2016,2449.0,821,80.0,0,0,62.0,139.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-273,273,273,05-02-2016,10434.0,718,243.0,42,29,66.0,137.0,nan,nan,nan,Good health,0
-274,274,274,06-02-2016,12578.0,563,388.0,10,11,72.0,133.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-275,275,275,07-02-2016,15373.0,599,273.0,10,62,107.0,144.0,nan,nan,nan,Good health,0
-276,276,276,08-02-2016,12327.0,699,278.0,28,30,96.0,121.0,nan,nan,nan,Good health,0
-277,277,277,09-02-2016,10457.0,847,181.0,15,41,80.0,123.0,nan,nan,nan,Good health,0
-278,278,278,10-02-2016,9900.0,1237,156.0,6,41,103.0,134.0,nan,nan,nan,Good health,0
-279,279,279,11-02-2016,8966.0,802,235.0,21,20,107.0,128.0,nan,nan,nan,Good health,0
-280,280,280,12-02-2016,8353.0,732,219.0,17,26,108.0,110.0,nan,nan,nan,Good health,0
-281,281,281,13-02-2016,13907.0,551,357.0,15,15,86.0,118.0,nan,nan,nan,Good health,0
-282,282,282,14-02-2016,14183.0,617,374.0,45,12,60.0,119.0,nan,nan,nan,Good health,0
-283,283,283,15-02-2016,8453.0,1304,124.0,8,4,94.0,127.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-284,284,284,16-02-2016,7995.0,802,231.0,34,16,93.0,131.0,nan,nan,nan,Good health,0
-285,285,285,17-02-2016,6707.0,913,174.0,36,19,63.0,131.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-286,286,286,18-02-2016,8109.0,1212,143.0,42,33,99.0,133.0,nan,nan,nan,Good health,0
-287,287,287,19-02-2016,11971.0,865,179.0,3,51,53.0,115.0,nan,nan,nan,Good health,0
-288,288,288,20-02-2016,11371.0,457,327.0,14,19,100.0,131.0,nan,nan,nan,Good health,0
-289,289,289,21-02-2016,2190.0,954,93.0,0,0,93.0,112.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-290,290,290,22-02-2016,6592.0,1234,155.0,23,14,60.0,112.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-291,291,291,23-02-2016,8624.0,739,193.0,36,25,104.0,127.0,nan,nan,nan,Good health,0
-292,292,292,24-02-2016,8307.0,762,195.0,25,37,60.0,120.0,nan,nan,nan,Good health,0
-293,293,293,25-02-2016,7941.0,878,142.0,47,32,71.0,119.0,nan,nan,nan,Good health,0
-294,294,294,26-02-2016,8.05,1203,177.0,40,20,83.0,128.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-295,295,295,27-02-2016,9923.0,1124,184.0,25,44,66.0,133.0,nan,nan,nan,Good health,0
-296,296,296,28-02-2016,9504.0,687,283.0,10,1,57.0,135.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-297,297,297,29-02-2016,6847.0,731,206.0,20,1,88.0,145.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-298,298,298,01-03-2016,11618.0,776,217.0,59,29,108.0,118.0,nan,nan,nan,Good health,0
-299,299,299,02-03-2016,10450.0,765,199.0,35,26,78.0,128.0,nan,nan,nan,Good health,0
-300,300,300,03-03-2016,11478.0,749,167.0,5,45,92.0,117.0,nan,nan,nan,Good health,0
-301,301,301,04-03-2016,10650.0,754,227.0,31,30,61.0,140.0,nan,nan,nan,Good health,0
-302,302,302,05-03-2016,3103.0,1042,155.0,0,0,50.0,125.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-303,303,303,06-03-2016,6960.0,1105,280.0,0,0,80.0,113.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-304,304,304,07-03-2016,16699.0,791,158.0,9,97,93.0,129.0,nan,nan,nan,Good health,0
-305,305,305,08-03-2016,14068.0,824,167.0,8,65,76.0,121.0,nan,nan,nan,Good health,0
-306,306,306,09-03-2016,18092.0,1120,243.0,8,69,107.0,143.0,nan,nan,nan,Good health,0
-307,307,307,10-03-2016,18530.0,793,162.0,21,100,86.0,114.0,nan,nan,nan,Good health,0
-308,308,308,11-03-2016,14587.0,1013,313.0,14,38,105.0,129.0,nan,nan,nan,Good health,0
-309,309,309,12-03-2016,9992.0,685,339.0,0,13,82.0,135.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-310,310,310,13-03-2016,0.0,1440,0.0,0,0,108.0,131.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-311,311,311,14-03-2016,9336.0,1288,73.0,4,50,69.0,129.0,nan,nan,nan,Good health,0
-312,312,312,15-03-2016,15596.0,782,187.0,3,77,91.0,136.0,nan,nan,nan,Good health,0
-313,313,313,16-03-2016,25385.0,638,254.0,17,124,72.0,116.0,nan,nan,nan,Good health,0
-314,314,314,17-03-2016,14577.0,823,162.0,10,81,74.0,116.0,nan,nan,nan,Good health,0
-315,315,315,18-03-2016,16667.0,832,173.0,9,90,103.0,145.0,nan,nan,nan,Good health,0
-316,316,316,19-03-2016,13361.0,530,418.0,38,50,92.0,140.0,nan,nan,nan,Good health,0
-317,317,317,20-03-2016,6754.0,564,315.0,0,0,66.0,140.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-318,318,318,21-03-2016,5424.0,1047,193.0,7,2,59.0,131.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-319,319,319,22-03-2016,17913.0,593,382.0,22,55,85.0,131.0,nan,nan,nan,Good health,0
-320,320,320,23-03-2016,14324.0,669,222.0,10,59,94.0,117.0,nan,nan,nan,Good health,0
-321,321,321,24-03-2016,8049.0,1090,123.0,3,24,50.0,140.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-322,322,322,25-03-2016,11122.0,599,386.0,9,0,79.0,117.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-323,323,323,26-03-2016,9570.0,879,395.0,0,0,97.0,141.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-324,324,324,27-03-2016,4667.0,889,114.0,20,2,55.0,137.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-325,325,325,28-03-2016,0.0,1440,0.0,0,0,71.0,112.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-326,326,326,29-03-2016,9781.0,1230,139.0,6,39,97.0,129.0,nan,nan,nan,Good health,0
-327,327,327,30-03-2016,21383.0,641,384.0,23,57,52.0,131.0,nan,nan,nan,Good health,0
-328,328,328,31-03-2016,20109.0,629,302.0,35,63,84.0,119.0,nan,nan,nan,Good health,0
-329,329,329,01-04-2016,11130.0,900,162.0,3,54,67.0,120.0,nan,nan,nan,Good health,0
-330,330,330,02-04-2016,8250.0,950,314.0,7,1,58.0,134.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-331,331,331,03-04-2016,8682.0,669,355.0,0,0,65.0,115.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-332,332,332,04-04-2016,17535.0,881,168.0,8,102,98.0,114.0,nan,nan,nan,Good health,0
-333,333,333,05-04-2016,20154.0,445,471.0,28,45,80.0,115.0,nan,nan,nan,Good health,0
-334,334,334,06-04-2016,23286.0,561,451.0,28,67,72.0,122.0,nan,nan,nan,Good health,0
-335,335,335,07-04-2016,13004.0,856,214.0,3,58,89.0,124.0,nan,nan,nan,Good health,0
-336,336,336,08-04-2016,13441.0,449,439.0,0,0,68.0,113.0,nan,nan,nan,Good health,0
-337,337,337,09-04-2016,10216.0,535,390.0,0,0,93.0,134.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-338,338,338,10-04-2016,5634.0,921,92.0,41,4,72.0,110.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-339,339,339,11-04-2016,17422.0,674,290.0,14,61,87.0,116.0,nan,nan,nan,Good health,0
-340,340,340,12-04-2016,14475.0,664,291.0,10,47,110.0,135.0,nan,nan,nan,Good health,0
-341,341,341,13-04-2016,17777.0,696,276.0,10,80,107.0,145.0,nan,nan,nan,Good health,0
-342,342,342,14-04-2016,19087.0,711,221.0,12,96,90.0,143.0,nan,nan,nan,Good health,0
-343,343,343,15-04-2016,16290.0,467,427.0,25,11,104.0,128.0,nan,nan,nan,Good health,0
-344,344,344,16-04-2016,14252.0,675,323.0,60,18,89.0,138.0,nan,nan,nan,Good health,0
-345,345,345,17-04-2016,8262.0,1089,302.0,0,0,58.0,141.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-346,346,346,18-04-2016,19.45,860,190.0,6,98,95.0,123.0,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-347,347,347,19-04-2016,17232.0,1002,262.0,4,88,69.0,137.0,nan,nan,nan,Good health,0
-348,348,348,20-04-2016,16946.0,762,238.0,5,67,74.0,115.0,nan,nan,nan,Good health,0
-349,349,349,21-04-2016,19183.0,723,218.0,7,97,97.0,133.0,nan,nan,nan,Good health,0
-350,350,350,22-04-2016,12963.0,404,436.0,14,10,76.0,124.0,nan,nan,nan,Good health,0
-351,351,351,23-04-2016,6456.0,782,305.0,0,0,103.0,126.0,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-352,352,352,24-04-2016,10413.0,700,269.0,28,24,91.0,120.0,nan,nan,nan,Good health,0
-353,353,353,25-04-2016,10499.0,661,430.0,9,4,55.0,137.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-354,354,354,26-04-2016,17226.0,751,185.0,16,95,50.0,122.0,nan,nan,nan,Good health,0
-355,355,355,27-04-2016,19784.0,694,151.0,26,128,88.0,132.0,nan,nan,nan,Good health,0
-356,356,356,28-04-2016,25571.0,606,293.0,42,129,62.0,117.0,nan,nan,nan,Good health,0
-357,357,357,29-04-2016,17528.0,594,239.0,8,82,94.0,114.0,nan,nan,nan,Good health,0
-358,358,358,30-04-2016,9831.0,561,414.0,0,0,71.0,111.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-359,359,359,01-05-2016,14262.0,666,361.0,21,41,60.0,143.0,nan,nan,nan,Good health,0
-360,360,360,02-05-2016,13236.0,770,234.0,8,38,65.0,138.0,nan,nan,nan,Good health,0
-361,361,361,03-05-2016,18588.0,599,275.0,49,79,64.0,122.0,nan,nan,nan,Good health,0
-362,362,362,04-05-2016,16382.0,684,333.0,10,55,90.0,117.0,nan,nan,nan,Good health,0
-363,363,363,05-05-2016,21913.0,701,287.0,29,90,78.0,141.0,nan,nan,nan,Good health,0
-364,364,364,06-05-2016,19023.0,575,298.0,8,85,74.0,135.0,nan,nan,nan,Good health,0
-365,365,365,07-05-2016,9526.0,564,370.0,13,10,95.0,126.0,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-366,366,0,,12623.0,1188,,49,98,,,nan,nan,nan,Good health,0
-367,367,1,,24836.0,1261,,97,107,,,nan,nan,nan,Good health,0
-368,368,2,,13781.0,482,,53,10,,,nan,nan,nan,Good health,0
-369,369,3,,1326.0,930,,5,66,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-370,370,4,,8484.0,1447,,33,130,,,nan,nan,nan,Good health,0
-371,371,5,,16753.0,1395,,65,124,,,nan,nan,nan,Good health,0
-372,372,6,,15922.0,1229,,62,103,,,nan,nan,nan,Good health,0
-373,373,7,,13268.0,1021,,51,77,,,nan,nan,nan,Good health,0
-374,374,8,,25683.0,1376,,100,122,,,nan,nan,nan,Good health,0
-375,375,9,,9938.0,1133,,38,91,,,nan,nan,nan,Good health,0
-376,376,10,,15617.0,847,,61,149,,,nan,nan,nan,Good health,0
-377,377,11,,11732.0,1433,,45,55,,,nan,nan,nan,Good health,0
-378,378,12,,19116.0,685,,74,129,,,nan,nan,nan,Good health,0
-379,379,13,,7157.0,977,,27,35,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-380,380,14,,16537.0,686,,64,72,,,nan,nan,nan,Good health,0
-381,381,15,,4563.0,594,,17,35,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-382,382,16,,9235.0,913,,36,24,,,nan,nan,nan,Good health,0
-383,383,17,,4579.0,700,,17,64,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-384,384,18,,24766.0,1035,,96,136,,,nan,nan,nan,Good health,0
-385,385,19,,3107.0,602,,12,37,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-386,386,20,,20262.0,551,,79,79,,,nan,nan,nan,Good health,0
-387,387,21,,26194.0,1076,,32,25,,,nan,nan,nan,Good health,0
-388,388,22,,8208.0,1366,,68,18,,,nan,nan,nan,Good health,0
-389,389,23,,17451.0,606,,90,84,,,nan,nan,nan,Good health,0
-390,390,24,,23107.0,1124,,77,120,,,nan,nan,nan,Good health,0
-391,391,25,,19723.0,1289,,18,143,,,nan,nan,nan,Good health,0
-392,392,26,,4815.0,1047,,39,25,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-393,393,27,,10162.0,818,,12,90,,,nan,nan,nan,Good health,0
-394,394,28,,3236.0,1376,,93,111,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-395,395,29,,23915.0,1306,,9,80,,,nan,nan,nan,Good health,0
-396,396,30,,2416.0,933,,87,52,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-397,397,31,,22412.0,527,,42,141,,,nan,nan,nan,Good health,0
-398,398,32,,10819.0,428,,60,122,,,nan,nan,nan,Good health,0
-399,399,33,,15471.0,591,,71,113,,,nan,nan,nan,Good health,0
-400,400,34,,18343.0,1216,,12,133,,,nan,nan,nan,Good health,0
-401,401,35,,3299.0,402,,45,66,,,nan,nan,nan,Good health,0
-402,402,36,,11593.0,1410,,55,15,,,nan,nan,nan,Good health,0
-403,403,37,,14226.0,1082,,40,140,,,nan,nan,nan,Good health,0
-404,404,38,,10361.0,899,,78,3,,,nan,nan,nan,Good health,0
-405,405,39,,20017.0,1066,,81,23,,,nan,nan,nan,Good health,0
-406,406,40,,20985.0,528,,26,102,,,nan,nan,nan,Good health,0
-407,407,41,,6700.0,791,,70,0,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-408,408,42,,18105.0,854,,61,126,,,nan,nan,nan,Good health,0
-409,409,43,,15630.0,888,,56,85,,,nan,nan,nan,Good health,0
-410,410,44,,14506.0,691,,66,62,,,nan,nan,nan,Good health,0
-411,411,45,,17083.0,1317,,33,83,,,nan,nan,nan,Good health,0
-412,412,46,,8535.0,586,,7,16,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-413,413,47,,2040.0,564,,70,48,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-414,414,48,,26379.0,1055,,1,145,,,nan,nan,nan,Good health,0
-415,415,49,,17979.0,1440,,11,56,,,nan,nan,nan,Good health,0
-416,416,50,,460.0,1402,,92,61,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-417,417,51,,3056.0,623,,51,36,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-418,418,52,,23583.0,1017,,90,139,,,nan,nan,nan,Good health,0
-419,419,53,,13068.0,996,,100,114,,,nan,nan,nan,Good health,0
-420,420,54,,23273.0,655,,85,23,,,nan,nan,nan,Good health,0
-421,421,55,,25724.0,1081,,80,20,,,nan,nan,nan,Good health,0
-422,422,56,,21894.0,816,,0,81,,,nan,nan,nan,Good health,0
-423,423,57,,20488.0,989,,78,130,,,nan,nan,nan,Good health,0
-424,424,58,,37.0,1311,,63,125,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-425,425,59,,20050.0,587,,42,27,,,nan,nan,nan,Good health,0
-426,426,60,,16173.0,1188,,31,77,,,nan,nan,nan,Good health,0
-427,427,61,,10916.0,1049,,93,141,,,nan,nan,nan,Good health,0
-428,428,62,,7992.0,895,,41,74,,,nan,nan,nan,Good health,0
-429,429,63,,23929.0,994,,90,31,,,nan,nan,nan,Good health,0
-430,430,64,,10656.0,776,,8,140,,,nan,nan,nan,Good health,0
-431,431,65,,23056.0,787,,24,85,,,nan,nan,nan,Good health,0
-432,432,66,,2063.0,782,,72,138,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-433,433,67,,6260.0,467,,28,52,,,nan,nan,nan,Good health,0
-434,434,68,,18596.0,932,,30,140,,,nan,nan,nan,Good health,0
-435,435,69,,7264.0,1375,,18,150,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-436,436,70,,7818.0,541,,69,73,,,nan,nan,nan,Good health,0
-437,437,71,,26324.0,583,,57,113,,,nan,nan,nan,Good health,0
-438,438,72,,4669.0,666,,11,23,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-439,439,73,,26318.0,706,,10,98,,,nan,nan,nan,Good health,0
-440,440,74,,17792.0,479,,40,81,,,nan,nan,nan,Good health,0
-441,441,75,,14679.0,564,,65,147,,,nan,nan,nan,Good health,0
-442,442,76,,2988.0,1201,,62,61,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-443,443,77,,2636.0,964,,13,74,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-444,444,78,,10487.0,882,,38,47,,,nan,nan,nan,Good health,0
-445,445,79,,16644.0,840,,70,48,,,nan,nan,nan,Good health,0
-446,446,80,,16032.0,1258,,37,47,,,nan,nan,nan,Good health,0
-447,447,81,,3573.0,963,,90,8,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-448,448,82,,9877.0,1322,,15,66,,,nan,nan,nan,Good health,0
-449,449,83,,18063.0,1408,,70,121,,,nan,nan,nan,Good health,0
-450,450,84,,9538.0,1131,,42,17,,,nan,nan,nan,Good health,0
-451,451,85,,23152.0,568,,69,22,,,nan,nan,nan,Good health,0
-452,452,86,,4089.0,1064,,26,33,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-453,453,87,,17938.0,636,,77,38,,,nan,nan,nan,Good health,0
-454,454,88,,10903.0,1396,,70,9,,,nan,nan,nan,Good health,0
-455,455,89,,17704.0,1086,,75,20,,,nan,nan,nan,Good health,0
-456,456,90,,6658.0,789,,36,138,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-457,457,91,,26195.0,897,,56,100,,,nan,nan,nan,Good health,0
-458,458,92,,19765.0,433,,11,134,,,nan,nan,nan,Good health,0
-459,459,93,,17931.0,955,,76,70,,,nan,nan,nan,Good health,0
-460,460,94,,19255.0,639,,49,133,,,nan,nan,nan,Good health,0
-461,461,95,,9425.0,851,,40,60,,,nan,nan,nan,Good health,0
-462,462,96,,14581.0,1161,,73,55,,,nan,nan,nan,Good health,0
-463,463,97,,3002.0,749,,30,150,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-464,464,98,,19539.0,1081,,37,107,,,nan,nan,nan,Good health,0
-465,465,99,,26146.0,1272,,23,148,,,nan,nan,nan,Good health,0
-466,466,100,,12612.0,527,,24,70,,,nan,nan,nan,Good health,0
-467,467,101,,10388.0,606,,23,115,,,nan,nan,nan,Good health,0
-468,468,102,,18862.0,699,,4,126,,,nan,nan,nan,Good health,0
-469,469,103,,7933.0,848,,78,91,,,nan,nan,nan,Good health,0
-470,470,104,,9513.0,492,,84,21,,,nan,nan,nan,Good health,0
-471,471,105,,6025.0,551,,33,83,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-472,472,106,,6205.0,454,,60,29,,,nan,nan,nan,Good health,0
-473,473,107,,6118.0,654,,8,124,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-474,474,108,,1080.0,786,,11,150,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-475,475,109,,20079.0,645,,86,85,,,nan,nan,nan,Good health,0
-476,476,110,,21517.0,1201,,96,48,,,nan,nan,nan,Good health,0
-477,477,111,,8521.0,587,,16,62,,,nan,nan,nan,Good health,0
-478,478,112,,15614.0,1158,,19,4,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-479,479,113,,2263.0,637,,4,69,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-480,480,114,,2943.0,474,,10,29,,,nan,nan,nan,Good health,0
-481,481,115,,22240.0,444,,89,56,,,nan,nan,nan,Good health,0
-482,482,116,,24825.0,798,,69,95,,,nan,nan,nan,Good health,0
-483,483,117,,4267.0,778,,87,43,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-484,484,118,,4900.0,653,,50,85,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-485,485,119,,1266.0,1381,,90,109,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-486,486,120,,2629.0,831,,67,15,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-487,487,121,,22915.0,525,,35,25,,,nan,nan,nan,Good health,0
-488,488,122,,17714.0,446,,66,37,,,nan,nan,nan,Good health,0
-489,489,123,,22396.0,1271,,30,56,,,nan,nan,nan,Good health,0
-490,490,124,,12821.0,607,,27,11,,,nan,nan,nan,Good health,0
-491,491,125,,23110.0,932,,86,146,,,nan,nan,nan,Good health,0
-492,492,126,,17189.0,543,,75,136,,,nan,nan,nan,Good health,0
-493,493,127,,9031.0,852,,53,18,,,nan,nan,nan,Good health,0
-494,494,128,,17098.0,547,,74,6,,,nan,nan,nan,Good health,0
-495,495,129,,7716.0,1016,,35,31,,,nan,nan,nan,Good health,0
-496,496,130,,7051.0,1117,,57,48,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-497,497,131,,22265.0,1293,,63,147,,,nan,nan,nan,Good health,0
-498,498,132,,19326.0,769,,84,30,,,nan,nan,nan,Good health,0
-499,499,133,,13743.0,525,,82,100,,,nan,nan,nan,Good health,0
-500,500,134,,18995.0,1431,,89,23,,,nan,nan,nan,Good health,0
-501,501,135,,9018.0,1356,,45,94,,,nan,nan,nan,Good health,0
-502,502,136,,14764.0,480,,10,29,,,nan,nan,nan,Good health,0
-503,503,137,,16143.0,606,,41,9,,,nan,nan,nan,Good health,0
-504,504,138,,21634.0,1201,,78,5,,,nan,nan,nan,Good health,0
-505,505,139,,21010.0,808,,14,49,,,nan,nan,nan,Good health,0
-506,506,140,,22944.0,932,,62,47,,,nan,nan,nan,Good health,0
-507,507,141,,25995.0,1134,,75,31,,,nan,nan,nan,Good health,0
-508,508,142,,11710.0,1363,,80,122,,,nan,nan,nan,Good health,0
-509,509,143,,2699.0,746,,42,53,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-510,510,144,,10627.0,816,,24,15,,,nan,nan,nan,Good health,0
-511,511,145,,20079.0,518,,31,5,,,nan,nan,nan,Good health,0
-512,512,146,,3779.0,724,,2,139,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-513,513,147,,15939.0,731,,93,108,,,nan,nan,nan,Good health,0
-514,514,148,,19237.0,1101,,34,25,,,nan,nan,nan,Good health,0
-515,515,149,,20648.0,913,,14,66,,,nan,nan,nan,Good health,0
-516,516,150,,10986.0,640,,90,17,,,nan,nan,nan,Good health,0
-517,517,151,,6238.0,1305,,28,56,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-518,518,152,,7963.0,758,,47,18,,,nan,nan,nan,Good health,0
-519,519,153,,531.0,427,,21,77,,,nan,nan,nan,Good health,0
-520,520,154,,23969.0,1365,,42,89,,,nan,nan,nan,Good health,0
-521,521,155,,8881.0,1239,,54,111,,,nan,nan,nan,Good health,0
-522,522,156,,3838.0,1441,,7,46,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-523,523,157,,23112.0,1037,,12,15,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-524,524,158,,7224.0,1131,,100,128,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-525,525,159,,12191.0,1195,,18,119,,,nan,nan,nan,Good health,0
-526,526,160,,26036.0,913,,89,10,,,nan,nan,nan,Good health,0
-527,527,161,,5586.0,714,,28,25,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-528,528,162,,10896.0,425,,5,100,,,nan,nan,nan,Good health,0
-529,529,163,,13963.0,1337,,73,51,,,nan,nan,nan,Good health,0
-530,530,164,,2037.0,561,,81,66,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-531,531,165,,3296.0,1087,,68,91,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-532,532,166,,25661.0,493,,77,120,,,nan,nan,nan,Good health,0
-533,533,167,,4795.0,975,,87,145,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-534,534,168,,22861.0,676,,9,43,,,nan,nan,nan,Good health,0
-535,535,169,,7168.0,891,,3,52,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-536,536,170,,1482.0,1386,,15,14,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-537,537,171,,18804.0,1121,,81,40,,,nan,nan,nan,Good health,0
-538,538,172,,20781.0,989,,24,41,,,nan,nan,nan,Good health,0
-539,539,173,,17504.0,1135,,77,87,,,nan,nan,nan,Good health,0
-540,540,174,,19731.0,671,,73,135,,,nan,nan,nan,Good health,0
-541,541,175,,22301.0,1035,,15,64,,,nan,nan,nan,Good health,0
-542,542,176,,2424.0,1194,,50,30,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-543,543,177,,874.0,1248,,11,113,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-544,544,178,,4077.0,565,,47,44,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-545,545,179,,20807.0,403,,14,3,,,nan,nan,nan,Good health,0
-546,546,180,,6177.0,793,,4,120,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-547,547,181,,19868.0,1084,,77,104,,,nan,nan,nan,Good health,0
-548,548,182,,18872.0,727,,2,145,,,nan,nan,nan,Good health,0
-549,549,183,,3922.0,890,,24,130,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-550,550,184,,12819.0,856,,23,79,,,nan,nan,nan,Good health,0
-551,551,185,,2999.0,1317,,91,91,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-552,552,186,,12128.0,1175,,15,99,,,nan,nan,nan,Good health,0
-553,553,187,,3802.0,1248,,61,64,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-554,554,188,,1192.0,464,,26,39,,,nan,nan,nan,Good health,0
-555,555,189,,19841.0,1223,,93,143,,,nan,nan,nan,Good health,0
-556,556,190,,708.0,1256,,7,3,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-557,557,191,,6376.0,495,,86,117,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-558,558,192,,6061.0,739,,2,20,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-559,559,193,,23531.0,1312,,69,85,,,nan,nan,nan,Good health,0
-560,560,194,,4059.0,530,,54,11,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-561,561,195,,15703.0,930,,79,139,,,nan,nan,nan,Good health,0
-562,562,196,,6900.0,722,,12,71,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-563,563,197,,23827.0,1314,,33,34,,,nan,nan,nan,Good health,0
-564,564,198,,26238.0,1397,,8,61,,,nan,nan,nan,Good health,0
-565,565,199,,2001.0,400,,28,123,,,nan,nan,nan,Good health,0
-566,566,200,,22260.0,479,,9,90,,,nan,nan,nan,Good health,0
-567,567,201,,746.0,1412,,82,73,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-568,568,202,,17833.0,1067,,38,91,,,nan,nan,nan,Good health,0
-569,569,203,,13946.0,1039,,44,33,,,nan,nan,nan,Good health,0
-570,570,204,,20335.0,1356,,55,79,,,nan,nan,nan,Good health,0
-571,571,205,,3325.0,502,,23,99,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-572,572,206,,8517.0,1250,,7,106,,,nan,nan,nan,Good health,0
-573,573,207,,2293.0,785,,64,20,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-574,574,208,,7236.0,570,,59,0,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-575,575,209,,2358.0,667,,5,49,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-576,576,210,,21198.0,430,,76,85,,,nan,nan,nan,Good health,0
-577,577,211,,9865.0,1222,,12,40,,,nan,nan,nan,Good health,0
-578,578,212,,11478.0,1255,,89,61,,,nan,nan,nan,Good health,0
-579,579,213,,14289.0,1047,,50,57,,,nan,nan,nan,Good health,0
-580,580,214,,5908.0,406,,25,114,,,nan,nan,nan,Good health,0
-581,581,215,,2000.0,837,,33,96,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-582,582,216,,16503.0,429,,45,145,,,nan,nan,nan,Good health,0
-583,583,217,,15306.0,404,,93,106,,,nan,nan,nan,Good health,0
-584,584,218,,1290.0,600,,60,8,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-585,585,219,,19545.0,790,,72,102,,,nan,nan,nan,Good health,0
-586,586,220,,3306.0,643,,21,145,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-587,587,221,,22915.0,806,,89,107,,,nan,nan,nan,Good health,0
-588,588,222,,12821.0,1019,,86,11,,,nan,nan,nan,Good health,0
-589,589,223,,6532.0,973,,26,42,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-590,590,224,,8524.0,773,,98,114,,,nan,nan,nan,Good health,0
-591,591,225,,11749.0,605,,7,16,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-592,592,226,,23973.0,1374,,100,66,,,nan,nan,nan,Good health,0
-593,593,227,,15408.0,1212,,86,40,,,nan,nan,nan,Good health,0
-594,594,228,,18670.0,566,,20,114,,,nan,nan,nan,Good health,0
-595,595,229,,5551.0,444,,20,135,,,nan,nan,nan,Good health,0
-596,596,230,,22862.0,962,,43,124,,,nan,nan,nan,Good health,0
-597,597,231,,22041.0,1327,,67,143,,,nan,nan,nan,Good health,0
-598,598,232,,6665.0,637,,32,0,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-599,599,233,,25144.0,925,,15,9,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-600,600,234,,1902.0,673,,76,126,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-601,601,235,,25842.0,1110,,56,83,,,nan,nan,nan,Good health,0
-602,602,236,,22157.0,635,,85,79,,,nan,nan,nan,Good health,0
-603,603,237,,5184.0,716,,22,119,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-604,604,238,,5306.0,970,,1,12,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-605,605,239,,11216.0,438,,60,106,,,nan,nan,nan,Good health,0
-606,606,240,,17349.0,486,,87,48,,,nan,nan,nan,Good health,0
-607,607,241,,8214.0,483,,52,140,,,nan,nan,nan,Good health,0
-608,608,242,,3840.0,821,,72,21,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-609,609,243,,19555.0,931,,65,33,,,nan,nan,nan,Good health,0
-610,610,244,,14493.0,1044,,39,3,,,nan,nan,nan,Good health,0
-611,611,245,,21810.0,1151,,83,102,,,nan,nan,nan,Good health,0
-612,612,246,,5728.0,486,,45,106,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-613,613,247,,432.0,1412,,49,80,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-614,614,248,,15454.0,1339,,84,0,,,nan,nan,nan,Good health,0
-615,615,249,,22324.0,1291,,32,54,,,nan,nan,nan,Good health,0
-616,616,250,,13431.0,1162,,19,3,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-617,617,251,,18648.0,765,,71,0,,,nan,nan,nan,Good health,0
-618,618,252,,16665.0,825,,88,135,,,nan,nan,nan,Good health,0
-619,619,253,,10205.0,1169,,1,25,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-620,620,254,,21264.0,996,,58,48,,,nan,nan,nan,Good health,0
-621,621,255,,11703.0,418,,94,30,,,nan,nan,nan,Good health,0
-622,622,256,,12735.0,683,,10,50,,,nan,nan,nan,Good health,0
-623,623,257,,21548.0,709,,42,77,,,nan,nan,nan,Good health,0
-624,624,258,,8222.0,955,,94,71,,,nan,nan,nan,Good health,0
-625,625,259,,5027.0,1082,,5,46,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-626,626,260,,18369.0,1091,,69,25,,,nan,nan,nan,Good health,0
-627,627,261,,22636.0,1152,,35,121,,,nan,nan,nan,Good health,0
-628,628,262,,407.0,591,,17,101,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-629,629,263,,15006.0,1092,,30,20,,,nan,nan,nan,Good health,0
-630,630,264,,24299.0,473,,97,5,,,nan,nan,nan,Good health,0
-631,631,265,,2591.0,484,,61,70,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-632,632,266,,11007.0,952,,45,115,,,nan,nan,nan,Good health,0
-633,633,267,,24216.0,735,,78,29,,,nan,nan,nan,Good health,0
-634,634,268,,1497.0,706,,36,65,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-635,635,269,,17836.0,992,,86,34,,,nan,nan,nan,Good health,0
-636,636,270,,9203.0,1139,,45,133,,,nan,nan,nan,Good health,0
-637,637,271,,4418.0,1208,,75,88,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-638,638,272,,7868.0,665,,81,29,,,nan,nan,nan,Good health,0
-639,639,273,,24974.0,1000,,79,39,,,nan,nan,nan,Good health,0
-640,640,274,,15788.0,635,,16,71,,,nan,nan,nan,Good health,0
-641,641,275,,11541.0,1379,,91,4,,,nan,nan,nan,Good health,0
-642,642,276,,19992.0,890,,39,10,,,nan,nan,nan,Good health,0
-643,643,277,,9433.0,498,,49,10,,,nan,nan,nan,Good health,0
-644,644,278,,22066.0,1030,,95,52,,,nan,nan,nan,Good health,0
-645,645,279,,11770.0,767,,53,66,,,nan,nan,nan,Good health,0
-646,646,280,,19342.0,545,,83,142,,,nan,nan,nan,Good health,0
-647,647,281,,20766.0,1019,,10,80,,,nan,nan,nan,Good health,0
-648,648,282,,20351.0,1225,,0,93,,,nan,nan,nan,Good health,0
-649,649,283,,4336.0,1072,,76,145,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-650,650,284,,23449.0,1012,,24,10,,,nan,nan,nan,Good health,0
-651,651,285,,10167.0,1249,,89,126,,,nan,nan,nan,Good health,0
-652,652,286,,12714.0,622,,42,117,,,nan,nan,nan,Good health,0
-653,653,287,,24526.0,603,,20,111,,,nan,nan,nan,Good health,0
-654,654,288,,13579.0,1385,,30,95,,,nan,nan,nan,Good health,0
-655,655,289,,21326.0,1370,,28,137,,,nan,nan,nan,Good health,0
-656,656,290,,2645.0,1090,,81,45,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-657,657,291,,49.0,1103,,57,53,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-658,658,292,,19483.0,654,,48,96,,,nan,nan,nan,Good health,0
-659,659,293,,6301.0,1381,,90,150,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-660,660,294,,22891.0,637,,86,74,,,nan,nan,nan,Good health,0
-661,661,295,,10957.0,1419,,72,2,,,nan,nan,nan,Good health,0
-662,662,296,,5245.0,1273,,53,35,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-663,663,297,,7845.0,477,,4,38,,,nan,nan,nan,Good health,0
-664,664,298,,7310.0,1018,,51,69,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-665,665,299,,20886.0,1086,,89,85,,,nan,nan,nan,Good health,0
-666,666,300,,14684.0,718,,72,86,,,nan,nan,nan,Good health,0
-667,667,301,,12407.0,741,,53,94,,,nan,nan,nan,Good health,0
-668,668,302,,23276.0,1169,,98,23,,,nan,nan,nan,Good health,0
-669,669,303,,22078.0,578,,84,86,,,nan,nan,nan,Good health,0
-670,670,304,,18617.0,534,,90,9,,,nan,nan,nan,Good health,0
-671,671,305,,13579.0,573,,5,10,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-672,672,306,,1033.0,805,,21,69,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-673,673,307,,13181.0,852,,57,41,,,nan,nan,nan,Good health,0
-674,674,308,,22997.0,525,,8,38,,,nan,nan,nan,Good health,0
-675,675,309,,18594.0,1188,,33,149,,,nan,nan,nan,Good health,0
-676,676,310,,13704.0,416,,89,74,,,nan,nan,nan,Good health,0
-677,677,311,,25302.0,600,,20,92,,,nan,nan,nan,Good health,0
-678,678,312,,21698.0,1206,,57,101,,,nan,nan,nan,Good health,0
-679,679,313,,23232.0,993,,67,140,,,nan,nan,nan,Good health,0
-680,680,314,,1532.0,1318,,62,33,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-681,681,315,,5428.0,1400,,71,75,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-682,682,316,,14593.0,844,,77,29,,,nan,nan,nan,Good health,0
-683,683,317,,2093.0,1266,,96,122,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-684,684,318,,8494.0,571,,0,61,,,nan,nan,nan,Good health,0
-685,685,319,,22987.0,1154,,4,12,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
-686,686,320,,5167.0,850,,63,78,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-687,687,321,,14626.0,934,,41,45,,,nan,nan,nan,Good health,0
-688,688,322,,17287.0,741,,39,133,,,nan,nan,nan,Good health,0
-689,689,323,,15966.0,1283,,59,18,,,nan,nan,nan,Good health,0
-690,690,324,,18396.0,793,,6,77,,,nan,nan,nan,Good health,0
-691,691,325,,19791.0,1134,,53,103,,,nan,nan,nan,Good health,0
-692,692,326,,24755.0,635,,24,84,,,nan,nan,nan,Good health,0
-693,693,327,,2.0,530,,70,76,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-694,694,328,,1275.0,456,,81,106,,,nan,nan,nan,Good health,0
-695,695,329,,16206.0,1324,,10,27,,,nan,nan,nan,Good health,0
-696,696,330,,10680.0,813,,92,25,,,nan,nan,nan,Good health,0
-697,697,331,,10225.0,643,,16,143,,,nan,nan,nan,Good health,0
-698,698,332,,15299.0,1418,,1,123,,,nan,nan,nan,Good health,0
-699,699,333,,1633.0,1215,,51,121,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-700,700,334,,13603.0,925,,86,86,,,nan,nan,nan,Good health,0
-701,701,335,,6160.0,824,,53,87,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-702,702,336,,17975.0,486,,40,31,,,nan,nan,nan,Good health,0
-703,703,337,,20745.0,842,,0,122,,,nan,nan,nan,Good health,0
-704,704,338,,2735.0,699,,27,29,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-705,705,339,,23774.0,614,,1,127,,,nan,nan,nan,Good health,0
-706,706,340,,4276.0,805,,91,109,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-707,707,341,,482.0,1338,,96,9,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-708,708,342,,13166.0,1174,,0,77,,,nan,nan,nan,Good health,0
-709,709,343,,22233.0,1140,,86,85,,,nan,nan,nan,Good health,0
-710,710,344,,13680.0,709,,67,39,,,nan,nan,nan,Good health,0
-711,711,345,,10360.0,614,,78,42,,,nan,nan,nan,Good health,0
-712,712,346,,111.0,1399,,12,144,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-713,713,347,,6996.0,703,,24,96,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-714,714,348,,468.0,1231,,15,22,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-715,715,349,,23505.0,1266,,77,16,,,nan,nan,nan,Good health,0
-716,716,350,,24731.0,1414,,83,21,,,nan,nan,nan,Good health,0
-717,717,351,,77.0,1060,,25,50,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-718,718,352,,22143.0,1420,,38,56,,,nan,nan,nan,Good health,0
-719,719,353,,17312.0,1421,,35,15,,,nan,nan,nan,Good health,0
-720,720,354,,20056.0,813,,88,98,,,nan,nan,nan,Good health,0
-721,721,355,,3204.0,848,,23,2,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
-722,722,356,,6240.0,419,,12,25,,,nan,nan,nan,Good health,0
-723,723,357,,3896.0,1096,,60,100,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-724,724,358,,19934.0,1051,,50,142,,,nan,nan,nan,Good health,0
-725,725,359,,21275.0,1059,,80,132,,,nan,nan,nan,Good health,0
-726,726,360,,6504.0,472,,10,74,,,nan,nan,nan,Good health,0
-727,727,361,,9909.0,703,,2,114,,,nan,nan,nan,Good health,0
-728,728,362,,9174.0,926,,35,125,,,nan,nan,nan,Good health,0
-729,729,363,,22562.0,719,,57,149,,,nan,nan,nan,Good health,0
-730,730,364,,5971.0,1176,,14,55,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
-731,731,365,,3282.0,1002,,32,108,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+,Unnamed: 0,Steps,Minutes_sitting,Minutes_of_slow_activity,Minutes_moderate_activity,Minutes_intense_activity,HR,BP,CD,MS,Diabetes,Health,Labels
+0,0,905.0,1355,46.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes," Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+1,1,18925.0,611,316.0,61,60,,,nan,nan,nan,Good health,0
+2,2,14228.0,602,226.0,14,77,,,nan,nan,nan,Good health,0
+3,3,6756.0,749,190.0,23,4,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+4,4,5020.0,876,171.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+5,5,7790.0,726,172.0,34,18,,,nan,nan,nan,Good health,0
+6,6,5614.0,782,216.0,13,1,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+7,7,8169.0,801,218.0,8,7,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+8,8,19971.0,532,247.0,101,118,,,nan,nan,nan,Good health,0
+9,9,8520.0,606,186.0,46,73,,,nan,nan,nan,Good health,0
+10,10,11998.0,936,189.0,18,51,,,nan,nan,nan,Good health,0
+11,11,12425.0,827,186.0,18,54,,,nan,nan,nan,Good health,0
+12,12,6008.0,783,214.0,15,2,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+13,13,16291.0,616,237.0,48,52,,,nan,nan,nan,Good health,0
+14,14,6111.0,820,190.0,14,5,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+15,15,17928.0,533,262.0,79,132,,,nan,nan,nan,Good health,0
+16,16,13893.0,641,222.0,33,140,,,nan,nan,nan,Good health,0
+17,17,5109.0,861,200.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+18,18,4430.0,1269,156.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+19,19,7498.0,692,196.0,64,50,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+20,20,8490.0,771,212.0,8,13,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+21,21,5650.0,789,208.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+22,22,21479.0,503,230.0,55,153,,,nan,nan,nan,Good health,0
+23,23,18995.0,660,269.0,86,43,,,nan,nan,nan,Good health,0
+24,24,16836.0,586,248.0,35,70,,,nan,nan,nan,Good health,0
+25,25,15944.0,640,214.0,15,93,,,nan,nan,nan,Good health,0
+26,26,14273.0,721,178.0,16,89,,,nan,nan,nan,Good health,0
+27,27,16.06,724,239.0,38,70,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+28,28,13594.0,677,215.0,36,52,,,nan,nan,nan,Good health,0
+29,29,15480.0,520,246.0,78,42,,,nan,nan,nan,Good health,0
+30,30,19440.0,966,210.0,28,130,,,nan,nan,nan,Good health,0
+31,31,13926.0,701,265.0,63,29,,,nan,nan,nan,Good health,0
+32,32,11338.0,806,228.0,43,31,,,nan,nan,nan,Good health,0
+33,33,7140.0,785,220.0,20,4,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+34,34,15449.0,676,205.0,39,64,,,nan,nan,nan,Good health,0
+35,35,11920.0,593,352.0,34,11,,,nan,nan,nan,Good health,0
+36,36,26444.0,549,429.0,56,56,,,nan,nan,nan,Good health,0
+37,37,12335.0,1245,88.0,10,93,,,nan,nan,nan,Good health,0
+38,38,14137.0,642,305.0,8,51,,,nan,nan,nan,Good health,0
+39,39,11568.0,734,189.0,17,54,,,nan,nan,nan,Good health,0
+40,40,16813.0,709,202.0,2,110,,,nan,nan,nan,Good health,0
+41,41,15217.0,641,280.0,44,59,,,nan,nan,nan,Good health,0
+42,42,13158.0,715,171.0,30,66,,,nan,nan,nan,Good health,0
+43,43,19311.0,519,291.0,55,93,,,nan,nan,nan,Good health,0
+44,44,16186.0,637,229.0,52,75,,,nan,nan,nan,Good health,0
+45,45,12713.0,631,225.0,24,44,,,nan,nan,nan,Good health,0
+46,46,9132.0,777,223.0,32,15,,,nan,nan,nan,Good health,0
+47,47,20239.0,621,292.0,37,95,,,nan,nan,nan,Good health,0
+48,48,11199.0,737,227.0,36,20,,,nan,nan,nan,Good health,0
+49,49,20269.0,720,218.0,54,99,,,nan,nan,nan,Good health,0
+50,50,11655.0,670,220.0,28,53,,,nan,nan,nan,Good health,0
+51,51,12314.0,601,290.0,25,51,,,nan,nan,nan,Good health,0
+52,52,12586.0,735,234.0,35,49,,,nan,nan,nan,Good health,0
+53,53,12445.0,635,200.0,18,58,,,nan,nan,nan,Good health,0
+54,54,14193.0,669,210.0,47,70,,,nan,nan,nan,Good health,0
+55,55,11560.0,708,158.0,25,67,,,nan,nan,nan,Good health,0
+56,56,15695.0,648,248.0,63,54,,,nan,nan,nan,Good health,0
+57,57,9747.0,646,253.0,22,19,,,nan,nan,nan,Good health,0
+58,58,15731.0,567,317.0,52,55,,,nan,nan,nan,Good health,0
+59,59,8391.0,877,136.0,36,30,,,nan,nan,nan,Good health,0
+60,60,8326.0,1118,217.0,10,3,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+61,61,14241.0,700,234.0,22,59,,,nan,nan,nan,Good health,0
+62,62,7298.0,836,290.0,10,1,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+63,63,10644.0,683,283.0,36,17,,,nan,nan,nan,Good health,0
+64,64,12371.0,639,194.0,46,60,,,nan,nan,nan,Good health,0
+65,65,7580.0,607,258.0,16,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+66,66,12168.0,731,212.0,52,60,,,nan,nan,nan,Good health,0
+67,67,15135.0,740,167.0,47,87,,,nan,nan,nan,Good health,0
+68,68,14996.0,573,321.0,50,54,,,nan,nan,nan,Good health,0
+69,69,8704.0,697,225.0,31,29,,,nan,nan,nan,Good health,0
+70,70,12739.0,761,247.0,47,47,,,nan,nan,nan,Good health,0
+71,71,13247.0,484,317.0,31,47,,,nan,nan,nan,Good health,0
+72,72,11660.0,680,286.0,5,53,,,nan,nan,nan,Good health,0
+73,73,13702.0,708,246.0,48,43,,,nan,nan,nan,Good health,0
+74,74,11240.0,732,208.0,52,24,,,nan,nan,nan,Good health,0
+75,75,13262.0,1093,166.0,33,70,,,nan,nan,nan,Good health,0
+76,76,9090.0,719,234.0,23,23,,,nan,nan,nan,Good health,0
+77,77,15779.0,618,346.0,48,21,,,nan,nan,nan,Good health,0
+78,78,6174.0,677,231.0,13,4,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+79,79,11614.0,503,301.0,2,40,,,nan,nan,nan,Good health,0
+80,80,13460.0,822,190.0,29,64,,,nan,nan,nan,Good health,0
+81,81,10000.0,803,230.0,44,11,,,nan,nan,nan,Good health,0
+82,82,10680.0,634,322.0,21,4,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+83,83,14105.0,718,225.0,60,44,,,nan,nan,nan,Good health,0
+84,84,9194.0,784,198.0,7,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+85,85,17497.0,1092,219.0,54,45,,,nan,nan,nan,Good health,0
+86,86,5765.0,544,245.0,6,6,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+87,87,15362.0,683,226.0,65,54,,,nan,nan,nan,Good health,0
+88,88,9870.0,793,186.0,28,32,,,nan,nan,nan,Good health,0
+89,89,14502.0,520,250.0,41,59,,,nan,nan,nan,Good health,0
+90,90,14652.0,562,350.0,42,20,,,nan,nan,nan,Good health,0
+91,91,7628.0,638,283.0,11,8,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+92,92,13877.0,609,206.0,57,51,,,nan,nan,nan,Good health,0
+93,93,11433.0,561,236.0,40,35,,,nan,nan,nan,Good health,0
+94,94,13655.0,985,285.0,8,23,,,nan,nan,nan,Good health,0
+95,95,13535.0,1348,44.0,4,14,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+96,96,1883.0,1370,70.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+97,97,11354.0,694,366.0,4,10,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+98,98,11532.0,572,301.0,26,10,,,nan,nan,nan,Good health,0
+99,99,6129.0,635,256.0,8,1,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+100,100,6238.0,688,267.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+101,101,15572.0,515,472.0,33,14,,,nan,nan,nan,Good health,0
+102,102,10886.0,639,292.0,27,20,,,nan,nan,nan,Good health,0
+103,103,12213.0,421,381.0,13,8,,,nan,nan,nan,Good health,0
+104,104,12929.0,565,425.0,25,18,,,nan,nan,nan,Good health,0
+105,105,16365.0,461,329.0,45,16,,,nan,nan,nan,Good health,0
+106,106,17252.0,481,382.0,19,42,,,nan,nan,nan,Good health,0
+107,107,14537.0,518,345.0,19,47,,,nan,nan,nan,Good health,0
+108,108,13404.0,685,192.0,38,71,,,nan,nan,nan,Good health,0
+109,109,10.94,697,199.0,52,50,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+110,110,10032.0,757,175.0,45,45,,,nan,nan,nan,Good health,0
+111,111,14008.0,544,334.0,18,35,,,nan,nan,nan,Good health,0
+112,112,12149.0,1051,369.0,9,11,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+113,113,19977.0,648,395.0,23,74,,,nan,nan,nan,Good health,0
+114,114,11924.0,1421,0.0,0,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+115,115,10757.0,1187,145.0,43,65,,,nan,nan,nan,Good health,0
+116,116,12229.0,689,421.0,17,16,,,nan,nan,nan,Good health,0
+117,117,10330.0,770,248.0,16,15,,,nan,nan,nan,Good health,0
+118,118,11689.0,1043,182.0,50,51,,,nan,nan,nan,Good health,0
+119,119,15627.0,606,284.0,50,55,,,nan,nan,nan,Good health,0
+120,120,10681.0,656,240.0,15,30,,,nan,nan,nan,Good health,0
+121,121,7907.0,654,287.0,0,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+122,122,9487.0,1156,152.0,40,28,,,nan,nan,nan,Good health,0
+123,123,8253.0,1137,91.0,16,29,,,nan,nan,nan,Good health,0
+124,124,22238.0,355,407.0,87,85,,,nan,nan,nan,Good health,0
+125,125,10650.0,940,198.0,38,42,,,nan,nan,nan,Good health,0
+126,126,12038.0,700,201.0,44,57,,,nan,nan,nan,Good health,0
+127,127,11.48,462,315.0,8,13,,,nan,nan,Type II Diabetes,Type II Diabetes ,3
+128,128,9199.0,600,361.0,15,8,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+129,129,9564.0,1118,168.0,43,46,,,nan,nan,nan,Good health,0
+130,130,9019.0,755,144.0,72,25,,,nan,nan,nan,Good health,0
+131,131,10239.0,675,192.0,35,46,,,nan,nan,nan,Good health,0
+132,132,7739.0,741,211.0,17,10,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+133,133,12620.0,773,170.0,59,39,,,nan,nan,nan,Good health,0
+134,134,14.226,669,291.0,35,41,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+135,135,3858.0,1255,185.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+136,136,17603.0,1053,223.0,56,67,,,nan,nan,nan,Good health,0
+137,137,10699.0,655,252.0,32,21,,,nan,nan,nan,Good health,0
+138,138,7261.0,908,135.0,14,18,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+139,139,10608.0,1107,177.0,63,52,,,nan,nan,nan,Good health,0
+140,140,12271.0,548,323.0,34,24,,,nan,nan,nan,Good health,0
+141,141,9998.0,782,327.0,0,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+142,142,5757.0,800,270.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+143,143,8995.0,826,171.0,45,33,,,nan,nan,nan,Good health,0
+144,144,7553.0,789,163.0,54,15,,,nan,nan,nan,Good health,0
+145,145,6494.0,711,208.0,26,5,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+146,146,7951.0,667,191.0,40,9,,,nan,nan,nan,Good health,0
+147,147,7424.0,801,179.0,43,25,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+148,148,6813.0,1315,75.0,41,9,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+149,149,3991.0,1136,163.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+150,150,9725.0,988,268.0,24,14,,,nan,nan,nan,Good health,0
+151,151,8936.0,780,205.0,46,27,,,nan,nan,nan,Good health,0
+152,152,6565.0,841,157.0,27,20,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+153,153,7865.0,1118,204.0,32,13,,,nan,nan,nan,Good health,0
+154,154,8718.0,976,65.0,0,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+155,155,12364.0,1046,234.0,29,32,,,nan,nan,nan,Good health,0
+156,156,5216.0,1243,175.0,17,5,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+157,157,6580.0,1246,104.0,57,33,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+158,158,7015.0,1244,130.0,37,29,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+159,159,8103.0,1219,215.0,4,2,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+160,160,6962.0,1234,115.0,57,28,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+161,161,16478.0,643,304.0,8,43,,,nan,nan,nan,Good health,0
+162,162,11603.0,732,236.0,38,22,,,nan,nan,nan,Good health,0
+163,163,11429.0,962,269.0,8,17,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+164,164,6293.0,854,226.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+165,165,7269.0,1290,105.0,22,23,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+166,166,4471.0,1134,165.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+167,167,17913.0,1053,210.0,39,75,,,nan,nan,nan,Good health,0
+168,168,5431.0,678,166.0,9,13,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+169,169,11672.0,663,222.0,48,29,,,nan,nan,nan,Good health,0
+170,170,14777.0,597,302.0,57,39,,,nan,nan,nan,Good health,0
+171,171,9171.0,767,273.0,30,7,,,nan,nan,nan,Good health,0
+172,172,8807.0,810,224.0,29,12,,,nan,nan,nan,Good health,0
+173,173,5623.0,779,170.0,19,3,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+174,174,12910.0,1091,258.0,24,20,,,nan,nan,nan,Good health,0
+175,175,8805.0,821,170.0,51,29,,,nan,nan,nan,Good health,0
+176,176,7107.0,510,277.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+177,177,3862.0,889,166.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+178,178,7368.0,1279,126.0,22,13,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+179,179,6269.0,1430,10.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+180,180,8520.0,662,191.0,43,24,,,nan,nan,nan,Good health,0
+181,181,8116.0,827,228.0,37,8,,,nan,nan,nan,Good health,0
+182,182,8268.0,776,145.0,75,22,,,nan,nan,nan,Good health,0
+183,183,14489.0,525,280.0,52,68,,,nan,nan,nan,Good health,0
+184,184,9212.0,508,198.0,27,53,,,nan,nan,nan,Good health,0
+185,185,9.5,756,218.0,28,13,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+186,186,11151.0,705,198.0,40,79,,,nan,nan,nan,Good health,0
+187,187,12351.0,981,181.0,66,24,,,nan,nan,nan,Good health,0
+188,188,10.67,684,162.0,17,61,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+189,189,5574.0,1209,156.0,8,16,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+190,190,11587.0,608,159.0,41,103,,,nan,nan,nan,Good health,0
+191,191,9499.0,738,167.0,28,44,,,nan,nan,nan,Good health,0
+192,192,13788.0,978,282.0,31,61,,,nan,nan,nan,Good health,0
+193,193,18361.0,543,366.0,73,42,,,nan,nan,nan,Good health,0
+194,194,14055.0,673,268.0,53,27,,,nan,nan,nan,Good health,0
+195,195,11927.0,726,305.0,21,37,,,nan,nan,nan,Good health,0
+196,196,15221.0,464,316.0,40,58,,,nan,nan,nan,Good health,0
+197,197,8568.0,1174,249.0,3,14,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+198,198,3284.0,1269,98.0,3,8,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+199,199,9408.0,682,295.0,31,14,,,nan,nan,nan,Good health,0
+200,200,10261.0,1182,210.0,2,46,,,nan,nan,nan,Good health,0
+201,201,8218.0,1142,155.0,50,22,,,nan,nan,nan,Good health,0
+202,202,9760.0,1130,214.0,61,30,,,nan,nan,nan,Good health,0
+203,203,10769.0,725,222.0,60,42,,,nan,nan,nan,Good health,0
+204,204,11671.0,643,375.0,7,15,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+205,205,14444.0,618,258.0,39,51,,,nan,nan,nan,Good health,0
+206,206,23313.0,550,389.0,67,75,,,nan,nan,nan,Good health,0
+207,207,16810.0,750,152.0,9,97,,,nan,nan,nan,Good health,0
+208,208,10745.0,634,174.0,48,62,,,nan,nan,nan,Good health,0
+209,209,10784.0,774,201.0,25,68,,,nan,nan,nan,Good health,0
+210,210,10740.0,1100,146.0,39,52,,,nan,nan,nan,Good health,0
+211,211,8531.0,723,325.0,0,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+212,212,12738.0,811,244.0,45,35,,,nan,nan,nan,Good health,0
+213,213,13520.0,672,261.0,13,50,,,nan,nan,nan,Good health,0
+214,214,15884.0,962,248.0,25,123,,,nan,nan,nan,Good health,0
+215,215,10026.0,803,204.0,29,38,,,nan,nan,nan,Good health,0
+216,216,11868.0,1190,170.0,26,54,,,nan,nan,nan,Good health,0
+217,217,12381.0,1096,212.0,30,52,,,nan,nan,nan,Good health,0
+218,218,7157.0,605,290.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+219,219,7055.0,690,248.0,19,6,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+220,220,9348.0,827,179.0,22,42,,,nan,nan,nan,Good health,0
+221,221,8566.0,898,137.0,28,33,,,nan,nan,nan,Good health,0
+222,222,9786.0,1118,159.0,29,28,,,nan,nan,nan,Good health,0
+223,223,8371.0,1069,146.0,31,24,,,nan,nan,nan,Good health,0
+224,224,9428.0,1141,220.0,43,21,,,nan,nan,nan,Good health,0
+225,225,13742.0,579,357.0,15,22,,,nan,nan,nan,Good health,0
+226,226,15636.0,550,316.0,56,23,,,nan,nan,nan,Good health,0
+227,227,12778.0,664,313.0,42,6,,,nan,nan,nan,Good health,0
+228,228,7378.0,838,176.0,33,12,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+229,229,0.0,1440,0.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+230,230,6.452000000000001,1217,223.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+231,231,7837.0,663,332.0,0,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+232,232,6504.0,588,282.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+233,233,6444.0,746,252.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+234,234,7845.0,686,337.0,0,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+235,235,12260.0,636,375.0,3,26,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+236,236,12154.0,617,276.0,6,45,,,nan,nan,nan,Good health,0
+237,237,7801.0,577,362.0,0,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+238,238,10460.0,685,375.0,0,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+239,239,13837.0,601,339.0,15,36,,,nan,nan,nan,Good health,0
+240,240,12517.0,1034,272.0,9,49,,,nan,nan,nan,Good health,0
+241,241,10366.0,650,235.0,53,30,,,nan,nan,nan,Good health,0
+242,242,12127.0,682,284.0,47,28,,,nan,nan,nan,Good health,0
+243,243,11327.0,613,314.0,5,32,,,nan,nan,nan,Good health,0
+244,244,11098.0,720,247.0,53,30,,,nan,nan,nan,Good health,0
+245,245,12395.0,567,405.0,7,8,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+246,246,6643.0,676,283.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+247,247,8846.0,1167,183.0,36,29,,,nan,nan,nan,Good health,0
+248,248,9642.0,758,247.0,44,24,,,nan,nan,nan,Good health,0
+249,249,9982.0,839,222.0,30,26,,,nan,nan,nan,Good health,0
+250,250,6613.0,857,205.0,13,3,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+251,251,12161.0,719,198.0,34,60,,,nan,nan,nan,Good health,0
+252,252,14837.0,687,210.0,58,71,,,nan,nan,nan,Good health,0
+253,253,16.759,589,333.0,23,59,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+254,254,9602.0,547,279.0,4,15,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+255,255,3761.0,998,99.0,5,3,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+256,256,7456.0,1215,103.0,22,35,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+257,257,16755.0,551,331.0,24,51,,,nan,nan,nan,Good health,0
+258,258,11937.0,699,254.0,57,32,,,nan,nan,nan,Good health,0
+259,259,14577.0,519,391.0,34,22,,,nan,nan,nan,Good health,0
+260,260,17541.0,570,358.0,50,45,,,nan,nan,nan,Good health,0
+261,261,39.0,1076,5.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+262,262,6610.0,1270,93.0,24,26,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+263,263,13073.0,790,166.0,52,61,,,nan,nan,nan,Good health,0
+264,264,9997.0,759,164.0,52,28,,,nan,nan,nan,Good health,0
+265,265,10707.0,753,262.0,57,18,,,nan,nan,nan,Good health,0
+266,266,9952.0,760,233.0,30,26,,,nan,nan,nan,Good health,0
+267,267,9774.0,519,357.0,16,2,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+268,268,6260.0,671,298.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+269,269,11426.0,911,192.0,48,43,,,nan,nan,nan,Good health,0
+270,270,10466.0,802,152.0,48,48,,,nan,nan,nan,Good health,0
+271,271,12866.0,767,271.0,45,28,,,nan,nan,nan,Good health,0
+272,272,2449.0,821,80.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+273,273,10434.0,718,243.0,42,29,,,nan,nan,nan,Good health,0
+274,274,12578.0,563,388.0,10,11,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+275,275,15373.0,599,273.0,10,62,,,nan,nan,nan,Good health,0
+276,276,12327.0,699,278.0,28,30,,,nan,nan,nan,Good health,0
+277,277,10457.0,847,181.0,15,41,,,nan,nan,nan,Good health,0
+278,278,9900.0,1237,156.0,6,41,,,nan,nan,nan,Good health,0
+279,279,8966.0,802,235.0,21,20,,,nan,nan,nan,Good health,0
+280,280,8353.0,732,219.0,17,26,,,nan,nan,nan,Good health,0
+281,281,13907.0,551,357.0,15,15,,,nan,nan,nan,Good health,0
+282,282,14183.0,617,374.0,45,12,,,nan,nan,nan,Good health,0
+283,283,8453.0,1304,124.0,8,4,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+284,284,7995.0,802,231.0,34,16,,,nan,nan,nan,Good health,0
+285,285,6707.0,913,174.0,36,19,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+286,286,8109.0,1212,143.0,42,33,,,nan,nan,nan,Good health,0
+287,287,11971.0,865,179.0,3,51,,,nan,nan,nan,Good health,0
+288,288,11371.0,457,327.0,14,19,,,nan,nan,nan,Good health,0
+289,289,2190.0,954,93.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+290,290,6592.0,1234,155.0,23,14,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+291,291,8624.0,739,193.0,36,25,,,nan,nan,nan,Good health,0
+292,292,8307.0,762,195.0,25,37,,,nan,nan,nan,Good health,0
+293,293,7941.0,878,142.0,47,32,,,nan,nan,nan,Good health,0
+294,294,8.05,1203,177.0,40,20,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+295,295,9923.0,1124,184.0,25,44,,,nan,nan,nan,Good health,0
+296,296,9504.0,687,283.0,10,1,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+297,297,6847.0,731,206.0,20,1,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+298,298,11618.0,776,217.0,59,29,,,nan,nan,nan,Good health,0
+299,299,10450.0,765,199.0,35,26,,,nan,nan,nan,Good health,0
+300,300,11478.0,749,167.0,5,45,,,nan,nan,nan,Good health,0
+301,301,10650.0,754,227.0,31,30,,,nan,nan,nan,Good health,0
+302,302,3103.0,1042,155.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+303,303,6960.0,1105,280.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+304,304,16699.0,791,158.0,9,97,,,nan,nan,nan,Good health,0
+305,305,14068.0,824,167.0,8,65,,,nan,nan,nan,Good health,0
+306,306,18092.0,1120,243.0,8,69,,,nan,nan,nan,Good health,0
+307,307,18530.0,793,162.0,21,100,,,nan,nan,nan,Good health,0
+308,308,14587.0,1013,313.0,14,38,,,nan,nan,nan,Good health,0
+309,309,9992.0,685,339.0,0,13,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+310,310,0.0,1440,0.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+311,311,9336.0,1288,73.0,4,50,,,nan,nan,nan,Good health,0
+312,312,15596.0,782,187.0,3,77,,,nan,nan,nan,Good health,0
+313,313,25385.0,638,254.0,17,124,,,nan,nan,nan,Good health,0
+314,314,14577.0,823,162.0,10,81,,,nan,nan,nan,Good health,0
+315,315,16667.0,832,173.0,9,90,,,nan,nan,nan,Good health,0
+316,316,13361.0,530,418.0,38,50,,,nan,nan,nan,Good health,0
+317,317,6754.0,564,315.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+318,318,5424.0,1047,193.0,7,2,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+319,319,17913.0,593,382.0,22,55,,,nan,nan,nan,Good health,0
+320,320,14324.0,669,222.0,10,59,,,nan,nan,nan,Good health,0
+321,321,8049.0,1090,123.0,3,24,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+322,322,11122.0,599,386.0,9,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+323,323,9570.0,879,395.0,0,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+324,324,4667.0,889,114.0,20,2,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+325,325,0.0,1440,0.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+326,326,9781.0,1230,139.0,6,39,,,nan,nan,nan,Good health,0
+327,327,21383.0,641,384.0,23,57,,,nan,nan,nan,Good health,0
+328,328,20109.0,629,302.0,35,63,,,nan,nan,nan,Good health,0
+329,329,11130.0,900,162.0,3,54,,,nan,nan,nan,Good health,0
+330,330,8250.0,950,314.0,7,1,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+331,331,8682.0,669,355.0,0,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+332,332,17535.0,881,168.0,8,102,,,nan,nan,nan,Good health,0
+333,333,20154.0,445,471.0,28,45,,,nan,nan,nan,Good health,0
+334,334,23286.0,561,451.0,28,67,,,nan,nan,nan,Good health,0
+335,335,13004.0,856,214.0,3,58,,,nan,nan,nan,Good health,0
+336,336,13441.0,449,439.0,0,0,,,nan,nan,nan,Good health,0
+337,337,10216.0,535,390.0,0,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+338,338,5634.0,921,92.0,41,4,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+339,339,17422.0,674,290.0,14,61,,,nan,nan,nan,Good health,0
+340,340,14475.0,664,291.0,10,47,,,nan,nan,nan,Good health,0
+341,341,17777.0,696,276.0,10,80,,,nan,nan,nan,Good health,0
+342,342,19087.0,711,221.0,12,96,,,nan,nan,nan,Good health,0
+343,343,16290.0,467,427.0,25,11,,,nan,nan,nan,Good health,0
+344,344,14252.0,675,323.0,60,18,,,nan,nan,nan,Good health,0
+345,345,8262.0,1089,302.0,0,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+346,346,19.45,860,190.0,6,98,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+347,347,17232.0,1002,262.0,4,88,,,nan,nan,nan,Good health,0
+348,348,16946.0,762,238.0,5,67,,,nan,nan,nan,Good health,0
+349,349,19183.0,723,218.0,7,97,,,nan,nan,nan,Good health,0
+350,350,12963.0,404,436.0,14,10,,,nan,nan,nan,Good health,0
+351,351,6456.0,782,305.0,0,0,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+352,352,10413.0,700,269.0,28,24,,,nan,nan,nan,Good health,0
+353,353,10499.0,661,430.0,9,4,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+354,354,17226.0,751,185.0,16,95,,,nan,nan,nan,Good health,0
+355,355,19784.0,694,151.0,26,128,,,nan,nan,nan,Good health,0
+356,356,25571.0,606,293.0,42,129,,,nan,nan,nan,Good health,0
+357,357,17528.0,594,239.0,8,82,,,nan,nan,nan,Good health,0
+358,358,9831.0,561,414.0,0,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+359,359,14262.0,666,361.0,21,41,,,nan,nan,nan,Good health,0
+360,360,13236.0,770,234.0,8,38,,,nan,nan,nan,Good health,0
+361,361,18588.0,599,275.0,49,79,,,nan,nan,nan,Good health,0
+362,362,16382.0,684,333.0,10,55,,,nan,nan,nan,Good health,0
+363,363,21913.0,701,287.0,29,90,,,nan,nan,nan,Good health,0
+364,364,19023.0,575,298.0,8,85,,,nan,nan,nan,Good health,0
+365,365,9526.0,564,370.0,13,10,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+366,0,12623.0,1188,,49,98,,,nan,nan,nan,Good health,0
+367,1,24836.0,1261,,97,107,,,nan,nan,nan,Good health,0
+368,2,13781.0,482,,53,10,,,nan,nan,nan,Good health,0
+369,3,1326.0,930,,5,66,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+370,4,8484.0,1447,,33,130,,,nan,nan,nan,Good health,0
+371,5,16753.0,1395,,65,124,,,nan,nan,nan,Good health,0
+372,6,15922.0,1229,,62,103,,,nan,nan,nan,Good health,0
+373,7,13268.0,1021,,51,77,,,nan,nan,nan,Good health,0
+374,8,25683.0,1376,,100,122,,,nan,nan,nan,Good health,0
+375,9,9938.0,1133,,38,91,,,nan,nan,nan,Good health,0
+376,10,15617.0,847,,61,149,,,nan,nan,nan,Good health,0
+377,11,11732.0,1433,,45,55,,,nan,nan,nan,Good health,0
+378,12,19116.0,685,,74,129,,,nan,nan,nan,Good health,0
+379,13,7157.0,977,,27,35,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+380,14,16537.0,686,,64,72,,,nan,nan,nan,Good health,0
+381,15,4563.0,594,,17,35,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+382,16,9235.0,913,,36,24,,,nan,nan,nan,Good health,0
+383,17,4579.0,700,,17,64,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+384,18,24766.0,1035,,96,136,,,nan,nan,nan,Good health,0
+385,19,3107.0,602,,12,37,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+386,20,20262.0,551,,79,79,,,nan,nan,nan,Good health,0
+387,21,26194.0,1076,,32,25,,,nan,nan,nan,Good health,0
+388,22,8208.0,1366,,68,18,,,nan,nan,nan,Good health,0
+389,23,17451.0,606,,90,84,,,nan,nan,nan,Good health,0
+390,24,23107.0,1124,,77,120,,,nan,nan,nan,Good health,0
+391,25,19723.0,1289,,18,143,,,nan,nan,nan,Good health,0
+392,26,4815.0,1047,,39,25,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+393,27,10162.0,818,,12,90,,,nan,nan,nan,Good health,0
+394,28,3236.0,1376,,93,111,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+395,29,23915.0,1306,,9,80,,,nan,nan,nan,Good health,0
+396,30,2416.0,933,,87,52,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+397,31,22412.0,527,,42,141,,,nan,nan,nan,Good health,0
+398,32,10819.0,428,,60,122,,,nan,nan,nan,Good health,0
+399,33,15471.0,591,,71,113,,,nan,nan,nan,Good health,0
+400,34,18343.0,1216,,12,133,,,nan,nan,nan,Good health,0
+401,35,3299.0,402,,45,66,,,nan,nan,nan,Good health,0
+402,36,11593.0,1410,,55,15,,,nan,nan,nan,Good health,0
+403,37,14226.0,1082,,40,140,,,nan,nan,nan,Good health,0
+404,38,10361.0,899,,78,3,,,nan,nan,nan,Good health,0
+405,39,20017.0,1066,,81,23,,,nan,nan,nan,Good health,0
+406,40,20985.0,528,,26,102,,,nan,nan,nan,Good health,0
+407,41,6700.0,791,,70,0,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+408,42,18105.0,854,,61,126,,,nan,nan,nan,Good health,0
+409,43,15630.0,888,,56,85,,,nan,nan,nan,Good health,0
+410,44,14506.0,691,,66,62,,,nan,nan,nan,Good health,0
+411,45,17083.0,1317,,33,83,,,nan,nan,nan,Good health,0
+412,46,8535.0,586,,7,16,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+413,47,2040.0,564,,70,48,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+414,48,26379.0,1055,,1,145,,,nan,nan,nan,Good health,0
+415,49,17979.0,1440,,11,56,,,nan,nan,nan,Good health,0
+416,50,460.0,1402,,92,61,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+417,51,3056.0,623,,51,36,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+418,52,23583.0,1017,,90,139,,,nan,nan,nan,Good health,0
+419,53,13068.0,996,,100,114,,,nan,nan,nan,Good health,0
+420,54,23273.0,655,,85,23,,,nan,nan,nan,Good health,0
+421,55,25724.0,1081,,80,20,,,nan,nan,nan,Good health,0
+422,56,21894.0,816,,0,81,,,nan,nan,nan,Good health,0
+423,57,20488.0,989,,78,130,,,nan,nan,nan,Good health,0
+424,58,37.0,1311,,63,125,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+425,59,20050.0,587,,42,27,,,nan,nan,nan,Good health,0
+426,60,16173.0,1188,,31,77,,,nan,nan,nan,Good health,0
+427,61,10916.0,1049,,93,141,,,nan,nan,nan,Good health,0
+428,62,7992.0,895,,41,74,,,nan,nan,nan,Good health,0
+429,63,23929.0,994,,90,31,,,nan,nan,nan,Good health,0
+430,64,10656.0,776,,8,140,,,nan,nan,nan,Good health,0
+431,65,23056.0,787,,24,85,,,nan,nan,nan,Good health,0
+432,66,2063.0,782,,72,138,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+433,67,6260.0,467,,28,52,,,nan,nan,nan,Good health,0
+434,68,18596.0,932,,30,140,,,nan,nan,nan,Good health,0
+435,69,7264.0,1375,,18,150,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+436,70,7818.0,541,,69,73,,,nan,nan,nan,Good health,0
+437,71,26324.0,583,,57,113,,,nan,nan,nan,Good health,0
+438,72,4669.0,666,,11,23,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+439,73,26318.0,706,,10,98,,,nan,nan,nan,Good health,0
+440,74,17792.0,479,,40,81,,,nan,nan,nan,Good health,0
+441,75,14679.0,564,,65,147,,,nan,nan,nan,Good health,0
+442,76,2988.0,1201,,62,61,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+443,77,2636.0,964,,13,74,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+444,78,10487.0,882,,38,47,,,nan,nan,nan,Good health,0
+445,79,16644.0,840,,70,48,,,nan,nan,nan,Good health,0
+446,80,16032.0,1258,,37,47,,,nan,nan,nan,Good health,0
+447,81,3573.0,963,,90,8,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+448,82,9877.0,1322,,15,66,,,nan,nan,nan,Good health,0
+449,83,18063.0,1408,,70,121,,,nan,nan,nan,Good health,0
+450,84,9538.0,1131,,42,17,,,nan,nan,nan,Good health,0
+451,85,23152.0,568,,69,22,,,nan,nan,nan,Good health,0
+452,86,4089.0,1064,,26,33,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+453,87,17938.0,636,,77,38,,,nan,nan,nan,Good health,0
+454,88,10903.0,1396,,70,9,,,nan,nan,nan,Good health,0
+455,89,17704.0,1086,,75,20,,,nan,nan,nan,Good health,0
+456,90,6658.0,789,,36,138,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+457,91,26195.0,897,,56,100,,,nan,nan,nan,Good health,0
+458,92,19765.0,433,,11,134,,,nan,nan,nan,Good health,0
+459,93,17931.0,955,,76,70,,,nan,nan,nan,Good health,0
+460,94,19255.0,639,,49,133,,,nan,nan,nan,Good health,0
+461,95,9425.0,851,,40,60,,,nan,nan,nan,Good health,0
+462,96,14581.0,1161,,73,55,,,nan,nan,nan,Good health,0
+463,97,3002.0,749,,30,150,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+464,98,19539.0,1081,,37,107,,,nan,nan,nan,Good health,0
+465,99,26146.0,1272,,23,148,,,nan,nan,nan,Good health,0
+466,100,12612.0,527,,24,70,,,nan,nan,nan,Good health,0
+467,101,10388.0,606,,23,115,,,nan,nan,nan,Good health,0
+468,102,18862.0,699,,4,126,,,nan,nan,nan,Good health,0
+469,103,7933.0,848,,78,91,,,nan,nan,nan,Good health,0
+470,104,9513.0,492,,84,21,,,nan,nan,nan,Good health,0
+471,105,6025.0,551,,33,83,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+472,106,6205.0,454,,60,29,,,nan,nan,nan,Good health,0
+473,107,6118.0,654,,8,124,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+474,108,1080.0,786,,11,150,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+475,109,20079.0,645,,86,85,,,nan,nan,nan,Good health,0
+476,110,21517.0,1201,,96,48,,,nan,nan,nan,Good health,0
+477,111,8521.0,587,,16,62,,,nan,nan,nan,Good health,0
+478,112,15614.0,1158,,19,4,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+479,113,2263.0,637,,4,69,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+480,114,2943.0,474,,10,29,,,nan,nan,nan,Good health,0
+481,115,22240.0,444,,89,56,,,nan,nan,nan,Good health,0
+482,116,24825.0,798,,69,95,,,nan,nan,nan,Good health,0
+483,117,4267.0,778,,87,43,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+484,118,4900.0,653,,50,85,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+485,119,1266.0,1381,,90,109,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+486,120,2629.0,831,,67,15,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+487,121,22915.0,525,,35,25,,,nan,nan,nan,Good health,0
+488,122,17714.0,446,,66,37,,,nan,nan,nan,Good health,0
+489,123,22396.0,1271,,30,56,,,nan,nan,nan,Good health,0
+490,124,12821.0,607,,27,11,,,nan,nan,nan,Good health,0
+491,125,23110.0,932,,86,146,,,nan,nan,nan,Good health,0
+492,126,17189.0,543,,75,136,,,nan,nan,nan,Good health,0
+493,127,9031.0,852,,53,18,,,nan,nan,nan,Good health,0
+494,128,17098.0,547,,74,6,,,nan,nan,nan,Good health,0
+495,129,7716.0,1016,,35,31,,,nan,nan,nan,Good health,0
+496,130,7051.0,1117,,57,48,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+497,131,22265.0,1293,,63,147,,,nan,nan,nan,Good health,0
+498,132,19326.0,769,,84,30,,,nan,nan,nan,Good health,0
+499,133,13743.0,525,,82,100,,,nan,nan,nan,Good health,0
+500,134,18995.0,1431,,89,23,,,nan,nan,nan,Good health,0
+501,135,9018.0,1356,,45,94,,,nan,nan,nan,Good health,0
+502,136,14764.0,480,,10,29,,,nan,nan,nan,Good health,0
+503,137,16143.0,606,,41,9,,,nan,nan,nan,Good health,0
+504,138,21634.0,1201,,78,5,,,nan,nan,nan,Good health,0
+505,139,21010.0,808,,14,49,,,nan,nan,nan,Good health,0
+506,140,22944.0,932,,62,47,,,nan,nan,nan,Good health,0
+507,141,25995.0,1134,,75,31,,,nan,nan,nan,Good health,0
+508,142,11710.0,1363,,80,122,,,nan,nan,nan,Good health,0
+509,143,2699.0,746,,42,53,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+510,144,10627.0,816,,24,15,,,nan,nan,nan,Good health,0
+511,145,20079.0,518,,31,5,,,nan,nan,nan,Good health,0
+512,146,3779.0,724,,2,139,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+513,147,15939.0,731,,93,108,,,nan,nan,nan,Good health,0
+514,148,19237.0,1101,,34,25,,,nan,nan,nan,Good health,0
+515,149,20648.0,913,,14,66,,,nan,nan,nan,Good health,0
+516,150,10986.0,640,,90,17,,,nan,nan,nan,Good health,0
+517,151,6238.0,1305,,28,56,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+518,152,7963.0,758,,47,18,,,nan,nan,nan,Good health,0
+519,153,531.0,427,,21,77,,,nan,nan,nan,Good health,0
+520,154,23969.0,1365,,42,89,,,nan,nan,nan,Good health,0
+521,155,8881.0,1239,,54,111,,,nan,nan,nan,Good health,0
+522,156,3838.0,1441,,7,46,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+523,157,23112.0,1037,,12,15,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+524,158,7224.0,1131,,100,128,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+525,159,12191.0,1195,,18,119,,,nan,nan,nan,Good health,0
+526,160,26036.0,913,,89,10,,,nan,nan,nan,Good health,0
+527,161,5586.0,714,,28,25,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+528,162,10896.0,425,,5,100,,,nan,nan,nan,Good health,0
+529,163,13963.0,1337,,73,51,,,nan,nan,nan,Good health,0
+530,164,2037.0,561,,81,66,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+531,165,3296.0,1087,,68,91,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+532,166,25661.0,493,,77,120,,,nan,nan,nan,Good health,0
+533,167,4795.0,975,,87,145,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+534,168,22861.0,676,,9,43,,,nan,nan,nan,Good health,0
+535,169,7168.0,891,,3,52,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+536,170,1482.0,1386,,15,14,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+537,171,18804.0,1121,,81,40,,,nan,nan,nan,Good health,0
+538,172,20781.0,989,,24,41,,,nan,nan,nan,Good health,0
+539,173,17504.0,1135,,77,87,,,nan,nan,nan,Good health,0
+540,174,19731.0,671,,73,135,,,nan,nan,nan,Good health,0
+541,175,22301.0,1035,,15,64,,,nan,nan,nan,Good health,0
+542,176,2424.0,1194,,50,30,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+543,177,874.0,1248,,11,113,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+544,178,4077.0,565,,47,44,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+545,179,20807.0,403,,14,3,,,nan,nan,nan,Good health,0
+546,180,6177.0,793,,4,120,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+547,181,19868.0,1084,,77,104,,,nan,nan,nan,Good health,0
+548,182,18872.0,727,,2,145,,,nan,nan,nan,Good health,0
+549,183,3922.0,890,,24,130,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+550,184,12819.0,856,,23,79,,,nan,nan,nan,Good health,0
+551,185,2999.0,1317,,91,91,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+552,186,12128.0,1175,,15,99,,,nan,nan,nan,Good health,0
+553,187,3802.0,1248,,61,64,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+554,188,1192.0,464,,26,39,,,nan,nan,nan,Good health,0
+555,189,19841.0,1223,,93,143,,,nan,nan,nan,Good health,0
+556,190,708.0,1256,,7,3,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+557,191,6376.0,495,,86,117,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+558,192,6061.0,739,,2,20,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+559,193,23531.0,1312,,69,85,,,nan,nan,nan,Good health,0
+560,194,4059.0,530,,54,11,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+561,195,15703.0,930,,79,139,,,nan,nan,nan,Good health,0
+562,196,6900.0,722,,12,71,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+563,197,23827.0,1314,,33,34,,,nan,nan,nan,Good health,0
+564,198,26238.0,1397,,8,61,,,nan,nan,nan,Good health,0
+565,199,2001.0,400,,28,123,,,nan,nan,nan,Good health,0
+566,200,22260.0,479,,9,90,,,nan,nan,nan,Good health,0
+567,201,746.0,1412,,82,73,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+568,202,17833.0,1067,,38,91,,,nan,nan,nan,Good health,0
+569,203,13946.0,1039,,44,33,,,nan,nan,nan,Good health,0
+570,204,20335.0,1356,,55,79,,,nan,nan,nan,Good health,0
+571,205,3325.0,502,,23,99,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+572,206,8517.0,1250,,7,106,,,nan,nan,nan,Good health,0
+573,207,2293.0,785,,64,20,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+574,208,7236.0,570,,59,0,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+575,209,2358.0,667,,5,49,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+576,210,21198.0,430,,76,85,,,nan,nan,nan,Good health,0
+577,211,9865.0,1222,,12,40,,,nan,nan,nan,Good health,0
+578,212,11478.0,1255,,89,61,,,nan,nan,nan,Good health,0
+579,213,14289.0,1047,,50,57,,,nan,nan,nan,Good health,0
+580,214,5908.0,406,,25,114,,,nan,nan,nan,Good health,0
+581,215,2000.0,837,,33,96,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+582,216,16503.0,429,,45,145,,,nan,nan,nan,Good health,0
+583,217,15306.0,404,,93,106,,,nan,nan,nan,Good health,0
+584,218,1290.0,600,,60,8,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+585,219,19545.0,790,,72,102,,,nan,nan,nan,Good health,0
+586,220,3306.0,643,,21,145,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+587,221,22915.0,806,,89,107,,,nan,nan,nan,Good health,0
+588,222,12821.0,1019,,86,11,,,nan,nan,nan,Good health,0
+589,223,6532.0,973,,26,42,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+590,224,8524.0,773,,98,114,,,nan,nan,nan,Good health,0
+591,225,11749.0,605,,7,16,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+592,226,23973.0,1374,,100,66,,,nan,nan,nan,Good health,0
+593,227,15408.0,1212,,86,40,,,nan,nan,nan,Good health,0
+594,228,18670.0,566,,20,114,,,nan,nan,nan,Good health,0
+595,229,5551.0,444,,20,135,,,nan,nan,nan,Good health,0
+596,230,22862.0,962,,43,124,,,nan,nan,nan,Good health,0
+597,231,22041.0,1327,,67,143,,,nan,nan,nan,Good health,0
+598,232,6665.0,637,,32,0,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+599,233,25144.0,925,,15,9,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+600,234,1902.0,673,,76,126,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+601,235,25842.0,1110,,56,83,,,nan,nan,nan,Good health,0
+602,236,22157.0,635,,85,79,,,nan,nan,nan,Good health,0
+603,237,5184.0,716,,22,119,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+604,238,5306.0,970,,1,12,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+605,239,11216.0,438,,60,106,,,nan,nan,nan,Good health,0
+606,240,17349.0,486,,87,48,,,nan,nan,nan,Good health,0
+607,241,8214.0,483,,52,140,,,nan,nan,nan,Good health,0
+608,242,3840.0,821,,72,21,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+609,243,19555.0,931,,65,33,,,nan,nan,nan,Good health,0
+610,244,14493.0,1044,,39,3,,,nan,nan,nan,Good health,0
+611,245,21810.0,1151,,83,102,,,nan,nan,nan,Good health,0
+612,246,5728.0,486,,45,106,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+613,247,432.0,1412,,49,80,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+614,248,15454.0,1339,,84,0,,,nan,nan,nan,Good health,0
+615,249,22324.0,1291,,32,54,,,nan,nan,nan,Good health,0
+616,250,13431.0,1162,,19,3,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+617,251,18648.0,765,,71,0,,,nan,nan,nan,Good health,0
+618,252,16665.0,825,,88,135,,,nan,nan,nan,Good health,0
+619,253,10205.0,1169,,1,25,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+620,254,21264.0,996,,58,48,,,nan,nan,nan,Good health,0
+621,255,11703.0,418,,94,30,,,nan,nan,nan,Good health,0
+622,256,12735.0,683,,10,50,,,nan,nan,nan,Good health,0
+623,257,21548.0,709,,42,77,,,nan,nan,nan,Good health,0
+624,258,8222.0,955,,94,71,,,nan,nan,nan,Good health,0
+625,259,5027.0,1082,,5,46,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+626,260,18369.0,1091,,69,25,,,nan,nan,nan,Good health,0
+627,261,22636.0,1152,,35,121,,,nan,nan,nan,Good health,0
+628,262,407.0,591,,17,101,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+629,263,15006.0,1092,,30,20,,,nan,nan,nan,Good health,0
+630,264,24299.0,473,,97,5,,,nan,nan,nan,Good health,0
+631,265,2591.0,484,,61,70,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+632,266,11007.0,952,,45,115,,,nan,nan,nan,Good health,0
+633,267,24216.0,735,,78,29,,,nan,nan,nan,Good health,0
+634,268,1497.0,706,,36,65,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+635,269,17836.0,992,,86,34,,,nan,nan,nan,Good health,0
+636,270,9203.0,1139,,45,133,,,nan,nan,nan,Good health,0
+637,271,4418.0,1208,,75,88,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+638,272,7868.0,665,,81,29,,,nan,nan,nan,Good health,0
+639,273,24974.0,1000,,79,39,,,nan,nan,nan,Good health,0
+640,274,15788.0,635,,16,71,,,nan,nan,nan,Good health,0
+641,275,11541.0,1379,,91,4,,,nan,nan,nan,Good health,0
+642,276,19992.0,890,,39,10,,,nan,nan,nan,Good health,0
+643,277,9433.0,498,,49,10,,,nan,nan,nan,Good health,0
+644,278,22066.0,1030,,95,52,,,nan,nan,nan,Good health,0
+645,279,11770.0,767,,53,66,,,nan,nan,nan,Good health,0
+646,280,19342.0,545,,83,142,,,nan,nan,nan,Good health,0
+647,281,20766.0,1019,,10,80,,,nan,nan,nan,Good health,0
+648,282,20351.0,1225,,0,93,,,nan,nan,nan,Good health,0
+649,283,4336.0,1072,,76,145,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+650,284,23449.0,1012,,24,10,,,nan,nan,nan,Good health,0
+651,285,10167.0,1249,,89,126,,,nan,nan,nan,Good health,0
+652,286,12714.0,622,,42,117,,,nan,nan,nan,Good health,0
+653,287,24526.0,603,,20,111,,,nan,nan,nan,Good health,0
+654,288,13579.0,1385,,30,95,,,nan,nan,nan,Good health,0
+655,289,21326.0,1370,,28,137,,,nan,nan,nan,Good health,0
+656,290,2645.0,1090,,81,45,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+657,291,49.0,1103,,57,53,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+658,292,19483.0,654,,48,96,,,nan,nan,nan,Good health,0
+659,293,6301.0,1381,,90,150,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+660,294,22891.0,637,,86,74,,,nan,nan,nan,Good health,0
+661,295,10957.0,1419,,72,2,,,nan,nan,nan,Good health,0
+662,296,5245.0,1273,,53,35,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+663,297,7845.0,477,,4,38,,,nan,nan,nan,Good health,0
+664,298,7310.0,1018,,51,69,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+665,299,20886.0,1086,,89,85,,,nan,nan,nan,Good health,0
+666,300,14684.0,718,,72,86,,,nan,nan,nan,Good health,0
+667,301,12407.0,741,,53,94,,,nan,nan,nan,Good health,0
+668,302,23276.0,1169,,98,23,,,nan,nan,nan,Good health,0
+669,303,22078.0,578,,84,86,,,nan,nan,nan,Good health,0
+670,304,18617.0,534,,90,9,,,nan,nan,nan,Good health,0
+671,305,13579.0,573,,5,10,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+672,306,1033.0,805,,21,69,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+673,307,13181.0,852,,57,41,,,nan,nan,nan,Good health,0
+674,308,22997.0,525,,8,38,,,nan,nan,nan,Good health,0
+675,309,18594.0,1188,,33,149,,,nan,nan,nan,Good health,0
+676,310,13704.0,416,,89,74,,,nan,nan,nan,Good health,0
+677,311,25302.0,600,,20,92,,,nan,nan,nan,Good health,0
+678,312,21698.0,1206,,57,101,,,nan,nan,nan,Good health,0
+679,313,23232.0,993,,67,140,,,nan,nan,nan,Good health,0
+680,314,1532.0,1318,,62,33,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+681,315,5428.0,1400,,71,75,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+682,316,14593.0,844,,77,29,,,nan,nan,nan,Good health,0
+683,317,2093.0,1266,,96,122,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+684,318,8494.0,571,,0,61,,,nan,nan,nan,Good health,0
+685,319,22987.0,1154,,4,12,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+686,320,5167.0,850,,63,78,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+687,321,14626.0,934,,41,45,,,nan,nan,nan,Good health,0
+688,322,17287.0,741,,39,133,,,nan,nan,nan,Good health,0
+689,323,15966.0,1283,,59,18,,,nan,nan,nan,Good health,0
+690,324,18396.0,793,,6,77,,,nan,nan,nan,Good health,0
+691,325,19791.0,1134,,53,103,,,nan,nan,nan,Good health,0
+692,326,24755.0,635,,24,84,,,nan,nan,nan,Good health,0
+693,327,2.0,530,,70,76,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+694,328,1275.0,456,,81,106,,,nan,nan,nan,Good health,0
+695,329,16206.0,1324,,10,27,,,nan,nan,nan,Good health,0
+696,330,10680.0,813,,92,25,,,nan,nan,nan,Good health,0
+697,331,10225.0,643,,16,143,,,nan,nan,nan,Good health,0
+698,332,15299.0,1418,,1,123,,,nan,nan,nan,Good health,0
+699,333,1633.0,1215,,51,121,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+700,334,13603.0,925,,86,86,,,nan,nan,nan,Good health,0
+701,335,6160.0,824,,53,87,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+702,336,17975.0,486,,40,31,,,nan,nan,nan,Good health,0
+703,337,20745.0,842,,0,122,,,nan,nan,nan,Good health,0
+704,338,2735.0,699,,27,29,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+705,339,23774.0,614,,1,127,,,nan,nan,nan,Good health,0
+706,340,4276.0,805,,91,109,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+707,341,482.0,1338,,96,9,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+708,342,13166.0,1174,,0,77,,,nan,nan,nan,Good health,0
+709,343,22233.0,1140,,86,85,,,nan,nan,nan,Good health,0
+710,344,13680.0,709,,67,39,,,nan,nan,nan,Good health,0
+711,345,10360.0,614,,78,42,,,nan,nan,nan,Good health,0
+712,346,111.0,1399,,12,144,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+713,347,6996.0,703,,24,96,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+714,348,468.0,1231,,15,22,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+715,349,23505.0,1266,,77,16,,,nan,nan,nan,Good health,0
+716,350,24731.0,1414,,83,21,,,nan,nan,nan,Good health,0
+717,351,77.0,1060,,25,50,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+718,352,22143.0,1420,,38,56,,,nan,nan,nan,Good health,0
+719,353,17312.0,1421,,35,15,,,nan,nan,nan,Good health,0
+720,354,20056.0,813,,88,98,,,nan,nan,nan,Good health,0
+721,355,3204.0,848,,23,2,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+722,356,6240.0,419,,12,25,,,nan,nan,nan,Good health,0
+723,357,3896.0,1096,,60,100,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+724,358,19934.0,1051,,50,142,,,nan,nan,nan,Good health,0
+725,359,21275.0,1059,,80,132,,,nan,nan,nan,Good health,0
+726,360,6504.0,472,,10,74,,,nan,nan,nan,Good health,0
+727,361,9909.0,703,,2,114,,,nan,nan,nan,Good health,0
+728,362,9174.0,926,,35,125,,,nan,nan,nan,Good health,0
+729,363,22562.0,719,,57,149,,,nan,nan,nan,Good health,0
+730,364,5971.0,1176,,14,55,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+731,365,3282.0,1002,,32,108,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+732,366,15584.0,1363,,17,21,,,nan,nan,nan,Good health,0
+733,367,12998.0,535,,83,94,,,nan,nan,nan,Good health,0
+734,368,20566.0,573,,66,56,,,nan,nan,nan,Good health,0
+735,369,2665.0,480,,83,66,,,nan,nan,nan,Good health,0
+736,370,715.0,535,,82,149,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+737,371,9001.0,860,,44,42,,,nan,nan,nan,Good health,0
+738,372,14843.0,667,,14,110,,,nan,nan,nan,Good health,0
+739,373,26208.0,483,,19,49,,,nan,nan,nan,Good health,0
+740,374,25963.0,1015,,35,91,,,nan,nan,nan,Good health,0
+741,375,3793.0,431,,2,29,,,nan,nan,nan,Good health,0
+742,376,8404.0,1318,,5,16,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+743,377,4371.0,1077,,5,7,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+744,378,21416.0,729,,26,134,,,nan,nan,nan,Good health,0
+745,379,17067.0,704,,87,115,,,nan,nan,nan,Good health,0
+746,380,21324.0,1343,,33,51,,,nan,nan,nan,Good health,0
+747,381,21133.0,1160,,71,30,,,nan,nan,nan,Good health,0
+748,382,11372.0,1434,,40,127,,,nan,nan,nan,Good health,0
+749,383,3771.0,1182,,46,101,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+750,384,5060.0,1428,,72,65,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+751,385,9122.0,468,,5,53,,,nan,nan,nan,Good health,0
+752,386,608.0,585,,95,10,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+753,387,1386.0,556,,89,55,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+754,388,1332.0,1273,,77,37,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+755,389,6741.0,822,,83,26,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+756,390,22314.0,993,,63,50,,,nan,nan,nan,Good health,0
+757,391,8508.0,1255,,91,117,,,nan,nan,nan,Good health,0
+758,392,18296.0,1387,,82,96,,,nan,nan,nan,Good health,0
+759,393,10312.0,1195,,58,92,,,nan,nan,nan,Good health,0
+760,394,12022.0,878,,81,139,,,nan,nan,nan,Good health,0
+761,395,18594.0,441,,55,38,,,nan,nan,nan,Good health,0
+762,396,1376.0,400,,47,26,,,nan,nan,nan,Good health,0
+763,397,24547.0,772,,68,124,,,nan,nan,nan,Good health,0
+764,398,22981.0,1019,,22,37,,,nan,nan,nan,Good health,0
+765,399,19909.0,1438,,26,144,,,nan,nan,nan,Good health,0
+766,400,21474.0,921,,48,103,,,nan,nan,nan,Good health,0
+767,401,16203.0,1081,,75,108,,,nan,nan,nan,Good health,0
+768,402,23342.0,534,,37,133,,,nan,nan,nan,Good health,0
+769,403,21107.0,1410,,1,126,,,nan,nan,nan,Good health,0
+770,404,15029.0,936,,17,82,,,nan,nan,nan,Good health,0
+771,405,20976.0,1020,,19,127,,,nan,nan,nan,Good health,0
+772,406,14268.0,1235,,34,127,,,nan,nan,nan,Good health,0
+773,407,12204.0,1186,,42,51,,,nan,nan,nan,Good health,0
+774,408,17626.0,1185,,43,138,,,nan,nan,nan,Good health,0
+775,409,5842.0,527,,47,56,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+776,410,6810.0,735,,91,2,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+777,411,12306.0,660,,11,87,,,nan,nan,nan,Good health,0
+778,412,19238.0,889,,43,81,,,nan,nan,nan,Good health,0
+779,413,9536.0,987,,99,82,,,nan,nan,nan,Good health,0
+780,414,291.0,1084,,79,9,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+781,415,4536.0,513,,4,134,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+782,416,4948.0,473,,5,37,,,nan,nan,nan,Good health,0
+783,417,8892.0,1385,,34,65,,,nan,nan,nan,Good health,0
+784,418,10925.0,1255,,20,39,,,nan,nan,nan,Good health,0
+785,419,11059.0,688,,19,97,,,nan,nan,nan,Good health,0
+786,420,25874.0,1407,,74,149,,,nan,nan,nan,Good health,0
+787,421,12032.0,567,,37,75,,,nan,nan,nan,Good health,0
+788,422,23543.0,710,,46,120,,,nan,nan,nan,Good health,0
+789,423,3070.0,1122,,50,16,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+790,424,11083.0,1242,,70,21,,,nan,nan,nan,Good health,0
+791,425,25539.0,472,,16,132,,,nan,nan,nan,Good health,0
+792,426,20333.0,1354,,37,10,,,nan,nan,nan,Good health,0
+793,427,1168.0,1191,,14,16,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+794,428,1350.0,1339,,61,57,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+795,429,8834.0,496,,93,33,,,nan,nan,nan,Good health,0
+796,430,5369.0,607,,30,10,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+797,431,4896.0,1364,,6,76,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+798,432,19118.0,710,,39,3,,,nan,nan,nan,Good health,0
+799,433,9487.0,441,,22,114,,,nan,nan,nan,Good health,0
+800,434,11826.0,466,,66,84,,,nan,nan,nan,Good health,0
+801,435,12936.0,671,,93,41,,,nan,nan,nan,Good health,0
+802,436,17972.0,1063,,9,38,,,nan,nan,nan,Good health,0
+803,437,4248.0,615,,38,117,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+804,438,9614.0,1109,,51,95,,,nan,nan,nan,Good health,0
+805,439,3764.0,799,,42,129,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+806,440,15665.0,1185,,38,97,,,nan,nan,nan,Good health,0
+807,441,23937.0,1404,,53,135,,,nan,nan,nan,Good health,0
+808,442,7854.0,627,,13,128,,,nan,nan,nan,Good health,0
+809,443,1581.0,523,,12,8,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+810,444,10088.0,1356,,71,146,,,nan,nan,nan,Good health,0
+811,445,5884.0,1091,,61,23,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+812,446,17139.0,654,,60,132,,,nan,nan,nan,Good health,0
+813,447,23876.0,1006,,43,19,,,nan,nan,nan,Good health,0
+814,448,2322.0,660,,43,109,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+815,449,9917.0,1193,,15,52,,,nan,nan,nan,Good health,0
+816,450,13211.0,1001,,61,74,,,nan,nan,nan,Good health,0
+817,451,10764.0,648,,14,137,,,nan,nan,nan,Good health,0
+818,452,9805.0,787,,89,106,,,nan,nan,nan,Good health,0
+819,453,13589.0,478,,63,123,,,nan,nan,nan,Good health,0
+820,454,3560.0,1202,,54,99,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+821,455,3257.0,1310,,4,150,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+822,456,18377.0,1160,,38,59,,,nan,nan,nan,Good health,0
+823,457,15767.0,790,,42,5,,,nan,nan,nan,Good health,0
+824,458,15532.0,1332,,94,0,,,nan,nan,nan,Good health,0
+825,459,11045.0,1130,,87,46,,,nan,nan,nan,Good health,0
+826,460,26144.0,554,,19,77,,,nan,nan,nan,Good health,0
+827,461,11260.0,491,,21,129,,,nan,nan,nan,Good health,0
+828,462,4073.0,481,,80,145,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+829,463,15698.0,1395,,72,65,,,nan,nan,nan,Good health,0
+830,464,3801.0,923,,48,85,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+831,465,22924.0,454,,81,16,,,nan,nan,nan,Good health,0
+832,466,16309.0,842,,11,126,,,nan,nan,nan,Good health,0
+833,467,13976.0,870,,8,67,,,nan,nan,nan,Good health,0
+834,468,1239.0,591,,10,77,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+835,469,9892.0,1428,,25,104,,,nan,nan,nan,Good health,0
+836,470,10979.0,1260,,95,98,,,nan,nan,nan,Good health,0
+837,471,24076.0,1438,,28,98,,,nan,nan,nan,Good health,0
+838,472,22515.0,1025,,7,15,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+839,473,5100.0,632,,49,41,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+840,474,5457.0,698,,1,32,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+841,475,20537.0,1272,,12,61,,,nan,nan,nan,Good health,0
+842,476,18497.0,1264,,50,73,,,nan,nan,nan,Good health,0
+843,477,12306.0,572,,71,85,,,nan,nan,nan,Good health,0
+844,478,26414.0,614,,66,14,,,nan,nan,nan,Good health,0
+845,479,20934.0,1251,,37,9,,,nan,nan,nan,Good health,0
+846,480,2848.0,528,,57,123,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+847,481,2157.0,603,,62,106,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+848,482,26469.0,1250,,100,36,,,nan,nan,nan,Good health,0
+849,483,2774.0,719,,74,125,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+850,484,6489.0,462,,91,20,,,nan,nan,nan,Good health,0
+851,485,24571.0,1314,,86,38,,,nan,nan,nan,Good health,0
+852,486,7243.0,1282,,27,90,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+853,487,2003.0,1254,,54,105,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+854,488,12609.0,461,,10,9,,,nan,nan,nan,Good health,0
+855,489,257.0,1417,,47,119,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+856,490,3213.0,1064,,28,98,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+857,491,12904.0,917,,33,117,,,nan,nan,nan,Good health,0
+858,492,18234.0,560,,74,12,,,nan,nan,nan,Good health,0
+859,493,17006.0,1121,,99,25,,,nan,nan,nan,Good health,0
+860,494,9496.0,544,,21,120,,,nan,nan,nan,Good health,0
+861,495,14697.0,648,,55,38,,,nan,nan,nan,Good health,0
+862,496,16011.0,1135,,24,5,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+863,497,25830.0,460,,45,8,,,nan,nan,nan,Good health,0
+864,498,19165.0,1107,,14,33,,,nan,nan,nan,Good health,0
+865,499,23409.0,1112,,8,82,,,nan,nan,nan,Good health,0
+866,500,22259.0,764,,89,26,,,nan,nan,nan,Good health,0
+867,501,7118.0,420,,3,140,,,nan,nan,nan,Good health,0
+868,502,13862.0,872,,67,88,,,nan,nan,nan,Good health,0
+869,503,2741.0,1149,,57,49,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+870,504,12069.0,544,,96,98,,,nan,nan,nan,Good health,0
+871,505,7213.0,693,,86,125,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+872,506,8549.0,825,,25,28,,,nan,nan,nan,Good health,0
+873,507,19176.0,406,,15,15,,,nan,nan,nan,Good health,0
+874,508,25464.0,819,,63,119,,,nan,nan,nan,Good health,0
+875,509,5458.0,652,,50,86,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+876,510,14130.0,414,,32,31,,,nan,nan,nan,Good health,0
+877,511,6289.0,1000,,26,75,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+878,512,11747.0,1155,,82,32,,,nan,nan,nan,Good health,0
+879,513,3768.0,450,,5,99,,,nan,nan,nan,Good health,0
+880,514,2092.0,876,,27,75,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+881,515,23003.0,690,,79,31,,,nan,nan,nan,Good health,0
+882,516,905.0,782,,18,132,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+883,517,17229.0,1329,,13,48,,,nan,nan,nan,Good health,0
+884,518,14798.0,630,,25,9,,,nan,nan,nan,Good health,0
+885,519,24655.0,1376,,58,100,,,nan,nan,nan,Good health,0
+886,520,22181.0,1105,,48,113,,,nan,nan,nan,Good health,0
+887,521,6608.0,928,,46,95,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+888,522,3896.0,666,,69,48,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+889,523,16288.0,457,,19,116,,,nan,nan,nan,Good health,0
+890,524,13040.0,826,,13,91,,,nan,nan,nan,Good health,0
+891,525,8404.0,1141,,76,19,,,nan,nan,nan,Good health,0
+892,526,6790.0,1086,,62,11,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+893,527,21004.0,1369,,18,10,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+894,528,1379.0,999,,72,124,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+895,529,26130.0,1006,,51,65,,,nan,nan,nan,Good health,0
+896,530,7074.0,1069,,81,6,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+897,531,20428.0,776,,87,133,,,nan,nan,nan,Good health,0
+898,532,4795.0,565,,54,145,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+899,533,3428.0,610,,66,146,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+900,534,6487.0,1030,,63,55,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+901,535,15021.0,720,,86,58,,,nan,nan,nan,Good health,0
+902,536,12387.0,1171,,41,23,,,nan,nan,nan,Good health,0
+903,537,11850.0,700,,63,128,,,nan,nan,nan,Good health,0
+904,538,17904.0,656,,63,134,,,nan,nan,nan,Good health,0
+905,539,4958.0,856,,81,107,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+906,540,3432.0,1046,,85,129,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+907,541,19537.0,1441,,25,78,,,nan,nan,nan,Good health,0
+908,542,15987.0,897,,69,29,,,nan,nan,nan,Good health,0
+909,543,4862.0,884,,78,37,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+910,544,18478.0,776,,28,109,,,nan,nan,nan,Good health,0
+911,545,13300.0,996,,1,144,,,nan,nan,nan,Good health,0
+912,546,20917.0,1162,,43,108,,,nan,nan,nan,Good health,0
+913,547,22279.0,1259,,90,21,,,nan,nan,nan,Good health,0
+914,548,13868.0,494,,95,26,,,nan,nan,nan,Good health,0
+915,549,17079.0,670,,40,106,,,nan,nan,nan,Good health,0
+916,550,16233.0,442,,41,16,,,nan,nan,nan,Good health,0
+917,551,22259.0,1206,,4,25,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+918,552,10566.0,559,,67,106,,,nan,nan,nan,Good health,0
+919,553,16332.0,549,,18,39,,,nan,nan,nan,Good health,0
+920,554,16339.0,670,,32,7,,,nan,nan,nan,Good health,0
+921,555,20809.0,1260,,77,114,,,nan,nan,nan,Good health,0
+922,556,21956.0,1013,,100,110,,,nan,nan,nan,Good health,0
+923,557,6618.0,1253,,19,106,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+924,558,17786.0,691,,48,7,,,nan,nan,nan,Good health,0
+925,559,19980.0,1264,,74,127,,,nan,nan,nan,Good health,0
+926,560,7168.0,1010,,37,83,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+927,561,318.0,1126,,91,64,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+928,562,11148.0,573,,90,20,,,nan,nan,nan,Good health,0
+929,563,23120.0,908,,60,90,,,nan,nan,nan,Good health,0
+930,564,24478.0,1310,,8,18,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+931,565,10428.0,1156,,10,31,,,nan,nan,nan,Good health,0
+932,566,10545.0,518,,66,91,,,nan,nan,nan,Good health,0
+933,567,1162.0,1170,,5,7,,,Cardiovascular disease,Metabolic syndrome,Type II Diabetes,"Cardiovascular Disease, Metabolic Syndrome, Type II Diabetes ","1, 2, 3"
+934,568,17206.0,1236,,8,88,,,nan,nan,nan,Good health,0
+935,569,4861.0,417,,28,89,,,nan,nan,nan,Good health,0
+936,570,8417.0,1254,,16,45,,,nan,nan,nan,Good health,0
+937,571,19745.0,1056,,5,2,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+938,572,25695.0,1303,,38,59,,,nan,nan,nan,Good health,0
+939,573,5108.0,817,,1,93,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+940,574,12419.0,1161,,97,18,,,nan,nan,nan,Good health,0
+941,575,19102.0,1000,,57,36,,,nan,nan,nan,Good health,0
+942,576,9646.0,1364,,42,53,,,nan,nan,nan,Good health,0
+943,577,23531.0,586,,20,0,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+944,578,23146.0,779,,19,52,,,nan,nan,nan,Good health,0
+945,579,26445.0,622,,83,31,,,nan,nan,nan,Good health,0
+946,580,15415.0,967,,58,1,,,nan,nan,nan,Good health,0
+947,581,2174.0,629,,47,75,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+948,582,26212.0,715,,64,94,,,nan,nan,nan,Good health,0
+949,583,2773.0,1313,,48,6,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+950,584,16925.0,1216,,67,59,,,nan,nan,nan,Good health,0
+951,585,1291.0,779,,64,36,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+952,586,2174.0,1263,,4,47,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+953,587,7375.0,1284,,73,116,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+954,588,4276.0,757,,11,28,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+955,589,1331.0,907,,86,122,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+956,590,9845.0,1328,,66,88,,,nan,nan,nan,Good health,0
+957,591,500.0,1097,,97,66,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+958,592,24867.0,691,,76,33,,,nan,nan,nan,Good health,0
+959,593,14699.0,1127,,9,7,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+960,594,10832.0,1347,,95,53,,,nan,nan,nan,Good health,0
+961,595,5265.0,577,,54,92,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+962,596,26235.0,1389,,96,85,,,nan,nan,nan,Good health,0
+963,597,4876.0,817,,26,121,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+964,598,21498.0,1003,,37,74,,,nan,nan,nan,Good health,0
+965,599,15097.0,403,,68,75,,,nan,nan,nan,Good health,0
+966,600,12167.0,1319,,76,141,,,nan,nan,nan,Good health,0
+967,601,16547.0,1346,,53,83,,,nan,nan,nan,Good health,0
+968,602,12524.0,415,,61,47,,,nan,nan,nan,Good health,0
+969,603,17360.0,847,,49,20,,,nan,nan,nan,Good health,0
+970,604,16463.0,1011,,77,26,,,nan,nan,nan,Good health,0
+971,605,1101.0,634,,75,136,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+972,606,18804.0,1016,,29,148,,,nan,nan,nan,Good health,0
+973,607,2970.0,719,,2,78,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+974,608,22235.0,1268,,84,40,,,nan,nan,nan,Good health,0
+975,609,26022.0,1365,,0,96,,,nan,nan,nan,Good health,0
+976,610,26381.0,589,,94,37,,,nan,nan,nan,Good health,0
+977,611,16973.0,1419,,23,32,,,nan,nan,nan,Good health,0
+978,612,24833.0,875,,38,57,,,nan,nan,nan,Good health,0
+979,613,19665.0,1230,,64,80,,,nan,nan,nan,Good health,0
+980,614,2502.0,973,,72,130,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+981,615,24476.0,444,,32,62,,,nan,nan,nan,Good health,0
+982,616,13971.0,647,,42,60,,,nan,nan,nan,Good health,0
+983,617,24727.0,953,,8,47,,,nan,nan,nan,Good health,0
+984,618,6753.0,483,,63,74,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+985,619,9491.0,400,,33,95,,,nan,nan,nan,Good health,0
+986,620,17544.0,925,,38,107,,,nan,nan,nan,Good health,0
+987,621,19615.0,1215,,98,11,,,nan,nan,nan,Good health,0
+988,622,13691.0,1211,,52,33,,,nan,nan,nan,Good health,0
+989,623,15801.0,1310,,49,5,,,nan,nan,nan,Good health,0
+990,624,25920.0,608,,49,100,,,nan,nan,nan,Good health,0
+991,625,12732.0,917,,7,19,,,Cardiovascular disease,nan,nan,"Cardiovascular Disease, ","1, "
+992,626,19904.0,1124,,20,18,,,nan,nan,nan,Good health,0
+993,627,19214.0,980,,82,33,,,nan,nan,nan,Good health,0
+994,628,7653.0,801,,16,107,,,nan,nan,nan,Good health,0
+995,629,26150.0,574,,30,76,,,nan,nan,nan,Good health,0
+996,630,671.0,472,,36,140,,,nan,nan,nan,Good health,0
+997,631,21528.0,544,,93,106,,,nan,nan,nan,Good health,0
+998,632,7.0,937,,42,36,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+999,633,24272.0,1025,,7,108,,,nan,nan,nan,Good health,0
+1000,634,5962.0,1096,,4,76,,,nan,Metabolic syndrome,nan,"Metabolic Syndrome, ","2, "
+1001,635,9910.0,642,,61,90,,,nan,nan,nan,Good health,0
