@@ -79,10 +79,18 @@ def create_labels(df):
 
 
 if __name__ == "__main__":
-    individual_data = pd.read_csv("individual_data.csv")
+    data_type = input("Would you like to use provided or custom individual data? Enter provided or custom.")
+    if data_type == "provided":
+        individual_data = pd.read_csv("individual_data.csv")
+    if data_type == "custom":
+        individual_data = pd.read_csv("customIndividual.csv")
     label_cardiovascular_disease(individual_data)
     label_metabolic_syndrome(individual_data)
     label_diabetes(individual_data)
     label_health_risks(individual_data)
     create_labels(individual_data)
-    individual_data.to_csv("individual_data.csv")
+    if data_type == "provided":
+        individual_data.to_csv("individual_data.csv")
+    if data_type == "custom":
+        individual_data.to_csv("customIndividual.csv")
+    # individual_data.to_csv("individual_data.csv")
