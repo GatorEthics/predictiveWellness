@@ -8,11 +8,8 @@ def label_cardiovascular_disease(df):
     """Label cardiovascular disease risk based on physical activity and hours sitting."""
     df.CD = df.CD.astype(str)
     for i, j in df.iterrows():
-        physical_activity = (
-            j["Minutes_moderate_activity"] + j["Minutes_intense_activity"]
-        )
         hours_sitting = j["Minutes_sitting"] / 60
-        if physical_activity < 30 and hours_sitting > 8:
+        if j["Minutes_physical_activity"] < 30 and hours_sitting > 8:
             df.at[i, "CD"] = "Cardiovascular disease"
 
             # and j["BP"] >= 130 and j["HR"] >= 80
@@ -32,10 +29,7 @@ def label_diabetes(df):
     """Label type II diabetes risk based on physical activity and daily steps."""
     df.Diabetes = df.Diabetes.astype(str)
     for i, j in df.iterrows():
-        physical_activity = (
-            j["Minutes_moderate_activity"] + j["Minutes_intense_activity"]
-        )
-        if physical_activity < 30 and j["Steps"] < 7500:
+        if j["Minutes_physical_activity"] < 30 and j["Steps"] < 7500:
             df.at[i, "Diabetes"] = "Type II Diabetes"
             # and j["BP"] >= 120
 

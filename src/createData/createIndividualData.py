@@ -95,4 +95,3 @@ if __name__ == "__main__":
     create_heart_rate(individual_data)
     create_blood_pressure(individual_data)
     individual_data.to_csv("individual_data.csv")
-
