@@ -1,4 +1,4 @@
-"""A program to create fake data for an individual using Faker Python Plugin."""
+"""A program to create fake data for an individual using Faker Python Package."""
 
 from faker import Faker
 from faker.providers import python
@@ -19,80 +19,80 @@ def randomize_int(min, max, increments, amount):
     return integer_list
 
 
-def create_heart_rate(df2):
+def create_steps(df):
+    min = 0
+    max = 26500
+    increments = 1
+    amount = 1000
+    integer_list = randomize_int(min, max, increments, amount)
+    steps_array = np.array(integer_list)
+    df["Steps"] = steps_array
+
+
+def create_minutes_sitting(df):
+    min = 400
+    max = 1450
+    increments = 1
+    amount = 1000
+    integer_list = randomize_int(min, max, increments, amount)
+    sitting_array = np.array(integer_list)
+    df["Minutes_sitting"] = sitting_array
+
+
+def create_moderate_activity():
+    min = 0
+    max = 100
+    increments = 1
+    amount = 1000
+    moderate_list = randomize_int(min, max, increments, amount)
+    return moderate_list
+
+
+def create_intense_activity():
+    min = 0
+    max = 150
+    increments = 1
+    amount = 1000
+    intense_list = randomize_int(min, max, increments, amount)
+    return intense_list
+
+
+def create_activity_minutes(df):
+    activity_list = []
+    moderate_activity_list = create_moderate_activity()
+    intense_activity_list = create_intense_activity()
+    for i in range(0, len(moderate_activity_list)):
+        activity_list.append(moderate_activity_list[i] + intense_activity_list[i])
+    activity_array = np.array(activity_list)
+    df["Minutes_activity"] = activity_array
+
+
+def create_heart_rate(df):
     min = 50
     max = 110
     increments = 1
     amount = 1000
     integer_list = randomize_int(min, max, increments, amount)
     heart_rate_array = np.array(integer_list)
-    df2["HR"] = heart_rate_array
+    df["HR"] = heart_rate_array
 
 
-def create_blood_pressure(df2):
+def create_blood_pressure(df):
     min = 110
     max = 145
     increments = 1
     amount = 1000
     integer_list = randomize_int(min, max, increments, amount)
     blood_pressure_array = np.array(integer_list)
-    df2["BP"] = blood_pressure_array
-
-
-def create_more_steps(df2):
-    min = 0
-    max = 26500
-    increments = 1
-    amount = 636
-    integer_list = randomize_int(min, max, increments, amount)
-    steps_array = np.array(integer_list)
-    df2["Steps"] = steps_array
-
-
-def create_minutes_sitting(df2):
-    min = 400
-    max = 1450
-    increments = 1
-    amount = 636
-    integer_list = randomize_int(min, max, increments, amount)
-    sitting_array = np.array(integer_list)
-    df2["Minutes_sitting"] = sitting_array
-
-
-def create_moderate_activity(df2):
-    min = 0
-    max = 100
-    increments = 1
-    amount = 636
-    integer_list = randomize_int(min, max, increments, amount)
-    moderate_array = np.array(integer_list)
-    df2["Minutes_moderate_activity"] = moderate_array
-
-
-def create_intense_activity(df2):
-    min = 0
-    max = 150
-    increments = 1
-    amount = 636
-    integer_list = randomize_int(min, max, increments, amount)
-    intense_array = np.array(integer_list)
-    df2["Minutes_intense_activity"] = intense_array
-
-
-def combine_data(df1, df2):
-    frames = [df1, df2]
-    result = pd.concat(frames)
-    return result
+    df["BP"] = blood_pressure_array
 
 
 if __name__ == "__main__":
-    fitbit_data = pd.read_csv("datasetAccess/FitBitData.csv")
-    fitbit_data2 = pd.read_csv("datasetAccess/FitBitData2.csv")
-    create_more_steps(fitbit_data2)
-    create_minutes_sitting(fitbit_data2)
-    create_moderate_activity(fitbit_data2)
-    create_intense_activity(fitbit_data2)
-    create_heart_rate(fitbit_data2)
-    create_blood_pressure(fitbit_data2)
-    individual_data = combine_data(fitbit_data, fitbit_data2)
+    individual_data = pd.read_csv("individual_data.csv")
+    create_steps(individual_data)
+    create_minutes_sitting(individual_data)
+    create_activity_minutes(individual_data)
+    create_heart_rate(individual_data)
+    create_blood_pressure(individual_data)
     individual_data.to_csv("individual_data.csv")
+
