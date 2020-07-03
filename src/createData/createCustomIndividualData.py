@@ -9,16 +9,16 @@ fake = Faker()
 fake.add_provider(python)
 
 
-def get_individual_information():
-    age = int(input("Please enter your age: "))
-    if age < 1 or age > 110:
-        print("You entered an invalid age.")
-        age = input("Please enter your age: ")
-    activity_level = int(input("Please enter your physical activity level on a scale from 1 to 5: "))
-    if activity_level > 5 or activity_level < 1:
-        print("You entered an invalid activity level.")
-        activity_level = input("Please enter your physical activity level on a scale from 1 to 5: ")
-    return age, activity_level
+# def get_individual_information():
+age = int(input("Please enter your age: "))
+if age < 1 or age > 110:
+    print("You entered an invalid age.")
+    age = input("Please enter your age: ")
+activity_level = int(input("Please enter your physical activity level on a scale from 1 to 5: "))
+if activity_level > 5 or activity_level < 1:
+    print("You entered an invalid activity level.")
+    activity_level = input("Please enter your physical activity level on a scale from 1 to 5: ")
+# return age, activity_level
 
 
 def randomize_int(min, max, increments, amount):
@@ -32,7 +32,7 @@ def randomize_int(min, max, increments, amount):
 
 
 def create_steps(df):
-    age, activity_level = get_individual_information()
+    # age, activity_level = get_individual_information()
     # Steps for sedentary lifestyle
     if activity_level == 1:
         min = 0
@@ -81,7 +81,7 @@ def create_steps(df):
 
 
 def create_minutes_sitting(df):
-    age, activity_level = get_individual_information()
+    # age, activity_level = get_individual_information()
     # Minutes sitting for sedentary lifestyle
     if activity_level == 1:
         min = 660
@@ -130,7 +130,7 @@ def create_minutes_sitting(df):
 
 
 def create_activity_minutes(df):
-    age, activity_level = get_individual_information()
+    # age, activity_level = get_individual_information()
     # physical activity for school-aged children and adolescents (6-17)
     if 6 < age < 17:
         if 3 < activity_level < 5:
@@ -178,8 +178,8 @@ def create_activity_minutes(df):
 # def create_blood_pressure(df):
 
 if __name__ == "__main__":
-    custom_individual = pd.read_csv("datasetAccess/customIndividual.csv")
-    get_individual_information()
+    custom_individual = pd.read_csv("customIndividual.csv")
+    # get_individual_information()
     create_steps(custom_individual)
     create_minutes_sitting(custom_individual)
     create_activity_minutes(custom_individual)
