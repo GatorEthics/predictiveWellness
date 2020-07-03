@@ -64,7 +64,7 @@ def create_activity_minutes(df):
     for i in range(0, len(moderate_activity_list)):
         activity_list.append(moderate_activity_list[i] + intense_activity_list[i])
     activity_array = np.array(activity_list)
-    df["Minutes_activity"] = activity_array
+    df["Minutes_physical_activity"] = activity_array
 
 
 def create_heart_rate(df):

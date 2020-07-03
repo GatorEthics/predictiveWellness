@@ -5,21 +5,22 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
 
-individual_data = pd.read_csv("individual_data.csv")
+individual_data = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/createData/individual_data.csv")
 
+feature_columns = ["Steps", "Minutes_sitting", "Minutes_physical_activity"]
 
-feature_columns = ["Steps", "Minutes_sitting", "Minutes_moderate_activity", "Minutes_intense_activity"]
+print(individual_data[feature_columns])
 
-independent = individual_data[feature_columns]
+# independent = individual_data[feature_columns]
 
-dependent = individual_data.label
+# dependent = individual_data.label
 
-independent_train, independent_test, dependent_train, dependent_test = train_test_split(independent, dependent, test_size = 0.3)
+# independent_train, independent_test, dependent_train, dependent_test = train_test_split(independent, dependent, test_size = 0.3)
 
-classifier = DecisionTreeClassifier()
+# classifier = DecisionTreeClassifier()
 
-classifier = classifier.fit(independent_train, dependent_train)
+# classifier = classifier.fit(independent_train, dependent_train)
 
-dependent_prediction = classifier.predict(independent_test)
+# dependent_prediction = classifier.predict(independent_test)
 
-print("Accuracy: ",metrics.accuracy_score(dependent_test, dependent_prediction))
+# print("Accuracy: ", metrics.accuracy_score(dependent_test, dependent_prediction))
