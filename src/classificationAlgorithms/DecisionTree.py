@@ -1,7 +1,6 @@
 """A program for decision tree classification with individual health data."""
 
 import pandas as pd
-import numpy as np
 from sklearn.metrics import confusion_matrix
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
@@ -21,15 +20,16 @@ def import_data():
 
 def split_dataset(individual_data):
     # Define features and target variable
-    feature_columns = ["Steps", "Minutes_sitting", "Minutes_physical_activity"]
-    target_column = ["Health"]
+    # feature_columns = ["Steps", "Minutes_sitting", "Minutes_physical_activity", "HR", "BP"]
+    # target_column = ["Health"]
 
     # Separate the dataset based on attributes and the target variable
     # X contains attributes
     # Y contains target variable
-    X = individual_data[feature_columns].values
-    Y = individual_data[target_column].values
-
+    # X = individual_data[feature_columns].values
+    # Y = individual_data[target_column].values
+    X = individual_data.drop("Health", axis=1)
+    Y = individual_data["Health"]
     # Split the dataset for training and testing purposes
     # Ratio of training to testing is 70:30, this can be changed with test_size
     x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.3, random_state=100)
