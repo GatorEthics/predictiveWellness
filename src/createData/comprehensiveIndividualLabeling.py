@@ -37,20 +37,20 @@ def label_metabolic_syndrome(df):
 def label_health_risks(df):
     """Determine health risks based on labels, or lack of labels."""
     df.Health = df.Health.astype(str)
-    health = " "
+    health = -1
     for i, j in df.iterrows():
         # if j["CD"] != "nan":
         #     health = health + "Cardiovascular Disease, "
         if j["MS"] != "nan":
-            health = health + "Metabolic Syndrome"
+            health = 1
         # if j["Diabetes"] != "nan":
         #     health = health + "Type II Diabetes "
         # if j["CD"] == "nan" and j["MS"] == "nan" and j["Diabetes"] == "nan":
         #     health = "Good health"
         if j["MS"] == "nan":
-            health = "Good Health"
+            health = 0
         df.at[i, "Health"] = health
-        health = ""
+        health = -1
 
 
 # def create_labels(df):
