@@ -86,7 +86,7 @@ def main(individual_data):
     # label_diabetes(individual_data)
     label_health_risks(individual_data)
     # create_labels(individual_data)
-    individual_data.to_csv("customIndividual.csv", index=False)
+    individual_data.to_csv("customIndividual.csv")
     # individual_data.to_csv("individual_data.csv")
 
 
