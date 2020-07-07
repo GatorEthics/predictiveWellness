@@ -1,6 +1,7 @@
 """A program to determine health risks with fitness data."""
 
 import pandas as pd
+import numpy as np
 from pymed import PubMed
 
 
@@ -13,6 +14,10 @@ from pymed import PubMed
 #             df.at[i, "CD"] = "Cardiovascular disease"
 
 #             # and j["BP"] >= 130 and j["HR"] >= 80
+
+def add_columns(df):
+    df["MS"] = ""
+    df["Health"] = ""
 
 
 def label_metabolic_syndrome(df):
@@ -47,7 +52,7 @@ def label_health_risks(df):
         #     health = health + "Type II Diabetes "
         # if j["CD"] == "nan" and j["MS"] == "nan" and j["Diabetes"] == "nan":
         #     health = "Good health"
-        if j["MS"] == "nan":
+        if j["MS"] == "":
             health = 0
         df.at[i, "Health"] = health
         health = -1
@@ -73,28 +78,15 @@ def label_health_risks(df):
 #         df.at[i, "Labels"] = labels
 #         labels = ""
 
-def remove_columns(df):
-    df.drop(["MS"], axis=1)
-    # if(df)
-
 
 def main(individual_data):
-    # data_type = input("Would you like to use provided or custom individual data? Enter provided or custom.")
-    # if data_type == "provided":
-    #     individual_data = pd.read_csv("individual_data.csv")
-    # if data_type == "custom":
-    #     individual_data = pd.read_csv("customIndividual.csv")
+    add_columns(individual_data)
     # # label_cardiovascular_disease(individual_data)
     label_metabolic_syndrome(individual_data)
     # label_diabetes(individual_data)
     label_health_risks(individual_data)
-    remove_columns(individual_data)
     # create_labels(individual_data)
-    # if data_type == "provided":
-    #     individual_data.to_csv("individual_data.csv")
-    # if data_type == "custom":
-    #     individual_data.to_csv("customIndividual.csv")
-    individual_data.to_csv("customIndividual.csv")
+    individual_data.to_csv("customIndividual.csv", index=False)
     # individual_data.to_csv("individual_data.csv")
 
 
