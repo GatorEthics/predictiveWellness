@@ -1,6 +1,7 @@
 import streamlit as st
-import classificationAlgorithms.SupportVectorMachine as svm
 import custom_individual as custom_individual
+import createData.comprehensiveIndividualLabeling as label
+import classificationAlgorithms.SupportVectorMachine as svm
 
 
 def individual_setup():
@@ -28,7 +29,26 @@ def individual_setup():
 
 
 def create_custom_individual(age, activity_level):
-    custom_individual.main(age, activity_level)
+    # Create individual data and print dataframe
+    data = custom_individual.main(age, activity_level)
+    st.dataframe(data)
+    return data
+
+
+def label_custom_individual(data):
+    label.main(data)
+    st.dataframe(data)
+
+
+def custom_individual_classification(data):
+    classification = st.multiselect(
+        "Please select preferred classification",
+        [
+            "Naive Bayes Classification",
+            "Support Vector Machine Classification",
+            "Decision Tree Classification"
+        ]
+    )
 
 
 def setup():
@@ -55,7 +75,10 @@ def setup():
             st.markdown(classification.read())
     if menu == "Individual Health Analysis":
         age, weight, height, activity_level, bmi = individual_setup()
-        create_custom_individual(age, activity_level)
+        data = create_custom_individual(age, activity_level)
+        label_custom_individual(data)
+        
+
     if menu == "Community Health Analysis":
         st.write("Comming Soon!")
 
