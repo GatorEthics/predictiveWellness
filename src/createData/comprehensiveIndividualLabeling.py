@@ -15,6 +15,7 @@ def label_cardiovascular_disease(df):
 
             # and j["BP"] >= 130 and j["HR"] >= 80
 
+
 def add_columns(df):
     df["CD"] = ""
     df["MS"] = ""
@@ -58,25 +59,8 @@ def label_health_risks(df):
         health = 0
 
 
-# def create_labels(df):
-#     """Label data with corresponding 0,1,2 for machine learning."""
-#     # Good Health: 0
-#     # Cardiovascular disease risk: 1
-#     # Metabolic syndrome risk: 2
-#     # Type II diabetes risk: 3
-#     df.Labels = df.Labels.astype(str)
-#     labels = ""
-#     for i, j in df.iterrows():
-#         if j["CD"] != "nan":
-#             labels = labels + "1, "
-#         if j["MS"] != "nan":
-#             labels = labels + "2, "
-#         if j["Diabetes"] != "nan":
-#             labels = labels + "3"
-#         if j["CD"] == "nan" and j["MS"] == "nan" and j["Diabetes"] == "nan":
-#             labels = "0"
-#         df.at[i, "Labels"] = labels
-#         labels = ""
+def remove_columns(df):
+    df.drop(["CD", "MS", "Diabetes"], axis=1)
 
 
 def main(individual_data):
@@ -85,10 +69,10 @@ def main(individual_data):
     label_metabolic_syndrome(individual_data)
     label_diabetes(individual_data)
     label_health_risks(individual_data)
-    # create_labels(individual_data)
+    remove_columns(individual_data)
     individual_data.to_csv("customIndividual.csv")
-    # individual_data.to_csv("individual_data.csv")
 
 
 if __name__ == "__main__":
-    main()
+    data = individual_data = pd.read_csv("customIndividual.csv")
+    main(data)
