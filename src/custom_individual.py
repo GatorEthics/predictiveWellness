@@ -9,6 +9,10 @@ fake = Faker()
 fake.add_provider(python)
 
 
+def reset_dataframe(df):
+    df.drop(df.index, inplace=True)
+
+
 def get_individual_information():
     age = int(input("Please enter your age: "))
     if age < 1 or age > 110:
@@ -178,7 +182,8 @@ def create_activity_minutes(df, age, activity_level):
 # def create_blood_pressure(df):
 
 def main(age, activity_level):
-    custom_individual = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/createData/customIndividual.csv")
+    custom_individual = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/createData/customIndividual.csv", index_col=[0])
+    reset_dataframe(custom_individual)
     create_steps(custom_individual, activity_level)
     create_minutes_sitting(custom_individual, activity_level)
     create_activity_minutes(custom_individual, age, activity_level)

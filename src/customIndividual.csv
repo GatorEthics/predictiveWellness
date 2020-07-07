@@ -1,1001 +1,1001 @@
-,Unnamed: 0,Unnamed: 0.1,Unnamed: 0.1.1,Unnamed: 0.1.1.1,Steps,Minutes_sitting,Minutes_physical_activity,HR,BP,CD,MS,Diabetes,Health,Labels
-0,0,0,0,0,6577,578,22,,,,Metabolic syndrome,,1,
-1,1,1,1,1,6722,587,23,,,,Metabolic syndrome,,1,
-2,2,2,2,2,5165,490,11,,,,Metabolic syndrome,,1,
-3,3,3,3,3,6060,546,18,,,,Metabolic syndrome,,1,
-4,4,4,4,4,7094,610,26,,,,Metabolic syndrome,,1,
-5,5,5,5,5,6990,604,25,,,,Metabolic syndrome,,1,
-6,6,6,6,6,6658,583,22,,,,Metabolic syndrome,,1,
-7,7,7,7,7,6242,557,19,,,,Metabolic syndrome,,1,
-8,8,8,8,8,6952,602,25,,,,Metabolic syndrome,,1,
-9,9,9,9,9,6466,571,21,,,,Metabolic syndrome,,1,
-10,10,10,10,10,7389,629,28,,,,Metabolic syndrome,,1,
-11,11,11,11,11,5894,535,16,,,,Metabolic syndrome,,1,
-12,12,12,12,12,7067,609,26,,,,Metabolic syndrome,,1,
-13,13,13,13,13,5570,515,14,,,,Metabolic syndrome,,1,
-14,14,14,14,14,6154,552,19,,,,Metabolic syndrome,,1,
-15,15,15,15,15,5572,515,14,,,,Metabolic syndrome,,1,
-16,16,16,16,16,5388,504,13,,,,Metabolic syndrome,,1,
-17,17,17,17,17,6026,638,29,,,,Metabolic syndrome,,1,
-18,18,18,18,18,7181,544,18,,,,Metabolic syndrome,,1,
-19,19,19,19,19,7465,616,27,,,,Metabolic syndrome,,1,
-20,20,20,20,20,5601,660,29,,,,Metabolic syndrome,,1,
-21,21,21,21,21,6270,634,14,,,,Metabolic syndrome,,1,
-22,22,22,22,22,5404,517,19,,,,Metabolic syndrome,,1,
-23,23,23,23,23,5302,559,13,,,,Metabolic syndrome,,1,
-24,24,24,24,24,6352,505,12,,,,Metabolic syndrome,,1,
-25,25,25,25,25,6933,498,20,,,,Metabolic syndrome,,1,
-26,26,26,26,26,7292,655,25,,,,Metabolic syndrome,,1,
-27,27,27,27,27,5412,564,27,,,,Metabolic syndrome,,1,
-28,28,28,28,28,6449,600,13,,,,Metabolic syndrome,,1,
-29,29,29,29,29,6778,623,21,,,,Metabolic syndrome,,1,
-30,30,30,30,30,6295,505,23,,,,Metabolic syndrome,,1,
-31,31,31,31,31,5837,570,20,,,,Metabolic syndrome,,1,
-32,32,32,32,32,7263,591,29,,,,Metabolic syndrome,,1,
-33,33,33,33,33,6953,560,30,,,,Metabolic syndrome,,1,
-34,34,34,34,34,6813,636,16,,,,Metabolic syndrome,,1,
-35,35,35,35,35,7135,643,27,,,,Metabolic syndrome,,1,
-36,36,36,36,36,6066,532,25,,,,Metabolic syndrome,,1,
-37,37,37,37,37,5255,621,24,,,,Metabolic syndrome,,1,
-38,38,38,38,38,7247,602,26,,,,Metabolic syndrome,,1,
-39,39,39,39,39,5057,593,18,,,,Metabolic syndrome,,1,
-40,40,40,40,40,5382,613,11,,,,Metabolic syndrome,,1,
-41,41,41,41,41,6633,546,27,,,,Metabolic syndrome,,1,
-42,42,42,42,42,5004,495,10,,,,Metabolic syndrome,,1,
-43,43,43,43,43,7021,620,12,,,,Metabolic syndrome,,1,
-44,44,44,44,44,6364,483,22,,,,Metabolic syndrome,,1,
-45,45,45,45,45,5999,503,30,,,,Metabolic syndrome,,1,
-46,46,46,46,46,6332,582,10,,,,Metabolic syndrome,,1,
-47,47,47,47,47,5257,651,29,,,,Metabolic syndrome,,1,
-48,48,48,48,48,5782,640,25,,,,Metabolic syndrome,,1,
-49,49,49,49,49,7324,480,20,,,,nan,,0,
-50,50,50,50,50,5908,636,17,,,,Metabolic syndrome,,1,
-51,51,51,51,51,5977,606,20,,,,Metabolic syndrome,,1,
-52,52,52,52,52,5583,565,12,,,,Metabolic syndrome,,1,
-53,53,53,53,53,7224,542,16,,,,Metabolic syndrome,,1,
-54,54,54,54,54,6834,563,28,,,,Metabolic syndrome,,1,
-55,55,55,55,55,5373,660,17,,,,Metabolic syndrome,,1,
-56,56,56,56,56,5329,496,17,,,,Metabolic syndrome,,1,
-57,57,57,57,57,6310,528,14,,,,Metabolic syndrome,,1,
-58,58,58,58,58,7080,625,27,,,,Metabolic syndrome,,1,
-59,59,59,59,59,7004,536,24,,,,Metabolic syndrome,,1,
-60,60,60,60,60,5446,541,12,,,,Metabolic syndrome,,1,
-61,61,61,61,61,6234,516,12,,,,Metabolic syndrome,,1,
-62,62,62,62,62,7257,619,20,,,,Metabolic syndrome,,1,
-63,63,63,63,63,6192,594,26,,,,Metabolic syndrome,,1,
-64,64,64,64,64,5511,503,25,,,,Metabolic syndrome,,1,
-65,65,65,65,65,7242,500,13,,,,Metabolic syndrome,,1,
-66,66,66,66,66,6362,561,19,,,,Metabolic syndrome,,1,
-67,67,67,67,67,7213,610,27,,,,Metabolic syndrome,,1,
-68,68,68,68,68,5832,605,19,,,,Metabolic syndrome,,1,
-69,69,69,69,69,7470,507,13,,,,Metabolic syndrome,,1,
-70,70,70,70,70,7241,557,27,,,,Metabolic syndrome,,1,
-71,71,71,71,71,7406,621,20,,,,Metabolic syndrome,,1,
-72,72,72,72,72,6178,554,27,,,,Metabolic syndrome,,1,
-73,73,73,73,73,6822,660,16,,,,Metabolic syndrome,,1,
-74,74,74,74,74,5375,511,29,,,,Metabolic syndrome,,1,
-75,75,75,75,75,7442,620,27,,,,Metabolic syndrome,,1,
-76,76,76,76,76,6576,565,28,,,,Metabolic syndrome,,1,
-77,77,77,77,77,6298,618,19,,,,Metabolic syndrome,,1,
-78,78,78,78,78,7357,532,24,,,,Metabolic syndrome,,1,
-79,79,79,79,79,5991,634,12,,,,Metabolic syndrome,,1,
-80,80,80,80,80,6189,620,29,,,,Metabolic syndrome,,1,
-81,81,81,81,81,5753,630,22,,,,Metabolic syndrome,,1,
-82,82,82,82,82,5775,553,20,,,,Metabolic syndrome,,1,
-83,83,83,83,83,5764,593,28,,,,Metabolic syndrome,,1,
-84,84,84,84,84,5135,503,17,,,,Metabolic syndrome,,1,
-85,85,85,85,85,6065,632,19,,,,Metabolic syndrome,,1,
-86,86,86,86,86,6951,578,15,,,,Metabolic syndrome,,1,
-87,87,87,87,87,5282,561,16,,,,Metabolic syndrome,,1,
-88,88,88,88,88,5367,627,15,,,,Metabolic syndrome,,1,
-89,89,89,89,89,5533,541,11,,,,Metabolic syndrome,,1,
-90,90,90,90,90,5612,554,29,,,,Metabolic syndrome,,1,
-91,91,91,91,91,5158,527,18,,,,Metabolic syndrome,,1,
-92,92,92,92,92,5328,528,25,,,,Metabolic syndrome,,1,
-93,93,93,93,93,7214,527,12,,,,Metabolic syndrome,,1,
-94,94,94,94,94,6602,488,12,,,,Metabolic syndrome,,1,
-95,95,95,95,95,7148,636,14,,,,Metabolic syndrome,,1,
-96,96,96,96,96,6128,648,14,,,,Metabolic syndrome,,1,
-97,97,97,97,97,7137,546,11,,,,Metabolic syndrome,,1,
-98,98,98,98,98,5964,601,12,,,,Metabolic syndrome,,1,
-99,99,99,99,99,5881,497,27,,,,Metabolic syndrome,,1,
-100,100,100,100,100,7415,502,22,,,,Metabolic syndrome,,1,
-101,101,101,101,101,6717,653,26,,,,Metabolic syndrome,,1,
-102,102,102,102,102,7374,513,18,,,,Metabolic syndrome,,1,
-103,103,103,103,103,6127,518,26,,,,Metabolic syndrome,,1,
-104,104,104,104,104,6845,489,17,,,,Metabolic syndrome,,1,
-105,105,105,105,105,7017,500,16,,,,Metabolic syndrome,,1,
-106,106,106,106,106,6463,659,28,,,,Metabolic syndrome,,1,
-107,107,107,107,107,5337,618,23,,,,Metabolic syndrome,,1,
-108,108,108,108,108,6328,654,28,,,,Metabolic syndrome,,1,
-109,109,109,109,109,5472,580,18,,,,Metabolic syndrome,,1,
-110,110,110,110,110,6992,660,24,,,,Metabolic syndrome,,1,
-111,111,111,111,111,7404,614,25,,,,Metabolic syndrome,,1,
-112,112,112,112,112,6373,550,30,,,,Metabolic syndrome,,1,
-113,113,113,113,113,5779,613,21,,,,Metabolic syndrome,,1,
-114,114,114,114,114,5995,540,12,,,,Metabolic syndrome,,1,
-115,115,115,115,115,5066,535,20,,,,Metabolic syndrome,,1,
-116,116,116,116,116,6110,653,29,,,,Metabolic syndrome,,1,
-117,117,117,117,117,5479,630,13,,,,Metabolic syndrome,,1,
-118,118,118,118,118,5903,587,25,,,,Metabolic syndrome,,1,
-119,119,119,119,119,6523,628,28,,,,Metabolic syndrome,,1,
-120,120,120,120,120,5698,550,30,,,,Metabolic syndrome,,1,
-121,121,121,121,121,6362,595,20,,,,Metabolic syndrome,,1,
-122,122,122,122,122,6745,606,16,,,,Metabolic syndrome,,1,
-123,123,123,123,123,5254,649,17,,,,Metabolic syndrome,,1,
-124,124,124,124,124,5412,644,10,,,,Metabolic syndrome,,1,
-125,125,125,125,125,5599,659,18,,,,Metabolic syndrome,,1,
-126,126,126,126,126,5896,571,13,,,,Metabolic syndrome,,1,
-127,127,127,127,127,5185,501,17,,,,Metabolic syndrome,,1,
-128,128,128,128,128,7350,563,21,,,,Metabolic syndrome,,1,
-129,129,129,129,129,7188,636,15,,,,Metabolic syndrome,,1,
-130,130,130,130,130,7466,509,20,,,,Metabolic syndrome,,1,
-131,131,131,131,131,5303,604,23,,,,Metabolic syndrome,,1,
-132,132,132,132,132,5109,630,11,,,,Metabolic syndrome,,1,
-133,133,133,133,133,5509,641,13,,,,Metabolic syndrome,,1,
-134,134,134,134,134,5772,565,14,,,,Metabolic syndrome,,1,
-135,135,135,135,135,7483,528,17,,,,Metabolic syndrome,,1,
-136,136,136,136,136,7359,542,11,,,,Metabolic syndrome,,1,
-137,137,137,137,137,5490,484,28,,,,Metabolic syndrome,,1,
-138,138,138,138,138,6602,549,30,,,,Metabolic syndrome,,1,
-139,139,139,139,139,5374,509,27,,,,Metabolic syndrome,,1,
-140,140,140,140,140,6516,660,29,,,,Metabolic syndrome,,1,
-141,141,141,141,141,5475,536,12,,,,Metabolic syndrome,,1,
-142,142,142,142,142,5149,575,10,,,,Metabolic syndrome,,1,
-143,143,143,143,143,7480,523,13,,,,Metabolic syndrome,,1,
-144,144,144,144,144,5088,565,30,,,,Metabolic syndrome,,1,
-145,145,145,145,145,5797,589,16,,,,Metabolic syndrome,,1,
-146,146,146,146,146,5757,495,29,,,,Metabolic syndrome,,1,
-147,147,147,147,147,5507,505,28,,,,Metabolic syndrome,,1,
-148,148,148,148,148,6962,517,13,,,,Metabolic syndrome,,1,
-149,149,149,149,149,5862,658,22,,,,Metabolic syndrome,,1,
-150,150,150,150,150,5250,536,12,,,,Metabolic syndrome,,1,
-151,151,151,151,151,5093,491,21,,,,Metabolic syndrome,,1,
-152,152,152,152,152,7229,626,13,,,,Metabolic syndrome,,1,
-153,153,153,153,153,6743,642,11,,,,Metabolic syndrome,,1,
-154,154,154,154,154,5415,616,29,,,,Metabolic syndrome,,1,
-155,155,155,155,155,6064,634,10,,,,Metabolic syndrome,,1,
-156,156,156,156,156,5286,654,16,,,,Metabolic syndrome,,1,
-157,157,157,157,157,5904,498,15,,,,Metabolic syndrome,,1,
-158,158,158,158,158,5294,486,13,,,,Metabolic syndrome,,1,
-159,159,159,159,159,6233,511,25,,,,Metabolic syndrome,,1,
-160,160,160,160,160,6434,642,16,,,,Metabolic syndrome,,1,
-161,161,161,161,161,6786,528,11,,,,Metabolic syndrome,,1,
-162,162,162,162,162,5738,635,10,,,,Metabolic syndrome,,1,
-163,163,163,163,163,5250,627,27,,,,Metabolic syndrome,,1,
-164,164,164,164,164,7062,510,23,,,,Metabolic syndrome,,1,
-165,165,165,165,165,6913,580,29,,,,Metabolic syndrome,,1,
-166,166,166,166,166,5161,503,13,,,,Metabolic syndrome,,1,
-167,167,167,167,167,7443,574,18,,,,Metabolic syndrome,,1,
-168,168,168,168,168,5413,509,12,,,,Metabolic syndrome,,1,
-169,169,169,169,169,6602,489,17,,,,Metabolic syndrome,,1,
-170,170,170,170,170,5816,635,12,,,,Metabolic syndrome,,1,
-171,171,171,171,171,6065,485,30,,,,Metabolic syndrome,,1,
-172,172,172,172,172,6468,529,19,,,,Metabolic syndrome,,1,
-173,173,173,173,173,6926,527,21,,,,Metabolic syndrome,,1,
-174,174,174,174,174,7333,511,23,,,,Metabolic syndrome,,1,
-175,175,175,175,175,5693,602,15,,,,Metabolic syndrome,,1,
-176,176,176,176,176,5833,533,11,,,,Metabolic syndrome,,1,
-177,177,177,177,177,5237,495,26,,,,Metabolic syndrome,,1,
-178,178,178,178,178,5648,653,24,,,,Metabolic syndrome,,1,
-179,179,179,179,179,5663,485,11,,,,Metabolic syndrome,,1,
-180,180,180,180,180,6402,619,29,,,,Metabolic syndrome,,1,
-181,181,181,181,181,7168,588,13,,,,Metabolic syndrome,,1,
-182,182,182,182,182,6026,638,22,,,,Metabolic syndrome,,1,
-183,183,183,183,183,5480,505,16,,,,Metabolic syndrome,,1,
-184,184,184,184,184,7444,546,18,,,,Metabolic syndrome,,1,
-185,185,185,185,185,6811,497,21,,,,Metabolic syndrome,,1,
-186,186,186,186,186,5716,536,25,,,,Metabolic syndrome,,1,
-187,187,187,187,187,5054,498,28,,,,Metabolic syndrome,,1,
-188,188,188,188,188,6931,645,15,,,,Metabolic syndrome,,1,
-189,189,189,189,189,6678,557,16,,,,Metabolic syndrome,,1,
-190,190,190,190,190,7331,569,11,,,,Metabolic syndrome,,1,
-191,191,191,191,191,7083,591,15,,,,Metabolic syndrome,,1,
-192,192,192,192,192,6275,526,15,,,,Metabolic syndrome,,1,
-193,193,193,193,193,6462,495,20,,,,Metabolic syndrome,,1,
-194,194,194,194,194,6591,608,26,,,,Metabolic syndrome,,1,
-195,195,195,195,195,6027,599,18,,,,Metabolic syndrome,,1,
-196,196,196,196,196,5628,490,13,,,,Metabolic syndrome,,1,
-197,197,197,197,197,7296,632,29,,,,Metabolic syndrome,,1,
-198,198,198,198,198,5050,505,24,,,,Metabolic syndrome,,1,
-199,199,199,199,199,6875,659,15,,,,Metabolic syndrome,,1,
-200,200,200,200,200,5323,580,10,,,,Metabolic syndrome,,1,
-201,201,201,201,201,6375,531,25,,,,Metabolic syndrome,,1,
-202,202,202,202,202,5187,546,23,,,,Metabolic syndrome,,1,
-203,203,203,203,203,7229,571,28,,,,Metabolic syndrome,,1,
-204,204,204,204,204,6150,600,26,,,,Metabolic syndrome,,1,
-205,205,205,205,205,5552,625,19,,,,Metabolic syndrome,,1,
-206,206,206,206,206,5983,523,30,,,,Metabolic syndrome,,1,
-207,207,207,207,207,6973,658,21,,,,Metabolic syndrome,,1,
-208,208,208,208,208,6442,652,22,,,,Metabolic syndrome,,1,
-209,209,209,209,209,7499,532,18,,,,Metabolic syndrome,,1,
-210,210,210,210,210,6179,494,14,,,,Metabolic syndrome,,1,
-211,211,211,211,211,6471,653,27,,,,Metabolic syndrome,,1,
-212,212,212,212,212,7417,520,10,,,,Metabolic syndrome,,1,
-213,213,213,213,213,5542,521,24,,,,Metabolic syndrome,,1,
-214,214,214,214,214,6270,567,12,,,,Metabolic syndrome,,1,
-215,215,215,215,215,6589,615,20,,,,Metabolic syndrome,,1,
-216,216,216,216,216,6697,544,11,,,,Metabolic syndrome,,1,
-217,217,217,217,217,5330,510,27,,,,Metabolic syndrome,,1,
-218,218,218,218,218,5006,632,18,,,,Metabolic syndrome,,1,
-219,219,219,219,219,7435,593,14,,,,Metabolic syndrome,,1,
-220,220,220,220,220,5787,650,17,,,,Metabolic syndrome,,1,
-221,221,221,221,221,6369,524,25,,,,Metabolic syndrome,,1,
-222,222,222,222,222,5655,483,21,,,,Metabolic syndrome,,1,
-223,223,223,223,223,5980,600,29,,,,Metabolic syndrome,,1,
-224,224,224,224,224,5913,654,19,,,,Metabolic syndrome,,1,
-225,225,225,225,225,6835,584,21,,,,Metabolic syndrome,,1,
-226,226,226,226,226,6550,625,28,,,,Metabolic syndrome,,1,
-227,227,227,227,227,7327,610,30,,,,Metabolic syndrome,,1,
-228,228,228,228,228,6697,559,29,,,,Metabolic syndrome,,1,
-229,229,229,229,229,5129,646,14,,,,Metabolic syndrome,,1,
-230,230,230,230,230,6647,571,19,,,,Metabolic syndrome,,1,
-231,231,231,231,231,7324,579,22,,,,Metabolic syndrome,,1,
-232,232,232,232,232,6713,648,23,,,,Metabolic syndrome,,1,
-233,233,233,233,233,5191,544,30,,,,Metabolic syndrome,,1,
-234,234,234,234,234,5678,519,12,,,,Metabolic syndrome,,1,
-235,235,235,235,235,6824,623,10,,,,Metabolic syndrome,,1,
-236,236,236,236,236,5261,656,29,,,,Metabolic syndrome,,1,
-237,237,237,237,237,6061,483,16,,,,Metabolic syndrome,,1,
-238,238,238,238,238,5645,597,20,,,,Metabolic syndrome,,1,
-239,239,239,239,239,6828,500,15,,,,Metabolic syndrome,,1,
-240,240,240,240,240,7160,565,17,,,,Metabolic syndrome,,1,
-241,241,241,241,241,6995,491,17,,,,Metabolic syndrome,,1,
-242,242,242,242,242,7299,619,30,,,,Metabolic syndrome,,1,
-243,243,243,243,243,7473,551,24,,,,Metabolic syndrome,,1,
-244,244,244,244,244,5000,514,22,,,,Metabolic syndrome,,1,
-245,245,245,245,245,5159,541,28,,,,Metabolic syndrome,,1,
-246,246,246,246,246,7025,603,23,,,,Metabolic syndrome,,1,
-247,247,247,247,247,6335,570,11,,,,Metabolic syndrome,,1,
-248,248,248,248,248,6278,636,22,,,,Metabolic syndrome,,1,
-249,249,249,249,249,6912,553,28,,,,Metabolic syndrome,,1,
-250,250,250,250,250,5204,652,23,,,,Metabolic syndrome,,1,
-251,251,251,251,251,6700,571,11,,,,Metabolic syndrome,,1,
-252,252,252,252,252,5770,631,15,,,,Metabolic syndrome,,1,
-253,253,253,253,253,7246,642,24,,,,Metabolic syndrome,,1,
-254,254,254,254,254,5341,638,12,,,,Metabolic syndrome,,1,
-255,255,255,255,255,5534,513,18,,,,Metabolic syndrome,,1,
-256,256,256,256,256,5060,559,15,,,,Metabolic syndrome,,1,
-257,257,257,257,257,6645,579,24,,,,Metabolic syndrome,,1,
-258,258,258,258,258,6710,586,26,,,,Metabolic syndrome,,1,
-259,259,259,259,259,6295,646,25,,,,Metabolic syndrome,,1,
-260,260,260,260,260,5013,500,27,,,,Metabolic syndrome,,1,
-261,261,261,261,261,5874,480,29,,,,nan,,0,
-262,262,262,262,262,5058,632,10,,,,Metabolic syndrome,,1,
-263,263,263,263,263,5009,529,11,,,,Metabolic syndrome,,1,
-264,264,264,264,264,7164,658,25,,,,Metabolic syndrome,,1,
-265,265,265,265,265,5400,565,20,,,,Metabolic syndrome,,1,
-266,266,266,266,266,5780,520,19,,,,Metabolic syndrome,,1,
-267,267,267,267,267,5487,541,24,,,,Metabolic syndrome,,1,
-268,268,268,268,268,7491,537,11,,,,Metabolic syndrome,,1,
-269,269,269,269,269,5813,643,23,,,,Metabolic syndrome,,1,
-270,270,270,270,270,6238,594,16,,,,Metabolic syndrome,,1,
-271,271,271,271,271,6146,576,27,,,,Metabolic syndrome,,1,
-272,272,272,272,272,5746,652,30,,,,Metabolic syndrome,,1,
-273,273,273,273,273,5410,625,12,,,,Metabolic syndrome,,1,
-274,274,274,274,274,6948,586,14,,,,Metabolic syndrome,,1,
-275,275,275,275,275,6624,488,10,,,,Metabolic syndrome,,1,
-276,276,276,276,276,5333,582,22,,,,Metabolic syndrome,,1,
-277,277,277,277,277,5089,659,23,,,,Metabolic syndrome,,1,
-278,278,278,278,278,6125,625,20,,,,Metabolic syndrome,,1,
-279,279,279,279,279,6855,587,10,,,,Metabolic syndrome,,1,
-280,280,280,280,280,5474,649,16,,,,Metabolic syndrome,,1,
-281,281,281,281,281,6050,491,10,,,,Metabolic syndrome,,1,
-282,282,282,282,282,5546,522,10,,,,Metabolic syndrome,,1,
-283,283,283,283,283,7133,594,26,,,,Metabolic syndrome,,1,
-284,284,284,284,284,6421,496,29,,,,Metabolic syndrome,,1,
-285,285,285,285,285,5471,546,13,,,,Metabolic syndrome,,1,
-286,286,286,286,286,5632,659,16,,,,Metabolic syndrome,,1,
-287,287,287,287,287,6140,520,13,,,,Metabolic syndrome,,1,
-288,288,288,288,288,5076,594,29,,,,Metabolic syndrome,,1,
-289,289,289,289,289,5173,615,30,,,,Metabolic syndrome,,1,
-290,290,290,290,290,5166,604,16,,,,Metabolic syndrome,,1,
-291,291,291,291,291,5842,623,19,,,,Metabolic syndrome,,1,
-292,292,292,292,292,6063,634,18,,,,Metabolic syndrome,,1,
-293,293,293,293,293,7287,480,15,,,,nan,,0,
-294,294,294,294,294,6289,489,13,,,,Metabolic syndrome,,1,
-295,295,295,295,295,6502,606,25,,,,Metabolic syndrome,,1,
-296,296,296,296,296,7324,563,22,,,,Metabolic syndrome,,1,
-297,297,297,297,297,5172,559,30,,,,Metabolic syndrome,,1,
-298,298,298,298,298,7488,599,12,,,,Metabolic syndrome,,1,
-299,299,299,299,299,7025,492,10,,,,Metabolic syndrome,,1,
-300,300,300,300,300,6878,586,18,,,,Metabolic syndrome,,1,
-301,301,301,301,301,6783,528,24,,,,Metabolic syndrome,,1,
-302,302,302,302,302,6525,620,13,,,,Metabolic syndrome,,1,
-303,303,303,303,303,7203,642,18,,,,Metabolic syndrome,,1,
-304,304,304,304,304,5730,501,14,,,,Metabolic syndrome,,1,
-305,305,305,305,305,5851,513,30,,,,Metabolic syndrome,,1,
-306,306,306,306,306,6538,483,26,,,,Metabolic syndrome,,1,
-307,307,307,307,307,7404,582,30,,,,Metabolic syndrome,,1,
-308,308,308,308,308,6192,653,30,,,,Metabolic syndrome,,1,
-309,309,309,309,309,5036,586,21,,,,Metabolic syndrome,,1,
-310,310,310,310,310,5567,560,13,,,,Metabolic syndrome,,1,
-311,311,311,311,311,5618,480,14,,,,nan,,0,
-312,312,312,312,312,6111,534,18,,,,Metabolic syndrome,,1,
-313,313,313,313,313,6365,483,10,,,,Metabolic syndrome,,1,
-314,314,314,314,314,6382,480,11,,,,nan,,0,
-315,315,315,315,315,6504,652,11,,,,Metabolic syndrome,,1,
-316,316,316,316,316,5383,615,16,,,,Metabolic syndrome,,1,
-317,317,317,317,317,6385,636,18,,,,Metabolic syndrome,,1,
-318,318,318,318,318,5146,505,27,,,,Metabolic syndrome,,1,
-319,319,319,319,319,5168,528,20,,,,Metabolic syndrome,,1,
-320,320,320,320,320,6104,510,21,,,,Metabolic syndrome,,1,
-321,321,321,321,321,5671,635,28,,,,Metabolic syndrome,,1,
-322,322,322,322,322,5612,646,11,,,,Metabolic syndrome,,1,
-323,323,323,323,323,7389,530,29,,,,Metabolic syndrome,,1,
-324,324,324,324,324,6185,557,30,,,,Metabolic syndrome,,1,
-325,325,325,325,325,6478,551,25,,,,Metabolic syndrome,,1,
-326,326,326,326,326,6617,656,30,,,,Metabolic syndrome,,1,
-327,327,327,327,327,7246,526,24,,,,Metabolic syndrome,,1,
-328,328,328,328,328,5531,505,30,,,,Metabolic syndrome,,1,
-329,329,329,329,329,6201,601,23,,,,Metabolic syndrome,,1,
-330,330,330,330,330,5470,581,21,,,,Metabolic syndrome,,1,
-331,331,331,331,331,6958,640,27,,,,Metabolic syndrome,,1,
-332,332,332,332,332,5981,500,15,,,,Metabolic syndrome,,1,
-333,333,333,333,333,5197,485,16,,,,Metabolic syndrome,,1,
-334,334,334,334,334,6261,550,22,,,,Metabolic syndrome,,1,
-335,335,335,335,335,5735,595,28,,,,Metabolic syndrome,,1,
-336,336,336,336,336,7142,509,19,,,,Metabolic syndrome,,1,
-337,337,337,337,337,5290,545,10,,,,Metabolic syndrome,,1,
-338,338,338,338,338,6239,514,14,,,,Metabolic syndrome,,1,
-339,339,339,339,339,6651,647,14,,,,Metabolic syndrome,,1,
-340,340,340,340,340,6345,613,18,,,,Metabolic syndrome,,1,
-341,341,341,341,341,6225,646,20,,,,Metabolic syndrome,,1,
-342,342,342,342,342,6698,645,20,,,,Metabolic syndrome,,1,
-343,343,343,343,343,5445,568,21,,,,Metabolic syndrome,,1,
-344,344,344,344,344,5407,509,12,,,,Metabolic syndrome,,1,
-345,345,345,345,345,7297,519,20,,,,Metabolic syndrome,,1,
-346,346,346,346,346,6970,551,29,,,,Metabolic syndrome,,1,
-347,347,347,347,347,6941,484,11,,,,Metabolic syndrome,,1,
-348,348,348,348,348,6380,490,11,,,,Metabolic syndrome,,1,
-349,349,349,349,349,6407,490,18,,,,Metabolic syndrome,,1,
-350,350,350,350,350,5509,532,15,,,,Metabolic syndrome,,1,
-351,351,351,351,351,6962,654,14,,,,Metabolic syndrome,,1,
-352,352,352,352,352,5475,546,28,,,,Metabolic syndrome,,1,
-353,353,353,353,353,7038,622,19,,,,Metabolic syndrome,,1,
-354,354,354,354,354,6747,560,21,,,,Metabolic syndrome,,1,
-355,355,355,355,355,5154,573,22,,,,Metabolic syndrome,,1,
-356,356,356,356,356,6236,625,27,,,,Metabolic syndrome,,1,
-357,357,357,357,357,6372,490,14,,,,Metabolic syndrome,,1,
-358,358,358,358,358,5637,659,19,,,,Metabolic syndrome,,1,
-359,359,359,359,359,5682,635,13,,,,Metabolic syndrome,,1,
-360,360,360,360,360,7312,647,25,,,,Metabolic syndrome,,1,
-361,361,361,361,361,6538,606,17,,,,Metabolic syndrome,,1,
-362,362,362,362,362,5356,644,11,,,,Metabolic syndrome,,1,
-363,363,363,363,363,5269,597,19,,,,Metabolic syndrome,,1,
-364,364,364,364,364,5346,643,15,,,,Metabolic syndrome,,1,
-365,365,365,365,365,5811,591,26,,,,Metabolic syndrome,,1,
-366,366,366,366,366,5905,575,12,,,,Metabolic syndrome,,1,
-367,367,367,367,367,5250,617,19,,,,Metabolic syndrome,,1,
-368,368,368,368,368,6576,525,22,,,,Metabolic syndrome,,1,
-369,369,369,369,369,5032,533,20,,,,Metabolic syndrome,,1,
-370,370,370,370,370,5401,576,19,,,,Metabolic syndrome,,1,
-371,371,371,371,371,6613,630,23,,,,Metabolic syndrome,,1,
-372,372,372,372,372,7279,554,13,,,,Metabolic syndrome,,1,
-373,373,373,373,373,7125,482,13,,,,Metabolic syndrome,,1,
-374,374,374,374,374,6187,515,27,,,,Metabolic syndrome,,1,
-375,375,375,375,375,6837,518,25,,,,Metabolic syndrome,,1,
-376,376,376,376,376,7001,549,25,,,,Metabolic syndrome,,1,
-377,377,377,377,377,7395,565,20,,,,Metabolic syndrome,,1,
-378,378,378,378,378,5889,566,20,,,,Metabolic syndrome,,1,
-379,379,379,379,379,6732,574,13,,,,Metabolic syndrome,,1,
-380,380,380,380,380,5342,503,25,,,,Metabolic syndrome,,1,
-381,381,381,381,381,6508,566,13,,,,Metabolic syndrome,,1,
-382,382,382,382,382,5901,638,25,,,,Metabolic syndrome,,1,
-383,383,383,383,383,6068,489,23,,,,Metabolic syndrome,,1,
-384,384,384,384,384,7397,490,11,,,,Metabolic syndrome,,1,
-385,385,385,385,385,5682,549,19,,,,Metabolic syndrome,,1,
-386,386,386,386,386,6766,521,20,,,,Metabolic syndrome,,1,
-387,387,387,387,387,5786,518,14,,,,Metabolic syndrome,,1,
-388,388,388,388,388,6468,629,15,,,,Metabolic syndrome,,1,
-389,389,389,389,389,5471,554,30,,,,Metabolic syndrome,,1,
-390,390,390,390,390,5261,572,28,,,,Metabolic syndrome,,1,
-391,391,391,391,391,5113,581,22,,,,Metabolic syndrome,,1,
-392,392,392,392,392,7153,620,30,,,,Metabolic syndrome,,1,
-393,393,393,393,393,6849,513,12,,,,Metabolic syndrome,,1,
-394,394,394,394,394,5826,555,12,,,,Metabolic syndrome,,1,
-395,395,395,395,395,5487,509,12,,,,Metabolic syndrome,,1,
-396,396,396,396,396,7036,602,16,,,,Metabolic syndrome,,1,
-397,397,397,397,397,6630,541,17,,,,Metabolic syndrome,,1,
-398,398,398,398,398,6050,492,11,,,,Metabolic syndrome,,1,
-399,399,399,399,399,5848,558,22,,,,Metabolic syndrome,,1,
-400,400,400,400,400,5172,525,10,,,,Metabolic syndrome,,1,
-401,401,401,401,401,5884,613,13,,,,Metabolic syndrome,,1,
-402,402,402,402,402,5599,498,22,,,,Metabolic syndrome,,1,
-403,403,403,403,403,5428,557,27,,,,Metabolic syndrome,,1,
-404,404,404,404,404,5810,583,26,,,,Metabolic syndrome,,1,
-405,405,405,405,405,6877,564,19,,,,Metabolic syndrome,,1,
-406,406,406,406,406,6548,556,24,,,,Metabolic syndrome,,1,
-407,407,407,407,407,6481,586,25,,,,Metabolic syndrome,,1,
-408,408,408,408,408,7238,507,28,,,,Metabolic syndrome,,1,
-409,409,409,409,409,5619,505,16,,,,Metabolic syndrome,,1,
-410,410,410,410,410,5429,623,23,,,,Metabolic syndrome,,1,
-411,411,411,411,411,7442,603,12,,,,Metabolic syndrome,,1,
-412,412,412,412,412,6998,601,21,,,,Metabolic syndrome,,1,
-413,413,413,413,413,5607,566,17,,,,Metabolic syndrome,,1,
-414,414,414,414,414,7309,567,18,,,,Metabolic syndrome,,1,
-415,415,415,415,415,6662,511,28,,,,Metabolic syndrome,,1,
-416,416,416,416,416,6733,602,15,,,,Metabolic syndrome,,1,
-417,417,417,417,417,7134,509,23,,,,Metabolic syndrome,,1,
-418,418,418,418,418,7029,659,16,,,,Metabolic syndrome,,1,
-419,419,419,419,419,6320,607,21,,,,Metabolic syndrome,,1,
-420,420,420,420,420,7041,589,13,,,,Metabolic syndrome,,1,
-421,421,421,421,421,7042,489,12,,,,Metabolic syndrome,,1,
-422,422,422,422,422,5827,557,10,,,,Metabolic syndrome,,1,
-423,423,423,423,423,7223,565,26,,,,Metabolic syndrome,,1,
-424,424,424,424,424,7497,655,24,,,,Metabolic syndrome,,1,
-425,425,425,425,425,5896,519,16,,,,Metabolic syndrome,,1,
-426,426,426,426,426,5039,522,13,,,,Metabolic syndrome,,1,
-427,427,427,427,427,6393,640,25,,,,Metabolic syndrome,,1,
-428,428,428,428,428,6303,624,22,,,,Metabolic syndrome,,1,
-429,429,429,429,429,6318,576,18,,,,Metabolic syndrome,,1,
-430,430,430,430,430,5145,643,16,,,,Metabolic syndrome,,1,
-431,431,431,431,431,7150,502,30,,,,Metabolic syndrome,,1,
-432,432,432,432,432,5607,496,11,,,,Metabolic syndrome,,1,
-433,433,433,433,433,6052,501,16,,,,Metabolic syndrome,,1,
-434,434,434,434,434,7468,530,29,,,,Metabolic syndrome,,1,
-435,435,435,435,435,5638,536,14,,,,Metabolic syndrome,,1,
-436,436,436,436,436,6552,495,13,,,,Metabolic syndrome,,1,
-437,437,437,437,437,7387,578,16,,,,Metabolic syndrome,,1,
-438,438,438,438,438,6205,482,24,,,,Metabolic syndrome,,1,
-439,439,439,439,439,6926,505,22,,,,Metabolic syndrome,,1,
-440,440,440,440,440,5271,580,21,,,,Metabolic syndrome,,1,
-441,441,441,441,441,5346,622,27,,,,Metabolic syndrome,,1,
-442,442,442,442,442,7115,612,14,,,,Metabolic syndrome,,1,
-443,443,443,443,443,5161,554,13,,,,Metabolic syndrome,,1,
-444,444,444,444,444,5271,594,29,,,,Metabolic syndrome,,1,
-445,445,445,445,445,5921,605,25,,,,Metabolic syndrome,,1,
-446,446,446,446,446,5534,629,14,,,,Metabolic syndrome,,1,
-447,447,447,447,447,5166,653,28,,,,Metabolic syndrome,,1,
-448,448,448,448,448,6230,535,22,,,,Metabolic syndrome,,1,
-449,449,449,449,449,5062,588,30,,,,Metabolic syndrome,,1,
-450,450,450,450,450,6837,501,23,,,,Metabolic syndrome,,1,
-451,451,451,451,451,6354,574,26,,,,Metabolic syndrome,,1,
-452,452,452,452,452,5658,536,25,,,,Metabolic syndrome,,1,
-453,453,453,453,453,5609,546,20,,,,Metabolic syndrome,,1,
-454,454,454,454,454,6887,629,25,,,,Metabolic syndrome,,1,
-455,455,455,455,455,6520,522,25,,,,Metabolic syndrome,,1,
-456,456,456,456,456,7068,590,30,,,,Metabolic syndrome,,1,
-457,457,457,457,457,6565,529,16,,,,Metabolic syndrome,,1,
-458,458,458,458,458,7170,571,27,,,,Metabolic syndrome,,1,
-459,459,459,459,459,7057,509,29,,,,Metabolic syndrome,,1,
-460,460,460,460,460,5137,496,17,,,,Metabolic syndrome,,1,
-461,461,461,461,461,7350,659,10,,,,Metabolic syndrome,,1,
-462,462,462,462,462,5371,487,20,,,,Metabolic syndrome,,1,
-463,463,463,463,463,7121,614,20,,,,Metabolic syndrome,,1,
-464,464,464,464,464,7458,595,20,,,,Metabolic syndrome,,1,
-465,465,465,465,465,5312,653,11,,,,Metabolic syndrome,,1,
-466,466,466,466,466,6746,531,26,,,,Metabolic syndrome,,1,
-467,467,467,467,467,5844,510,14,,,,Metabolic syndrome,,1,
-468,468,468,468,468,6186,607,18,,,,Metabolic syndrome,,1,
-469,469,469,469,469,7193,581,29,,,,Metabolic syndrome,,1,
-470,470,470,470,470,7451,545,14,,,,Metabolic syndrome,,1,
-471,471,471,471,471,6711,533,22,,,,Metabolic syndrome,,1,
-472,472,472,472,472,6975,644,28,,,,Metabolic syndrome,,1,
-473,473,473,473,473,6591,490,19,,,,Metabolic syndrome,,1,
-474,474,474,474,474,7488,535,25,,,,Metabolic syndrome,,1,
-475,475,475,475,475,7401,639,12,,,,Metabolic syndrome,,1,
-476,476,476,476,476,5956,517,12,,,,Metabolic syndrome,,1,
-477,477,477,477,477,5083,506,26,,,,Metabolic syndrome,,1,
-478,478,478,478,478,5000,530,11,,,,Metabolic syndrome,,1,
-479,479,479,479,479,5745,597,12,,,,Metabolic syndrome,,1,
-480,480,480,480,480,6238,576,17,,,,Metabolic syndrome,,1,
-481,481,481,481,481,7076,572,14,,,,Metabolic syndrome,,1,
-482,482,482,482,482,7335,619,11,,,,Metabolic syndrome,,1,
-483,483,483,483,483,6042,518,19,,,,Metabolic syndrome,,1,
-484,484,484,484,484,6362,506,10,,,,Metabolic syndrome,,1,
-485,485,485,485,485,5268,632,24,,,,Metabolic syndrome,,1,
-486,486,486,486,486,7021,604,20,,,,Metabolic syndrome,,1,
-487,487,487,487,487,6073,517,15,,,,Metabolic syndrome,,1,
-488,488,488,488,488,6240,624,14,,,,Metabolic syndrome,,1,
-489,489,489,489,489,6671,583,30,,,,Metabolic syndrome,,1,
-490,490,490,490,490,6573,643,24,,,,Metabolic syndrome,,1,
-491,491,491,491,491,6571,654,21,,,,Metabolic syndrome,,1,
-492,492,492,492,492,5255,588,26,,,,Metabolic syndrome,,1,
-493,493,493,493,493,5670,613,22,,,,Metabolic syndrome,,1,
-494,494,494,494,494,5521,606,26,,,,Metabolic syndrome,,1,
-495,495,495,495,495,5978,653,26,,,,Metabolic syndrome,,1,
-496,496,496,496,496,6175,562,11,,,,Metabolic syndrome,,1,
-497,497,497,497,497,6368,607,28,,,,Metabolic syndrome,,1,
-498,498,498,498,498,5227,607,12,,,,Metabolic syndrome,,1,
-499,499,499,499,499,5147,642,26,,,,Metabolic syndrome,,1,
-500,500,500,500,500,6971,651,29,,,,Metabolic syndrome,,1,
-501,501,501,501,501,6711,531,12,,,,Metabolic syndrome,,1,
-502,502,502,502,502,5577,618,23,,,,Metabolic syndrome,,1,
-503,503,503,503,503,7014,636,16,,,,Metabolic syndrome,,1,
-504,504,504,504,504,7465,536,19,,,,Metabolic syndrome,,1,
-505,505,505,505,505,5334,482,27,,,,Metabolic syndrome,,1,
-506,506,506,506,506,5620,567,29,,,,Metabolic syndrome,,1,
-507,507,507,507,507,6444,660,23,,,,Metabolic syndrome,,1,
-508,508,508,508,508,6684,561,25,,,,Metabolic syndrome,,1,
-509,509,509,509,509,5144,562,22,,,,Metabolic syndrome,,1,
-510,510,510,510,510,6909,489,29,,,,Metabolic syndrome,,1,
-511,511,511,511,511,6583,614,28,,,,Metabolic syndrome,,1,
-512,512,512,512,512,6879,517,17,,,,Metabolic syndrome,,1,
-513,513,513,513,513,5192,545,10,,,,Metabolic syndrome,,1,
-514,514,514,514,514,5415,634,10,,,,Metabolic syndrome,,1,
-515,515,515,515,515,6928,519,15,,,,Metabolic syndrome,,1,
-516,516,516,516,516,5620,577,19,,,,Metabolic syndrome,,1,
-517,517,517,517,517,5082,629,26,,,,Metabolic syndrome,,1,
-518,518,518,518,518,5132,555,28,,,,Metabolic syndrome,,1,
-519,519,519,519,519,7450,660,18,,,,Metabolic syndrome,,1,
-520,520,520,520,520,5543,600,20,,,,Metabolic syndrome,,1,
-521,521,521,521,521,6326,496,12,,,,Metabolic syndrome,,1,
-522,522,522,522,522,5431,501,25,,,,Metabolic syndrome,,1,
-523,523,523,523,523,7249,612,18,,,,Metabolic syndrome,,1,
-524,524,524,524,524,6419,490,19,,,,Metabolic syndrome,,1,
-525,525,525,525,525,5798,496,23,,,,Metabolic syndrome,,1,
-526,526,526,526,526,6570,537,22,,,,Metabolic syndrome,,1,
-527,527,527,527,527,7008,513,22,,,,Metabolic syndrome,,1,
-528,528,528,528,528,5454,490,11,,,,Metabolic syndrome,,1,
-529,529,529,529,529,5246,556,15,,,,Metabolic syndrome,,1,
-530,530,530,530,530,7499,483,30,,,,Metabolic syndrome,,1,
-531,531,531,531,531,6913,594,14,,,,Metabolic syndrome,,1,
-532,532,532,532,532,6383,564,17,,,,Metabolic syndrome,,1,
-533,533,533,533,533,5509,521,19,,,,Metabolic syndrome,,1,
-534,534,534,534,534,6213,518,20,,,,Metabolic syndrome,,1,
-535,535,535,535,535,5520,647,11,,,,Metabolic syndrome,,1,
-536,536,536,536,536,6587,597,11,,,,Metabolic syndrome,,1,
-537,537,537,537,537,6203,575,25,,,,Metabolic syndrome,,1,
-538,538,538,538,538,5497,609,23,,,,Metabolic syndrome,,1,
-539,539,539,539,539,7125,577,14,,,,Metabolic syndrome,,1,
-540,540,540,540,540,5774,615,25,,,,Metabolic syndrome,,1,
-541,541,541,541,541,5156,608,29,,,,Metabolic syndrome,,1,
-542,542,542,542,542,6605,488,12,,,,Metabolic syndrome,,1,
-543,543,543,543,543,6820,626,14,,,,Metabolic syndrome,,1,
-544,544,544,544,544,6521,503,21,,,,Metabolic syndrome,,1,
-545,545,545,545,545,5780,653,23,,,,Metabolic syndrome,,1,
-546,546,546,546,546,6865,612,11,,,,Metabolic syndrome,,1,
-547,547,547,547,547,6460,633,29,,,,Metabolic syndrome,,1,
-548,548,548,548,548,5308,499,24,,,,Metabolic syndrome,,1,
-549,549,549,549,549,5182,589,22,,,,Metabolic syndrome,,1,
-550,550,550,550,550,5163,532,24,,,,Metabolic syndrome,,1,
-551,551,551,551,551,6991,554,11,,,,Metabolic syndrome,,1,
-552,552,552,552,552,6046,617,13,,,,Metabolic syndrome,,1,
-553,553,553,553,553,5109,633,25,,,,Metabolic syndrome,,1,
-554,554,554,554,554,7130,586,14,,,,Metabolic syndrome,,1,
-555,555,555,555,555,7331,603,10,,,,Metabolic syndrome,,1,
-556,556,556,556,556,7342,579,11,,,,Metabolic syndrome,,1,
-557,557,557,557,557,5884,635,29,,,,Metabolic syndrome,,1,
-558,558,558,558,558,5940,630,29,,,,Metabolic syndrome,,1,
-559,559,559,559,559,5382,539,14,,,,Metabolic syndrome,,1,
-560,560,560,560,560,7057,485,30,,,,Metabolic syndrome,,1,
-561,561,561,561,561,7145,648,20,,,,Metabolic syndrome,,1,
-562,562,562,562,562,6720,480,13,,,,nan,,0,
-563,563,563,563,563,7077,526,27,,,,Metabolic syndrome,,1,
-564,564,564,564,564,6250,557,30,,,,Metabolic syndrome,,1,
-565,565,565,565,565,5464,609,21,,,,Metabolic syndrome,,1,
-566,566,566,566,566,5596,625,16,,,,Metabolic syndrome,,1,
-567,567,567,567,567,6744,545,22,,,,Metabolic syndrome,,1,
-568,568,568,568,568,7318,565,25,,,,Metabolic syndrome,,1,
-569,569,569,569,569,6728,496,13,,,,Metabolic syndrome,,1,
-570,570,570,570,570,5344,606,11,,,,Metabolic syndrome,,1,
-571,571,571,571,571,5429,547,29,,,,Metabolic syndrome,,1,
-572,572,572,572,572,6702,557,24,,,,Metabolic syndrome,,1,
-573,573,573,573,573,5257,584,29,,,,Metabolic syndrome,,1,
-574,574,574,574,574,5406,578,30,,,,Metabolic syndrome,,1,
-575,575,575,575,575,6700,578,20,,,,Metabolic syndrome,,1,
-576,576,576,576,576,5639,495,30,,,,Metabolic syndrome,,1,
-577,577,577,577,577,5125,521,13,,,,Metabolic syndrome,,1,
-578,578,578,578,578,6829,644,29,,,,Metabolic syndrome,,1,
-579,579,579,579,579,6765,512,19,,,,Metabolic syndrome,,1,
-580,580,580,580,580,6708,541,14,,,,Metabolic syndrome,,1,
-581,581,581,581,581,5123,553,22,,,,Metabolic syndrome,,1,
-582,582,582,582,582,7034,565,19,,,,Metabolic syndrome,,1,
-583,583,583,583,583,6329,494,13,,,,Metabolic syndrome,,1,
-584,584,584,584,584,6034,489,26,,,,Metabolic syndrome,,1,
-585,585,585,585,585,5321,603,16,,,,Metabolic syndrome,,1,
-586,586,586,586,586,6443,586,11,,,,Metabolic syndrome,,1,
-587,587,587,587,587,5288,516,22,,,,Metabolic syndrome,,1,
-588,588,588,588,588,5497,605,24,,,,Metabolic syndrome,,1,
-589,589,589,589,589,6471,634,21,,,,Metabolic syndrome,,1,
-590,590,590,590,590,5120,500,16,,,,Metabolic syndrome,,1,
-591,591,591,591,591,6414,652,24,,,,Metabolic syndrome,,1,
-592,592,592,592,592,6424,658,21,,,,Metabolic syndrome,,1,
-593,593,593,593,593,5728,518,30,,,,Metabolic syndrome,,1,
-594,594,594,594,594,5040,570,12,,,,Metabolic syndrome,,1,
-595,595,595,595,595,5944,585,11,,,,Metabolic syndrome,,1,
-596,596,596,596,596,6498,489,11,,,,Metabolic syndrome,,1,
-597,597,597,597,597,5288,636,25,,,,Metabolic syndrome,,1,
-598,598,598,598,598,7443,599,18,,,,Metabolic syndrome,,1,
-599,599,599,599,599,5586,578,10,,,,Metabolic syndrome,,1,
-600,600,600,600,600,5851,597,26,,,,Metabolic syndrome,,1,
-601,601,601,601,601,5013,492,28,,,,Metabolic syndrome,,1,
-602,602,602,602,602,5838,505,28,,,,Metabolic syndrome,,1,
-603,603,603,603,603,5504,600,16,,,,Metabolic syndrome,,1,
-604,604,604,604,604,5029,518,17,,,,Metabolic syndrome,,1,
-605,605,605,605,605,6201,485,12,,,,Metabolic syndrome,,1,
-606,606,606,606,606,6511,488,30,,,,Metabolic syndrome,,1,
-607,607,607,607,607,5100,633,26,,,,Metabolic syndrome,,1,
-608,608,608,608,608,7477,638,26,,,,Metabolic syndrome,,1,
-609,609,609,609,609,5953,513,23,,,,Metabolic syndrome,,1,
-610,610,610,610,610,5581,641,26,,,,Metabolic syndrome,,1,
-611,611,611,611,611,5765,562,19,,,,Metabolic syndrome,,1,
-612,612,612,612,612,6859,506,13,,,,Metabolic syndrome,,1,
-613,613,613,613,613,5460,659,14,,,,Metabolic syndrome,,1,
-614,614,614,614,614,6952,620,23,,,,Metabolic syndrome,,1,
-615,615,615,615,615,6410,646,28,,,,Metabolic syndrome,,1,
-616,616,616,616,616,6057,568,23,,,,Metabolic syndrome,,1,
-617,617,617,617,617,5533,529,12,,,,Metabolic syndrome,,1,
-618,618,618,618,618,5114,578,13,,,,Metabolic syndrome,,1,
-619,619,619,619,619,5852,605,23,,,,Metabolic syndrome,,1,
-620,620,620,620,620,6483,508,12,,,,Metabolic syndrome,,1,
-621,621,621,621,621,6372,495,13,,,,Metabolic syndrome,,1,
-622,622,622,622,622,6938,636,23,,,,Metabolic syndrome,,1,
-623,623,623,623,623,6198,659,14,,,,Metabolic syndrome,,1,
-624,624,624,624,624,6213,599,10,,,,Metabolic syndrome,,1,
-625,625,625,625,625,7265,637,24,,,,Metabolic syndrome,,1,
-626,626,626,626,626,6339,641,23,,,,Metabolic syndrome,,1,
-627,627,627,627,627,5753,566,23,,,,Metabolic syndrome,,1,
-628,628,628,628,628,7429,646,10,,,,Metabolic syndrome,,1,
-629,629,629,629,629,5330,511,25,,,,Metabolic syndrome,,1,
-630,630,630,630,630,5420,654,20,,,,Metabolic syndrome,,1,
-631,631,631,631,631,7184,639,18,,,,Metabolic syndrome,,1,
-632,632,632,632,632,7379,555,12,,,,Metabolic syndrome,,1,
-633,633,633,633,633,6260,512,21,,,,Metabolic syndrome,,1,
-634,634,634,634,634,5640,579,12,,,,Metabolic syndrome,,1,
-635,635,635,635,635,6542,555,13,,,,Metabolic syndrome,,1,
-636,636,636,636,636,5601,654,21,,,,Metabolic syndrome,,1,
-637,637,637,637,637,5512,511,10,,,,Metabolic syndrome,,1,
-638,638,638,638,638,5912,612,21,,,,Metabolic syndrome,,1,
-639,639,639,639,639,6293,528,21,,,,Metabolic syndrome,,1,
-640,640,640,640,640,7082,489,15,,,,Metabolic syndrome,,1,
-641,641,641,641,641,5994,580,10,,,,Metabolic syndrome,,1,
-642,642,642,642,642,5969,593,17,,,,Metabolic syndrome,,1,
-643,643,643,643,643,5753,575,21,,,,Metabolic syndrome,,1,
-644,644,644,644,644,6192,528,12,,,,Metabolic syndrome,,1,
-645,645,645,645,645,6525,596,29,,,,Metabolic syndrome,,1,
-646,646,646,646,646,6719,571,14,,,,Metabolic syndrome,,1,
-647,647,647,647,647,5189,641,16,,,,Metabolic syndrome,,1,
-648,648,648,648,648,5541,499,10,,,,Metabolic syndrome,,1,
-649,649,649,649,649,7462,491,16,,,,Metabolic syndrome,,1,
-650,650,650,650,650,5084,490,13,,,,Metabolic syndrome,,1,
-651,651,651,651,651,6613,604,10,,,,Metabolic syndrome,,1,
-652,652,652,652,652,5319,545,19,,,,Metabolic syndrome,,1,
-653,653,653,653,653,5299,486,21,,,,Metabolic syndrome,,1,
-654,654,654,654,654,5540,613,10,,,,Metabolic syndrome,,1,
-655,655,655,655,655,6721,650,29,,,,Metabolic syndrome,,1,
-656,656,656,656,656,6226,625,17,,,,Metabolic syndrome,,1,
-657,657,657,657,657,7255,626,14,,,,Metabolic syndrome,,1,
-658,658,658,658,658,6707,535,15,,,,Metabolic syndrome,,1,
-659,659,659,659,659,5582,538,24,,,,Metabolic syndrome,,1,
-660,660,660,660,660,7421,503,13,,,,Metabolic syndrome,,1,
-661,661,661,661,661,6729,640,25,,,,Metabolic syndrome,,1,
-662,662,662,662,662,6220,608,21,,,,Metabolic syndrome,,1,
-663,663,663,663,663,6452,658,18,,,,Metabolic syndrome,,1,
-664,664,664,664,664,5346,614,14,,,,Metabolic syndrome,,1,
-665,665,665,665,665,6016,587,10,,,,Metabolic syndrome,,1,
-666,666,666,666,666,6821,609,16,,,,Metabolic syndrome,,1,
-667,667,667,667,667,6512,558,21,,,,Metabolic syndrome,,1,
-668,668,668,668,668,7167,509,20,,,,Metabolic syndrome,,1,
-669,669,669,669,669,5236,517,25,,,,Metabolic syndrome,,1,
-670,670,670,670,670,6541,589,19,,,,Metabolic syndrome,,1,
-671,671,671,671,671,6673,624,19,,,,Metabolic syndrome,,1,
-672,672,672,672,672,5034,588,27,,,,Metabolic syndrome,,1,
-673,673,673,673,673,6708,501,30,,,,Metabolic syndrome,,1,
-674,674,674,674,674,6313,506,20,,,,Metabolic syndrome,,1,
-675,675,675,675,675,6807,586,15,,,,Metabolic syndrome,,1,
-676,676,676,676,676,5835,496,28,,,,Metabolic syndrome,,1,
-677,677,677,677,677,6522,505,12,,,,Metabolic syndrome,,1,
-678,678,678,678,678,6201,586,13,,,,Metabolic syndrome,,1,
-679,679,679,679,679,6928,519,27,,,,Metabolic syndrome,,1,
-680,680,680,680,680,5372,487,28,,,,Metabolic syndrome,,1,
-681,681,681,681,681,5759,594,19,,,,Metabolic syndrome,,1,
-682,682,682,682,682,5444,590,15,,,,Metabolic syndrome,,1,
-683,683,683,683,683,6134,655,22,,,,Metabolic syndrome,,1,
-684,684,684,684,684,5459,586,14,,,,Metabolic syndrome,,1,
-685,685,685,685,685,7286,487,14,,,,Metabolic syndrome,,1,
-686,686,686,686,686,7480,607,17,,,,Metabolic syndrome,,1,
-687,687,687,687,687,5630,563,20,,,,Metabolic syndrome,,1,
-688,688,688,688,688,6827,544,26,,,,Metabolic syndrome,,1,
-689,689,689,689,689,6633,500,17,,,,Metabolic syndrome,,1,
-690,690,690,690,690,5759,570,17,,,,Metabolic syndrome,,1,
-691,691,691,691,691,6727,498,15,,,,Metabolic syndrome,,1,
-692,692,692,692,692,6768,511,19,,,,Metabolic syndrome,,1,
-693,693,693,693,693,5715,571,21,,,,Metabolic syndrome,,1,
-694,694,694,694,694,6015,657,23,,,,Metabolic syndrome,,1,
-695,695,695,695,695,6857,487,11,,,,Metabolic syndrome,,1,
-696,696,696,696,696,6394,568,14,,,,Metabolic syndrome,,1,
-697,697,697,697,697,7143,569,29,,,,Metabolic syndrome,,1,
-698,698,698,698,698,5583,525,10,,,,Metabolic syndrome,,1,
-699,699,699,699,699,6455,482,22,,,,Metabolic syndrome,,1,
-700,700,700,700,700,6894,539,12,,,,Metabolic syndrome,,1,
-701,701,701,701,701,5354,573,12,,,,Metabolic syndrome,,1,
-702,702,702,702,702,6979,498,14,,,,Metabolic syndrome,,1,
-703,703,703,703,703,5834,632,23,,,,Metabolic syndrome,,1,
-704,704,704,704,704,6207,516,19,,,,Metabolic syndrome,,1,
-705,705,705,705,705,5007,533,27,,,,Metabolic syndrome,,1,
-706,706,706,706,706,6839,480,23,,,,nan,,0,
-707,707,707,707,707,6892,532,14,,,,Metabolic syndrome,,1,
-708,708,708,708,708,5031,648,28,,,,Metabolic syndrome,,1,
-709,709,709,709,709,5895,652,23,,,,Metabolic syndrome,,1,
-710,710,710,710,710,6222,511,19,,,,Metabolic syndrome,,1,
-711,711,711,711,711,5468,481,30,,,,Metabolic syndrome,,1,
-712,712,712,712,712,6233,555,21,,,,Metabolic syndrome,,1,
-713,713,713,713,713,7233,574,12,,,,Metabolic syndrome,,1,
-714,714,714,714,714,7495,656,17,,,,Metabolic syndrome,,1,
-715,715,715,715,715,5639,486,24,,,,Metabolic syndrome,,1,
-716,716,716,716,716,6737,634,30,,,,Metabolic syndrome,,1,
-717,717,717,717,717,6930,539,21,,,,Metabolic syndrome,,1,
-718,718,718,718,718,5379,516,30,,,,Metabolic syndrome,,1,
-719,719,719,719,719,7038,527,26,,,,Metabolic syndrome,,1,
-720,720,720,720,720,5951,596,11,,,,Metabolic syndrome,,1,
-721,721,721,721,721,7227,508,22,,,,Metabolic syndrome,,1,
-722,722,722,722,722,6660,602,23,,,,Metabolic syndrome,,1,
-723,723,723,723,723,6147,568,10,,,,Metabolic syndrome,,1,
-724,724,724,724,724,5088,546,23,,,,Metabolic syndrome,,1,
-725,725,725,725,725,5494,513,20,,,,Metabolic syndrome,,1,
-726,726,726,726,726,6106,487,24,,,,Metabolic syndrome,,1,
-727,727,727,727,727,5166,533,16,,,,Metabolic syndrome,,1,
-728,728,728,728,728,5001,572,21,,,,Metabolic syndrome,,1,
-729,729,729,729,729,6050,565,19,,,,Metabolic syndrome,,1,
-730,730,730,730,730,6631,601,25,,,,Metabolic syndrome,,1,
-731,731,731,731,731,7154,554,12,,,,Metabolic syndrome,,1,
-732,732,732,732,732,7382,555,15,,,,Metabolic syndrome,,1,
-733,733,733,733,733,6622,621,13,,,,Metabolic syndrome,,1,
-734,734,734,734,734,6821,642,18,,,,Metabolic syndrome,,1,
-735,735,735,735,735,5417,563,13,,,,Metabolic syndrome,,1,
-736,736,736,736,736,6034,527,27,,,,Metabolic syndrome,,1,
-737,737,737,737,737,6449,631,29,,,,Metabolic syndrome,,1,
-738,738,738,738,738,6160,500,14,,,,Metabolic syndrome,,1,
-739,739,739,739,739,5802,506,24,,,,Metabolic syndrome,,1,
-740,740,740,740,740,7438,616,22,,,,Metabolic syndrome,,1,
-741,741,741,741,741,5349,628,15,,,,Metabolic syndrome,,1,
-742,742,742,742,742,5145,558,23,,,,Metabolic syndrome,,1,
-743,743,743,743,743,5288,520,23,,,,Metabolic syndrome,,1,
-744,744,744,744,744,6075,576,15,,,,Metabolic syndrome,,1,
-745,745,745,745,745,6251,517,17,,,,Metabolic syndrome,,1,
-746,746,746,746,746,7185,512,24,,,,Metabolic syndrome,,1,
-747,747,747,747,747,6392,537,20,,,,Metabolic syndrome,,1,
-748,748,748,748,748,5484,560,26,,,,Metabolic syndrome,,1,
-749,749,749,749,749,7171,610,14,,,,Metabolic syndrome,,1,
-750,750,750,750,750,6020,542,21,,,,Metabolic syndrome,,1,
-751,751,751,751,751,5669,540,24,,,,Metabolic syndrome,,1,
-752,752,752,752,752,5278,527,30,,,,Metabolic syndrome,,1,
-753,753,753,753,753,6699,554,30,,,,Metabolic syndrome,,1,
-754,754,754,754,754,6186,575,12,,,,Metabolic syndrome,,1,
-755,755,755,755,755,6158,587,25,,,,Metabolic syndrome,,1,
-756,756,756,756,756,7129,649,16,,,,Metabolic syndrome,,1,
-757,757,757,757,757,5550,491,19,,,,Metabolic syndrome,,1,
-758,758,758,758,758,7351,513,10,,,,Metabolic syndrome,,1,
-759,759,759,759,759,7142,633,24,,,,Metabolic syndrome,,1,
-760,760,760,760,760,5861,485,29,,,,Metabolic syndrome,,1,
-761,761,761,761,761,7176,580,24,,,,Metabolic syndrome,,1,
-762,762,762,762,762,5431,499,10,,,,Metabolic syndrome,,1,
-763,763,763,763,763,6682,659,16,,,,Metabolic syndrome,,1,
-764,764,764,764,764,7226,498,19,,,,Metabolic syndrome,,1,
-765,765,765,765,765,6652,513,13,,,,Metabolic syndrome,,1,
-766,766,766,766,766,6141,587,30,,,,Metabolic syndrome,,1,
-767,767,767,767,767,6197,556,19,,,,Metabolic syndrome,,1,
-768,768,768,768,768,6811,620,27,,,,Metabolic syndrome,,1,
-769,769,769,769,769,6522,586,29,,,,Metabolic syndrome,,1,
-770,770,770,770,770,7327,516,14,,,,Metabolic syndrome,,1,
-771,771,771,771,771,5564,631,23,,,,Metabolic syndrome,,1,
-772,772,772,772,772,5643,588,25,,,,Metabolic syndrome,,1,
-773,773,773,773,773,5505,556,12,,,,Metabolic syndrome,,1,
-774,774,774,774,774,5493,643,25,,,,Metabolic syndrome,,1,
-775,775,775,775,775,6562,570,17,,,,Metabolic syndrome,,1,
-776,776,776,776,776,6643,501,27,,,,Metabolic syndrome,,1,
-777,777,777,777,777,7420,543,22,,,,Metabolic syndrome,,1,
-778,778,778,778,778,6916,593,18,,,,Metabolic syndrome,,1,
-779,779,779,779,779,5571,641,30,,,,Metabolic syndrome,,1,
-780,780,780,780,780,7292,574,10,,,,Metabolic syndrome,,1,
-781,781,781,781,781,6224,643,13,,,,Metabolic syndrome,,1,
-782,782,782,782,782,6450,615,18,,,,Metabolic syndrome,,1,
-783,783,783,783,783,6936,494,11,,,,Metabolic syndrome,,1,
-784,784,784,784,784,6700,576,10,,,,Metabolic syndrome,,1,
-785,785,785,785,785,5892,584,18,,,,Metabolic syndrome,,1,
-786,786,786,786,786,6952,482,22,,,,Metabolic syndrome,,1,
-787,787,787,787,787,7002,586,26,,,,Metabolic syndrome,,1,
-788,788,788,788,788,7054,562,28,,,,Metabolic syndrome,,1,
-789,789,789,789,789,6303,592,22,,,,Metabolic syndrome,,1,
-790,790,790,790,790,7018,532,24,,,,Metabolic syndrome,,1,
-791,791,791,791,791,5246,575,13,,,,Metabolic syndrome,,1,
-792,792,792,792,792,6818,555,18,,,,Metabolic syndrome,,1,
-793,793,793,793,793,6229,600,21,,,,Metabolic syndrome,,1,
-794,794,794,794,794,5584,503,19,,,,Metabolic syndrome,,1,
-795,795,795,795,795,7029,527,16,,,,Metabolic syndrome,,1,
-796,796,796,796,796,5214,507,29,,,,Metabolic syndrome,,1,
-797,797,797,797,797,5883,550,12,,,,Metabolic syndrome,,1,
-798,798,798,798,798,5104,508,11,,,,Metabolic syndrome,,1,
-799,799,799,799,799,6455,622,12,,,,Metabolic syndrome,,1,
-800,800,800,800,800,6931,635,18,,,,Metabolic syndrome,,1,
-801,801,801,801,801,6601,656,19,,,,Metabolic syndrome,,1,
-802,802,802,802,802,5041,519,27,,,,Metabolic syndrome,,1,
-803,803,803,803,803,7157,659,20,,,,Metabolic syndrome,,1,
-804,804,804,804,804,5272,594,13,,,,Metabolic syndrome,,1,
-805,805,805,805,805,5333,582,26,,,,Metabolic syndrome,,1,
-806,806,806,806,806,6618,527,17,,,,Metabolic syndrome,,1,
-807,807,807,807,807,5026,587,15,,,,Metabolic syndrome,,1,
-808,808,808,808,808,6479,590,12,,,,Metabolic syndrome,,1,
-809,809,809,809,809,5168,524,23,,,,Metabolic syndrome,,1,
-810,810,810,810,810,5475,543,19,,,,Metabolic syndrome,,1,
-811,811,811,811,811,5015,596,19,,,,Metabolic syndrome,,1,
-812,812,812,812,812,6107,567,26,,,,Metabolic syndrome,,1,
-813,813,813,813,813,6198,613,14,,,,Metabolic syndrome,,1,
-814,814,814,814,814,5928,516,28,,,,Metabolic syndrome,,1,
-815,815,815,815,815,5576,570,26,,,,Metabolic syndrome,,1,
-816,816,816,816,816,7346,598,30,,,,Metabolic syndrome,,1,
-817,817,817,817,817,6179,641,16,,,,Metabolic syndrome,,1,
-818,818,818,818,818,5783,643,27,,,,Metabolic syndrome,,1,
-819,819,819,819,819,5431,502,13,,,,Metabolic syndrome,,1,
-820,820,820,820,820,6777,603,23,,,,Metabolic syndrome,,1,
-821,821,821,821,821,6887,532,30,,,,Metabolic syndrome,,1,
-822,822,822,822,822,6352,555,27,,,,Metabolic syndrome,,1,
-823,823,823,823,823,6573,480,22,,,,nan,,0,
-824,824,824,824,824,5689,658,18,,,,Metabolic syndrome,,1,
-825,825,825,825,825,6354,594,19,,,,Metabolic syndrome,,1,
-826,826,826,826,826,6727,638,24,,,,Metabolic syndrome,,1,
-827,827,827,827,827,6782,598,21,,,,Metabolic syndrome,,1,
-828,828,828,828,828,5606,481,28,,,,Metabolic syndrome,,1,
-829,829,829,829,829,6832,535,30,,,,Metabolic syndrome,,1,
-830,830,830,830,830,5604,556,14,,,,Metabolic syndrome,,1,
-831,831,831,831,831,7146,509,15,,,,Metabolic syndrome,,1,
-832,832,832,832,832,6294,641,13,,,,Metabolic syndrome,,1,
-833,833,833,833,833,5529,557,13,,,,Metabolic syndrome,,1,
-834,834,834,834,834,5855,619,22,,,,Metabolic syndrome,,1,
-835,835,835,835,835,5765,635,22,,,,Metabolic syndrome,,1,
-836,836,836,836,836,6819,519,28,,,,Metabolic syndrome,,1,
-837,837,837,837,837,6430,588,24,,,,Metabolic syndrome,,1,
-838,838,838,838,838,6592,660,14,,,,Metabolic syndrome,,1,
-839,839,839,839,839,6750,600,27,,,,Metabolic syndrome,,1,
-840,840,840,840,840,7015,503,19,,,,Metabolic syndrome,,1,
-841,841,841,841,841,6595,653,21,,,,Metabolic syndrome,,1,
-842,842,842,842,842,5901,607,30,,,,Metabolic syndrome,,1,
-843,843,843,843,843,5803,539,25,,,,Metabolic syndrome,,1,
-844,844,844,844,844,6799,619,23,,,,Metabolic syndrome,,1,
-845,845,845,845,845,5836,583,16,,,,Metabolic syndrome,,1,
-846,846,846,846,846,7402,551,25,,,,Metabolic syndrome,,1,
-847,847,847,847,847,5203,641,25,,,,Metabolic syndrome,,1,
-848,848,848,848,848,6590,485,26,,,,Metabolic syndrome,,1,
-849,849,849,849,849,5136,510,20,,,,Metabolic syndrome,,1,
-850,850,850,850,850,5958,549,25,,,,Metabolic syndrome,,1,
-851,851,851,851,851,5346,651,30,,,,Metabolic syndrome,,1,
-852,852,852,852,852,5764,490,11,,,,Metabolic syndrome,,1,
-853,853,853,853,853,6489,480,24,,,,nan,,0,
-854,854,854,854,854,5233,545,19,,,,Metabolic syndrome,,1,
-855,855,855,855,855,5710,581,14,,,,Metabolic syndrome,,1,
-856,856,856,856,856,5954,614,25,,,,Metabolic syndrome,,1,
-857,857,857,857,857,6218,628,11,,,,Metabolic syndrome,,1,
-858,858,858,858,858,5354,581,29,,,,Metabolic syndrome,,1,
-859,859,859,859,859,7097,593,16,,,,Metabolic syndrome,,1,
-860,860,860,860,860,6165,506,10,,,,Metabolic syndrome,,1,
-861,861,861,861,861,6446,544,21,,,,Metabolic syndrome,,1,
-862,862,862,862,862,6685,570,25,,,,Metabolic syndrome,,1,
-863,863,863,863,863,6877,552,22,,,,Metabolic syndrome,,1,
-864,864,864,864,864,5220,652,10,,,,Metabolic syndrome,,1,
-865,865,865,865,865,7114,530,26,,,,Metabolic syndrome,,1,
-866,866,866,866,866,7241,632,12,,,,Metabolic syndrome,,1,
-867,867,867,867,867,6763,501,12,,,,Metabolic syndrome,,1,
-868,868,868,868,868,7379,489,22,,,,Metabolic syndrome,,1,
-869,869,869,869,869,6862,498,10,,,,Metabolic syndrome,,1,
-870,870,870,870,870,7007,547,21,,,,Metabolic syndrome,,1,
-871,871,871,871,871,6043,558,11,,,,Metabolic syndrome,,1,
-872,872,872,872,872,6948,616,13,,,,Metabolic syndrome,,1,
-873,873,873,873,873,5882,567,29,,,,Metabolic syndrome,,1,
-874,874,874,874,874,6381,510,10,,,,Metabolic syndrome,,1,
-875,875,875,875,875,6089,615,18,,,,Metabolic syndrome,,1,
-876,876,876,876,876,5172,543,30,,,,Metabolic syndrome,,1,
-877,877,877,877,877,5179,521,19,,,,Metabolic syndrome,,1,
-878,878,878,878,878,5215,497,17,,,,Metabolic syndrome,,1,
-879,879,879,879,879,5667,586,14,,,,Metabolic syndrome,,1,
-880,880,880,880,880,6432,554,28,,,,Metabolic syndrome,,1,
-881,881,881,881,881,5015,552,19,,,,Metabolic syndrome,,1,
-882,882,882,882,882,6187,613,16,,,,Metabolic syndrome,,1,
-883,883,883,883,883,5029,514,13,,,,Metabolic syndrome,,1,
-884,884,884,884,884,5575,626,23,,,,Metabolic syndrome,,1,
-885,885,885,885,885,5260,613,24,,,,Metabolic syndrome,,1,
-886,886,886,886,886,6752,640,20,,,,Metabolic syndrome,,1,
-887,887,887,887,887,5909,533,22,,,,Metabolic syndrome,,1,
-888,888,888,888,888,7492,616,15,,,,Metabolic syndrome,,1,
-889,889,889,889,889,6624,506,20,,,,Metabolic syndrome,,1,
-890,890,890,890,890,7284,585,23,,,,Metabolic syndrome,,1,
-891,891,891,891,891,5905,642,30,,,,Metabolic syndrome,,1,
-892,892,892,892,892,6858,619,23,,,,Metabolic syndrome,,1,
-893,893,893,893,893,5789,583,14,,,,Metabolic syndrome,,1,
-894,894,894,894,894,6390,551,24,,,,Metabolic syndrome,,1,
-895,895,895,895,895,7491,554,14,,,,Metabolic syndrome,,1,
-896,896,896,896,896,5419,593,26,,,,Metabolic syndrome,,1,
-897,897,897,897,897,7483,575,20,,,,Metabolic syndrome,,1,
-898,898,898,898,898,5350,625,14,,,,Metabolic syndrome,,1,
-899,899,899,899,899,6306,640,16,,,,Metabolic syndrome,,1,
-900,900,900,900,900,6322,515,15,,,,Metabolic syndrome,,1,
-901,901,901,901,901,7195,520,24,,,,Metabolic syndrome,,1,
-902,902,902,902,902,6866,511,21,,,,Metabolic syndrome,,1,
-903,903,903,903,903,6331,658,22,,,,Metabolic syndrome,,1,
-904,904,904,904,904,6046,510,23,,,,Metabolic syndrome,,1,
-905,905,905,905,905,5118,577,25,,,,Metabolic syndrome,,1,
-906,906,906,906,906,7138,582,22,,,,Metabolic syndrome,,1,
-907,907,907,907,907,5181,631,17,,,,Metabolic syndrome,,1,
-908,908,908,908,908,5778,599,16,,,,Metabolic syndrome,,1,
-909,909,909,909,909,6510,515,24,,,,Metabolic syndrome,,1,
-910,910,910,910,910,5328,623,16,,,,Metabolic syndrome,,1,
-911,911,911,911,911,5858,651,28,,,,Metabolic syndrome,,1,
-912,912,912,912,912,7148,556,11,,,,Metabolic syndrome,,1,
-913,913,913,913,913,6416,570,22,,,,Metabolic syndrome,,1,
-914,914,914,914,914,5769,641,11,,,,Metabolic syndrome,,1,
-915,915,915,915,915,5825,601,17,,,,Metabolic syndrome,,1,
-916,916,916,916,916,6029,586,30,,,,Metabolic syndrome,,1,
-917,917,917,917,917,6234,535,12,,,,Metabolic syndrome,,1,
-918,918,918,918,918,6278,602,15,,,,Metabolic syndrome,,1,
-919,919,919,919,919,7117,605,21,,,,Metabolic syndrome,,1,
-920,920,920,920,920,6575,657,11,,,,Metabolic syndrome,,1,
-921,921,921,921,921,6043,608,30,,,,Metabolic syndrome,,1,
-922,922,922,922,922,6974,561,15,,,,Metabolic syndrome,,1,
-923,923,923,923,923,6408,606,17,,,,Metabolic syndrome,,1,
-924,924,924,924,924,5982,646,29,,,,Metabolic syndrome,,1,
-925,925,925,925,925,5182,495,19,,,,Metabolic syndrome,,1,
-926,926,926,926,926,6252,593,29,,,,Metabolic syndrome,,1,
-927,927,927,927,927,7260,556,12,,,,Metabolic syndrome,,1,
-928,928,928,928,928,5296,516,26,,,,Metabolic syndrome,,1,
-929,929,929,929,929,5037,606,19,,,,Metabolic syndrome,,1,
-930,930,930,930,930,6887,493,21,,,,Metabolic syndrome,,1,
-931,931,931,931,931,7028,639,23,,,,Metabolic syndrome,,1,
-932,932,932,932,932,6794,535,24,,,,Metabolic syndrome,,1,
-933,933,933,933,933,5194,486,11,,,,Metabolic syndrome,,1,
-934,934,934,934,934,6688,570,30,,,,Metabolic syndrome,,1,
-935,935,935,935,935,7021,600,26,,,,Metabolic syndrome,,1,
-936,936,936,936,936,6886,580,30,,,,Metabolic syndrome,,1,
-937,937,937,937,937,6802,482,27,,,,Metabolic syndrome,,1,
-938,938,938,938,938,5483,614,23,,,,Metabolic syndrome,,1,
-939,939,939,939,939,5350,497,28,,,,Metabolic syndrome,,1,
-940,940,940,940,940,5333,655,24,,,,Metabolic syndrome,,1,
-941,941,941,941,941,5987,500,25,,,,Metabolic syndrome,,1,
-942,942,942,942,942,5404,655,18,,,,Metabolic syndrome,,1,
-943,943,943,943,943,5629,651,25,,,,Metabolic syndrome,,1,
-944,944,944,944,944,6695,581,16,,,,Metabolic syndrome,,1,
-945,945,945,945,945,5874,481,20,,,,Metabolic syndrome,,1,
-946,946,946,946,946,6804,572,18,,,,Metabolic syndrome,,1,
-947,947,947,947,947,5315,490,11,,,,Metabolic syndrome,,1,
-948,948,948,948,948,6748,509,11,,,,Metabolic syndrome,,1,
-949,949,949,949,949,7289,638,11,,,,Metabolic syndrome,,1,
-950,950,950,950,950,6615,480,15,,,,nan,,0,
-951,951,951,951,951,5161,549,21,,,,Metabolic syndrome,,1,
-952,952,952,952,952,5738,643,10,,,,Metabolic syndrome,,1,
-953,953,953,953,953,6022,659,19,,,,Metabolic syndrome,,1,
-954,954,954,954,954,7007,554,30,,,,Metabolic syndrome,,1,
-955,955,955,955,955,5901,538,10,,,,Metabolic syndrome,,1,
-956,956,956,956,956,5524,516,14,,,,Metabolic syndrome,,1,
-957,957,957,957,957,6142,626,12,,,,Metabolic syndrome,,1,
-958,958,958,958,958,6442,553,23,,,,Metabolic syndrome,,1,
-959,959,959,959,959,6309,528,17,,,,Metabolic syndrome,,1,
-960,960,960,960,960,6781,506,29,,,,Metabolic syndrome,,1,
-961,961,961,961,961,5439,591,22,,,,Metabolic syndrome,,1,
-962,962,962,962,962,7281,597,27,,,,Metabolic syndrome,,1,
-963,963,963,963,963,6169,564,17,,,,Metabolic syndrome,,1,
-964,964,964,964,964,7498,578,24,,,,Metabolic syndrome,,1,
-965,965,965,965,965,7216,523,16,,,,Metabolic syndrome,,1,
-966,966,966,966,966,5824,564,20,,,,Metabolic syndrome,,1,
-967,967,967,967,967,6215,587,29,,,,Metabolic syndrome,,1,
-968,968,968,968,968,6809,645,13,,,,Metabolic syndrome,,1,
-969,969,969,969,969,7105,655,29,,,,Metabolic syndrome,,1,
-970,970,970,970,970,7476,591,12,,,,Metabolic syndrome,,1,
-971,971,971,971,971,6892,517,20,,,,Metabolic syndrome,,1,
-972,972,972,972,972,7196,594,20,,,,Metabolic syndrome,,1,
-973,973,973,973,973,6069,517,27,,,,Metabolic syndrome,,1,
-974,974,974,974,974,6116,614,24,,,,Metabolic syndrome,,1,
-975,975,975,975,975,5949,560,20,,,,Metabolic syndrome,,1,
-976,976,976,976,976,5067,513,18,,,,Metabolic syndrome,,1,
-977,977,977,977,977,5486,533,10,,,,Metabolic syndrome,,1,
-978,978,978,978,978,5405,527,26,,,,Metabolic syndrome,,1,
-979,979,979,979,979,5706,593,11,,,,Metabolic syndrome,,1,
-980,980,980,980,980,6698,569,16,,,,Metabolic syndrome,,1,
-981,981,981,981,981,6018,579,21,,,,Metabolic syndrome,,1,
-982,982,982,982,982,5893,589,12,,,,Metabolic syndrome,,1,
-983,983,983,983,983,6165,605,16,,,,Metabolic syndrome,,1,
-984,984,984,984,984,5026,579,26,,,,Metabolic syndrome,,1,
-985,985,985,985,985,7193,536,21,,,,Metabolic syndrome,,1,
-986,986,986,986,986,7110,530,16,,,,Metabolic syndrome,,1,
-987,987,987,987,987,6754,592,16,,,,Metabolic syndrome,,1,
-988,988,988,988,988,5203,532,18,,,,Metabolic syndrome,,1,
-989,989,989,989,989,5498,630,19,,,,Metabolic syndrome,,1,
-990,990,990,990,990,6575,492,19,,,,Metabolic syndrome,,1,
-991,991,991,991,991,6116,579,26,,,,Metabolic syndrome,,1,
-992,992,992,992,992,5484,488,22,,,,Metabolic syndrome,,1,
-993,993,993,993,993,7312,539,18,,,,Metabolic syndrome,,1,
-994,994,994,994,994,6470,642,25,,,,Metabolic syndrome,,1,
-995,995,995,995,995,5940,501,21,,,,Metabolic syndrome,,1,
-996,996,996,996,996,7239,527,17,,,,Metabolic syndrome,,1,
-997,997,997,997,997,6155,573,11,,,,Metabolic syndrome,,1,
-998,998,998,998,998,5907,494,19,,,,Metabolic syndrome,,1,
-999,999,999,999,999,5983,643,27,,,,Metabolic syndrome,,1,
+Minutes_sitting,Minutes_physical_activity,HR,BP,Steps,MS,Health
+198,54,,,11577,,0
+207,56,,,11722,,0
+110,32,,,10165,,0
+166,46,,,11060,,0
+230,62,,,12094,,0
+224,61,,,11990,,0
+203,55,,,11658,,0
+177,49,,,11242,,0
+222,60,,,11952,,0
+191,52,,,11466,,0
+155,67,,,12389,,0
+229,43,,,10894,,0
+135,62,,,12067,,0
+172,38,,,10570,,0
+135,48,,,11154,,0
+124,38,,,10572,,0
+164,36,,,10388,,0
+236,69,,,11026,,0
+137,46,,,12181,,0
+179,64,,,12465,,0
+125,68,,,10601,,0
+118,39,,,11270,,0
+184,49,,,10404,,0
+220,36,,,10302,,0
+125,34,,,11352,,0
+190,51,,,11933,,0
+211,60,,,12292,,0
+180,65,,,10412,,0
+152,36,,,11449,,0
+222,52,,,11778,,0
+213,57,,,11295,,0
+233,50,,,10837,,0
+166,69,,,12263,,0
+115,70,,,11953,,0
+240,43,,,11813,,0
+103,65,,,12135,,0
+123,60,,,11066,,0
+202,58,,,10255,,0
+100,63,,,12247,,0
+226,46,,,10057,,0
+185,33,,,10382,,0
+162,65,,,11633,,0
+183,30,,,10004,,0
+116,35,,,12021,,0
+148,55,,,11364,,0
+156,70,,,10999,,0
+161,30,,,11332,,0
+136,69,,,10257,,0
+239,61,,,10782,,0
+214,51,,,12324,,0
+123,45,,,10908,,0
+120,50,,,10977,,0
+181,34,,,10583,,0
+230,42,,,12224,,0
+225,66,,,11834,,0
+127,44,,,10373,,0
+177,45,,,10329,,0
+174,39,,,11310,,0
+131,64,,,12080,,0
+240,58,,,12004,,0
+185,35,,,10446,,0
+238,35,,,11234,,0
+152,50,,,12257,,0
+240,62,,,11192,,0
+173,61,,,10511,,0
+213,36,,,12242,,0
+123,49,,,11362,,0
+198,65,,,12213,,0
+181,48,,,10832,,0
+161,37,,,12470,,0
+174,65,,,12241,,0
+147,51,,,12406,,0
+148,64,,,11178,,0
+147,43,,,11822,,0
+108,68,,,10375,,0
+166,65,,,12442,,0
+221,67,,,11576,,0
+117,48,,,11298,,0
+122,58,,,12357,,0
+133,35,,,10991,,0
+138,68,,,11189,,0
+109,54,,,10753,,0
+120,50,,,10775,,0
+238,66,,,10764,,0
+200,45,,,10135,,0
+234,48,,,11065,,0
+170,41,,,11951,,0
+233,42,,,10282,,0
+160,41,,,10367,,0
+155,32,,,10533,,0
+207,69,,,10612,,0
+170,46,,,10158,,0
+215,60,,,10328,,0
+226,34,,,12214,,0
+191,35,,,11602,,0
+121,38,,,12148,,0
+183,39,,,11128,,0
+129,32,,,12137,,0
+224,35,,,10964,,0
+185,64,,,10881,,0
+148,55,,,12415,,0
+162,63,,,11717,,0
+104,47,,,12374,,0
+169,63,,,11127,,0
+129,45,,,11845,,0
+156,43,,,12017,,0
+195,67,,,11463,,0
+143,56,,,10337,,0
+185,67,,,11328,,0
+209,47,,,10472,,0
+115,58,,,11992,,0
+125,61,,,12404,,0
+137,52,,,11373,,0
+156,35,,,10779,,0
+111,50,,,10995,,0
+236,69,,,10066,,0
+118,37,,,11110,,0
+106,61,,,10479,,0
+131,67,,,10903,,0
+148,70,,,11523,,0
+130,51,,,10698,,0
+200,42,,,11362,,0
+123,45,,,11745,,0
+194,31,,,10254,,0
+129,47,,,10412,,0
+109,37,,,10599,,0
+105,44,,,10896,,0
+149,53,,,10185,,0
+147,40,,,12350,,0
+131,51,,,12188,,0
+222,57,,,12466,,0
+153,33,,,10303,,0
+115,36,,,10109,,0
+105,39,,,10509,,0
+239,44,,,10772,,0
+208,32,,,12483,,0
+125,66,,,12359,,0
+166,70,,,10490,,0
+117,64,,,11602,,0
+156,68,,,10374,,0
+118,34,,,11516,,0
+177,31,,,10475,,0
+189,37,,,10149,,0
+211,70,,,12480,,0
+146,42,,,10088,,0
+115,68,,,10797,,0
+228,66,,,10757,,0
+219,37,,,10507,,0
+110,55,,,11962,,0
+125,35,,,10862,,0
+200,53,,,10250,,0
+151,37,,,10093,,0
+166,32,,,12229,,0
+191,68,,,11743,,0
+220,31,,,10415,,0
+143,42,,,11064,,0
+152,41,,,10286,,0
+114,37,,,10904,,0
+140,60,,,10294,,0
+141,43,,,11233,,0
+187,33,,,11434,,0
+235,31,,,11786,,0
+164,64,,,10738,,0
+130,57,,,10250,,0
+213,69,,,12062,,0
+144,36,,,11913,,0
+103,46,,,10161,,0
+220,34,,,12443,,0
+204,44,,,10413,,0
+230,34,,,11602,,0
+179,49,,,10816,,0
+191,52,,,11065,,0
+199,57,,,11468,,0
+164,41,,,11926,,0
+139,33,,,12333,,0
+103,62,,,10693,,0
+217,59,,,10833,,0
+120,32,,,10237,,0
+185,68,,,10648,,0
+111,36,,,10663,,0
+239,55,,,11402,,0
+171,42,,,12168,,0
+134,46,,,11026,,0
+161,52,,,10480,,0
+223,60,,,12444,,0
+190,66,,,11811,,0
+173,40,,,10716,,0
+191,43,,,10054,,0
+133,33,,,11931,,0
+179,40,,,11678,,0
+199,40,,,12331,,0
+206,51,,,12083,,0
+120,63,,,11275,,0
+100,46,,,11462,,0
+149,37,,,11591,,0
+185,68,,,11027,,0
+140,58,,,10628,,0
+161,41,,,12296,,0
+157,30,,,10050,,0
+214,60,,,11875,,0
+196,56,,,10323,,0
+206,66,,,11375,,0
+108,62,,,10187,,0
+202,49,,,12229,,0
+207,52,,,11150,,0
+111,54,,,10552,,0
+142,46,,,10983,,0
+214,39,,,11973,,0
+116,65,,,11442,,0
+166,30,,,12499,,0
+140,59,,,11179,,0
+214,35,,,11471,,0
+235,51,,,12417,,0
+224,32,,,10542,,0
+100,64,,,11270,,0
+109,47,,,11589,,0
+226,38,,,11697,,0
+183,45,,,10330,,0
+179,60,,,10006,,0
+219,52,,,12435,,0
+112,69,,,10787,,0
+206,48,,,11369,,0
+148,52,,,10655,,0
+240,67,,,10980,,0
+121,70,,,10913,,0
+133,69,,,11835,,0
+103,38,,,11550,,0
+202,49,,,12327,,0
+206,54,,,11697,,0
+180,56,,,10129,,0
+100,35,,,11647,,0
+154,30,,,12324,,0
+103,68,,,11713,,0
+100,42,,,10191,,0
+235,51,,,10678,,0
+125,40,,,11824,,0
+148,45,,,10261,,0
+130,44,,,11061,,0
+150,70,,,10645,,0
+177,58,,,11828,,0
+171,54,,,12160,,0
+146,66,,,11995,,0
+125,56,,,12299,,0
+221,32,,,12473,,0
+201,55,,,10000,,0
+120,66,,,10159,,0
+105,56,,,12025,,0
+170,32,,,11335,,0
+215,40,,,11278,,0
+129,58,,,11912,,0
+165,34,,,10204,,0
+134,46,,,11700,,0
+233,40,,,10770,,0
+188,58,,,12246,,0
+129,63,,,10341,,0
+139,61,,,10534,,0
+171,65,,,10060,,0
+104,68,,,11645,,0
+110,30,,,11710,,0
+110,32,,,11295,,0
+152,61,,,10013,,0
+166,50,,,10874,,0
+180,49,,,10058,,0
+193,59,,,10009,,0
+110,33,,,12164,,0
+226,56,,,10400,,0
+217,42,,,10780,,0
+211,65,,,10487,,0
+195,70,,,12491,,0
+237,35,,,10813,,0
+145,38,,,11238,,0
+153,30,,,11146,,0
+196,55,,,10746,,0
+174,56,,,10410,,0
+102,50,,,11948,,0
+135,30,,,11624,,0
+138,43,,,10333,,0
+169,30,,,10089,,0
+185,30,,,11125,,0
+186,63,,,11855,,0
+194,69,,,10474,,0
+123,36,,,11050,,0
+186,42,,,10546,,0
+109,37,,,12133,,0
+110,68,,,11421,,0
+169,42,,,10471,,0
+141,49,,,10632,,0
+138,47,,,11140,,0
+174,41,,,10076,,0
+192,36,,,10173,,0
+201,60,,,10166,,0
+240,55,,,10842,,0
+133,70,,,11063,,0
+175,35,,,12287,,0
+129,31,,,11289,,0
+222,47,,,11502,,0
+161,58,,,12324,,0
+112,37,,,10172,,0
+178,46,,,12488,,0
+145,38,,,12025,,0
+233,63,,,11878,,0
+118,52,,,11783,,0
+177,37,,,11525,,0
+203,39,,,12203,,0
+184,47,,,10730,,0
+176,31,,,10851,,0
+206,32,,,11538,,0
+127,32,,,12404,,0
+125,43,,,11192,,0
+223,46,,,10036,,0
+221,65,,,10567,,0
+186,50,,,10618,,0
+187,53,,,11111,,0
+131,66,,,11365,,0
+222,32,,,11382,,0
+129,68,,,11504,,0
+227,61,,,10383,,0
+209,59,,,11385,,0
+109,70,,,10146,,0
+177,57,,,10168,,0
+185,53,,,11104,,0
+139,64,,,10671,,0
+142,41,,,10612,,0
+196,43,,,12389,,0
+122,54,,,11185,,0
+116,67,,,11478,,0
+121,48,,,11617,,0
+150,30,,,12246,,0
+156,38,,,10531,,0
+115,39,,,11201,,0
+198,47,,,10470,,0
+102,51,,,11958,,0
+125,51,,,10981,,0
+200,53,,,10197,,0
+232,35,,,11261,,0
+174,51,,,10735,,0
+214,69,,,12142,,0
+225,32,,,10290,,0
+155,32,,,11239,,0
+208,47,,,11651,,0
+121,40,,,11345,,0
+194,39,,,11225,,0
+156,67,,,11698,,0
+166,48,,,10445,,0
+142,53,,,10407,,0
+210,55,,,12297,,0
+149,65,,,11970,,0
+191,38,,,11941,,0
+129,48,,,11380,,0
+116,37,,,11407,,0
+107,60,,,10509,,0
+234,45,,,11962,,0
+215,33,,,10475,,0
+151,49,,,12038,,0
+130,41,,,11747,,0
+227,63,,,10154,,0
+201,34,,,11236,,0
+165,49,,,11372,,0
+153,55,,,10637,,0
+110,51,,,10682,,0
+155,49,,,12312,,0
+137,56,,,11538,,0
+126,36,,,10356,,0
+150,36,,,10269,,0
+217,65,,,10346,,0
+196,60,,,10811,,0
+192,60,,,10905,,0
+239,51,,,10250,,0
+138,51,,,11576,,0
+126,37,,,10032,,0
+224,60,,,10401,,0
+137,37,,,11613,,0
+203,61,,,12279,,0
+208,57,,,12125,,0
+233,32,,,11187,,0
+226,49,,,11837,,0
+182,51,,,12001,,0
+227,39,,,12395,,0
+227,40,,,10889,,0
+151,70,,,11732,,0
+238,66,,,10342,,0
+156,54,,,11508,,0
+102,70,,,10901,,0
+187,35,,,11068,,0
+181,34,,,12397,,0
+182,35,,,10682,,0
+109,42,,,11766,,0
+234,44,,,10786,,0
+137,33,,,11468,,0
+165,54,,,10471,,0
+139,30,,,10261,,0
+197,36,,,10113,,0
+175,55,,,12153,,0
+220,65,,,11849,,0
+116,63,,,10826,,0
+121,48,,,10487,,0
+232,58,,,12036,,0
+110,61,,,11630,,0
+116,67,,,11050,,0
+157,43,,,10848,,0
+133,57,,,10172,,0
+110,35,,,10884,,0
+176,53,,,10599,,0
+103,44,,,10428,,0
+214,46,,,10810,,0
+184,67,,,11877,,0
+141,40,,,11548,,0
+138,57,,,11481,,0
+217,42,,,12238,,0
+195,52,,,10619,,0
+229,37,,,10429,,0
+197,34,,,12442,,0
+235,31,,,11998,,0
+228,63,,,10607,,0
+108,58,,,12309,,0
+123,42,,,11662,,0
+232,37,,,11733,,0
+119,61,,,12134,,0
+209,55,,,12029,,0
+152,46,,,11320,,0
+174,43,,,12041,,0
+237,32,,,12042,,0
+206,43,,,10827,,0
+223,69,,,12223,,0
+199,39,,,12497,,0
+159,36,,,10896,,0
+105,42,,,10039,,0
+100,59,,,11393,,0
+146,54,,,11303,,0
+177,53,,,11318,,0
+229,64,,,10145,,0
+165,39,,,12150,,0
+185,36,,,10607,,0
+116,68,,,11052,,0
+226,61,,,12468,,0
+167,39,,,10638,,0
+177,66,,,11552,,0
+204,55,,,12387,,0
+198,70,,,11205,,0
+198,57,,,11926,,0
+115,63,,,10271,,0
+141,61,,,10346,,0
+132,50,,,12115,,0
+161,61,,,10161,,0
+173,61,,,10271,,0
+185,70,,,10921,,0
+114,42,,,10534,,0
+109,64,,,10166,,0
+223,69,,,11230,,0
+206,44,,,10062,,0
+136,30,,,11837,,0
+225,51,,,11354,,0
+120,50,,,10658,,0
+138,50,,,10609,,0
+190,32,,,11887,,0
+205,63,,,11520,,0
+109,39,,,12068,,0
+219,46,,,11565,,0
+198,68,,,12170,,0
+217,39,,,12057,,0
+112,54,,,10137,,0
+125,67,,,12350,,0
+220,48,,,10371,,0
+138,60,,,12121,,0
+105,34,,,12458,,0
+108,35,,,10312,,0
+133,63,,,11746,,0
+182,32,,,10844,,0
+126,34,,,11186,,0
+240,44,,,12193,,0
+188,38,,,12451,,0
+149,32,,,11711,,0
+198,49,,,11975,,0
+225,30,,,11591,,0
+128,58,,,12488,,0
+115,51,,,12401,,0
+219,40,,,10956,,0
+186,39,,,10083,,0
+131,59,,,10000,,0
+175,53,,,10745,,0
+132,62,,,11238,,0
+199,54,,,12076,,0
+175,63,,,12335,,0
+131,62,,,11042,,0
+232,32,,,11362,,0
+148,66,,,10268,,0
+109,35,,,12021,,0
+200,63,,,11073,,0
+213,68,,,11240,,0
+195,34,,,11671,,0
+148,57,,,11573,,0
+216,43,,,11571,,0
+191,48,,,10255,,0
+119,64,,,10670,,0
+111,68,,,10521,,0
+110,56,,,10978,,0
+224,60,,,11175,,0
+165,54,,,11368,,0
+106,68,,,10227,,0
+233,67,,,10147,,0
+155,44,,,11971,,0
+158,31,,,11711,,0
+123,30,,,10577,,0
+228,41,,,12014,,0
+234,49,,,12465,,0
+207,62,,,10334,,0
+229,66,,,10620,,0
+178,46,,,11444,,0
+129,51,,,11684,,0
+137,34,,,10144,,0
+209,61,,,11909,,0
+208,46,,,11583,,0
+121,49,,,11879,,0
+126,56,,,10192,,0
+206,54,,,10415,,0
+116,54,,,11928,,0
+125,33,,,10620,,0
+206,40,,,10082,,0
+139,38,,,10132,,0
+107,45,,,12450,,0
+214,48,,,10543,,0
+210,51,,,11326,,0
+206,33,,,10431,,0
+107,32,,,12249,,0
+227,60,,,11419,,0
+183,56,,,10798,,0
+164,39,,,11570,,0
+120,61,,,12008,,0
+190,68,,,10454,,0
+118,35,,,10246,,0
+131,39,,,12499,,0
+191,52,,,11913,,0
+107,56,,,11383,,0
+188,32,,,10509,,0
+189,69,,,11213,,0
+145,59,,,10520,,0
+102,54,,,11587,,0
+159,59,,,11203,,0
+193,33,,,10497,,0
+118,36,,,12125,,0
+136,60,,,10774,,0
+153,39,,,10156,,0
+100,31,,,11605,,0
+152,32,,,11820,,0
+131,68,,,11521,,0
+101,69,,,10780,,0
+175,38,,,11865,,0
+194,70,,,11460,,0
+106,50,,,10308,,0
+159,36,,,10182,,0
+136,65,,,10163,,0
+147,52,,,11991,,0
+216,42,,,11046,,0
+128,54,,,10109,,0
+222,61,,,12130,,0
+188,37,,,12331,,0
+166,33,,,12342,,0
+133,69,,,10884,,0
+107,59,,,10940,,0
+153,69,,,10382,,0
+192,70,,,12057,,0
+185,51,,,12145,,0
+221,37,,,11720,,0
+174,69,,,12077,,0
+175,48,,,11250,,0
+183,38,,,10464,,0
+147,54,,,10596,,0
+120,48,,,11744,,0
+126,37,,,12318,,0
+236,63,,,11728,,0
+178,42,,,10344,,0
+140,32,,,10429,,0
+196,55,,,11702,,0
+137,58,,,10257,,0
+132,53,,,10406,,0
+157,42,,,11700,,0
+180,59,,,10639,,0
+230,52,,,10125,,0
+162,70,,,11829,,0
+160,34,,,11765,,0
+147,32,,,11708,,0
+174,32,,,10123,,0
+195,61,,,12034,,0
+207,46,,,11329,,0
+111,31,,,11034,,0
+133,63,,,10321,,0
+105,66,,,11443,,0
+200,66,,,10288,,0
+119,43,,,10497,,0
+118,44,,,11471,,0
+133,35,,,10120,,0
+207,70,,,11414,,0
+176,62,,,11424,,0
+240,63,,,10728,,0
+206,56,,,10040,,0
+136,62,,,10944,,0
+208,49,,,11498,,0
+176,37,,,10288,,0
+190,39,,,12443,,0
+121,57,,,10586,,0
+163,66,,,10851,,0
+213,57,,,10013,,0
+194,35,,,10838,,0
+235,36,,,10504,,0
+114,56,,,10029,,0
+196,34,,,11201,,0
+204,36,,,11511,,0
+102,56,,,10100,,0
+206,39,,,12477,,0
+182,31,,,10953,,0
+212,58,,,10581,,0
+152,57,,,10765,,0
+195,56,,,11859,,0
+175,31,,,10460,,0
+220,61,,,11952,,0
+123,50,,,11410,,0
+147,46,,,11057,,0
+127,35,,,10533,,0
+170,52,,,10114,,0
+128,34,,,10852,,0
+139,37,,,11483,,0
+214,52,,,11372,,0
+202,31,,,11938,,0
+147,52,,,11198,,0
+207,52,,,11213,,0
+210,41,,,12265,,0
+144,30,,,11339,,0
+163,44,,,10753,,0
+216,53,,,12429,,0
+187,34,,,10330,,0
+233,68,,,10420,,0
+136,39,,,12184,,0
+190,43,,,12379,,0
+218,30,,,11260,,0
+122,43,,,10640,,0
+223,37,,,11542,,0
+152,30,,,10601,,0
+175,48,,,10512,,0
+100,53,,,10912,,0
+214,31,,,11293,,0
+218,68,,,12082,,0
+101,44,,,10994,,0
+155,39,,,10969,,0
+176,41,,,10753,,0
+129,59,,,11192,,0
+177,37,,,11525,,0
+239,60,,,11719,,0
+139,52,,,10189,,0
+208,46,,,10541,,0
+220,38,,,12462,,0
+123,31,,,10084,,0
+227,43,,,11613,,0
+159,53,,,10319,,0
+239,51,,,10299,,0
+203,60,,,10540,,0
+171,48,,,11721,,0
+105,48,,,11226,,0
+130,65,,,12255,,0
+169,70,,,11707,,0
+110,50,,,10582,,0
+100,41,,,12421,,0
+165,67,,,11729,,0
+201,35,,,11220,,0
+234,36,,,11452,,0
+201,64,,,10346,,0
+213,67,,,11016,,0
+126,49,,,11821,,0
+164,40,,,11512,,0
+190,54,,,12167,,0
+172,39,,,10236,,0
+150,38,,,11541,,0
+121,44,,,11673,,0
+109,50,,,10034,,0
+118,62,,,11708,,0
+167,45,,,11313,,0
+178,45,,,11807,,0
+236,41,,,10835,,0
+187,48,,,11522,,0
+130,53,,,11201,,0
+235,56,,,11928,,0
+163,32,,,10372,,0
+141,38,,,10759,,0
+117,68,,,10444,,0
+206,31,,,11134,,0
+174,55,,,10459,,0
+172,34,,,12286,,0
+233,34,,,12480,,0
+134,38,,,10630,,0
+233,56,,,11827,,0
+153,49,,,11633,,0
+236,65,,,10759,,0
+126,56,,,11727,,0
+205,39,,,11768,,0
+239,67,,,10715,,0
+203,57,,,11015,,0
+171,49,,,11857,,0
+174,70,,,11394,,0
+213,52,,,12143,,0
+195,35,,,10583,,0
+135,45,,,11455,,0
+140,58,,,11894,,0
+131,70,,,10354,,0
+130,53,,,11979,,0
+197,70,,,10834,,0
+202,63,,,11207,,0
+219,33,,,10007,,0
+135,54,,,11839,,0
+176,56,,,11892,,0
+190,30,,,10031,,0
+221,56,,,10895,,0
+206,50,,,11222,,0
+155,58,,,10468,,0
+222,43,,,11233,,0
+225,53,,,12233,,0
+228,48,,,12495,,0
+181,60,,,10639,,0
+226,35,,,11737,,0
+115,41,,,11930,,0
+213,36,,,10379,,0
+176,47,,,12038,,0
+136,37,,,10951,,0
+226,65,,,12227,,0
+113,68,,,11660,,0
+155,39,,,11147,,0
+106,58,,,10088,,0
+190,55,,,10494,,0
+220,41,,,11106,,0
+200,56,,,10166,,0
+102,57,,,10001,,0
+234,41,,,11050,,0
+117,45,,,11631,,0
+120,59,,,12154,,0
+201,51,,,12382,,0
+101,63,,,11622,,0
+192,39,,,11821,,0
+110,52,,,10417,,0
+129,59,,,11034,,0
+100,70,,,11449,,0
+169,70,,,11160,,0
+174,35,,,10802,,0
+158,60,,,12438,,0
+136,43,,,10349,,0
+173,48,,,10145,,0
+148,30,,,10288,,0
+126,58,,,11075,,0
+211,69,,,11251,,0
+217,59,,,12185,,0
+184,30,,,11392,,0
+198,43,,,10484,,0
+143,49,,,12171,,0
+184,37,,,11020,,0
+207,70,,,10669,,0
+211,49,,,10278,,0
+137,64,,,11699,,0
+214,68,,,11186,,0
+137,39,,,11158,,0
+234,57,,,12129,,0
+180,60,,,10550,,0
+133,35,,,12351,,0
+153,61,,,12142,,0
+147,44,,,10861,,0
+213,64,,,12176,,0
+189,55,,,10431,,0
+199,47,,,11682,,0
+209,70,,,12226,,0
+225,31,,,11652,,0
+199,37,,,11141,,0
+156,47,,,11197,,0
+150,32,,,11811,,0
+212,30,,,11522,,0
+152,46,,,12327,,0
+112,55,,,10564,,0
+199,63,,,10643,,0
+108,67,,,10505,,0
+159,55,,,10493,,0
+121,58,,,11562,,0
+147,36,,,11643,,0
+193,46,,,12420,,0
+114,52,,,11916,,0
+144,48,,,10571,,0
+159,42,,,12292,,0
+176,68,,,11224,,0
+122,35,,,11450,,0
+231,32,,,11936,,0
+172,34,,,11700,,0
+190,46,,,10892,,0
+205,49,,,11952,,0
+217,64,,,12002,,0
+113,51,,,12054,,0
+232,37,,,11303,,0
+240,63,,,12018,,0
+210,45,,,10246,,0
+216,40,,,11818,,0
+225,34,,,11229,,0
+165,56,,,10584,,0
+221,48,,,12029,,0
+155,48,,,10214,,0
+186,63,,,10883,,0
+168,38,,,10104,,0
+110,66,,,11455,,0
+111,63,,,11931,,0
+113,70,,,11601,,0
+141,43,,,10041,,0
+189,64,,,12157,,0
+100,36,,,10272,,0
+174,56,,,10333,,0
+101,70,,,11618,,0
+135,64,,,10026,,0
+116,55,,,11479,,0
+209,47,,,10168,,0
+156,48,,,10475,,0
+201,58,,,10015,,0
+156,53,,,11107,,0
+216,66,,,11198,,0
+149,70,,,10928,,0
+186,38,,,10576,,0
+126,40,,,12346,,0
+121,37,,,11179,,0
+181,37,,,10783,,0
+182,54,,,10431,,0
+237,55,,,11777,,0
+216,67,,,11887,,0
+183,59,,,11352,,0
+165,38,,,11573,,0
+107,65,,,10689,,0
+233,49,,,11354,,0
+111,52,,,11727,,0
+148,70,,,11782,,0
+194,60,,,10606,,0
+120,56,,,11832,,0
+153,43,,,10604,,0
+234,60,,,12146,,0
+188,61,,,11294,,0
+148,62,,,10529,,0
+151,50,,,10855,,0
+164,61,,,10765,,0
+177,33,,,11819,,0
+179,58,,,11430,,0
+232,49,,,11592,,0
+198,39,,,11750,,0
+165,61,,,12015,,0
+223,33,,,11595,,0
+188,69,,,10901,,0
+161,43,,,10803,,0
+111,31,,,11799,,0
+178,52,,,10836,,0
+118,60,,,12402,,0
+102,55,,,10203,,0
+217,30,,,11590,,0
+226,63,,,10136,,0
+212,34,,,10958,,0
+112,35,,,10346,,0
+205,55,,,10764,,0
+226,30,,,11489,,0
+217,53,,,10233,,0
+212,32,,,10710,,0
+130,37,,,10954,,0
+121,69,,,11218,,0
+120,30,,,10354,,0
+161,47,,,12097,,0
+125,70,,,11165,,0
+139,48,,,11446,,0
+205,44,,,11685,,0
+154,39,,,11877,,0
+212,66,,,10220,,0
+119,48,,,12114,,0
+209,42,,,12241,,0
+200,36,,,11763,,0
+110,57,,,12379,,0
+146,59,,,11862,,0
+163,51,,,12007,,0
+225,54,,,11043,,0
+156,40,,,11948,,0
+132,51,,,10882,,0
+171,56,,,11381,,0
+190,57,,,11089,,0
+181,39,,,10172,,0
+211,58,,,10179,,0
+127,39,,,10215,,0
+173,63,,,10667,,0
+238,50,,,11432,,0
+151,38,,,10015,,0
+175,43,,,11187,,0
+213,41,,,10029,,0
+231,58,,,10575,,0
+218,52,,,10260,,0
+237,54,,,11752,,0
+166,57,,,10909,,0
+169,61,,,12492,,0
+159,54,,,11624,,0
+104,44,,,12284,,0
+130,42,,,10905,,0
+125,58,,,11858,,0
+144,43,,,10789,,0
+206,67,,,11390,,0
+163,33,,,12491,,0
+155,54,,,10419,,0
+172,32,,,12483,,0
+101,44,,,10350,,0
+237,70,,,11306,,0
+231,35,,,11322,,0
+209,41,,,12195,,0
+112,53,,,11866,,0
+131,33,,,11331,,0
+198,70,,,11046,,0
+169,41,,,10118,,0
+130,44,,,12138,,0
+191,69,,,10181,,0
+158,49,,,10778,,0
+239,69,,,11510,,0
+172,35,,,10328,,0
+156,62,,,10858,,0
+161,48,,,12148,,0
+116,52,,,11416,,0
+232,56,,,10769,,0
+178,59,,,10825,,0
+183,33,,,11029,,0
+159,70,,,11234,,0
+195,63,,,11278,,0
+222,65,,,12117,,0
+173,57,,,11575,,0
+143,67,,,11043,,0
+135,59,,,11974,,0
+103,61,,,11408,,0
+229,46,,,10982,,0
+183,60,,,10182,,0
+193,43,,,11252,,0
+106,51,,,12260,,0
+133,47,,,10296,,0
+201,32,,,10037,,0
+139,32,,,11887,,0
+145,33,,,12028,,0
+230,40,,,11794,,0
+119,52,,,10194,,0
+134,30,,,11688,,0
+152,48,,,12021,,0
+227,30,,,11886,,0
+154,38,,,11802,,0
+160,34,,,10483,,0
+133,57,,,10350,,0
+159,44,,,10333,,0
+198,68,,,10987,,0
+190,55,,,10404,,0
+133,65,,,10629,,0
+227,44,,,11695,,0
+127,59,,,10874,,0
+106,42,,,11804,,0
+234,51,,,10315,,0
+191,68,,,11748,,0
+225,36,,,12289,,0
+216,68,,,11615,,0
+179,35,,,10161,,0
+103,50,,,10738,,0
+156,50,,,11022,,0
+141,64,,,12007,,0
+226,59,,,10901,,0
+223,50,,,10524,,0
+239,46,,,11142,,0
+180,31,,,11442,,0
+120,63,,,11309,,0
+166,32,,,11781,,0
+135,42,,,10439,,0
+202,53,,,12281,,0
+148,35,,,11169,,0
+181,43,,,12498,,0
+174,63,,,12216,,0
+198,52,,,10824,,0
+115,42,,,11215,,0
+153,42,,,11809,,0
+109,46,,,12105,,0
+180,49,,,12476,,0
+163,49,,,11892,,0
+187,63,,,12196,,0
+212,54,,,11069,,0
+157,46,,,11116,,0
+166,60,,,10949,,0
+188,52,,,10067,,0
+141,45,,,10486,,0
+178,32,,,10405,,0
+104,49,,,10706,,0
+191,65,,,11698,,0
+238,34,,,11018,,0
+114,30,,,10893,,0
+138,59,,,11165,,0
+190,61,,,10026,,0
+105,58,,,12193,,0
+225,33,,,12110,,0
+115,56,,,11754,,0
+106,61,,,10203,,0
+161,59,,,10498,,0
+111,58,,,11575,,0
+103,37,,,11116,,0
+157,35,,,10484,,0
+183,35,,,12312,,0
+117,45,,,11470,,0
+115,36,,,10940,,0
+188,39,,,12239,,0
+208,56,,,11155,,0
+134,43,,,10907,,0
+155,58,,,10983,,0
