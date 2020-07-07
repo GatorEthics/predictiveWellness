@@ -16,6 +16,7 @@ faker = "*"
 numpy = "*"
 nltk = "*"
 sklearn = "*"
+streamlit = "*"
 
 [requires]
 python_version = "3.7"
