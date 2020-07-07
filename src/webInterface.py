@@ -40,15 +40,15 @@ def label_custom_individual(data):
     st.dataframe(data)
 
 
-def custom_individual_classification(data):
-    classification = st.multiselect(
-        "Please select preferred classification",
-        [
-            "Naive Bayes Classification",
-            "Support Vector Machine Classification",
-            "Decision Tree Classification"
-        ]
-    )
+# def custom_individual_classification(data):
+#     classification = st.multiselect(
+#         "Please select preferred classification",
+#         [
+#             "Naive Bayes Classification",
+#             "Support Vector Machine Classification",
+#             "Decision Tree Classification"
+#         ]
+#     )
 
 
 def setup():
