@@ -88,10 +88,10 @@ def create_blood_pressure(df):
 
 
 if __name__ == "__main__":
-    individual_data = pd.read_csv("individual_data.csv")
+    individual_data = pd.read_csv("src/createData/customIndividual.csv", index_col=[0])
     create_steps(individual_data)
     create_minutes_sitting(individual_data)
     create_activity_minutes(individual_data)
     create_heart_rate(individual_data)
     create_blood_pressure(individual_data)
-    individual_data.to_csv("individual_data.csv")
+    individual_data.to_csv("src/createData/customIndividual.csv")

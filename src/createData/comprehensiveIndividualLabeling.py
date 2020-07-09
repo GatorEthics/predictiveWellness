@@ -70,9 +70,9 @@ def main(individual_data):
     label_diabetes(individual_data)
     label_health_risks(individual_data)
     remove_columns(individual_data)
-    individual_data.to_csv("customIndividual.csv")
+    individual_data.to_csv("src/createData/customIndividual.csv")
 
 
 if __name__ == "__main__":
-    data = individual_data = pd.read_csv("customIndividual.csv")
+    data = individual_data = pd.read_csv("src/createData/customIndividual.csv", index_col=[0])
     main(data)
