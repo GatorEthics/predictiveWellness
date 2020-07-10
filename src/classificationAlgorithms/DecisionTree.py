@@ -76,7 +76,7 @@ def calculate_accuracy(y_test, target_prediction):
 if __name__ == "__main__":
     # Build
     data = import_data()
-    X, Y, x_train, x_test, y_train, y_test = split_dataset(data)
+    X, Y, x_train, y_train, x_test, y_test = split_dataset(data)
     gini_classifier = train_with_gini(x_train, y_train)
     entropy_classifier = entropy_train(x_train, y_train)
 
