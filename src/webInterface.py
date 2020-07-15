@@ -1,5 +1,6 @@
 import streamlit as st
 import custom_individual as custom_individual
+import createData.createIndividualData as provided_individual
 import createData.comprehensiveIndividualLabeling as label
 import classificationAlgorithms.SupportVectorMachine as svm
 import classificationAlgorithms.NaiveBayes as naive_bayes
@@ -31,7 +32,13 @@ def individual_setup():
         kilograms = weight * 0.453592
         meters_squared = height * 0.00064516
         bmi = kilograms / meters_squared
-    return age, weight, height, activity_level, bmi
+    return individual_data, age, weight, height, activity_level, bmi
+
+
+def create_provided_individual():
+    data = provided_individual.main()
+    st.dataframe(data)
+    return data
 
 
 def create_custom_individual(age, activity_level):
@@ -41,13 +48,13 @@ def create_custom_individual(age, activity_level):
     return data
 
 
-def label_custom_individual(data):
+def label_data(data):
     label.main(data)
     st.dataframe(data)
 
 
-def custom_individual_classification(data):
-    classification = st.multiselect(
+def classify_data(data):
+    classification_method = st.multiselect(
         "Please select preferred classification",
         [
             "Naive Bayes Classification",
@@ -55,7 +62,7 @@ def custom_individual_classification(data):
             "Decision Tree Classification"
         ]
     )
-    if(classification == "Naive Bayes Classification"):
+    if(classification_method == "Naive Bayes Classification"):
         data = naive_bayes.import_data(data)
         st.dataframe(data)
 
@@ -83,16 +90,18 @@ def setup():
         with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/classificationAlgorithms/classificationAlgorithms.md") as classification:
             st.markdown(classification.read())
     if menu == "Individual Health Analysis":
-        age, weight, height, activity_level, bmi = individual_setup()
-        data = create_custom_individual(age, activity_level)
-        data = label_custom_individual(data)
-        custom_individual_classification(data)
+        individual_data, age, weight, height, activity_level, bmi = individual_setup()
+        if individual_data == "Customized":
+            data = create_custom_individual(age, activity_level)
+            labeled_data = label_data(data)
+            classify_data(labeled_data)
+        if individual_data == "Provided":
+            data = create_provided_individual()
+            labeled_data = label_data(data)
+            classify_data(labeled_data)
     if menu == "Community Health Analysis":
         st.write("Comming Soon!")
 
 
 if __name__ == "__main__":
     setup()
-
-
-

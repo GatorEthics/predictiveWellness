@@ -9,10 +9,6 @@ fake = Faker()
 fake.add_provider(python)
 
 
-def reset_dataframe(df):
-    df.drop(df.index, inplace=True)
-
-
 def get_individual_information():
     age = int(input("Please enter your age: "))
     if age < 1 or age > 110:
@@ -33,6 +29,10 @@ def randomize_int(min, max, increments, amount):
         integer = fake.pyint(min_value=min, max_value=max, step=increments)
         integer_list.append(integer)
     return integer_list
+
+
+# def reset_dataframe(df):
+#     df.drop(columns=["MS", "CD"]
 
 
 def create_steps(df, activity_level):
@@ -155,7 +155,7 @@ def create_activity_minutes(df, age, activity_level):
             max = 100
         if 1 < activity_level < 3:
             min = 15
-            max = 45
+            max = 454
         increments = 1
         amount = 1000
         integer_list = randomize_int(min, max, increments, amount)
@@ -183,12 +183,13 @@ def create_activity_minutes(df, age, activity_level):
 
 def main(age, activity_level):
     custom_individual = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/createData/customIndividual.csv", index_col=[0])
-    reset_dataframe(custom_individual)
+    # reset_dataframe(custom_individual)
     create_steps(custom_individual, activity_level)
     create_minutes_sitting(custom_individual, activity_level)
     create_activity_minutes(custom_individual, age, activity_level)
     custom_individual.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/createData/customIndividual.csv")
     return custom_individual
+
 
 if __name__ == "__main__":
     main(20, 2)

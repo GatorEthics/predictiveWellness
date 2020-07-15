@@ -87,11 +87,15 @@ def create_blood_pressure(df):
     df["BP"] = blood_pressure_array
 
 
-if __name__ == "__main__":
-    individual_data = pd.read_csv("src/createData/customIndividual.csv", index_col=[0])
+def main():
+    individual_data = pd.read_csv("src/createData/individual_data.csv", index_col=[0])
     create_steps(individual_data)
     create_minutes_sitting(individual_data)
     create_activity_minutes(individual_data)
     create_heart_rate(individual_data)
     create_blood_pressure(individual_data)
-    individual_data.to_csv("src/createData/customIndividual.csv")
+    individual_data.to_csv("src/createData/individual_data.csv")
+
+
+if __name__ == "__main__":
+    main()
