@@ -2,6 +2,7 @@
 
 import pandas as pd
 import numpy as np
+import sys
 from pymed import PubMed
 
 
@@ -17,7 +18,7 @@ def label_cardiovascular_disease(df):
 
 
 def add_columns(df):
-    df["CD"] = ""
+    df["CD"] = "Hello"
     df["MS"] = ""
     df["Diabetes"] = ""
     df["Health"] = ""
@@ -70,9 +71,9 @@ def main(individual_data):
     label_diabetes(individual_data)
     label_health_risks(individual_data)
     remove_columns(individual_data)
-    individual_data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/createData/customIndividual.csv")
 
 
 if __name__ == "__main__":
     data = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/createData/individual_data.csv", index_col=[0])
     main(data)
+    data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/createData/individual_data.csv")

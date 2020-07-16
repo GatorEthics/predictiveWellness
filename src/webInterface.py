@@ -18,25 +18,23 @@ def individual_analysis_type():
 
 
 def customized_setup():
-    individual_data = individual_analysis_type()
-    if individual_data == "Customized":
-        age = st.number_input("Please enter your age (in years)", min_value=1)
-        weight = st.number_input("Please enter your weight (in pounds)", min_value=1.0)
-        height = st.number_input("Please enter your height (in inches", min_value=1.0)
-        activity_level = st.slider("Please enter your activity level", min_value=0, max_value=5)
-        if activity_level == 1:
-            st.write("Level 1: Extremely inactive")
-        if activity_level == 2:
-            st.write("Level 2: Sedentary lifestyle (little to no exercise)")
-        if activity_level == 3:
-            st.write("Level 3: Moderately active")
-        if activity_level == 4:
-            st.write("Level 4: Vigorously active")
-        if activity_level == 5:
-            st.write("Level 5: Extremely active (competitive athlete)")
-        kilograms = weight * 0.453592
-        meters_squared = height * 0.00064516
-        bmi = kilograms / meters_squared
+    age = st.number_input("Please enter your age (in years)", min_value=1)
+    weight = st.number_input("Please enter your weight (in pounds)", min_value=1.0)
+    height = st.number_input("Please enter your height (in inches", min_value=1.0)
+    activity_level = st.slider("Please enter your activity level", min_value=1, max_value=5, value=None)
+    if activity_level == 1:
+        st.write("Level 1: Extremely inactive")
+    if activity_level == 2:
+        st.write("Level 2: Sedentary lifestyle (little to no exercise)")
+    if activity_level == 3:
+        st.write("Level 3: Moderately active")
+    if activity_level == 4:
+        st.write("Level 4: Vigorously active")
+    if activity_level == 5:
+        st.write("Level 5: Extremely active (competitive athlete)")
+    kilograms = weight * 0.453592
+    meters_squared = height * 0.00064516
+    bmi = kilograms / meters_squared
     return age, weight, height, activity_level, bmi
 
 
