@@ -164,10 +164,156 @@ def create_activity_minutes(df, age, activity_level):
         df["Minutes_physical_activity"] = activity_array
 
 
-# def create_heart_rate(df):
+def create_heart_rate(df, age, activity_level):
+    if age <= 20:
+        if 3 < activity_level < 5:
+            min = 100
+            max = 170
+        if 1 < activity_level < 3:
+            min = 130
+            max = 200
+        increments = 1
+        amount = 1000
+        integer_list = randomize_int(min, max, increments, amount)
+        heart_array = np.array(integer_list)
+        df["HR"] = heart_array
+    if 20 < age < 30:
+        if 3 < activity_level < 5:
+            min = 100
+            max = 162
+        if 1 < activity_level < 3:
+            min = 130
+            max = 205
+        increments = 1
+        amount = 1000
+        integer_list = randomize_int(min, max, increments, amount)
+        heart_array = np.array(integer_list)
+        df["HR"] = heart_array
+    if 30 < age < 40:
+        if 3 < activity_level < 5:
+            min = 95
+            max = 153
+        if 1 < activity_level < 3:
+            min = 125
+            max = 190
+        increments = 1
+        amount = 1000
+        integer_list = randomize_int(min, max, increments, amount)
+        heart_array = np.array(integer_list)
+        df["HR"] = heart_array
+    if 40 < age < 50:
+        if 3 < activity_level < 5:
+            min = 90
+            max = 145
+        if 1 < activity_level < 3:
+            min = 120
+            max = 185
+        increments = 1
+        amount = 1000
+        integer_list = randomize_int(min, max, increments, amount)
+        heart_array = np.array(integer_list)
+        df["HR"] = heart_array
+    if 50 < age < 60:
+        if 3 < activity_level < 5:
+            min = 85
+            max = 136
+        if 1 < activity_level < 3:
+            min = 115
+            max = 175
+        increments = 1
+        amount = 1000
+        integer_list = randomize_int(min, max, increments, amount)
+        heart_array = np.array(integer_list)
+        df["HR"] = heart_array
+    if 60 < age < 70:
+        if 3 < activity_level < 5:
+            min = 80
+            max = 128
+        if 1 < activity_level < 3:
+            min = 110
+            max = 165
+        increments = 1
+        amount = 1000
+        integer_list = randomize_int(min, max, increments, amount)
+        heart_array = np.array(integer_list)
+        df["HR"] = heart_array
+    if age >= 70:
+        if 3 < activity_level < 5:
+            min = 75
+            max = 128
+        if 1 < activity_level < 3:
+            min = 105
+            max = 160
+        increments = 1
+        amount = 1000
+        integer_list = randomize_int(min, max, increments, amount)
+        heart_array = np.array(integer_list)
+        df["HR"] = heart_array
 
 
-# def create_blood_pressure(df):
+def create_blood_pressure(df, age, activity_level):
+    # Systolic Blood Pressure
+    if 6 < age < 13:
+        if 3 < activity_level < 5:
+            min = 60
+            max = 115
+        if 1 < activity_level < 3:
+            min = 90
+            max = 135
+        increments = 1
+        amount = 1000
+        integer_list = randomize_int(min, max, increments, amount)
+        blood_pressure_array = np.array(integer_list)
+        df["BP"] = blood_pressure_array
+    if 14 < age < 18:
+        if 3 < activity_level < 5:
+            min = 70
+            max = 120
+        if 1 < activity_level < 3:
+            min = 100
+            max = 140
+        increments = 1
+        amount = 1000
+        integer_list = randomize_int(min, max, increments, amount)
+        blood_pressure_array = np.array(integer_list)
+        df["BP"] = blood_pressure_array
+    if 19 < age < 40:
+        if 3 < activity_level < 5:
+            min = 75
+            max = 135
+        if 1 < activity_level < 3:
+            min = 95
+            max = 155
+        increments = 1
+        amount = 1000
+        integer_list = randomize_int(min, max, increments, amount)
+        blood_pressure_array = np.array(integer_list)
+        df["BP"] = blood_pressure_array
+    if 41 < age < 60:
+        if 3 < activity_level < 5:
+            min = 90
+            max = 145
+        if 1 < activity_level < 3:
+            min = 110
+            max = 165
+        increments = 1
+        amount = 1000
+        integer_list = randomize_int(min, max, increments, amount)
+        blood_pressure_array = np.array(integer_list)
+        df["BP"] = blood_pressure_array
+    if age >= 61:
+        if 3 < activity_level < 5:
+            min = 75
+            max = 145
+        if 1 < activity_level < 3:
+            min = 95
+            max = 165
+        increments = 1
+        amount = 1000
+        integer_list = randomize_int(min, max, increments, amount)
+        blood_pressure_array = np.array(integer_list)
+        df["BP"] = blood_pressure_array
+
 
 def main(age, activity_level):
     custom_individual = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/createData/customIndividual.csv", index_col=[0])
@@ -175,6 +321,8 @@ def main(age, activity_level):
     create_steps(custom_individual, activity_level)
     create_minutes_sitting(custom_individual, activity_level)
     create_activity_minutes(custom_individual, age, activity_level)
+    create_heart_rate(custom_individual, age, activity_level)
+    create_blood_pressure(custom_individual, age, activity_level)
     custom_individual.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/createData/customIndividual.csv")
     return custom_individual
 
