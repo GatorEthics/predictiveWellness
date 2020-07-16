@@ -1,12 +1,12 @@
 import streamlit as st
-import custom_individual as custom_individual
+import createData.custom_individual as custom_individual
 import createData.createIndividualData as provided_individual
 import createData.comprehensiveIndividualLabeling as label
 import classificationAlgorithms.SupportVectorMachine as svm
 import classificationAlgorithms.NaiveBayes as naive_bayes
 
 
-def individual_setup():
+def individual_analysis_type():
     individual_data = st.selectbox(
         "Would you like to analyze provided or customized data?",
         [
@@ -14,6 +14,11 @@ def individual_setup():
             "Customized"
         ],
     )
+    return individual_data
+
+
+def customized_setup():
+    individual_data = individual_analysis_type()
     if individual_data == "Customized":
         age = st.number_input("Please enter your age (in years)", min_value=1)
         weight = st.number_input("Please enter your weight (in pounds)", min_value=1.0)
@@ -32,7 +37,7 @@ def individual_setup():
         kilograms = weight * 0.453592
         meters_squared = height * 0.00064516
         bmi = kilograms / meters_squared
-    return individual_data, age, weight, height, activity_level, bmi
+    return age, weight, height, activity_level, bmi
 
 
 def create_provided_individual():
@@ -90,8 +95,9 @@ def setup():
         with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/classificationAlgorithms/classificationAlgorithms.md") as classification:
             st.markdown(classification.read())
     if menu == "Individual Health Analysis":
-        individual_data, age, weight, height, activity_level, bmi = individual_setup()
+        individual_data = individual_analysis_type()
         if individual_data == "Customized":
+            age, weight, height, activity_level, bmi = customized_setup()
             data = create_custom_individual(age, activity_level)
             labeled_data = label_data(data)
             classify_data(labeled_data)

@@ -8,7 +8,7 @@ from sklearn import metrics
 
 def import_data():
     # Import csv file of individual data as pandas dataframe to use for training/testing data
-    dataset = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/createData/individual_data.csv")
+    dataset = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/classificationAlgorithms/testingData.csv")
     # dataset.drop("MS")
     # Print the dataset shape
     print("Dataset Length: ", len(dataset))
