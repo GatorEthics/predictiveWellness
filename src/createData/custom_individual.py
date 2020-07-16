@@ -171,7 +171,7 @@ def create_activity_minutes(df, age, activity_level):
 
 def main(age, activity_level):
     custom_individual = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/createData/customIndividual.csv", index_col=[0])
-    clear_existing_data(custom_individual)
+    # clear_existing_data(custom_individual)
     create_steps(custom_individual, activity_level)
     create_minutes_sitting(custom_individual, activity_level)
     create_activity_minutes(custom_individual, age, activity_level)
