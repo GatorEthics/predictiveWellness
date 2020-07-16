@@ -176,7 +176,7 @@ def create_activity_minutes(df, age, activity_level):
         df["Minutes_physical_activity"] = activity_array
 
 
-def create_heart_rate(df):
+# def create_heart_rate(df):
 
 
 # def create_blood_pressure(df):
