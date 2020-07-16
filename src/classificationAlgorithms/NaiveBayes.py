@@ -8,7 +8,7 @@ from sklearn import metrics
 
 def import_data():
     # Import csv file of individual data as pandas dataframe to use for training/testing data
-    dataset = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/customIndividual.csv")
+    dataset = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/createData/individual_data.csv")
     # dataset.drop("MS")
     # Print the dataset shape
     print("Dataset Length: ", len(dataset))
@@ -34,7 +34,7 @@ def classify(x_train, y_train):
     return gaussian
 
 
-def predict(classifier, x_test):
+def predict(classifier, x_test, y_test):
     good_health = 0
     cd = 0
     ms = 0
@@ -73,29 +73,33 @@ def predict(classifier, x_test):
     prediction_list.append(diabetes)
     largest = max(prediction_list)
     if largest == good_health:
-        overall = "Good health"
+        print("Good health")
     if largest == cd_ms_diabetes:
-        overall = "Cardiovascular disease, Metabolic syndrome, Type II diabetes"
+        print("Cardiovascular disease, Metabolic syndrome, Type II diabetes")
     if largest == cd_ms:
-        overall = "Cardiovascular disease, Metabolic syndrome"
+        print("Cardiovascular disease, Metabolic syndrome")
     if largest == cd_diabetes:
-        overall = "Cardiovascular disease, Type II diabetes"
+        print("Cardiovascular disease, Type II diabetes")
     if largest == ms_diabetes:
-        overall = "Metabolic syndrome, Type II diabetes"
+        print("Metabolic syndrome, Type II diabetes")
     if largest == cd:
-        overall = "Cardiovascular disease"
+        print("Cardiovascular disease")
     if largest == ms:
-        overall = "Metabolic syndrome"
+        print("Metabolic syndrome")
     if largest == diabetes:
-        overall = "Type II diabetes"
+        print("Type II diabetes")
 
-    print(overall)
+    # print(overall)
 
-    print("Gaussian Naive Bayes model accuracy(in %):", metrics.accuracy_score(y_test, prediction)*100)
+    print("Gaussian Naive Bayes model accuracy(in %):", metrics.accuracy_score(y_test, prediction) * 100)
 
 
-if __name__ == "__main__":
+def main():
     data = import_data()
     X, Y, x_train, x_test, y_train, y_test = split_data(data)
     classifier = classify(x_train, y_train)
-    predict(classifier, x_test)
+    predict(classifier, x_test, y_test)
+
+
+if __name__ == "__main__":
+    main()

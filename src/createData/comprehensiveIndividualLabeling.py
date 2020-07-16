@@ -74,5 +74,5 @@ def main(individual_data):
 
 
 if __name__ == "__main__":
-    data = individual_data = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/createData/customIndividual.csv", index_col=[0])
+    data = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/createData/individual_data.csv", index_col=[0])
     main(data)
