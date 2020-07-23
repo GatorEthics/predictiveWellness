@@ -3,7 +3,8 @@
 # import classificationAlgorithms.SupportVectorMachine as svm
 import classificationAlgorithms.DecisionTree as decision_tree
 import classificationAlgorithms.SupportVectorMachine as svm
-import classificationAlgorithms.NaiveBayes as bayes
+import classificationAlgorithms.NaiveBayes
+
 from pymed import PubMed
 
 matrix, report, health_results = svm.perform_methods()
