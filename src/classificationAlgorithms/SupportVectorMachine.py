@@ -45,16 +45,23 @@ def predict(classifier):
             MS = MS + 1
 
     if GH > MS:
-        print("Overall good health")
+        health = "Overall good health"
     else:
-        print("Overall Metabolic Syndrome")
+        health = "Overall Metabolic Syndrome"
 
-    print(confusion_matrix(y_test, prediction))
-    print(classification_report(y_test, prediction))
+    matrix = confusion_matrix(y_test, prediction)
+    report = classification_report(y_test, prediction)
+
+    return matrix, report, health
 
 
-if __name__ == "__main__":
+def perform_methods():
     data = import_data()
     X, Y, x_train, x_test, y_train, y_test = split_data(data)
     classifier = classify(x_train, x_test, y_train, y_test)
-    predict(classifier)
+    matrix, report, health = predict(classifier)
+    return matrix, report, health
+
+
+if __name__ == "__main__":
+    print(perform_methods)
