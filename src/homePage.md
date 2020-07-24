@@ -1,19 +1,24 @@
-# Data Generation with Faker
+
+# General Description of Vigor
+
+## Data Generation with Faker
 
 ### Description here
 
-# Understanding Classification Algorithms
+## Understanding Classification Algorithms
 
 ### Description here
 
-# Individual Health Analysis
+## Individual Health Analysis
 
 ### Description here
 
-# Community Health Analysis
+## Community Health Analysis
 
 ### Description here
 
-# About Vigor
+## About Vigor
 
 ### Description here
+
+#### Contact Us

@@ -84,7 +84,7 @@ def individual_analysis():
 
 
 def setup():
-    st.image("vigor.png", caption="created at logomakr.com", width=900)
+    st.image("VigorImages/vigor.png", caption="created at logomakr.com", width=900)
     st.sidebar.title("Welcome to Vigor!")
     home_menu = st.selectbox(
         "Menu",
