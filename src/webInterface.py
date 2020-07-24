@@ -78,19 +78,28 @@ def setup():
         [
             "Home",
             "Data Generation with Faker",
-            "Classification Algorithms",
+            "Understanding Classification Algorithms",
             "Individual Health Analysis",
             "Community Health Analysis"
         ],
     )
+    if st.button("Data Generation with Faker"):
+        menu = "Data Generation with Faker"
+    if st.button("Understanding Classification Algorithms"):
+        menu = "Understanding Classification Algorithms"
+    if st.button("Individual Health Analysis"):
+        menu = "Individual Health Analysis"
+    if st.button("Community Health Analysis"):
+        menu = "Community Health Analysis"
+    
     if menu == "Home":
-        with open("README.md") as readme_file:
+        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/README.md") as readme_file:
             st.markdown(readme_file.read())
     if menu == "Data Generation with Faker":
-        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/faker/fakerInstructions.md") as faker_file:
+        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataGenerationWithFaker/fakerInstructions.md") as faker_file:
             st.markdown(faker_file.read())
     if menu == "Classification Algorithms":
-        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/classificationAlgorithms/classificationAlgorithms.md") as classification:
+        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/classificationAlgorithms/classificationDescription.md") as classification:
             st.markdown(classification.read())
     if menu == "Individual Health Analysis":
         individual_data = individual_analysis_type()
