@@ -71,7 +71,7 @@ def classify_data(data):
 
 
 def setup():
-    st.title("Welcome to Vigor!")
+    st.image("vigor.png", caption="created at logomakr.com", width=900)
     st.sidebar.title("Welcome to Vigor!")
     menu = st.sidebar.selectbox(
         "Menu",
@@ -80,18 +80,31 @@ def setup():
             "Data Generation with Faker",
             "Understanding Classification Algorithms",
             "Individual Health Analysis",
-            "Community Health Analysis"
+            "Community Health Analysis", 
+            "About Vigor"
         ],
     )
+    st.header("Data Generation with Faker")
+    st.write("Description here")
     if st.button("Data Generation with Faker"):
         menu = "Data Generation with Faker"
+    st.header("Understanding Classification Algorithms")
+    st.write("Description here")
     if st.button("Understanding Classification Algorithms"):
         menu = "Understanding Classification Algorithms"
+    st.header("Individual Health Analysis")
+    st.write("Description here")
     if st.button("Individual Health Analysis"):
         menu = "Individual Health Analysis"
+    st.header("Community Health Analysis")
+    st.write("Description here")
     if st.button("Community Health Analysis"):
         menu = "Community Health Analysis"
-    
+    st.header("About Vigor")
+    st.write("Description Here")
+    if st.button("About Vigor"):
+        menu = "About Vigor"
+
     if menu == "Home":
         with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/README.md") as readme_file:
             st.markdown(readme_file.read())
@@ -114,6 +127,8 @@ def setup():
             classify_data(labeled_data)
     if menu == "Community Health Analysis":
         st.write("Comming Soon!")
+    if menu == "About Vigor":
+        st.write("Coming Soon!")
 
 
 if __name__ == "__main__":
