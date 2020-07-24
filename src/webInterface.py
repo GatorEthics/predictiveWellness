@@ -70,65 +70,49 @@ def classify_data(data):
         st.dataframe(data)
 
 
+def individual_analysis():
+    individual_data = individual_analysis_type()
+    if individual_data == "Customized":
+        age, weight, height, activity_level, bmi = customized_setup()
+        data = create_custom_individual(age, activity_level)
+        labeled_data = label_data(data)
+        classify_data(labeled_data)
+    if individual_data == "Provided":
+        data = create_provided_individual()
+        labeled_data = label_data(data)
+        classify_data(labeled_data)
+
+
 def setup():
     st.image("vigor.png", caption="created at logomakr.com", width=900)
     st.sidebar.title("Welcome to Vigor!")
-    menu = st.sidebar.selectbox(
+    home_menu = st.selectbox(
         "Menu",
         [
             "Home",
             "Data Generation with Faker",
             "Understanding Classification Algorithms",
             "Individual Health Analysis",
-            "Community Health Analysis", 
+            "Community Health Analysis",
             "About Vigor"
         ],
     )
-    st.header("Data Generation with Faker")
-    st.write("Description here")
-    if st.button("Data Generation with Faker"):
-        menu = "Data Generation with Faker"
-    st.header("Understanding Classification Algorithms")
-    st.write("Description here")
-    if st.button("Understanding Classification Algorithms"):
-        menu = "Understanding Classification Algorithms"
-    st.header("Individual Health Analysis")
-    st.write("Description here")
-    if st.button("Individual Health Analysis"):
-        menu = "Individual Health Analysis"
-    st.header("Community Health Analysis")
-    st.write("Description here")
-    if st.button("Community Health Analysis"):
-        menu = "Community Health Analysis"
-    st.header("About Vigor")
-    st.write("Description Here")
-    if st.button("About Vigor"):
-        menu = "About Vigor"
-
-    if menu == "Home":
-        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/README.md") as readme_file:
-            st.markdown(readme_file.read())
-    if menu == "Data Generation with Faker":
+    if home_menu == "Home":
+        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/homePage.md") as home_file:
+            st.markdown(home_file.read())
+    if home_menu == "Data Generation with Faker":
         with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataGenerationWithFaker/fakerInstructions.md") as faker_file:
             st.markdown(faker_file.read())
-    if menu == "Classification Algorithms":
+    if home_menu == "Classification Algorithms":
         with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/classificationAlgorithms/classificationDescription.md") as classification:
             st.markdown(classification.read())
-    if menu == "Individual Health Analysis":
-        individual_data = individual_analysis_type()
-        if individual_data == "Customized":
-            age, weight, height, activity_level, bmi = customized_setup()
-            data = create_custom_individual(age, activity_level)
-            labeled_data = label_data(data)
-            classify_data(labeled_data)
-        if individual_data == "Provided":
-            data = create_provided_individual()
-            labeled_data = label_data(data)
-            classify_data(labeled_data)
-    if menu == "Community Health Analysis":
+    if home_menu == "Individual Health Analysis":
+        individual_analysis()
+    if home_menu == "Community Health Analysis":
         st.write("Comming Soon!")
-    if menu == "About Vigor":
-        st.write("Coming Soon!")
+    if home_menu == "About Vigor":
+        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/README.md") as readme:
+            st.markdown(readme.read())
 
 
 if __name__ == "__main__":
