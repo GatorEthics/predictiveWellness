@@ -100,10 +100,15 @@ def setup():
     if home_menu == "Home":
         with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/homePage.md") as home_file:
             st.markdown(home_file.read())
+        st.title("Follow Us")
+        st.image("VigorImages/github.png", width=500)
+        st.image("VigorImages/instagram.png", width=300)
+        st.image("VigorImages/website.png", width=400)
+
     if home_menu == "Data Generation with Faker":
         with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataGenerationWithFaker/fakerInstructions.md") as faker_file:
             st.markdown(faker_file.read())
-    if home_menu == "Classification Algorithms":
+    if home_menu == "Understanding Classification Algorithms":
         with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/classificationAlgorithms/classificationDescription.md") as classification:
             st.markdown(classification.read())
     if home_menu == "Individual Health Analysis":
@@ -111,8 +116,8 @@ def setup():
     if home_menu == "Community Health Analysis":
         st.write("Comming Soon!")
     if home_menu == "About Vigor":
-        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/README.md") as readme:
-            st.markdown(readme.read())
+        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/about.md") as about:
+            st.markdown(about.read())
 
 
 if __name__ == "__main__":
