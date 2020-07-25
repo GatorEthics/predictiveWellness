@@ -1,4 +1,4 @@
-![Vigor](vigorLogo.png)
+![Vigor](vigorLogo.jpg)
 
 Predictive Analysis with Health and Wellness Data
 
