@@ -83,8 +83,15 @@ def individual_analysis():
         classify_data(labeled_data)
 
 
+def follow():
+    st.title("Follow Us")
+    st.image("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/github.png", width=500)
+    st.image("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/instagram.png", width=300)
+    st.image("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/website.png", width=400)
+
+
 def setup():
-    st.image("VigorImages/vigor.png", caption="created at logomakr.com", width=900)
+    st.image("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/vigor.png", width=900)
     st.sidebar.title("Welcome to Vigor!")
     home_menu = st.selectbox(
         "Menu",
@@ -98,26 +105,27 @@ def setup():
         ],
     )
     if home_menu == "Home":
-        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/homePage.md") as home_file:
+        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/homePage.md") as home_file:
             st.markdown(home_file.read())
-        st.title("Follow Us")
-        st.image("VigorImages/github.png", width=500)
-        st.image("VigorImages/instagram.png", width=300)
-        st.image("VigorImages/website.png", width=400)
-
+        follow()
     if home_menu == "Data Generation with Faker":
         with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataGenerationWithFaker/fakerInstructions.md") as faker_file:
             st.markdown(faker_file.read())
+        follow()
     if home_menu == "Understanding Classification Algorithms":
         with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/classificationAlgorithms/classificationDescription.md") as classification:
             st.markdown(classification.read())
+        follow()
     if home_menu == "Individual Health Analysis":
         individual_analysis()
+        follow()
     if home_menu == "Community Health Analysis":
         st.write("Comming Soon!")
+        follow()
     if home_menu == "About Vigor":
-        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/about.md") as about:
+        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/about.md") as about:
             st.markdown(about.read())
+        follow()
 
 
 if __name__ == "__main__":
