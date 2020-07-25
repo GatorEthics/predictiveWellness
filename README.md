@@ -1,4 +1,5 @@
-# Predictive Analysis with Health and Wellness Data
+# Vigor 
+Predictive Analysis with Health and Wellness Data
 
 ## Allegheny College Mozilla Fellows
 
