@@ -84,9 +84,4 @@ To raise an issue please follow these templates:
 
 To create a pull request please follow this template:
 
-- [pull_request_template.md]
-
-
-
-
-### Create a Pull Request
+- [pull_request_template.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/Development/pr_template.md)
