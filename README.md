@@ -27,7 +27,7 @@ git clone https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness.git
 With SSH Key:
 
 ``` 
-git clone git@github.com:Allegheny-Mozilla-Fellows/predictiveWellness.git 
+git clone git@github.com:Allegheny-Mozilla-Fellows/predictiveWellness.git
 ```
 
 **2. Install pipenv and dependencies**
