@@ -58,11 +58,11 @@ For raising an issue in [Vigor's Issue Tracker](https://github.com/Allegheny-Moz
 
 **Reporting a Bug**
 
-Visit [bug_report.md]
+Visit [bug_report.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/IssueTemplates/bug_report.md)
 
 **Requesting a Feature**
 
-Visit [feature_request.md]
+Visit [feature_request.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/IssueTemplates/feature_request.md)
 
 ### Contact Us
 
