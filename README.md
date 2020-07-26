@@ -1,4 +1,4 @@
-![Vigor](vigorLogo.jpg)
+![Vigor](/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/vigor.png)
 
 Predictive Analysis with Health and Wellness Data
 
