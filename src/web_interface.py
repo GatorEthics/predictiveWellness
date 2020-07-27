@@ -106,15 +106,15 @@ def setup():
         ],
     )
     if home_menu == "Home":
-        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/homePage.md") as home_file:
+        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/home_page.md") as home_file:
             st.markdown(home_file.read())
         follow()
     if home_menu == "Data Generation with Faker":
-        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataGenerationWithFaker/fakerInstructions.md") as faker_file:
+        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataGenerationWithFaker/faker_instructions.md") as faker_file:
             st.markdown(faker_file.read())
         follow()
     if home_menu == "Understanding Classification Algorithms":
-        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/classificationAlgorithms/classificationDescription.md") as classification:
+        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/classificationAlgorithms/classification_description.md") as classification:
             st.markdown(classification.read())
         follow()
     if home_menu == "Individual Health Analysis":
