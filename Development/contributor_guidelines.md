@@ -5,12 +5,13 @@
 - **Email**
 
 Dr. Jumadinova: jjumadinova@allegheny.edu
+
 Madelyn Kapfhammer:
 kapfhammerm@allegheny.edu
 
-- **TWitter**
-Madelyn Kapfhammer: @MaddyKapfhammer
+- **Twitter**
 
+Madelyn Kapfhammer: @MaddyKapfhammer
 
 - **Bugs?**
 
