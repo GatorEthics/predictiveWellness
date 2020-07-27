@@ -1,9 +1,10 @@
 import streamlit as st
-import createData.custom_individual as custom_individual
-import createData.createIndividualData as provided_individual
-import createData.comprehensiveIndividualLabeling as label
-import classificationAlgorithms.SupportVectorMachine as svm
-import classificationAlgorithms.NaiveBayes as naive_bayes
+import createData.create_custom_individual as custom_individual
+import createData.create_individual_data as provided_individual
+import createData.comprehensive_individual_labeling as label
+import classificationAlgorithms.support_vector_machine as svm
+import classificationAlgorithms.naive_bayes as naive_bayes
+import classificationAlgorithms.decision_tree as decision_tree
 
 
 def individual_analysis_type():
