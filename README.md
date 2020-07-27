@@ -50,17 +50,17 @@ In the `src` folder of Vigor, run `webInterface.py`, which will navigate to a we
 
 ## Information for Developers
 
-We welcome everyone who is interested in helping improve Vigor! If you are interested in being a contributor, please review our [Code of Conduct](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/Development/code_of_conduct.md) and [Guidelines for contributors](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/Development/contributor_guidelines.md) before raising an issue, or beginning a contribution.
+We welcome everyone who is interested in helping improve Vigor! If you are interested in being a contributor, please review our [Code of Conduct](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/development/code_of_conduct.md) and [Guidelines for Contributors](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/development/contributor_guidelines.md) before raising an issue, or beginning a contribution.
 
 To raise an issue please follow these templates:
 
-- [bug_report.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/Development/bug_report.md)
+- [bug_report.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/development/bug_report.md)
 
-- [feature_request.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/Development/feature_request.md)
+- [feature_request.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/development/feature_request.md)
 
 To create a pull request please follow this template:
 
-- [pull_request_template.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/Development/pr_template.md)
+- [pull_request_template.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/development/pr_template.md)
 
 ## Questions and Concerns
 
@@ -72,11 +72,11 @@ For raising an issue in [Vigor's Issue Tracker](https://github.com/Allegheny-Moz
 
 **Reporting a Bug**
 
-Visit [bug_report.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/Development/bug_report.md)
+Visit [bug_report.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/development/bug_report.md)
 
 **Requesting a Feature**
 
-Visit [feature_request.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/Development/feature_request.md)
+Visit [feature_request.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/development/feature_request.md)
 
 ### Contact Us
 
