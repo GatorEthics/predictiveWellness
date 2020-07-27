@@ -34,7 +34,7 @@ git clone git@github.com:Allegheny-Mozilla-Fellows/predictiveWellness.git
 
 The documentation and instructions on installing pipenv can be found [Here.](https://pipenv.kennethreitz.org/en/latest/#install-pipenv-today)
 
-`pipenv` allows dependency installation with ease. After cloning the Vigor repository, install all necessary dependencies for the tool with the command: 
+`pipenv` allows dependency installation with ease. After cloning the Vigor repository, install all necessary dependencies for the tool with the command:
 
 `pipenv install --dev`
 
@@ -46,7 +46,7 @@ In the `src` folder of Vigor, run `webInterface.py`, which will navigate to a we
 
 `cd src`
 
-`streamlit run webInterface.py`
+`streamlit run web_interface.py`
 
 ## Information for Developers
 
