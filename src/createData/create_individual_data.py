@@ -9,8 +9,7 @@ fake = Faker()
 fake.add_provider(python)
 
 
-def clear_existing_data(df):
-    df.drop(df.index, inplace=True)
+    # df.drop(df.index, inplace=True)
 
 
 def randomize_int(min, max, increments, amount):
@@ -24,13 +23,14 @@ def randomize_int(min, max, increments, amount):
 
 
 def create_steps(df):
+    # df.Steps = df.Steps.astype(str)
     min = 0
     max = 26500
     increments = 1
     amount = 1000
     integer_list = randomize_int(min, max, increments, amount)
     steps_array = np.array(integer_list)
-    df["Steps"] = steps_array
+    df["Steps_taken"] = steps_array
 
 
 def create_minutes_sitting(df):
