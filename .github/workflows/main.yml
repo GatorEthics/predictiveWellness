@@ -61,7 +61,7 @@ jobs:
       - name: Install dependencies
         run: |
           pipenv install --dev
-      - name: Perform pre-commit checks
-        run: |
-          pipenv run pre-commit install-hooks
-          pipenv run pre-commit run --all-files
+      # - name: Perform pre-commit checks
+      #   run: |
+      #     pipenv run pre-commit install-hooks
+      #     pipenv run pre-commit run --all-files
