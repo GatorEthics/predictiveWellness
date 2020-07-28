@@ -33,6 +33,21 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: ${{ matrix.python-version }}
+      # Check for existence of git files
+      - name: Check for existence of git files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: ".gitmessage, .gitignore"
+      # Check for existence of general files
+      - name: Check for existence of contribution files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "CODE_OF_CONDUCT.md, .CONTRIBUTING.md, LICENSE.md, README.md"
+      # Check for existence of development files
+      - name: Check for existence of of development files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "pull_request_template.md, bug_report.md, feature_request.md"
       - name: Build pyenv
         uses: gabrielfalcao/pyenv-action@v5
         with:
