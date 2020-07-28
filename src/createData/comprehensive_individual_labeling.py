@@ -67,14 +67,14 @@ def remove_columns(df):
 
 
 def main():
-    individual_data = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/individual_data.csv", index_col=[0])
+    individual_data = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv", index_col=[0])
     add_columns(individual_data)
     label_cardiovascular_disease(individual_data)
     label_metabolic_syndrome(individual_data)
     label_diabetes(individual_data)
     label_health_risks(individual_data)
     # remove_columns(individual_data)
-    individual_data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/individual_data.csv")
+    individual_data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv")
 
 
 if __name__ == "__main__":

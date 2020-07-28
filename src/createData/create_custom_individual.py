@@ -33,7 +33,7 @@ def create_steps(df, activity_level):
         amount = 1000
         integer_list = randomize_int(min, max, increments, amount)
         steps_array = np.array(integer_list)
-        df["Steps"] = steps_array
+        df["Steps_taken"] = steps_array
     # Steps for low activity lifestyle
     if activity_level == 2:
         min = 5000
@@ -42,7 +42,7 @@ def create_steps(df, activity_level):
         amount = 1000
         integer_list = randomize_int(min, max, increments, amount)
         steps_array = np.array(integer_list)
-        df["Steps"] = steps_array
+        df["Steps_taken"] = steps_array
     # Steps for somewhat active lifestyle
     if activity_level == 3:
         min = 7500
@@ -51,7 +51,7 @@ def create_steps(df, activity_level):
         amount = 1000
         integer_list = randomize_int(min, max, increments, amount)
         steps_array = np.array(integer_list)
-        df["Steps"] = steps_array
+        df["Steps_taken"] = steps_array
     # Steps for active lifestyle
     if activity_level == 4:
         min = 10000
@@ -60,7 +60,7 @@ def create_steps(df, activity_level):
         amount = 1000
         integer_list = randomize_int(min, max, increments, amount)
         steps_array = np.array(integer_list)
-        df["Steps"] = steps_array
+        df["Steps_taken"] = steps_array
     # Steps for highly active lifestyle
     if activity_level == 5:
         min = 12500
@@ -69,7 +69,7 @@ def create_steps(df, activity_level):
         amount = 1000
         integer_list = randomize_int(min, max, increments, amount)
         steps_array = np.array(integer_list)
-        df["Steps"] = steps_array
+        df["Steps_taken"] = steps_array
 
 
 def create_minutes_sitting(df, activity_level):
