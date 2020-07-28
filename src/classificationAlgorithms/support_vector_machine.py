@@ -9,7 +9,7 @@ from sklearn.metrics import confusion_matrix
 
 def import_data():
     # Import csv file of individual data as pandas dataframe to use for training/testing data
-    dataset = pd.read_csv("testingData.csv")
+    dataset = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv")
     # Print the dataset shape
     print("Dataset Length: ", len(dataset))
     print("Dataset Shape: ", dataset)
@@ -33,35 +33,91 @@ def classify(x_train, x_test, y_train, y_test):
     return classifier
 
 
-def predict(classifier):
-    MS = 0
-    GH = 0
+def predict(classifier, x_test, y_test):
+    # MS = 0
+    # GH = 0
     prediction = classifier.predict(x_test)
+    # for i in prediction:
+    #     if i == 0:
+    #         GH = GH + 1
+    #     if i == 1:
+    #         MS = MS + 1
 
-    for i in prediction:
-        if i == 0:
-            GH = GH + 1
-        if i == 1:
-            MS = MS + 1
-
-    if GH > MS:
-        health = "Overall good health"
-    else:
-        health = "Overall Metabolic Syndrome"
+    # if GH > MS:
+    #     health = "Overall good health"
+    # else:
+    #     health = "Overall Metabolic Syndrome"
 
     matrix = confusion_matrix(y_test, prediction)
     report = classification_report(y_test, prediction)
 
-    return matrix, report, health
+    return prediction, matrix, report
+
+
+def interpret_prediction(prediction):
+    good_health = 0
+    cd = 0
+    ms = 0
+    diabetes = 0
+    cd_ms_diabetes = 0
+    cd_ms = 0
+    cd_diabetes = 0
+    ms_diabetes = 0
+    prediction_list = []
+    for i in prediction:
+        if i == 0:
+            good_health += 1
+        if i == 9:
+            cd_ms_diabetes += 1
+        if i == 5:
+            cd_ms += 1
+        if i == 6:
+            cd_diabetes += 1
+        if i == 7:
+            ms_diabetes += 1
+        if i == 4:
+            cd += 1
+        if i == 3:
+            ms += 1
+        if i == 2:
+            diabetes += 1
+    prediction_list.append(good_health)
+    prediction_list.append(cd_ms_diabetes)
+    prediction_list.append(cd_ms)
+    prediction_list.append(cd_diabetes)
+    prediction_list.append(ms_diabetes)
+    prediction_list.append(cd)
+    prediction_list.append(ms)
+    prediction_list.append(diabetes)
+    largest = max(prediction_list)
+    if largest == good_health:
+        health = "Good health"
+    if largest == cd_ms_diabetes:
+        health = "Cardiovascular disease, Metabolic syndrome, Type II diabetes"
+    if largest == cd_ms:
+        health = "Cardiovascular disease, Metabolic syndrome"
+    if largest == cd_diabetes:
+        health = "Cardiovascular disease, Type II diabetes"
+    if largest == ms_diabetes:
+        health = "Metabolic syndrome, Type II diabetes"
+    if largest == cd:
+        health = "Cardiovascular disease"
+    if largest == ms:
+        health = "Metabolic syndrome"
+    if largest == diabetes:
+        health = "Type II diabetes"
+    print(health)
 
 
 def perform_methods():
     data = import_data()
     X, Y, x_train, x_test, y_train, y_test = split_data(data)
     classifier = classify(x_train, x_test, y_train, y_test)
-    matrix, report, health = predict(classifier)
-    return matrix, report, health
+    prediction, matrix, report = predict(classifier, x_test, y_test)
+    print(matrix)
+    print(report)
+    interpret_prediction(prediction)
 
 
 if __name__ == "__main__":
-    print(perform_methods)
+    perform_methods()
