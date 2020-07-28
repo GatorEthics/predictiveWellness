@@ -33,6 +33,11 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: ${{ matrix.python-version }}
+      - name: Build pyenv
+        uses: gabrielfalcao/pyenv-action@v5
+        with:
+          default: "${{ matrix.python }}"
+          command: pip install -U pip  # upgrade pip after installing python
       # Install pipenv
       - name: Install Pipenv
         run: |
