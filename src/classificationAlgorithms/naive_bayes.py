@@ -94,7 +94,7 @@ def interpret_prediction(prediction):
         health = "Metabolic syndrome"
     if largest == diabetes:
         health = "Type II diabetes"
-    print(health)
+    return health
 
 
 def perform_methods():
@@ -102,7 +102,9 @@ def perform_methods():
     X, Y, x_train, x_test, y_train, y_test = split_data(data)
     classifier = classify(x_train, y_train)
     prediction = predict(classifier, x_test, y_test)
-    interpret_prediction(prediction)
+    interpretation = interpret_prediction(prediction)
+    print(interpretation)
+    return interpretation
 
 
 if __name__ == "__main__":

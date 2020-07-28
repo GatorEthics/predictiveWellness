@@ -119,7 +119,7 @@ def interpret_prediction(prediction):
         health = "Metabolic syndrome"
     if largest == diabetes:
         health = "Type II diabetes"
-    print(health)
+    return health
 
 
 def calculate_accuracy(y_test, target_prediction):
@@ -139,13 +139,17 @@ def perform_methods():
     print("Results Using Gini Index: ")
     gini_prediction = predict(x_test, gini_classifier)
     calculate_accuracy(y_test, gini_prediction)
-    interpret_prediction(gini_prediction)
+    gini_interpretation = interpret_prediction(gini_prediction)
+    print(gini_interpretation)
 
     # Prediction with entropy
     print("Results Using Entropy: ")
     entropy_prediction = predict(x_test, entropy_classifier)
     calculate_accuracy(y_test, entropy_prediction)
-    interpret_prediction(entropy_prediction)
+    entropy_interpretation = interpret_prediction(entropy_prediction)
+    print(entropy_interpretation)
+
+    return gini_interpretation, entropy_interpretation
 
 
 if __name__ == "__main__":
