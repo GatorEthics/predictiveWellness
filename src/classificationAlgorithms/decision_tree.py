@@ -128,7 +128,7 @@ def calculate_accuracy(y_test, target_prediction):
     print("Report: ", classification_report(y_test, target_prediction))
 
 
-if __name__ == "__main__":
+def perform_methods():
     # Build
     data = import_data()
     X, Y, x_train, y_train, x_test, y_test = split_dataset(data)
@@ -146,3 +146,7 @@ if __name__ == "__main__":
     entropy_prediction = predict(x_test, entropy_classifier)
     calculate_accuracy(y_test, entropy_prediction)
     interpret_prediction(entropy_prediction)
+
+
+if __name__ == "__main__":
+    perform_methods()

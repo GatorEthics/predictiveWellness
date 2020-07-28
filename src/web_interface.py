@@ -53,7 +53,7 @@ def create_custom_individual(age, activity_level):
 
 
 def label_data(data):
-    label.main(data)
+    label.main()
     st.dataframe(data)
 
 

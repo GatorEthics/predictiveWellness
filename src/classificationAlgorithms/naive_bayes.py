@@ -97,7 +97,7 @@ def interpret_prediction(prediction):
     print(health)
 
 
-def main():
+def perform_methods():
     data = import_data()
     X, Y, x_train, x_test, y_train, y_test = split_data(data)
     classifier = classify(x_train, y_train)
@@ -106,4 +106,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    perform_methods()
