@@ -1,15 +1,14 @@
 """A program to create fake data for an individual using Faker Python Package."""
-
+import numpy as np
+import pandas as pd
 from faker import Faker
 from faker.providers import python
-import pandas as pd
-import numpy as np
 
 fake = Faker()
 fake.add_provider(python)
 
 
-    # df.drop(df.index, inplace=True)
+# df.drop(df.index, inplace=True)
 
 
 def randomize_int(min, max, increments, amount):
@@ -23,6 +22,7 @@ def randomize_int(min, max, increments, amount):
 
 
 def create_steps(df):
+    """Create steps based on fitbit data."""
     # df.Steps = df.Steps.astype(str)
     min = 0
     max = 26500
@@ -34,6 +34,7 @@ def create_steps(df):
 
 
 def create_minutes_sitting(df):
+    """Create minutes sitting based on fitbit data."""
     min = 400
     max = 1450
     increments = 1
@@ -44,6 +45,7 @@ def create_minutes_sitting(df):
 
 
 def create_moderate_activity():
+    """Create minutes of moderate activity based on fitbit data."""
     min = 0
     max = 100
     increments = 1
@@ -53,6 +55,7 @@ def create_moderate_activity():
 
 
 def create_intense_activity():
+    """Create minutes of intense activity based on fitbit data."""
     min = 0
     max = 150
     increments = 1
@@ -62,6 +65,7 @@ def create_intense_activity():
 
 
 def create_activity_minutes(df):
+    """Create minutes of physical activity with moderate and intense."""
     activity_list = []
     moderate_activity_list = create_moderate_activity()
     intense_activity_list = create_intense_activity()
@@ -72,6 +76,7 @@ def create_activity_minutes(df):
 
 
 def create_heart_rate(df):
+    """Create heart rate based on provided."""
     min = 50
     max = 110
     increments = 1
@@ -82,6 +87,7 @@ def create_heart_rate(df):
 
 
 def create_blood_pressure(df):
+    """Create blood pressure based on provided data."""
     min = 110
     max = 145
     increments = 1
@@ -92,7 +98,10 @@ def create_blood_pressure(df):
 
 
 def main():
-    individual_data = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/individual_data.csv")
+    """Perform all functions."""
+    individual_data = pd.read_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/individual_data.csv"
+    )
     # , index_col=[0]
     # clear_existing_data(individual_data)
     create_steps(individual_data)
@@ -100,7 +109,9 @@ def main():
     create_activity_minutes(individual_data)
     create_heart_rate(individual_data)
     create_blood_pressure(individual_data)
-    individual_data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/individual_data.csv")
+    individual_data.to_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/individual_data.csv"
+    )
 
 
 if __name__ == "__main__":

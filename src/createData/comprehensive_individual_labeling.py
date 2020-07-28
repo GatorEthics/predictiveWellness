@@ -1,12 +1,11 @@
 """A program to determine health risks with fitness data."""
-
 import pandas as pd
-import numpy as np
-import sys
-from pymed import PubMed
+
+# from pymed import PubMed
 
 
 def add_columns(df):
+    """Add columns for data labeling."""
     df["CD"] = ""
     df["MS"] = ""
     df["Diabetes"] = ""
@@ -63,18 +62,25 @@ def label_health_risks(df):
 
 
 def remove_columns(df):
+    """Remove columns to for future classification."""
     df.drop(["CD", "MS", "Diabetes"], axis=1)
 
 
 def main():
-    individual_data = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv", index_col=[0])
+    """Perform all functions."""
+    individual_data = pd.read_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv",
+        index_col=[0],
+    )
     add_columns(individual_data)
     label_cardiovascular_disease(individual_data)
     label_metabolic_syndrome(individual_data)
     label_diabetes(individual_data)
     label_health_risks(individual_data)
     # remove_columns(individual_data)
-    individual_data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv")
+    individual_data.to_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv"
+    )
 
 
 if __name__ == "__main__":

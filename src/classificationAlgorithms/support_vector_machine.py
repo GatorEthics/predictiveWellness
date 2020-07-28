@@ -1,15 +1,17 @@
 """A program for Support Vector Machine classification with individual health data."""
-
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.svm import SVC
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
+from sklearn.model_selection import train_test_split
+from sklearn.svm import SVC
 
 
 def import_data():
+    """Read a csv file as pandas dataframe."""
     # Import csv file of individual data as pandas dataframe to use for training/testing data
-    dataset = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv")
+    dataset = pd.read_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv"
+    )
     # Print the dataset shape
     print("Dataset Length: ", len(dataset))
     print("Dataset Shape: ", dataset)
@@ -18,6 +20,7 @@ def import_data():
 
 
 def split_data(dataset):
+    """Split dataset into testing and training data."""
     X = dataset.drop("Health", axis=1)
     y = dataset["Health"]
 
@@ -27,26 +30,15 @@ def split_data(dataset):
 
 
 def classify(x_train, x_test, y_train, y_test):
-
+    """Create a classifier."""
     classifier = SVC(kernel="linear")
     classifier.fit(x_train, y_train)
     return classifier
 
 
 def predict(classifier, x_test, y_test):
-    # MS = 0
-    # GH = 0
+    """Make prediction based on classifier and testing data."""
     prediction = classifier.predict(x_test)
-    # for i in prediction:
-    #     if i == 0:
-    #         GH = GH + 1
-    #     if i == 1:
-    #         MS = MS + 1
-
-    # if GH > MS:
-    #     health = "Overall good health"
-    # else:
-    #     health = "Overall Metabolic Syndrome"
 
     matrix = confusion_matrix(y_test, prediction)
     report = classification_report(y_test, prediction)
@@ -55,6 +47,7 @@ def predict(classifier, x_test, y_test):
 
 
 def interpret_prediction(prediction):
+    """Interpret a prediction and determine health risks."""
     good_health = 0
     cd = 0
     ms = 0
@@ -110,6 +103,7 @@ def interpret_prediction(prediction):
 
 
 def perform_methods():
+    """Perform all functions for classification."""
     data = import_data()
     X, Y, x_train, x_test, y_train, y_test = split_data(data)
     classifier = classify(x_train, x_test, y_train, y_test)

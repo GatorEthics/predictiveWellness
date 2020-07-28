@@ -1,15 +1,15 @@
 """A program to create training and testing data for health, based on age and activity level."""
-
+import numpy as np
+import pandas as pd
 from faker import Faker
 from faker.providers import python
-import pandas as pd
-import numpy as np
 
 fake = Faker()
 fake.add_provider(python)
 
 
 def clear_existing_data(df):
+    """Create a clear dataframe for data generation."""
     df.drop(df.index, inplace=True)
 
 
@@ -24,6 +24,7 @@ def randomize_int(min, max, increments, amount):
 
 
 def create_steps(df, activity_level):
+    """Create steps based on activity level."""
     # age, activity_level = get_individual_information()
     # Steps for sedentary lifestyle
     if activity_level == 1:
@@ -73,6 +74,7 @@ def create_steps(df, activity_level):
 
 
 def create_minutes_sitting(df, activity_level):
+    """Create minutes sitting based on activity level."""
     # age, activity_level = get_individual_information()
     # Minutes sitting for sedentary lifestyle
     if activity_level == 1:
@@ -122,6 +124,7 @@ def create_minutes_sitting(df, activity_level):
 
 
 def create_activity_minutes(df, age, activity_level):
+    """Create physical activity based on age and activity."""
     # age, activity_level = get_individual_information()
     # physical activity for school-aged children and adolescents (6-17)
     if 6 < age < 17:
@@ -165,6 +168,7 @@ def create_activity_minutes(df, age, activity_level):
 
 
 def create_heart_rate(df, age, activity_level):
+    """Create heart rate based on age and activity level."""
     if age <= 20:
         if 3 < activity_level < 5:
             min = 100
@@ -252,6 +256,7 @@ def create_heart_rate(df, age, activity_level):
 
 
 def create_blood_pressure(df, age, activity_level):
+    """Create blood pressure based on age and activity level."""
     # Systolic Blood Pressure
     if 6 < age < 13:
         if 3 < activity_level < 5:
@@ -316,14 +321,20 @@ def create_blood_pressure(df, age, activity_level):
 
 
 def main(age, activity_level):
-    custom_individual = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv", index_col=[0])
+    """Perform all functions."""
+    custom_individual = pd.read_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv",
+        index_col=[0],
+    )
     # clear_existing_data(custom_individual)
     create_steps(custom_individual, activity_level)
     create_minutes_sitting(custom_individual, activity_level)
     create_activity_minutes(custom_individual, age, activity_level)
     create_heart_rate(custom_individual, age, activity_level)
     create_blood_pressure(custom_individual, age, activity_level)
-    custom_individual.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv")
+    custom_individual.to_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv"
+    )
     return custom_individual
 
 

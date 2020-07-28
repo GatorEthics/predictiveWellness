@@ -1,14 +1,16 @@
 """A program for Naieve Bayes classification with individual health data."""
-
 import pandas as pd
+from sklearn import metrics
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
-from sklearn import metrics
 
 
 def import_data():
+    """Read a csv file as pandas dataframe."""
     # Import csv file of individual data as pandas dataframe to use for training/testing data
-    dataset = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv")
+    dataset = pd.read_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv"
+    )
     # dataset.drop("MS")
     # Print the dataset shape
     print("Dataset Length: ", len(dataset))
@@ -18,6 +20,7 @@ def import_data():
 
 
 def split_data(dataset):
+    """Split pandas dataframe to data and labels."""
     X = dataset.drop("Health", axis=1)
     y = dataset["Health"]
 
@@ -27,7 +30,7 @@ def split_data(dataset):
 
 
 def classify(x_train, y_train):
-    # Train the model with the training set
+    """Train the model with a training set."""
     gaussian = GaussianNB()
     gaussian = gaussian.fit(x_train, y_train)
 
@@ -35,14 +38,17 @@ def classify(x_train, y_train):
 
 
 def predict(classifier, x_test, y_test):
-    # Make predictions on the testing set
+    """Make predictions on the testing set."""
     prediction = classifier.predict(x_test)
-    # print(overall)
-    print("Gaussian Naive Bayes model accuracy(in %):", metrics.accuracy_score(y_test, prediction) * 100)
+    print(
+        "Gaussian Naive Bayes model accuracy(in %):",
+        metrics.accuracy_score(y_test, prediction) * 100,
+    )
     return prediction
 
 
 def interpret_prediction(prediction):
+    """Interpret a prediction and determine health risks."""
     good_health = 0
     cd = 0
     ms = 0
@@ -98,6 +104,7 @@ def interpret_prediction(prediction):
 
 
 def perform_methods():
+    """Perform all functions for classification."""
     data = import_data()
     X, Y, x_train, x_test, y_train, y_test = split_data(data)
     classifier = classify(x_train, y_train)

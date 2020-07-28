@@ -1,28 +1,30 @@
-import streamlit as st
+"""A program to create a Streamlit web interface for Vigor."""
+# import classificationAlgorithms.decision_tree as decision_tree
+# import classificationAlgorithms.naive_bayes as naive_bayes
+# import classificationAlgorithms.support_vector_machine as svm
+# import createData.comprehensive_individual_labeling as label
 import createData.create_custom_individual as custom_individual
 import createData.create_individual_data as provided_individual
-import createData.comprehensive_individual_labeling as label
-import classificationAlgorithms.support_vector_machine as svm
-import classificationAlgorithms.naive_bayes as naive_bayes
-import classificationAlgorithms.decision_tree as decision_tree
+import streamlit as st
 
 
 def individual_analysis_type():
+    """Determine what type of individual data should be analyzed."""
     individual_data = st.selectbox(
         "Would you like to analyze provided or customized data?",
-        [
-            "Provided",
-            "Customized"
-        ],
+        ["Provided", "Customized"],
     )
     return individual_data
 
 
 def customized_setup():
+    """Input and store personal information for data generation."""
     age = st.number_input("Please enter your age (in years)", min_value=1)
     weight = st.number_input("Please enter your weight (in pounds)", min_value=1.0)
     height = st.number_input("Please enter your height (in inches", min_value=1.0)
-    activity_level = st.slider("Please enter your activity level", min_value=1, max_value=5, value=None)
+    activity_level = st.slider(
+        "Please enter your activity level", min_value=1, max_value=5, value=None
+    )
     if activity_level == 1:
         st.write("Level 1: Extremely inactive")
     if activity_level == 2:
@@ -40,12 +42,14 @@ def customized_setup():
 
 
 def create_provided_individual():
+    """Create data for provided individual info."""
     data = provided_individual.main()
     st.dataframe(data)
     return data
 
 
 def create_custom_individual(age, activity_level):
+    """Create data for personalized individual info."""
     # Create individual data and print dataframe
     data = custom_individual.main(age, activity_level)
     st.dataframe(data)
@@ -53,25 +57,28 @@ def create_custom_individual(age, activity_level):
 
 
 def label_data(data):
+    """Label the data in the dataframe with health risks."""
     label.main()
     st.dataframe(data)
 
 
 def classify_data(data):
+    """Classify data and health risks with selected classification."""
     classification_method = st.multiselect(
         "Please select preferred classification",
         [
             "Naive Bayes Classification",
             "Support Vector Machine Classification",
-            "Decision Tree Classification"
-        ]
+            "Decision Tree Classification",
+        ],
     )
-    if(classification_method == "Naive Bayes Classification"):
+    if classification_method == "Naive Bayes Classification":
         data = naive_bayes.import_data(data)
         st.dataframe(data)
 
 
 def individual_analysis():
+    """Perform analysis for individual data."""
     individual_data = individual_analysis_type()
     if individual_data == "Customized":
         age, weight, height, activity_level, bmi = customized_setup()
@@ -85,14 +92,32 @@ def individual_analysis():
 
 
 def follow():
+    """Give contact information with images."""
     st.title("Follow Us")
-    st.image("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/github.png", width=500)
-    st.image("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/instagram.png", width=300)
-    st.image("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/website.png", width=400)
+    st.image(
+        # pylint: disable=C0301
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/github.png",
+        width=500,
+    )
+    st.image(
+        # pylint: disable=C0301
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/instagram.png",
+        width=300,
+    )
+    st.image(
+        # pylint: disable=C0301
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/website.png",
+        width=400,
+    )
 
 
 def setup():
-    st.image("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/vigor.png", width=900)
+    """Perform setup for Streamlit webinterface."""
+    st.image(
+        # pylint: disable=C0301
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/vigor.png",
+        width=900,
+    )
     st.sidebar.title("Welcome to Vigor!")
     home_menu = st.selectbox(
         "Menu",
@@ -102,19 +127,28 @@ def setup():
             "Understanding Classification Algorithms",
             "Individual Health Analysis",
             "Community Health Analysis",
-            "About Vigor"
+            "About Vigor",
         ],
     )
     if home_menu == "Home":
-        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/home_page.md") as home_file:
+        with open(
+            # pylint: disable=C0301
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/home_page.md"
+        ) as home_file:
             st.markdown(home_file.read())
         follow()
     if home_menu == "Data Generation with Faker":
-        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataGenerationWithFaker/faker_instructions.md") as faker_file:
+        with open(
+            # pylint: disable=C0301
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataGenerationWithFaker/faker_instructions.md"
+        ) as faker_file:
             st.markdown(faker_file.read())
         follow()
     if home_menu == "Understanding Classification Algorithms":
-        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/classificationAlgorithms/classification_description.md") as classification:
+        with open(
+            # pylint: disable=C0301
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/classificationAlgorithms/classification_description.md"
+        ) as classification:
             st.markdown(classification.read())
         follow()
     if home_menu == "Individual Health Analysis":
@@ -124,7 +158,10 @@ def setup():
         st.write("Comming Soon!")
         follow()
     if home_menu == "About Vigor":
-        with open("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/about.md") as about:
+        with open(
+            # pylint: disable=C0301
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/about.md"
+        ) as about:
             st.markdown(about.read())
         follow()
 

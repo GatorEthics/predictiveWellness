@@ -1,16 +1,18 @@
 """A program for decision tree classification with individual health data."""
-
 import pandas as pd
-from sklearn.metrics import confusion_matrix
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
+from sklearn.metrics import confusion_matrix
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
 
 
 def import_data():
+    """Read a csv file as pandas dataframe."""
     # Import csv file of individual data as pandas dataframe to use for training/testing data
-    individual_data = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv")
+    individual_data = pd.read_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv"
+    )
     # Print the dataset shape
     print("Dataset Length: ", len(individual_data))
     print("Dataset Shape: ", individual_data)
@@ -19,18 +21,17 @@ def import_data():
 
 
 def split_dataset(individual_data):
+    """Split the pandas dataframe for features and target variables."""
     # Define features and target variable
-    # feature_columns = ["Steps", "Minutes_sitting", "Minutes_physical_activity", "HR", "BP"]
-    # target_column = ["Health"]
-
     # Separate the dataset based on attributes and the target variable
-    # X contains attributes
-    # Y contains target variable
-    # X = individual_data[feature_columns].values
-    # Y = individual_data[target_column].values
-    # X = individual_data.drop("Health", axis=1)
-    # Y = individual_data["Health"]
-    data_predictors = ["Steps_taken", "Minutes_sitting", "Minutes_physical_activity", "HR", "BP"]
+
+    data_predictors = [
+        "Steps_taken",
+        "Minutes_sitting",
+        "Minutes_physical_activity",
+        "HR",
+        "BP",
+    ]
     X = individual_data[data_predictors]
     Y = individual_data.Health
 
@@ -44,7 +45,9 @@ def split_dataset(individual_data):
 def train_with_gini(x_train, y_train):
     """A function to perform training with the giniIndex."""
     # Create the classifier object
-    classifier = DecisionTreeClassifier(criterion="gini", random_state=100, max_depth=3, min_samples_leaf=5)
+    classifier = DecisionTreeClassifier(
+        criterion="gini", random_state=100, max_depth=3, min_samples_leaf=5
+    )
     # Perform training
     classifier.fit(x_train, y_train)
     return classifier
@@ -53,7 +56,9 @@ def train_with_gini(x_train, y_train):
 def entropy_train(x_train, y_train):
     """A function to perform training with entropy."""
     # Create classifier object
-    entropy_classifier = DecisionTreeClassifier(criterion="entropy", random_state=100, max_depth=3, min_samples_leaf=5)
+    entropy_classifier = DecisionTreeClassifier(
+        criterion="entropy", random_state=100, max_depth=3, min_samples_leaf=5
+    )
     # Perform training
     entropy_classifier.fit(x_train, y_train)
     return entropy_classifier
@@ -68,6 +73,7 @@ def predict(x_test, classifier):
 
 
 def interpret_prediction(prediction):
+    """Interpret a prediction and determine health risks."""
     prediction_list = []
     good_health = 0
     cd = 0
@@ -123,12 +129,14 @@ def interpret_prediction(prediction):
 
 
 def calculate_accuracy(y_test, target_prediction):
+    """Calculate accuracy and print visuals."""
     print("Confusion Matrix: ", confusion_matrix(y_test, target_prediction))
     print("Accuracy: ", accuracy_score(y_test, target_prediction))
     print("Report: ", classification_report(y_test, target_prediction))
 
 
 def perform_methods():
+    """Perform all functions for classification."""
     # Build
     data = import_data()
     X, Y, x_train, y_train, x_test, y_test = split_dataset(data)
