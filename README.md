@@ -1,6 +1,6 @@
 ![Vigor](src/webInterface/VigorImages/vigor.png)
 
-<!-- [![https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/tree/master/.github/workflows/build/badge.svg)](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/actions) -->
+[![https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/workflows/build/badge.svg)](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/actions)
 
 # Predictive Analysis with Health and Wellness Data
 
