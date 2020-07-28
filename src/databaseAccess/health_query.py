@@ -1,10 +1,10 @@
 """A program to query PubMed with keywords from classification."""
 
 # import classificationAlgorithms.SupportVectorMachine as svm
+# import classificationAlgorithms.decision_tree as decision_tree
+# import classificationAlgorithms.support_vector_machine as svm
+# import classificationAlgorithms.naive_bayes as naive_bayes
 import classificationAlgorithms.decision_tree as decision_tree
-import classificationAlgorithms.support_vector_machine as svm
-import classificationAlgorithms.naive_bayes as naive_bayes
-
 from pymed import PubMed
 
 svm_health = svm.perform_methods()
