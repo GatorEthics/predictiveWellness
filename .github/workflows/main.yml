@@ -17,27 +17,27 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-      # Performs all actions on different versions of Python
-      python-version: [3.6, 3.7, 3.8]
-      # Define workflow steps
-      steps:
-        # Checkout the code of the repository
-        - name: Check out repository code
-          uses: actions/checkout@v2
-        # Run the mdl linting tool
-        # Refers to .mdlrc file in repository
-        - name: Run markdown linting
-          uses: actionshub/markdownlint@master
-        # Setup Python for the current language version
-        - name: Setup Python ${{ matrix.python-version }}
-          uses: actions/setup-python@v1
-          with:
-            python-version: ${{ matrix.python-version }}
-        # Install pipenv
-        - name: Install Pipenv
-          run: |
-            pip install pipenv
-        # Install dependencies
-        - name: Install dependencies
-          run: |
-            pipenv install --dev
+        # Performs all actions on different versions of Python
+        python-version: [3.6, 3.7, 3.8]
+    # Define workflow steps
+    steps:
+      # Checkout the code of the repository
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      # Run the mdl linting tool
+      # Refers to .mdlrc file in repository
+      - name: Run markdown linting
+        uses: actionshub/markdownlint@master
+      # Setup Python for the current language version
+      - name: Setup Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v1
+        with:
+          python-version: ${{ matrix.python-version }}
+      # Install pipenv
+      - name: Install Pipenv
+        run: |
+          pip install pipenv
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          pipenv install --dev
