@@ -8,7 +8,7 @@ from sklearn import metrics
 
 def import_data():
     # Import csv file of individual data as pandas dataframe to use for training/testing data
-    dataset = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/classificationAlgorithms/testingData.csv")
+    dataset = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv")
     # dataset.drop("MS")
     # Print the dataset shape
     print("Dataset Length: ", len(dataset))
@@ -35,6 +35,14 @@ def classify(x_train, y_train):
 
 
 def predict(classifier, x_test, y_test):
+    # Make predictions on the testing set
+    prediction = classifier.predict(x_test)
+    # print(overall)
+    print("Gaussian Naive Bayes model accuracy(in %):", metrics.accuracy_score(y_test, prediction) * 100)
+    return prediction
+
+
+def interpret_prediction(prediction):
     good_health = 0
     cd = 0
     ms = 0
@@ -44,8 +52,6 @@ def predict(classifier, x_test, y_test):
     cd_diabetes = 0
     ms_diabetes = 0
     prediction_list = []
-    # Make predictions on the testing set
-    prediction = classifier.predict(x_test)
     for i in prediction:
         if i == 0:
             good_health += 1
@@ -73,32 +79,30 @@ def predict(classifier, x_test, y_test):
     prediction_list.append(diabetes)
     largest = max(prediction_list)
     if largest == good_health:
-        print("Good health")
+        health = "Good health"
     if largest == cd_ms_diabetes:
-        print("Cardiovascular disease, Metabolic syndrome, Type II diabetes")
+        health = "Cardiovascular disease, Metabolic syndrome, Type II diabetes"
     if largest == cd_ms:
-        print("Cardiovascular disease, Metabolic syndrome")
+        health = "Cardiovascular disease, Metabolic syndrome"
     if largest == cd_diabetes:
-        print("Cardiovascular disease, Type II diabetes")
+        health = "Cardiovascular disease, Type II diabetes"
     if largest == ms_diabetes:
-        print("Metabolic syndrome, Type II diabetes")
+        health = "Metabolic syndrome, Type II diabetes"
     if largest == cd:
-        print("Cardiovascular disease")
+        health = "Cardiovascular disease"
     if largest == ms:
-        print("Metabolic syndrome")
+        health = "Metabolic syndrome"
     if largest == diabetes:
-        print("Type II diabetes")
-
-    # print(overall)
-
-    print("Gaussian Naive Bayes model accuracy(in %):", metrics.accuracy_score(y_test, prediction) * 100)
+        health = "Type II diabetes"
+    print(health)
 
 
 def main():
     data = import_data()
     X, Y, x_train, x_test, y_train, y_test = split_data(data)
     classifier = classify(x_train, y_train)
-    predict(classifier, x_test, y_test)
+    prediction = predict(classifier, x_test, y_test)
+    interpret_prediction(prediction)
 
 
 if __name__ == "__main__":

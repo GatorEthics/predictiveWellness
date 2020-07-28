@@ -10,7 +10,7 @@ from sklearn.metrics import classification_report
 
 def import_data():
     # Import csv file of individual data as pandas dataframe to use for training/testing data
-    individual_data = pd.read_csv("testingData.csv")
+    individual_data = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv")
     # Print the dataset shape
     print("Dataset Length: ", len(individual_data))
     print("Dataset Shape: ", individual_data)
@@ -30,7 +30,7 @@ def split_dataset(individual_data):
     # Y = individual_data[target_column].values
     # X = individual_data.drop("Health", axis=1)
     # Y = individual_data["Health"]
-    data_predictors = ["Steps", "Minutes_sitting", "Minutes_physical_activity", "HR", "BP"]
+    data_predictors = ["Steps_taken", "Minutes_sitting", "Minutes_physical_activity", "HR", "BP"]
     X = individual_data[data_predictors]
     Y = individual_data.Health
 
@@ -67,6 +67,61 @@ def predict(x_test, classifier):
     return target_prediction
 
 
+def interpret_prediction(prediction):
+    prediction_list = []
+    good_health = 0
+    cd = 0
+    ms = 0
+    diabetes = 0
+    cd_ms_diabetes = 0
+    cd_ms = 0
+    cd_diabetes = 0
+    ms_diabetes = 0
+    for i in prediction:
+        if i == 0:
+            good_health += 1
+        if i == 9:
+            cd_ms_diabetes += 1
+        if i == 5:
+            cd_ms += 1
+        if i == 6:
+            cd_diabetes += 1
+        if i == 7:
+            ms_diabetes += 1
+        if i == 4:
+            cd += 1
+        if i == 3:
+            ms += 1
+        if i == 2:
+            diabetes += 1
+    prediction_list.append(good_health)
+    prediction_list.append(cd_ms_diabetes)
+    prediction_list.append(cd_ms)
+    prediction_list.append(cd_diabetes)
+    prediction_list.append(ms_diabetes)
+    prediction_list.append(cd)
+    prediction_list.append(ms)
+    prediction_list.append(diabetes)
+    largest = max(prediction_list)
+    if largest == good_health:
+        health = "Good health"
+    if largest == cd_ms_diabetes:
+        health = "Cardiovascular disease, Metabolic syndrome, Type II diabetes"
+    if largest == cd_ms:
+        health = "Cardiovascular disease, Metabolic syndrome"
+    if largest == cd_diabetes:
+        health = "Cardiovascular disease, Type II diabetes"
+    if largest == ms_diabetes:
+        health = "Metabolic syndrome, Type II diabetes"
+    if largest == cd:
+        health = "Cardiovascular disease"
+    if largest == ms:
+        health = "Metabolic syndrome"
+    if largest == diabetes:
+        health = "Type II diabetes"
+    print(health)
+
+
 def calculate_accuracy(y_test, target_prediction):
     print("Confusion Matrix: ", confusion_matrix(y_test, target_prediction))
     print("Accuracy: ", accuracy_score(y_test, target_prediction))
@@ -84,8 +139,10 @@ if __name__ == "__main__":
     print("Results Using Gini Index: ")
     gini_prediction = predict(x_test, gini_classifier)
     calculate_accuracy(y_test, gini_prediction)
+    interpret_prediction(gini_prediction)
 
     # Prediction with entropy
     print("Results Using Entropy: ")
     entropy_prediction = predict(x_test, entropy_classifier)
     calculate_accuracy(y_test, entropy_prediction)
+    interpret_prediction(entropy_prediction)
