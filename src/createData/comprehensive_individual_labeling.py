@@ -61,9 +61,9 @@ def label_health_risks(df):
         health = 0
 
 
-def remove_columns(df):
-    """Remove columns to for future classification."""
-    df.drop(["CD", "MS", "Diabetes"], axis=1)
+# def remove_columns(df):
+#     """Remove columns to for future classification."""
+#     df.drop(["CD", "MS", "Diabetes"], axis=1)
 
 
 def main():

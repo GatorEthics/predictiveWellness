@@ -1,10 +1,11 @@
 """A program to create a Streamlit web interface for Vigor."""
-import classificationAlgorithms.decision_tree as decision_tree
-import classificationAlgorithms.naive_bayes as naive_bayes
-import classificationAlgorithms.support_vector_machine as svm
-import createData.comprehensive_individual_labeling as label
-import createData.create_custom_individual as custom_individual
-import createData.create_individual_data as provided_individual
+from classificationAlgorithms import decision_tree as decision_tree
+from classificationAlgorithms import naive_bayes as naive_bayes
+from classificationAlgorithms import support_vector_machine as svm
+from createData import comprehensive_individual_labeling as label
+from createData import create_custom_individual as custom_individual
+from createData import create_individual_data as provided_individual
+
 import streamlit as st
 
 
@@ -64,17 +65,19 @@ def label_data(data):
 
 def classify_data(data):
     """Classify data and health risks with selected classification."""
-    classification_method = st.multiselect(
-        "Please select preferred classification",
-        [
-            "Naive Bayes Classification",
-            "Support Vector Machine Classification",
-            "Decision Tree Classification",
-        ],
-    )
-    if classification_method == "Naive Bayes Classification":
-        data = naive_bayes.import_data(data)
-        st.dataframe(data)
+    st.header("Please Choose Your Method of Classification:")
+    naive_classification = st.button("Naive Bayes Classification")
+    tree_classification = st.button("Decision Tree Classification")
+    svm_classification = st.button("Support Vector Machine Classification")
+
+    if naive_classification:
+        naive_bayes.perform_methods(data)
+
+    if tree_classification:
+        decision_tree.perform_methods(data)
+    
+    if svm_classification:
+        svm.perform_methods(data)
 
 
 def individual_analysis():

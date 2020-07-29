@@ -135,10 +135,10 @@ def calculate_accuracy(y_test, target_prediction):
     print("Report: ", classification_report(y_test, target_prediction))
 
 
-def perform_methods():
+def perform_methods(data):
     """Perform all functions for classification."""
     # Build
-    data = import_data()
+    # data = import_data()
     X, Y, x_train, y_train, x_test, y_test = split_dataset(data)
     gini_classifier = train_with_gini(x_train, y_train)
     entropy_classifier = entropy_train(x_train, y_train)

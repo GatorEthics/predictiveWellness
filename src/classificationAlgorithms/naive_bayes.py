@@ -103,9 +103,9 @@ def interpret_prediction(prediction):
     return health
 
 
-def perform_methods():
+def perform_methods(data):
     """Perform all functions for classification."""
-    data = import_data()
+    # data = import_data()
     X, Y, x_train, x_test, y_train, y_test = split_data(data)
     classifier = classify(x_train, y_train)
     prediction = predict(classifier, x_test, y_test)
