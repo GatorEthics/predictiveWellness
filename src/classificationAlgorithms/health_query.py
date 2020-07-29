@@ -49,6 +49,18 @@ def gather_results(database_results):
     return titles, identification, date_published, authors, abstract
 
 
+def determine_keywords(database_results):
+    keywords_list = []
+    for article in database_results:
+        if article.keywords:
+            if article.keywords:
+                if None in article.keywords:
+                    article.keywords.remove(None)
+                keywords = '", "'.join(article.keywords)
+                keywords_list.append(keywords)
+    return keywords_list
+
+
 def convert_to_file(title, id, date, authors, abstract):
     file = pd.read_csv(
         "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/PubMedArticles.csv"
@@ -58,11 +70,13 @@ def convert_to_file(title, id, date, authors, abstract):
     date_array = np.array(date)
     # author_array = np.array(authors)
     abstract_array = np.array(abstract)
+    # keywords_array = np.array(keywords)
     file["Titles"] = title_array
     file["ID Number"] = id_array
     file["Date Published"] = date_array
     # file["Authors"] = author_array
     file["Abstract"] = abstract_array
+    # file["Keywords"] = keywords_array
 
     file.to_csv(
         "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/PubMedArticles.csv"
@@ -76,4 +90,5 @@ if __name__ == "__main__":
     keywords = define_query("Gini Decision Tree Classification")
     results = perform_query(keywords, 3)
     title, id, date, authors, abstract = gather_results(results)
+    # keywords = determine_keywords(results)
     convert_to_file(title, id, date, authors, abstract)
