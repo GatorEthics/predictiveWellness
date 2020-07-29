@@ -5,7 +5,7 @@ from pymed import PubMed
 
 database = PubMed(tool="PredictiveWellness", email="kapfhammerm@allegheny.edu")
 query = "High risk of cardiovascular disease AND low physical activity"
-database_results = database.query(query, max_results=2)
+database_results = database.query(query, max_results=10)
 
 for article in database_results:
     article_id = article.pubmed_id
