@@ -1,12 +1,13 @@
 """A program to create a Streamlit web interface for Vigor."""
-from vigor.classificationAlgorithms import decision_tree
-from vigor.classificationAlgorithms import naive_bayes
-from vigor.classificationAlgorithms import support_vector_machine as svm
-from vigor.createData import comprehensive_individual_labeling as label
-from vigor.createData import create_custom_individual as custom_individual
-from vigor.createData import create_individual_data as provided_individual
+from classificationAlgorithms import decision_tree
+from classificationAlgorithms import naive_bayes
+from classificationAlgorithms import support_vector_machine as svm
+from createData import comprehensive_individual_labeling as label
+from createData import create_custom_individual as custom_individual
+from createData import create_individual_data as provided_individual
 
 import streamlit as st
+import pandas as pd
 
 
 def individual_analysis_type():
@@ -44,26 +45,44 @@ def customized_setup():
 
 def create_provided_individual():
     """Create data for provided individual info."""
-    data = provided_individual.main()
+    individual_data = pd.read_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/individual_data.csv"
+    )
+    data = provided_individual.main(individual_data)
     st.dataframe(data)
+    individual_data.to_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/individual_data.csv"
+    )
     return data
 
 
 def create_custom_individual(age, activity_level):
     """Create data for personalized individual info."""
+    custom_data = pd.read_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/customIndividual.csv",
+        index_col=[0],
+    )
     # Create individual data and print dataframe
     st.header("Generating customized individual data....")
-    data = custom_individual.main(age, activity_level)
+    data = custom_individual.main(age, activity_level, custom_data)
     st.dataframe(data)
+    custom_data.to_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/customIndividual.csv"
+    )
     return data
 
 
-def label_data(data):
+def label_data(data, data_type):
     """Label the data in the dataframe with health risks."""
     st.header("Labeling data with health risks....")
     labeled_data = label.main(data)
-    print(labeled_data)
+    if data_type == "Provided":
+        labeled_data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/individual_data.csv")
+    if data_type == "Customized":
+        labeled_data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/customIndividual.csv")
     st.dataframe(labeled_data)
+
+    return label_data
 
 
 def classify_data(data):
@@ -89,11 +108,11 @@ def individual_analysis():
     if individual_data == "Customized":
         age, weight, height, activity_level, bmi = customized_setup()
         data = create_custom_individual(age, activity_level)
-        labeled_data = label_data(data)
+        labeled_data = label_data(data, individual_data)
         classify_data(labeled_data)
     if individual_data == "Provided":
         data = create_provided_individual()
-        labeled_data = label_data(data)
+        labeled_data = label_data(data, individual_data)
         classify_data(labeled_data)
 
 
@@ -102,17 +121,17 @@ def follow():
     st.title("Follow Us")
     st.image(
         # pylint: disable=C0301
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/github.png",
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/webInterface/VigorImages/github.png",
         width=500,
     )
     st.image(
         # pylint: disable=C0301
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/instagram.png",
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/webInterface/VigorImages/instagram.png",
         width=300,
     )
     st.image(
         # pylint: disable=C0301
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/website.png",
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/webInterface/VigorImages/website.png",
         width=400,
     )
 
@@ -121,7 +140,7 @@ def setup():
     """Perform setup for Streamlit webinterface."""
     st.image(
         # pylint: disable=C0301
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/VigorImages/vigor.png",
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/webInterface/VigorImages/vigor.png",
         width=900,
     )
     st.sidebar.title("Welcome to Vigor!")
@@ -139,21 +158,21 @@ def setup():
     if home_menu == "Home":
         with open(
             # pylint: disable=C0301
-            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/home_page.md"
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/webInterface/home_page.md"
         ) as home_file:
             st.markdown(home_file.read())
         follow()
     if home_menu == "Data Generation with Faker":
         with open(
             # pylint: disable=C0301
-            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataGenerationWithFaker/faker_instructions.md"
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataGenerationWithFaker/faker_instructions.md"
         ) as faker_file:
             st.markdown(faker_file.read())
         follow()
     if home_menu == "Understanding Classification Algorithms":
         with open(
             # pylint: disable=C0301
-            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/classificationAlgorithms/classification_description.md"
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/classificationAlgorithms/classification_description.md"
         ) as classification:
             st.markdown(classification.read())
         follow()
@@ -166,7 +185,7 @@ def setup():
     if home_menu == "About Vigor":
         with open(
             # pylint: disable=C0301
-            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/webInterface/about.md"
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/webInterface/about.md"
         ) as about:
             st.markdown(about.read())
         follow()
