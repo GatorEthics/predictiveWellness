@@ -97,11 +97,8 @@ def create_blood_pressure(df):
     df["BP"] = blood_pressure_array
 
 
-def main():
+def main(individual_data):
     """Perform all functions."""
-    individual_data = pd.read_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/individual_data.csv"
-    )
     # , index_col=[0]
     # clear_existing_data(individual_data)
     create_steps(individual_data)
@@ -109,9 +106,7 @@ def main():
     create_activity_minutes(individual_data)
     create_heart_rate(individual_data)
     create_blood_pressure(individual_data)
-    individual_data.to_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/individual_data.csv"
-    )
+    
 
 
 if __name__ == "__main__":

@@ -320,21 +320,15 @@ def create_blood_pressure(df, age, activity_level):
         df["BP"] = blood_pressure_array
 
 
-def main(age, activity_level):
+def main(age, activity_level, custom_individual):
     """Perform all functions."""
-    custom_individual = pd.read_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv",
-        index_col=[0],
-    )
     # clear_existing_data(custom_individual)
     create_steps(custom_individual, activity_level)
     create_minutes_sitting(custom_individual, activity_level)
     create_activity_minutes(custom_individual, age, activity_level)
     create_heart_rate(custom_individual, age, activity_level)
     create_blood_pressure(custom_individual, age, activity_level)
-    custom_individual.to_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv"
-    )
+    
     return custom_individual
 
 

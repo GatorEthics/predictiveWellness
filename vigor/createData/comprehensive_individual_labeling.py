@@ -77,10 +77,12 @@ def main(individual_data):
     label_metabolic_syndrome(individual_data)
     label_diabetes(individual_data)
     label_health_risks(individual_data)
+    
+    return individual_data
     # remove_columns(individual_data)
-    individual_data.to_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv"
-    )
+    # individual_data.to_csv(
+    #     "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv"
+    # )
 
 
 if __name__ == "__main__":
