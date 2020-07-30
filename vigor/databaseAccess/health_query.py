@@ -1,7 +1,7 @@
 """A program to query PubMed with keywords from classification."""
-import decision_tree as dt
-import naive_bayes as nb
-import support_vector_machine as svm
+from vigor.classificationAlgorithms import decision_tree as dt
+from vigor.classificationAlgorithms import naive_bayes as nb
+from vigor.classificationAlgorithms import support_vector_machine as svm
 import pandas as pd
 import numpy as np
 from pymed import PubMed

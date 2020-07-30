@@ -1,10 +1,10 @@
 """A program to create a Streamlit web interface for Vigor."""
-from classificationAlgorithms import decision_tree as decision_tree
-from classificationAlgorithms import naive_bayes as naive_bayes
-from classificationAlgorithms import support_vector_machine as svm
-from createData import comprehensive_individual_labeling as label
-from createData import create_custom_individual as custom_individual
-from createData import create_individual_data as provided_individual
+from vigor.classificationAlgorithms import decision_tree
+from vigor.classificationAlgorithms import naive_bayes
+from vigor.classificationAlgorithms import support_vector_machine as svm
+from vigor.createData import comprehensive_individual_labeling as label
+from vigor.createData import create_custom_individual as custom_individual
+from vigor.createData import create_individual_data as provided_individual
 
 import streamlit as st
 
