@@ -6,6 +6,8 @@ from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
+import health_query
+
 
 def import_data(data_type):
     """Read a csv file as pandas dataframe."""

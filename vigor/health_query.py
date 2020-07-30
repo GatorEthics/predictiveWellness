@@ -27,10 +27,10 @@ def define_query(classification, data_type):
     return query
 
 
-def perform_query(keywords):
+def perform_query(keywords, amount):
     database = PubMed(tool="Vigor", email="kapfhammerm@allegheny.edu")
     query = keywords
-    database_results = database.query(query, max_results=10)
+    database_results = database.query(query, max_results=amount)
     return database_results
 
 
@@ -98,10 +98,10 @@ def convert_to_file(title, id, date, authors, abstract):
     # file[title]
 
 
-def perform_methods(classification, data_type):
+def perform_methods(classification, data_type, amount):
     # dataframe = drop_data()
     keywords = define_query(classification, data_type)
-    results = perform_query(keywords)
+    results = perform_query(keywords, amount)
     title, id, date, authors, abstract = gather_results(results)
     # keywords = determine_keywords(results)
     data_file = convert_to_file(title, id, date, authors, abstract)

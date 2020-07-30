@@ -25,7 +25,7 @@ def customized_setup():
     """Input and store personal information for data generation."""
     age = st.number_input("Please enter your age (in years)", min_value=1)
     weight = st.number_input("Please enter your weight (in pounds)", min_value=1.0)
-    height = st.number_input("Please enter your height (in inches", min_value=1.0)
+    height = st.number_input("Please enter your height (in inche)s", min_value=1.0)
     activity_level = st.slider(
         "Please enter your activity level", min_value=1, max_value=5, value=None
     )
@@ -141,6 +141,21 @@ def classify_data(dataset, data_type):
     # return interpretation
 
 
+def query_pubmed(data_type):
+    st.header("Discovery with PubMed")
+    classification = st.text_input("What classification would you like to query results from?")
+    amount = st.number_input("How many articles would you like to read?", min_value=1)
+    start_query = st.button("Perform search for health risks")
+    if start_query:
+        results = health_query.perform_methods(classification, data_type, amount)
+        # st.dataframe(results)
+
+    for i, j in results.iterrows():
+        st.header(j["Titles"])
+        st.write(j["Date Published"])
+        st.write(j["Abstract"])
+
+
 def individual_analysis():
     """Perform analysis for individual data."""
     individual_data = individual_analysis_type()
@@ -156,24 +171,6 @@ def individual_analysis():
         labeled_data = label_data(data, individual_data)
         classify_data(labeled_data, individual_data)
         query_pubmed(individual_data)
-
-
-def query_pubmed(data_type):
-    st.header("Discovery with PubMed")
-    st.write("Naive Bayes Classification")
-    st.write("Gini Index Decision Tree Classification")
-    st.write("Entropy Decision Tree Classification")
-    st.write("Support Vector Machine Classification")
-    classification = st.text_input("What classification would you like to query results from?")
-    start_query = st.button("Perform search for health risks")
-    if start_query:
-        results = health_query.perform_methods(classification, data_type)
-        # st.dataframe(results)
-
-    for i, j in results.iterrows():
-        st.header(j["Titles"])
-        st.write(j["Date Published"])
-        st.write(j["Abstract"])
 
 
 def follow():
