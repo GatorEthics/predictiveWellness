@@ -5,6 +5,7 @@ from classificationAlgorithms import support_vector_machine as svm
 from createData import comprehensive_individual_labeling as label
 from createData import create_custom_individual as custom_individual
 from createData import create_individual_data as provided_individual
+from databaseAccess import health_query
 
 import streamlit as st
 import pandas as pd
@@ -45,43 +46,49 @@ def customized_setup():
 
 def create_provided_individual():
     """Create data for provided individual info."""
-    individual_data = pd.read_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/individual_data.csv"
-    )
-    data = provided_individual.main(individual_data)
-    st.dataframe(data)
-    individual_data.to_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/individual_data.csv"
-    )
+    with st.spinner("Wait for it..."):
+        individual_data = pd.read_csv(
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/individual_data.csv"
+        )
+        data = provided_individual.main(individual_data)
+        # st.dataframe(data)
+        st.bar_chart(data)
+        individual_data.to_csv(
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/individual_data.csv"
+        )
+    st.success("Complete!")
     return data
 
 
 def create_custom_individual(age, activity_level):
     """Create data for personalized individual info."""
-    custom_data = pd.read_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/customIndividual.csv",
-        index_col=[0],
-    )
-    # Create individual data and print dataframe
-    st.header("Generating customized individual data....")
-    data = custom_individual.main(age, activity_level, custom_data)
-    st.dataframe(data)
-    custom_data.to_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/customIndividual.csv"
-    )
+    with st.spinner("Wait for it..."):
+        custom_data = pd.read_csv(
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/customIndividual.csv",
+            index_col=[0],
+        )
+        # Create individual data and print dataframe
+        st.header("Generating customized individual data....")
+        data = custom_individual.main(age, activity_level, custom_data)
+        st.bar_chart(data)
+        custom_data.to_csv(
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/customIndividual.csv"
+        )
+    st.success("Complete!")
     return data
 
 
 def label_data(data, data_type):
     """Label the data in the dataframe with health risks."""
-    st.header("Labeling data with health risks....")
-    labeled_data = label.main(data)
-    if data_type == "Provided":
-        labeled_data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/individual_data.csv")
-    if data_type == "Customized":
-        labeled_data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/customIndividual.csv")
-    st.dataframe(labeled_data)
-
+    with st.spinner("Preparing labeled data..."):
+        st.header("Labeling data with health risks....")
+        labeled_data = label.main(data)
+        if data_type == "Provided":
+            labeled_data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/individual_data.csv")
+        if data_type == "Customized":
+            labeled_data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/customIndividual.csv")
+        st.dataframe(labeled_data)
+        st.success("Complete!")
     return label_data
 
 
@@ -89,27 +96,41 @@ def classify_data(dataset, data_type):
     """Classify data and health risks with selected classification."""
     st.header("Please Choose Your Method of Classification:")
     naive_classification = st.button("Naive Bayes Classification")
-    tree_classification = st.button("Decision Tree Classification")
+    gini_classification = st.button("Gini Index Decision Tree Classification")
+    entropy_classification = st.button("Entropy Decision Tree Classification")
     svm_classification = st.button("Support Vector Machine Classification")
 
     if naive_classification:
-        new_data = naive_bayes.import_data(data_type)
-        st.dataframe(new_data)
-        interpretation = naive_bayes.perform_methods(data_type)
-        st.write(interpretation)
+        with st.spinner("Classifying with Naive Bayes..."):
+            new_data = naive_bayes.import_data(data_type)
+            st.area_chart(new_data["Health"])
+            interpretation = naive_bayes.perform_methods(data_type)
+            classification_type = "Naive Bayes Classification"
+        st.success("Complete!")
 
-    if tree_classification:
-        new_data = decision_tree.import_data(data_type)
-        st.dataframe(new_data)
-        gini, entropy = decision_tree.perform_methods(data_type)
-        st.write(entropy)
-        st.write(gini)
+    if gini_classification:
+        with st.spinner("Classifying with Gini Index..."):
+            new_data = decision_tree.import_data(data_type)
+            st.area_chart(new_data["Health"])
+            interpretation = decision_tree.perform_gini_index(data_type)
+        st.success("Complete!")
+
+    if entropy_classification:
+        with st.spinner("Classifying with Entropy..."):
+            new_data = decision_tree.import_data(data_type)
+            st.area_chart(new_data["Health"])
+            interpretation = decision_tree.perform_entropy(data_type)
+        st.success("Complete!")
 
     if svm_classification:
-        new_data = svm.import_data(data_type)
-        st.dataframe(new_data)
-        interpretation = svm.perform_methods(data_type)
-        st.write(interpretation)
+        with st.spinner("Classifying with Support Vector Machine..."):
+            new_data = svm.import_data(data_type)
+            st.area_chart(new_data["Health"])
+            interpretation = svm.perform_methods(data_type)
+            classification_type = "Support Vector Machine Classification"
+        st.success("Complete!")
+
+    return interpretation
 
 
 def individual_analysis():
@@ -120,10 +141,15 @@ def individual_analysis():
         data = create_custom_individual(age, activity_level)
         labeled_data = label_data(data, individual_data)
         classify_data(labeled_data, individual_data)
+        
     if individual_data == "Provided":
         data = create_provided_individual()
         labeled_data = label_data(data, individual_data)
         classify_data(labeled_data, individual_data)
+
+
+def query_pubmed(interpretation, amount):
+    health_query.perform_methods(interpretation, amount)
 
 
 def follow():

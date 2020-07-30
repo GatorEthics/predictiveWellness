@@ -144,28 +144,35 @@ def calculate_accuracy(y_test, target_prediction):
     print("Report: ", classification_report(y_test, target_prediction))
 
 
-def perform_methods(data_type):
-    """Perform all functions for classification."""
+def perform_gini_index(data_type):
+    """Perform functions for gini index classification."""
     # Build
     data = import_data(data_type)
     X, Y, x_train, y_train, x_test, y_test = split_dataset(data)
     gini_classifier = train_with_gini(x_train, y_train)
-    entropy_classifier = entropy_train(x_train, y_train)
 
     # Prediction with gini
     gini_prediction = predict(x_test, gini_classifier)
     calculate_accuracy(y_test, gini_prediction)
     gini_interpretation = interpret_prediction(gini_prediction)
-    # print(gini_interpretation)
+    return gini_interpretation
+
+
+def perform_entropy(data_type):
+    """Perform functions for entropy classification."""
+    # Build
+    data = import_data(data_type)
+    X, Y, x_train, y_train, x_test, y_test = split_dataset(data)
+    entropy_classifier = entropy_train(x_train, y_train)
 
     # Prediction with entropy
     entropy_prediction = predict(x_test, entropy_classifier)
     calculate_accuracy(y_test, entropy_prediction)
     entropy_interpretation = interpret_prediction(entropy_prediction)
+    return entropy_interpretation
     # print(entropy_interpretation)
-
-    return gini_interpretation, entropy_interpretation
 
 
 if __name__ == "__main__":
-    perform_methods()
+    perform_gini_index()
+    perform_entropy()

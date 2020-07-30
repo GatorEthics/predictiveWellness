@@ -86,9 +86,13 @@ def convert_to_file(title, id, date, authors, abstract):
     # file[title]
 
 
-if __name__ == "__main__":
-    keywords = define_query("Gini Decision Tree Classification")
+def perform_methods(keywords):
     results = perform_query(keywords, 3)
     title, id, date, authors, abstract = gather_results(results)
     # keywords = determine_keywords(results)
     convert_to_file(title, id, date, authors, abstract)
+
+
+if __name__ == "__main__":
+    perform_methods()
+    

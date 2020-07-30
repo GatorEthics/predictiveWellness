@@ -99,6 +99,10 @@ def create_blood_pressure(df):
 
 def main(individual_data):
     """Perform all functions."""
+
+    chart_data = pd.DataFrame(np.random.randn(20, 3),columns=['a', 'b', 'c'])
+    print(chart_data)
+
     # , index_col=[0]
     # clear_existing_data(individual_data)
     create_steps(individual_data)
@@ -106,8 +110,11 @@ def main(individual_data):
     create_activity_minutes(individual_data)
     create_heart_rate(individual_data)
     create_blood_pressure(individual_data)
-    
+    return individual_data
 
 
 if __name__ == "__main__":
-    main()
+    dataset = pd.read_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/individual_data.csv"
+    )
+    main(dataset)
