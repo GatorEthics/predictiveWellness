@@ -1,11 +1,12 @@
 """A program to create a Streamlit web interface for Vigor."""
-from classificationAlgorithms import decision_tree
-from classificationAlgorithms import naive_bayes
-from classificationAlgorithms import support_vector_machine as svm
+import decision_tree
+import naive_bayes
+import support_vector_machine as svm
+import health_query
 from createData import comprehensive_individual_labeling as label
 from createData import create_custom_individual as custom_individual
 from createData import create_individual_data as provided_individual
-from databaseAccess import health_query
+
 
 import streamlit as st
 import pandas as pd
@@ -94,6 +95,8 @@ def label_data(data, data_type):
 
 def classify_data(dataset, data_type):
     """Classify data and health risks with selected classification."""
+    interpretation = ""
+    classification_type = 0
     st.header("Please Choose Your Method of Classification:")
     naive_classification = st.button("Naive Bayes Classification")
     gini_classification = st.button("Gini Index Decision Tree Classification")
@@ -105,7 +108,7 @@ def classify_data(dataset, data_type):
             new_data = naive_bayes.import_data(data_type)
             st.area_chart(new_data["Health"])
             interpretation = naive_bayes.perform_methods(data_type)
-            classification_type = "Naive Bayes Classification"
+            classification_type = 1
         st.success("Complete!")
 
     if gini_classification:
@@ -113,6 +116,7 @@ def classify_data(dataset, data_type):
             new_data = decision_tree.import_data(data_type)
             st.area_chart(new_data["Health"])
             interpretation = decision_tree.perform_gini_index(data_type)
+            classification_type = 2
         st.success("Complete!")
 
     if entropy_classification:
@@ -120,6 +124,7 @@ def classify_data(dataset, data_type):
             new_data = decision_tree.import_data(data_type)
             st.area_chart(new_data["Health"])
             interpretation = decision_tree.perform_entropy(data_type)
+            classification_type = 3
         st.success("Complete!")
 
     if svm_classification:
@@ -127,29 +132,51 @@ def classify_data(dataset, data_type):
             new_data = svm.import_data(data_type)
             st.area_chart(new_data["Health"])
             interpretation = svm.perform_methods(data_type)
-            classification_type = "Support Vector Machine Classification"
+            classification_type = 4
         st.success("Complete!")
 
-    return interpretation
+    st.header("Health Risks:")
+    st.write(interpretation)
+    return classification_type
+    # return interpretation
 
 
 def individual_analysis():
     """Perform analysis for individual data."""
     individual_data = individual_analysis_type()
+    classification_name = ""
     if individual_data == "Customized":
         age, weight, height, activity_level, bmi = customized_setup()
         data = create_custom_individual(age, activity_level)
         labeled_data = label_data(data, individual_data)
-        classify_data(labeled_data, individual_data)
-        
+        classification = classify_data(labeled_data, individual_data)
+        st.write(classification)
+        if classification == 1:
+            classification_name = "Naive Bayes Classification"
+        if classification == 2:
+            classification_name = "Gini Index Decision Tree Classification"
+        if classification == 3:
+            classification_name = "Entropy Decision Tree Classification"
+        if classification == 4:
+            classification_name = "Support Vector Machine Classification"
+        query_pubmed("Naive Bayes Classification", individual_data)
     if individual_data == "Provided":
         data = create_provided_individual()
         labeled_data = label_data(data, individual_data)
-        classify_data(labeled_data, individual_data)
+        classification = classify_data(labeled_data, individual_data)
+        query_pubmed(classification, individual_data)
 
 
-def query_pubmed(interpretation, amount):
-    health_query.perform_methods(interpretation, amount)
+def query_pubmed(classification, data_type):
+    classification_name = ""
+    start_query = st.button("Perform search for health risks")
+    
+    if start_query:
+        st.write(classification_name)
+        st.write(data_type)
+        results = health_query.perform_methods(classification, data_type)
+
+        st.dataframe(results)
 
 
 def follow():

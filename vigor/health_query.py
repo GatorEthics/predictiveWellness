@@ -1,34 +1,39 @@
 """A program to query PubMed with keywords from classification."""
-from vigor.classificationAlgorithms import decision_tree as dt
-from vigor.classificationAlgorithms import naive_bayes as nb
-from vigor.classificationAlgorithms import support_vector_machine as svm
+import decision_tree as dt
+import naive_bayes as nb
+import support_vector_machine as svm
 import pandas as pd
 import numpy as np
 from pymed import PubMed
 
 
-def define_query(classification):
+def define_query(classification, data_type):
+    query = 0
     if classification == "Naive Bayes Classification":
-        query = nb.perform_methods()
-    if classification == "Gini Decision Tree Classification":
-        gini_health, entropy_health = dt.perform_methods()
+        query = nb.perform_methods(data_type)
+    if classification == "Gini Index Decision Tree Classification":
+        gini_health, entropy_health = dt.perform_methods(data_type)
         query = gini_health
     if classification == "Entropy Decision Tree Classification":
-        gini_health, entropy_health = dt.perform_methods()
+        gini_health, entropy_health = dt.perform_methods(data_type)
         query = entropy_health
     if classification == "Support Vector Machine Classification":
-        query = svm.perform_methods()
+        query = svm.perform_methods(data_type)
     return query
 
 
-def perform_query(keywords, amount):
+def perform_query(keywords):
     database = PubMed(tool="Vigor", email="kapfhammerm@allegheny.edu")
     query = keywords
-    database_results = database.query(query, max_results=amount)
+    database_results = database.query(query, max_results=10)
     return database_results
 
 
 def gather_results(database_results):
+    title = ""
+    date = ""
+    author = ""
+    abstract = ""
     titles = []
     identification = []
     date_published = []
@@ -62,8 +67,8 @@ def determine_keywords(database_results):
 
 
 def convert_to_file(title, id, date, authors, abstract):
-    file = pd.read_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/PubMedArticles.csv"
+    pubmed_file = pd.read_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/PubMedArticles.csv"
     )
     title_array = np.array(title)
     id_array = np.array(id)
@@ -71,28 +76,32 @@ def convert_to_file(title, id, date, authors, abstract):
     # author_array = np.array(authors)
     abstract_array = np.array(abstract)
     # keywords_array = np.array(keywords)
-    file["Titles"] = title_array
-    file["ID Number"] = id_array
-    file["Date Published"] = date_array
+    pubmed_file["Titles"] = title_array
+    pubmed_file["ID Number"] = id_array
+    pubmed_file["Date Published"] = date_array
     # file["Authors"] = author_array
-    file["Abstract"] = abstract_array
+    pubmed_file["Abstract"] = abstract_array
     # file["Keywords"] = keywords_array
 
-    file.to_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/PubMedArticles.csv"
+    pubmed_file.to_csv(
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/PubMedArticles.csv"
     )
+
+    return pubmed_file
     #     steps_array = np.array(integer_list)
     # df["Steps_taken"] = steps_array
     # file[title]
 
 
-def perform_methods(keywords):
-    results = perform_query(keywords, 3)
+def perform_methods(classification, data_type):
+    keywords = define_query(classification, data_type)
+    results = perform_query(keywords)
     title, id, date, authors, abstract = gather_results(results)
     # keywords = determine_keywords(results)
-    convert_to_file(title, id, date, authors, abstract)
+    data_file = convert_to_file(title, id, date, authors, abstract)
+    print(data_file)
+    return data_file
 
 
 if __name__ == "__main__":
-    perform_methods()
-    
+    perform_methods("Naive Bayes Classification", "Customized")

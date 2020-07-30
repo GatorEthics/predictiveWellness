@@ -1,3 +1,0 @@
-from createData import comprehensive_individual_labeling
-from createData import create_custom_individual as custom_individual
-from createData import create_individual_data as provided_individual
