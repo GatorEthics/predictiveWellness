@@ -144,22 +144,14 @@ def classify_data(dataset, data_type):
 def individual_analysis():
     """Perform analysis for individual data."""
     individual_data = individual_analysis_type()
-    classification_name = ""
+    # classification_name = ""
     if individual_data == "Customized":
         age, weight, height, activity_level, bmi = customized_setup()
         data = create_custom_individual(age, activity_level)
         labeled_data = label_data(data, individual_data)
         classification = classify_data(labeled_data, individual_data)
-        st.write(classification)
-        if classification == 1:
-            classification_name = "Naive Bayes Classification"
-        if classification == 2:
-            classification_name = "Gini Index Decision Tree Classification"
-        if classification == 3:
-            classification_name = "Entropy Decision Tree Classification"
-        if classification == 4:
-            classification_name = "Support Vector Machine Classification"
-        query_pubmed("Naive Bayes Classification", individual_data)
+        
+        query_pubmed(individual_data)
     if individual_data == "Provided":
         data = create_provided_individual()
         labeled_data = label_data(data, individual_data)
@@ -167,13 +159,16 @@ def individual_analysis():
         query_pubmed(classification, individual_data)
 
 
-def query_pubmed(classification, data_type):
-    classification_name = ""
+def query_pubmed(data_type):
+    st.header("Discovery with PubMed")
+    st.write("Naive Bayes Classification")
+    st.write("Gini Index Decision Tree Classification")
+    st.write("Entropy Decision Tree Classification")
+    st.write("Support Vector Machine Classification")
+    classification = st.text_input("What classification would you like to query results from?")
     start_query = st.button("Perform search for health risks")
-    
     if start_query:
-        st.write(classification_name)
-        st.write(data_type)
+        
         results = health_query.perform_methods(classification, data_type)
 
         st.dataframe(results)
