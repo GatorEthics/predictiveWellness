@@ -168,8 +168,12 @@ def query_pubmed(data_type):
     start_query = st.button("Perform search for health risks")
     if start_query:
         results = health_query.perform_methods(classification, data_type)
+        # st.dataframe(results)
 
-        st.dataframe(results)
+    for i, j in results.iterrows():
+        st.header(j["Titles"])
+        st.write(j["Date Published"])
+        st.write(j["Abstract"])
 
 
 def follow():

@@ -7,6 +7,11 @@ import numpy as np
 from pymed import PubMed
 
 
+def drop_data(dataframe):
+    dataframe = dataframe.iloc[0:0]
+    return dataframe
+
+
 def define_query(classification, data_type):
     query = 0
     if classification == "Naive Bayes Classification":
@@ -94,12 +99,12 @@ def convert_to_file(title, id, date, authors, abstract):
 
 
 def perform_methods(classification, data_type):
+    # dataframe = drop_data()
     keywords = define_query(classification, data_type)
     results = perform_query(keywords)
     title, id, date, authors, abstract = gather_results(results)
     # keywords = determine_keywords(results)
     data_file = convert_to_file(title, id, date, authors, abstract)
-    print(data_file)
     return data_file
 
 
