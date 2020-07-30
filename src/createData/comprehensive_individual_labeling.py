@@ -66,12 +66,12 @@ def label_health_risks(df):
 #     df.drop(["CD", "MS", "Diabetes"], axis=1)
 
 
-def main():
+def main(individual_data):
     """Perform all functions."""
-    individual_data = pd.read_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv",
-        index_col=[0],
-    )
+    # individual_data = pd.read_csv(
+    #     "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv",
+    #     index_col=[0],
+    # )
     add_columns(individual_data)
     label_cardiovascular_disease(individual_data)
     label_metabolic_syndrome(individual_data)

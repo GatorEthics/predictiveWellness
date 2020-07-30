@@ -52,6 +52,7 @@ def create_provided_individual():
 def create_custom_individual(age, activity_level):
     """Create data for personalized individual info."""
     # Create individual data and print dataframe
+    st.header("Generating customized individual data....")
     data = custom_individual.main(age, activity_level)
     st.dataframe(data)
     return data
@@ -59,8 +60,10 @@ def create_custom_individual(age, activity_level):
 
 def label_data(data):
     """Label the data in the dataframe with health risks."""
-    label.main()
-    st.dataframe(data)
+    st.header("Labeling data with health risks....")
+    labeled_data = label.main(data)
+    print(labeled_data)
+    st.dataframe(labeled_data)
 
 
 def classify_data(data):
@@ -75,7 +78,7 @@ def classify_data(data):
 
     if tree_classification:
         decision_tree.perform_methods(data)
-    
+
     if svm_classification:
         svm.perform_methods(data)
 
