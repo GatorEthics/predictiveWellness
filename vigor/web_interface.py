@@ -96,7 +96,7 @@ def label_data(data, data_type):
 def classify_data(dataset, data_type):
     """Classify data and health risks with selected classification."""
     interpretation = ""
-    classification_type = 0
+    # classification_type = 0
     st.header("Please Choose Your Method of Classification:")
     naive_classification = st.button("Naive Bayes Classification")
     gini_classification = st.button("Gini Index Decision Tree Classification")
@@ -108,7 +108,7 @@ def classify_data(dataset, data_type):
             new_data = naive_bayes.import_data(data_type)
             st.area_chart(new_data["Health"])
             interpretation = naive_bayes.perform_methods(data_type)
-            classification_type = 1
+            # classification_type = 1
         st.success("Complete!")
 
     if gini_classification:
@@ -116,7 +116,7 @@ def classify_data(dataset, data_type):
             new_data = decision_tree.import_data(data_type)
             st.area_chart(new_data["Health"])
             interpretation = decision_tree.perform_gini_index(data_type)
-            classification_type = 2
+            # classification_type = 2
         st.success("Complete!")
 
     if entropy_classification:
@@ -124,7 +124,7 @@ def classify_data(dataset, data_type):
             new_data = decision_tree.import_data(data_type)
             st.area_chart(new_data["Health"])
             interpretation = decision_tree.perform_entropy(data_type)
-            classification_type = 3
+            # classification_type = 3
         st.success("Complete!")
 
     if svm_classification:
@@ -132,12 +132,12 @@ def classify_data(dataset, data_type):
             new_data = svm.import_data(data_type)
             st.area_chart(new_data["Health"])
             interpretation = svm.perform_methods(data_type)
-            classification_type = 4
+            # classification_type = 4
         st.success("Complete!")
 
     st.header("Health Risks:")
     st.write(interpretation)
-    return classification_type
+    # return classification_type
     # return interpretation
 
 
@@ -149,14 +149,13 @@ def individual_analysis():
         age, weight, height, activity_level, bmi = customized_setup()
         data = create_custom_individual(age, activity_level)
         labeled_data = label_data(data, individual_data)
-        classification = classify_data(labeled_data, individual_data)
-        
+        classify_data(labeled_data, individual_data)
         query_pubmed(individual_data)
     if individual_data == "Provided":
         data = create_provided_individual()
         labeled_data = label_data(data, individual_data)
-        classification = classify_data(labeled_data, individual_data)
-        query_pubmed(classification, individual_data)
+        classify_data(labeled_data, individual_data)
+        query_pubmed(individual_data)
 
 
 def query_pubmed(data_type):
@@ -168,7 +167,6 @@ def query_pubmed(data_type):
     classification = st.text_input("What classification would you like to query results from?")
     start_query = st.button("Perform search for health risks")
     if start_query:
-        
         results = health_query.perform_methods(classification, data_type)
 
         st.dataframe(results)
