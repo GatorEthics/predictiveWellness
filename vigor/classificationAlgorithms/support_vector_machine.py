@@ -6,17 +6,25 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 
 
-def import_data():
+def import_data(data_type):
     """Read a csv file as pandas dataframe."""
     # Import csv file of individual data as pandas dataframe to use for training/testing data
-    dataset = pd.read_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv"
-    )
+    if data_type == "Provided":
+        dataset = pd.read_csv(
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/individual_data.csv"
+        )
+    if data_type == "Customized":
+        dataset = pd.read_csv(
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/customIndividual.csv"
+        )
+    # Import csv file of individual data as pandas dataframe to use for training/testing data
+    selected_columns = dataset[["Steps_taken", "Minutes_physical_activity", "Minutes_sitting", "HR", "BP", "Health"]]
+    svm_data = selected_columns.copy()
     # Print the dataset shape
-    print("Dataset Length: ", len(dataset))
-    print("Dataset Shape: ", dataset)
+    # print("Dataset Length: ", len(dataset))
+    # print("Dataset Shape: ", dataset)
     # Return data
-    return dataset
+    return svm_data
 
 
 def split_data(dataset):
@@ -102,16 +110,16 @@ def interpret_prediction(prediction):
     return health
 
 
-def perform_methods(data):
+def perform_methods(data_type):
     """Perform all functions for classification."""
-    # data = import_data()
+    data = import_data(data_type)
     X, Y, x_train, x_test, y_train, y_test = split_data(data)
     classifier = classify(x_train, x_test, y_train, y_test)
     prediction, matrix, report = predict(classifier, x_test, y_test)
     interpretation = interpret_prediction(prediction)
-    print(matrix)
-    print(report)
-    print(interpretation)
+    # print(matrix)
+    # print(report)
+    # print(interpretation)
     return interpretation
 
 

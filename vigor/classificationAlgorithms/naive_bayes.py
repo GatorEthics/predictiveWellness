@@ -5,24 +5,39 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 
 
-def import_data():
+def import_data(data_type):
     """Read a csv file as pandas dataframe."""
+    if data_type == "Provided":
+        dataset = pd.read_csv(
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/individual_data.csv"
+        )
+    if data_type == "Customized":
+        dataset = pd.read_csv(
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/customIndividual.csv"
+        )
     # Import csv file of individual data as pandas dataframe to use for training/testing data
-    dataset = pd.read_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv"
-    )
+    selected_columns = dataset[["Steps_taken", "Minutes_physical_activity", "Minutes_sitting", "HR", "BP", "Health"]]
+    naive_data = selected_columns.copy()
     # dataset.drop("MS")
     # Print the dataset shape
-    print("Dataset Length: ", len(dataset))
-    print("Dataset Shape: ", dataset)
+    # print("Dataset Length: ", len(dataset))
+    # print("Dataset Shape: ", dataset)
     # Return data
-    return dataset
+    return naive_data
 
 
 def split_data(dataset):
     """Split pandas dataframe to data and labels."""
-    X = dataset.drop("Health", axis=1)
-    y = dataset["Health"]
+
+    data_predictors = [
+        "Steps_taken",
+        "Minutes_sitting",
+        "Minutes_physical_activity",
+        "HR",
+        "BP",
+    ]
+    X = dataset[data_predictors]
+    y = dataset.Health
 
     x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
@@ -103,14 +118,14 @@ def interpret_prediction(prediction):
     return health
 
 
-def perform_methods(data):
+def perform_methods(data_type):
     """Perform all functions for classification."""
-    # data = import_data()
+    data = import_data(data_type)
     X, Y, x_train, x_test, y_train, y_test = split_data(data)
     classifier = classify(x_train, y_train)
     prediction = predict(classifier, x_test, y_test)
     interpretation = interpret_prediction(prediction)
-    print(interpretation)
+    # print(interpretation)
     return interpretation
 
 

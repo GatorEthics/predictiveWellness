@@ -7,17 +7,26 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
 
-def import_data():
+def import_data(data_type):
     """Read a csv file as pandas dataframe."""
     # Import csv file of individual data as pandas dataframe to use for training/testing data
-    individual_data = pd.read_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/src/dataFiles/customIndividual.csv"
-    )
+    if data_type == "Provided":
+        dataset = pd.read_csv(
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/individual_data.csv"
+        )
+    if data_type == "Customized":
+        dataset = pd.read_csv(
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/customIndividual.csv"
+        )
+    # Import csv file of individual data as pandas dataframe to use for training/testing data
+    selected_columns = dataset[["Steps_taken", "Minutes_physical_activity", "Minutes_sitting", "HR", "BP", "Health"]]
+    tree_data = selected_columns.copy()
+
     # Print the dataset shape
-    print("Dataset Length: ", len(individual_data))
-    print("Dataset Shape: ", individual_data)
+    # print("Dataset Length: ", len(individual_data))
+    # print("Dataset Shape: ", individual_data)
     # Return data
-    return individual_data
+    return tree_data
 
 
 def split_dataset(individual_data):
@@ -135,27 +144,25 @@ def calculate_accuracy(y_test, target_prediction):
     print("Report: ", classification_report(y_test, target_prediction))
 
 
-def perform_methods(data):
+def perform_methods(data_type):
     """Perform all functions for classification."""
     # Build
-    # data = import_data()
+    data = import_data(data_type)
     X, Y, x_train, y_train, x_test, y_test = split_dataset(data)
     gini_classifier = train_with_gini(x_train, y_train)
     entropy_classifier = entropy_train(x_train, y_train)
 
     # Prediction with gini
-    print("Results Using Gini Index: ")
     gini_prediction = predict(x_test, gini_classifier)
     calculate_accuracy(y_test, gini_prediction)
     gini_interpretation = interpret_prediction(gini_prediction)
-    print(gini_interpretation)
+    # print(gini_interpretation)
 
     # Prediction with entropy
-    print("Results Using Entropy: ")
     entropy_prediction = predict(x_test, entropy_classifier)
     calculate_accuracy(y_test, entropy_prediction)
     entropy_interpretation = interpret_prediction(entropy_prediction)
-    print(entropy_interpretation)
+    # print(entropy_interpretation)
 
     return gini_interpretation, entropy_interpretation
 

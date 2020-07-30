@@ -85,7 +85,7 @@ def label_data(data, data_type):
     return label_data
 
 
-def classify_data(data):
+def classify_data(dataset, data_type):
     """Classify data and health risks with selected classification."""
     st.header("Please Choose Your Method of Classification:")
     naive_classification = st.button("Naive Bayes Classification")
@@ -93,13 +93,23 @@ def classify_data(data):
     svm_classification = st.button("Support Vector Machine Classification")
 
     if naive_classification:
-        naive_bayes.perform_methods(data)
+        new_data = naive_bayes.import_data(data_type)
+        st.dataframe(new_data)
+        interpretation = naive_bayes.perform_methods(data_type)
+        st.write(interpretation)
 
     if tree_classification:
-        decision_tree.perform_methods(data)
+        new_data = decision_tree.import_data(data_type)
+        st.dataframe(new_data)
+        gini, entropy = decision_tree.perform_methods(data_type)
+        st.write(entropy)
+        st.write(gini)
 
     if svm_classification:
-        svm.perform_methods(data)
+        new_data = svm.import_data(data_type)
+        st.dataframe(new_data)
+        interpretation = svm.perform_methods(data_type)
+        st.write(interpretation)
 
 
 def individual_analysis():
@@ -109,11 +119,11 @@ def individual_analysis():
         age, weight, height, activity_level, bmi = customized_setup()
         data = create_custom_individual(age, activity_level)
         labeled_data = label_data(data, individual_data)
-        classify_data(labeled_data)
+        classify_data(labeled_data, individual_data)
     if individual_data == "Provided":
         data = create_provided_individual()
         labeled_data = label_data(data, individual_data)
-        classify_data(labeled_data)
+        classify_data(labeled_data, individual_data)
 
 
 def follow():
