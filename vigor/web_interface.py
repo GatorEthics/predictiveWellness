@@ -96,6 +96,11 @@ def label_data(data, data_type):
 def classify_data(dataset, data_type):
     """Classify data and health risks with selected classification."""
     interpretation = ""
+    naive = False
+    gini = False
+    entropy = False
+    support_vector = False
+
     # classification_type = 0
     st.header("Please Choose Your Method of Classification:")
     naive_classification = st.button("Naive Bayes Classification")
@@ -109,6 +114,7 @@ def classify_data(dataset, data_type):
             st.area_chart(new_data["Health"])
             interpretation = naive_bayes.perform_methods(data_type)
             # classification_type = 1
+            naive = True
         st.success("Complete!")
 
     if gini_classification:
@@ -117,6 +123,7 @@ def classify_data(dataset, data_type):
             st.area_chart(new_data["Health"])
             interpretation = decision_tree.perform_gini_index(data_type)
             # classification_type = 2
+            gini = True
         st.success("Complete!")
 
     if entropy_classification:
@@ -124,6 +131,7 @@ def classify_data(dataset, data_type):
             new_data = decision_tree.import_data(data_type)
             st.area_chart(new_data["Health"])
             interpretation = decision_tree.perform_entropy(data_type)
+            entropy = True
             # classification_type = 3
         st.success("Complete!")
 
@@ -132,18 +140,18 @@ def classify_data(dataset, data_type):
             new_data = svm.import_data(data_type)
             st.area_chart(new_data["Health"])
             interpretation = svm.perform_methods(data_type)
+            support_vector = True
             # classification_type = 4
         st.success("Complete!")
 
     st.header("Health Risks:")
     st.write(interpretation)
-    # return classification_type
-    # return interpretation
+    return naive , gini, entropy, support_vector
 
 
-def query_pubmed(data_type):
+def query_pubmed(classification, data_type):
     st.header("Discovery with PubMed")
-    classification = st.text_input("What classification would you like to query results from?")
+    # classification = st.text_input("What classification would you like to query results from?")
     amount = st.number_input("How many articles would you like to read?", min_value=1)
     start_query = st.button("Perform search for health risks")
     if start_query:
@@ -164,8 +172,15 @@ def individual_analysis():
         age, weight, height, activity_level, bmi = customized_setup()
         data = create_custom_individual(age, activity_level)
         labeled_data = label_data(data, individual_data)
-        classify_data(labeled_data, individual_data)
-        query_pubmed(individual_data)
+        naive, gini, entropy, support_vector = classify_data(labeled_data, individual_data)
+        if naive is True:
+            query_pubmed(1, individual_data)
+        if gini is True:
+            query_pubmed(2, individual_data)
+        if entropy is True:
+            query_pubmed(3, individual_data)
+        if svm is True:
+            query_pubmed(4, individual_data)
     if individual_data == "Provided":
         data = create_provided_individual()
         labeled_data = label_data(data, individual_data)

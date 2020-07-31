@@ -14,15 +14,15 @@ def drop_data(dataframe):
 
 def define_query(classification, data_type):
     query = 0
-    if classification == "Naive Bayes Classification":
+    if classification == 1:
         query = nb.perform_methods(data_type)
-    if classification == "Gini Index Decision Tree Classification":
+    if classification == 2:
         gini_health, entropy_health = dt.perform_methods(data_type)
         query = gini_health
-    if classification == "Entropy Decision Tree Classification":
+    if classification == 3:
         gini_health, entropy_health = dt.perform_methods(data_type)
         query = entropy_health
-    if classification == "Support Vector Machine Classification":
+    if classification == 4:
         query = svm.perform_methods(data_type)
     return query
 
@@ -101,7 +101,7 @@ def convert_to_file(title, id, date, authors, abstract):
 def perform_methods(classification, data_type, amount):
     # dataframe = drop_data()
     keywords = define_query(classification, data_type)
-    results = perform_query(keywords, amount)
+    results = perform_query(classification, amount)
     title, id, date, authors, abstract = gather_results(results)
     # keywords = determine_keywords(results)
     data_file = convert_to_file(title, id, date, authors, abstract)
