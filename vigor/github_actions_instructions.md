@@ -17,6 +17,7 @@
 
 #### File Layout Visual:
 
+```
 predictiveWellness
 ├─ .github
 │  ├─ ISSUE_TEMPLATE
@@ -25,6 +26,7 @@ predictiveWellness
 │  ├─ pull_request_template.md
 │  └─ workflows
 │     └─ main.yml
+```
 
 **Please ensure that every file in your `.github` directory has the specified name, as GitHub searches for them when implementing templates for issues and PRs, and also running continuous integration checks with GitHub Actions.**
 
@@ -41,6 +43,7 @@ predictiveWellness
 
 #### File Layout Visual:
 
+```
 PredictiveWellness
 ├─ .gitignore
 ├─ .gitmessage
@@ -48,6 +51,7 @@ PredictiveWellness
 ├─ CONTRIBUTING.md
 ├─ LICENSE.md
 ├─ README.md
+```
 
 ## Setting Up Continuous Integration
 
@@ -181,10 +185,10 @@ There are multiple ways to check the status of your build
 
 1. Click the actions tab of your repository, a list of your builds will appear
 
-![Actions Tab](/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/actions1.mp4)
-
 2. Click the status in the header of your repository
 
-3. Add a continuous integration badge to your `README.md` file, you can click on this to find a list of your builds
+3. Add a continuous integration badge to your `README.md` file, you can click on this to find a list of your builds, this can be done by adding this line of code to your `README.md`
+
+`[![Actions Status](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/workflows/build/badge.svg)](link_to_your_repository)`
 
 **A green check represents a passing build and a red x represents a failing build, you can investigate these further in each build's summary**
