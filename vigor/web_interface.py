@@ -193,17 +193,17 @@ def follow():
     st.title("Follow Us")
     st.image(
         # pylint: disable=C0301
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/webInterface/VigorImages/github.png",
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/VigorImages/github.png",
         width=500,
     )
     st.image(
         # pylint: disable=C0301
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/webInterface/VigorImages/instagram.png",
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/VigorImages/instagram.png",
         width=300,
     )
     st.image(
         # pylint: disable=C0301
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/webInterface/VigorImages/website.png",
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/VigorImages/website.png",
         width=400,
     )
 
@@ -212,7 +212,7 @@ def setup():
     """Perform setup for Streamlit webinterface."""
     st.image(
         # pylint: disable=C0301
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/webInterface/VigorImages/vigor.png",
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/VigorImages/vigor.png",
         width=900,
     )
     st.sidebar.title("Welcome to Vigor!")
@@ -230,21 +230,21 @@ def setup():
     if home_menu == "Home":
         with open(
             # pylint: disable=C0301
-            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/webInterface/home_page.md"
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/home_page.md"
         ) as home_file:
             st.markdown(home_file.read())
         follow()
     if home_menu == "Data Generation with Faker":
         with open(
             # pylint: disable=C0301
-            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataGenerationWithFaker/faker_instructions.md"
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataGeneration/faker_instructions.md"
         ) as faker_file:
             st.markdown(faker_file.read())
         follow()
     if home_menu == "Understanding Classification Algorithms":
         with open(
             # pylint: disable=C0301
-            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/classificationAlgorithms/classification_description.md"
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/classification_description.md"
         ) as classification:
             st.markdown(classification.read())
         follow()
@@ -257,7 +257,7 @@ def setup():
     if home_menu == "About Vigor":
         with open(
             # pylint: disable=C0301
-            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/webInterface/about.md"
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/about.md"
         ) as about:
             st.markdown(about.read())
         follow()
