@@ -10,7 +10,7 @@ on:
   pull_request:
     branches: [ master ]
 
-# Create one signle job
+# Create one single job
 # This job performs all necessary checks
 jobs:
   build:
@@ -42,7 +42,7 @@ jobs:
       - name: Check for existence of contribution files
         uses: andstor/file-existence-action@v1
         with:
-          files: "CODE_OF_CONDUCT.md, .CONTRIBUTING.md, LICENSE.md, README.md"
+          files: "CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE.md, README.md"
       # Check for existence of development files
       - name: Check for existence of of development files
         uses: andstor/file-existence-action@v1
