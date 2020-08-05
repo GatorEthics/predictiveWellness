@@ -11,15 +11,25 @@ Dr. Jumadinova and Madelyn Kapfhammer
 ## Table of Contents
 
 [About Vigor](#about-vigor)
+
 [Features](#features)
+
 [Installing Vigor](#installing-vigor)
+
 [Running Vigor](#running-vigor)
+
 [Information for Developers](#information-for-developers)
+
 [Testing](#testing)
+
 [Contributing](#contributing)
+
 [Reading Material](#reading-material)
+
 [Ethical Discussions](#ethical-discussions)
+
 [Data and Packages Used](#data-and-packages-used)
+
 [Contact Us](#contact-us)
 
 ## About Vigor
