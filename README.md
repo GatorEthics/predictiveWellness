@@ -11,6 +11,16 @@ Dr. Jumadinova and Madelyn Kapfhammer
 ## Table of Contents
 
 [About Vigor](#about-vigor)
+[Features](#features)
+[Installing Vigor](#installing-vigor)
+[Running Vigor](#running-vigor)
+[Information for Developers](#information-for-developers)
+[Testing](#testing)
+[Contributing](#contributing)
+[Reading Material](#reading-material)
+[Ethical Discussions](#ethical-discussions)
+[Data and Packages Used](#data-and-packages-used)
+[Contact Us](#contact-us)
 
 ## About Vigor
 
@@ -78,11 +88,11 @@ To create a pull request please follow this template:
 
 - [pull_request_template.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/.github/pull_request_template.md)
 
-### Reading Material
+## Reading Material
 
-### Ethical Discussions
+## Ethical Discussions
 
-### Data and Packages Used
+## Data and Packages Used
 
 ### Contact Us
 
