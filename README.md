@@ -10,27 +10,29 @@ Dr. Jumadinova and Madelyn Kapfhammer
 
 ## Table of Contents
 
-[About Vigor](#about-vigor)
+* [About Vigor](#about-vigor)
 
-[Features](#features)
+* [Features](#features)
 
-[Installing Vigor](#installing-vigor)
+* [Installing Vigor](#installing-vigor)
 
-[Running Vigor](#running-vigor)
+* [Running Vigor](#running-vigor)
 
-[Information for Developers](#information-for-developers)
+* [Information for Developers](#information-for-developers)
 
-[Testing](#testing)
+* [Testing](#testing)
+  * [Automated Testing](#automated-testing)
+  * [Code Linting](#code-linting)
 
-[Contributing](#contributing)
+* [Contributing](#contributing)
 
-[Reading Material](#reading-material)
+* [Reading Material](#reading-material)
 
-[Ethical Discussions](#ethical-discussions)
+* [Ethical Discussions](#ethical-discussions)
 
-[Data and Packages Used](#data-and-packages-used)
+* [Data and Packages Used](#data-and-packages-used)
 
-[Contact Us](#contact-us)
+* [Contact Us](#contact-us)
 
 ## About Vigor
 
