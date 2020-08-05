@@ -104,7 +104,12 @@ To create a pull request please follow this template:
 
 ## Data and Packages Used
 
-### Contact Us
+## Contact Us
+
+If you have any questions or concerns about Vigor please contact:
+
+- Dr. Jumadinova (jjumadinova@allegheny.edu)
+- Madelyn Kapfhammer (kapfhammerm@allegheny.edu)
 
 ![GitHub Information](vigor/writing/VigorImages/github.png)
 
