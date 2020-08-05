@@ -88,7 +88,20 @@ In the `src` folder of Vigor, run `webInterface.py`, which will navigate to a we
 
 ### Automated Testing
 
+Developers of this program can run the test suite with [Pytest](https://docs.pytest.org/en/stable/) with the command:
+
+`pipenv run pytest`
+
 ### Code Linting
+
+Run `pipenv run lint` to check the code of this project with linters.
+
+Currently Vigor uses the following linters:
+
+* [pylint](https://www.pylint.org/)
+* [flake8](https://flake8.pycqa.org/en/latest/)
+* [black](https://black.readthedocs.io/en/stable/)
+* [pydocstyle](http://www.pydocstyle.org/en/5.0.1/)
 
 ## Contributing
 
