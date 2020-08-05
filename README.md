@@ -8,8 +8,9 @@ Allegheny College Mozilla Fellows
 
 Dr. Jumadinova and Madelyn Kapfhammer
 
-## Table of Contents 
+## Table of Contents
 
+[About Vigor](#about-vigor)
 
 ## About Vigor
 
