@@ -76,13 +76,17 @@ The documentation and instructions on installing pipenv can be found [Here.](htt
 
 Vigor is run in a web-based interface aided by [Streamlit](https://github.com/streamlit). For more information on designing web applications with Streamlit, please navigate to their extensive [documentation.](https://www.streamlit.io/)
 
-In the `src` folder of Vigor, run `webInterface.py`, which will navigate to a web tab with the Vigor application.
+In the `vigor` folder of Vigor, run `webInterface.py`, which will navigate to a web tab with the Vigor application.
 
 `cd src`
 
 `streamlit run web_interface.py`
 
 ## Information for Developers
+
+When developing, install the dependencies with `pipenv install --dev` and run the program of your choice with the command: `pipenv run python program_name.py`
+
+You can add new dependencies to `Pipfile` manually, ensuring that you place the dependency in the correct section of dependency type.
 
 ## Testing
 
@@ -139,8 +143,6 @@ Here is a list of articles that may give more insight into the risks of sharing 
 * [Privacy, compliance, and ethical issues with predictive people analytics](https://paulvanderlaken.com/2018/11/12/privacy-compliance-ethical-issues-predictive-people-analytics/)
 * [Artificial intelligence in medicine raises legal and ethical concerns](https://theconversation.com/artificial-intelligence-in-medicine-raises-legal-and-ethical-concerns-122504#:~:text=AI%20can%20draw%20upon%20purchasing,information%20about%20an%20individual's%20health.&text=Researchers%20are%20already%20using%20AI,opioid%20abuse%20and%20even%20suicide.)
 * [The legal and ethical concerns that arise from using complex predictive analytics in health care](https://pubmed.ncbi.nlm.nih.gov/25006139/)
-
-## Ethical Discussions
 
 ## Data and Packages Used
 
