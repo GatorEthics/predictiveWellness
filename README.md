@@ -27,6 +27,8 @@ Dr. Jumadinova and Madelyn Kapfhammer
 * [Contributing](#contributing)
 
 * [Reading Material](#reading-material)
+  * [Basics of Fitness Tracking and Wellness Apps](#basics-of-fitness-tracking-and-wellness-apps)
+  * [Ethical Implications](#ethical-implications)
 
 * [Ethical Discussions](#ethical-discussions)
 
@@ -103,6 +105,27 @@ To create a pull request please follow this template:
 * [pull_request_template.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/.github/pull_request_template.md)
 
 ## Reading Material
+
+Here is a list of articles that may give more insight into the risks of sharing your health data with online applications, and fitness companies:
+
+**[Sharing and utilizing health data for AI applications](https://www.hhs.gov/sites/default/files/sharing-and-utilizing-health-data-for-ai-applications.pdf)**
+
+### Basics of Fitness Tracking and Wellness Apps
+
+* [Downside of fitness trackers and health apps is loss of privacy](https://theconversation.com/downside-of-fitness-trackers-and-health-apps-is-loss-of-privacy-69870)
+@@ -50,21 +52,79 @@
+* [The emerging artificial intelligence wellness landscape: Opportunities and areas of ethical debate](https://medium.com/@lkcyber/the-emerging-artificial-intelligence-wellness-landscape-802caf9638de)
+* [Artificial intelligence in medicine raises legal and ethical concerns](https://theconversation.com/artificial-intelligence-in-medicine-raises-legal-and-ethical-concerns-122504#:~:text=AI%20can%20draw%20upon%20purchasing,information%20about%20an%20individual's%20health.&text=Researchers%20are%20already%20using%20AI,opioid%20abuse%20and%20even%20suicide.)
+* [Sharing and utilizing health data for AI applications](https://www.hhs.gov/sites/default/files/sharing-and-utilizing-health-data-for-ai-applications.pdf)
+* [Predictive analytics in health care](https://www2.deloitte.com/us/en/insights/topics/analytics/predictive-analytics-health-care-value-risks.html)
+* [That mental health app might share your data without telling you](https://www.theverge.com/2019/4/20/18508382/apps-mental-health-smoking-cessation-data-sharing-privacy-facebook-google-advertising)
+
+### Ethical Implications
+
+* [Ethical dimensions of using artifical intelligence in Health Care](https://journalofethics.ama-assn.org/article/ethical-dimensions-using-artificial-intelligence-health-care/2019-02)
+* [Privacy, compliance, and ethical issues with predictive people analytics](https://paulvanderlaken.com/2018/11/12/privacy-compliance-ethical-issues-predictive-people-analytics/)
+* [Artificial intelligence in medicine raises legal and ethical concerns](https://theconversation.com/artificial-intelligence-in-medicine-raises-legal-and-ethical-concerns-122504#:~:text=AI%20can%20draw%20upon%20purchasing,information%20about%20an%20individual's%20health.&text=Researchers%20are%20already%20using%20AI,opioid%20abuse%20and%20even%20suicide.)
+* [The legal and ethical concerns that arise from using complex predictive analytics in health care](https://pubmed.ncbi.nlm.nih.gov/25006139/)
 
 ## Ethical Discussions
 
