@@ -31,6 +31,8 @@ Dr. Jumadinova and Madelyn Kapfhammer
 * [Ethical Discussions](#ethical-discussions)
 
 * [Data and Packages Used](#data-and-packages-used)
+  * [Data](#data)
+  * [Packages](#packages)
 
 * [Contact Us](#contact-us)
 
@@ -92,13 +94,13 @@ We welcome everyone who is interested in helping improve Vigor! If you are inter
 
 To raise an issue in [Vigor's Issue Tracker](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/issues) please follow these templates:
 
-- [bug_report.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
+* [bug_report.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
 
-- [feature_request.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/.github/ISSUE_TEMPLATE/feature_request.md)
+* [feature_request.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/.github/ISSUE_TEMPLATE/feature_request.md)
 
 To create a pull request please follow this template:
 
-- [pull_request_template.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/.github/pull_request_template.md)
+* [pull_request_template.md](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/.github/pull_request_template.md)
 
 ## Reading Material
 
@@ -106,12 +108,35 @@ To create a pull request please follow this template:
 
 ## Data and Packages Used
 
+### Data
+
+All health and wellness data was found on [Kaggle](https://www.kaggle.com/datasets?utm_medium=paid&utm_source=google.com+search&utm_campaign=datasets&gclid=CjwKCAjwsan5BRAOEiwALzomX0ojbaAIJuDtBLWVXK-fqjFzL8ouC9YPXnfzpLCCwzwOKH4helhYcBoCzJQQAvD_BwE) and was used as an accurate basis for data generation.
+
+* [National Institute of Health & National Library of Medicine's PubMed](https://pubmed.ncbi.nlm.nih.gov/)
+
+* [One year of FitBit ChargeHR data by Alket Cacaj](https://www.kaggle.com/alketcecaj/one-year-of-fitbit-chargehr-data)
+
+* [2013-2014 National Health and Nutrition Examination Survey by the CDC](https://www.kaggle.com/cdc/national-health-and-nutrition-examination-survey)
+
+* [2017-2018 National Health and Nutrition Examination Survey](https://www.kaggle.com/moradnejad/nhanes-questionnaires-datasets-20172018-csv?)
+
+### Packages
+
+* [PyMed, PubMed Access Through Python](https://github.com/gijswobben/pymed)
+  * A package which allows the access of informationa and articles from the [PubMed Database](https://pubmed.ncbi.nlm.nih.gov/). For full instructions on using PyMed please visit here.
+
+* [Faker](https://faker.readthedocs.io/en/master/)
+  * A package which allows the generation of fake data. For instructions on using Faker please visit [here](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/faker/fakerInstructions.md)
+
+* [scikit-learn](https://scikit-learn.org/stable/)
+  * An open-source package for machine learning in Python.
+
 ## Contact Us
 
 If you have any questions or concerns about Vigor please contact:
 
-- Dr. Jumadinova (jjumadinova@allegheny.edu)
-- Madelyn Kapfhammer (kapfhammerm@allegheny.edu)
+* Dr. Jumadinova (jjumadinova@allegheny.edu)
+* Madelyn Kapfhammer (kapfhammerm@allegheny.edu)
 
 ![GitHub Information](vigor/writing/VigorImages/github.png)
 
