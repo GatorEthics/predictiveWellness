@@ -130,7 +130,6 @@ Here is a list of articles that may give more insight into the risks of sharing 
 ### Basics of Fitness Tracking and Wellness Apps
 
 * [Downside of fitness trackers and health apps is loss of privacy](https://theconversation.com/downside-of-fitness-trackers-and-health-apps-is-loss-of-privacy-69870)
-@@ -50,21 +52,79 @@
 * [The emerging artificial intelligence wellness landscape: Opportunities and areas of ethical debate](https://medium.com/@lkcyber/the-emerging-artificial-intelligence-wellness-landscape-802caf9638de)
 * [Artificial intelligence in medicine raises legal and ethical concerns](https://theconversation.com/artificial-intelligence-in-medicine-raises-legal-and-ethical-concerns-122504#:~:text=AI%20can%20draw%20upon%20purchasing,information%20about%20an%20individual's%20health.&text=Researchers%20are%20already%20using%20AI,opioid%20abuse%20and%20even%20suicide.)
 * [Sharing and utilizing health data for AI applications](https://www.hhs.gov/sites/default/files/sharing-and-utilizing-health-data-for-ai-applications.pdf)
@@ -160,14 +159,11 @@ All health and wellness data was found on [Kaggle](https://www.kaggle.com/datase
 
 ### Packages
 
-* [PyMed, PubMed Access Through Python](https://github.com/gijswobben/pymed)
-  * A package which allows the access of informationa and articles from the [PubMed Database](https://pubmed.ncbi.nlm.nih.gov/). For full instructions on using PyMed please visit here.
+* [PyMed, PubMed Access Through Python](https://github.com/gijswobben/pymed): A package which allows the access of informationa and articles from the [PubMed Database](https://pubmed.ncbi.nlm.nih.gov/). For full instructions on using PyMed please visit here.
 
-* [Faker](https://faker.readthedocs.io/en/master/)
-  * A package which allows the generation of fake data. For instructions on using Faker please visit [here](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/faker/fakerInstructions.md)
+* [Faker](https://faker.readthedocs.io/en/master/): A package which allows the generation of fake data. For instructions on using Faker please visit [here](https://github.com/Allegheny-Mozilla-Fellows/predictiveWellness/blob/master/faker/fakerInstructions.md)
 
-* [scikit-learn](https://scikit-learn.org/stable/)
-  * An open-source package for machine learning in Python.
+* [scikit-learn](https://scikit-learn.org/stable/): An open-source package for machine learning in Python.
 
 ## Contact Us
 
