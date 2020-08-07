@@ -29,5 +29,3 @@ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Acknowledgements:
-This software includes the gatsby-theme-nehalem: Copyright (c) 2019 nehalist.io
-This software includes a Gatsby demo site: Copyright (c) 2019 Gatsby
