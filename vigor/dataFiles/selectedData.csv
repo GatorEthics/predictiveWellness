@@ -1,1 +1,11 @@
-Date,Time,Last Name,First Name,SSN,Insurance,Medications,Temperature,Heart Rate,Blood Pressure,Calorie Intake,Physical Activity,Minutes Sitting,Daily Steps
+,Date,Time,Last Name,First Name,SSN,Insurance,Medications,Temperature,Heart Rate,Blood Pressure,Physical Activity,Minutes Sitting,Daily Steps
+0,2019-05-01,07:46:39,Richard,Megan,865-50-6891,Private Insurance,Losartan,98.6,179,149,447,578,6577
+1,2003-09-15,08:43:22,Chang,Katherine,042-34-8377,Private Insurance,Simvastatin,98.8,183,119,212,587,6722
+2,2016-05-21,05:52:26,Fisher,Robert,498-52-4970,Medicare,Metformin,98.4,135,143,403,490,5165
+3,2004-11-27,09:51:25,Green,Jonathan,489-46-9559,Medicare,Lisinopril,98.9,163,151,230,546,6060
+4,1991-12-23,19:14:57,Dixon,William,224-65-2282,Private Insurance,Amlodipine,97.8,195,121,35,610,7094
+5,1999-05-29,19:09:38,Sullivan,Richard,289-18-1554,Medicare,Metformin,98.2,192,97,147,604,6990
+6,2007-12-29,16:37:16,Bowers,Kristen,634-33-8726,Private Insurance,Simvastatin,97.9,181,111,276,583,6658
+7,2007-02-17,21:05:08,Turner,Kevin,723-78-2408,Medicare,Atorvastin,98.8,168,127,263,557,6242
+8,2004-05-17,21:09:22,Woods,Thomas,318-13-1209,Medicare,Amlodipine,97.4,191,126,222,602,6952
+9,2017-04-07,08:46:15,Silva,Brandy,871-88-5410,Private Insurance,Metoprolol,97.5,175,120,416,571,6466
