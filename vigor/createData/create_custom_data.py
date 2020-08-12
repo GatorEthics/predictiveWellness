@@ -21,6 +21,24 @@ def randomize_int(min, max, amount):
     return integer_list
 
 
+def create_age(df, amount):
+    min = 1
+    max = 103
+    age_list = randomize_int(min, max, amount)
+    age_array = np.array(age_list)
+    df["Age"] = age_array
+    return age_list
+
+
+def create_activity_level(df, amount):
+    min = 1
+    max = 5
+    activity_level_list = randomize_int(min, max, amount)
+    activity_level_array = np.array(activity_level_list)
+    df["Activity Level"] = activity_level_array
+    return activity_level_list
+
+
 def create_date(df, amount):
     date_list = []
     Faker.seed(0)
