@@ -30,7 +30,7 @@ def add_missing_columns(df):
     if "Last Name" not in df.columns:
         df["Last Name"] = ""
     if "First Name" not in df.columns:
-        df["Last Name"] = ""
+        df["First Name"] = ""
     if "SSN" not in df.columns:
         df["SSN"] = ""
     if "Age" not in df.columns:
@@ -53,12 +53,7 @@ def add_missing_columns(df):
         df["Minutes Sitting"] = ""
     if "Daily Steps" not in df.columns:
         df["Daily Steps"] = ""
-    
-    if ""
-    df["CD"] = ""
-    df["MS"] = ""
-    df["Diabetes"] = ""
-    df["Health"] = ""
+
 
 def create_age(df, amount):
     min = 1
@@ -427,18 +422,19 @@ if __name__ == "__main__":
     amount = 10
     age = 20
     activity_level = 2
-    create_date(data, amount)
-    create_time(data, amount)
-    create_first_name(data, amount)
-    create_last_name(data, amount)
-    create_ssn(data, amount)
-    create_insurance(data, amount)
-    create_medications(data, amount)
-    create_minutes_sitting(data, activity_level, amount)
-    create_minutes_active(data, age, activity_level, amount)
-    create_temperature(data, age, amount)
-    create_blood_pressure(data, age, activity_level, amount)
-    create_heart_rate(data, age, activity_level, amount)
-    create_steps(data, activity_level, amount)
+    add_missing_columns(data)
+    # create_date(data, amount)
+    # create_time(data, amount)
+    # create_first_name(data, amount)
+    # create_last_name(data, amount)
+    # create_ssn(data, amount)
+    # create_insurance(data, amount)
+    # create_medications(data, amount)
+    # create_minutes_sitting(data, activity_level, amount)
+    # create_minutes_active(data, age, activity_level, amount)
+    # create_temperature(data, age, amount)
+    # create_blood_pressure(data, age, activity_level, amount)
+    # create_heart_rate(data, age, activity_level, amount)
+    # create_steps(data, activity_level, amount)
     data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/selectedData.csv")
-    print(data)
+    # print(data)
