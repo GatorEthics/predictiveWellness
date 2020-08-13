@@ -21,6 +21,45 @@ def randomize_int(min, max, amount):
     return integer_list
 
 
+def add_missing_columns(df):
+    """Add columns for data labeling."""
+    if "Date" not in df.columns:
+        df["Date"] = ""
+    if "Time" not in df.columns:
+        df["Time"] = ""
+    if "Last Name" not in df.columns:
+        df["Last Name"] = ""
+    if "First Name" not in df.columns:
+        df["Last Name"] = ""
+    if "SSN" not in df.columns:
+        df["SSN"] = ""
+    if "Age" not in df.columns:
+        df["Age"] = ""
+    if "Activity Level" not in df.columns:
+        df["Activity Level"] = ""
+    if "Insurance" not in df.columns:
+        df["Insurance"] = ""
+    if "Medications" not in df.columns:
+        df["Medications"] = ""
+    if "Temperature" not in df.columns:
+        df["Temperature"] = ""
+    if "Heart Rate" not in df.columns:
+        df["Heart Rate"] = ""
+    if "Blood Pressure" not in df.columns:
+        df["Blood Pressure"] = ""
+    if "Physical Activity" not in df.columns:
+        df["Physical Activity"] = ""
+    if "Minutes Sitting" not in df.columns:
+        df["Minutes Sitting"] = ""
+    if "Daily Steps" not in df.columns:
+        df["Daily Steps"] = ""
+    
+    if ""
+    df["CD"] = ""
+    df["MS"] = ""
+    df["Diabetes"] = ""
+    df["Health"] = ""
+
 def create_age(df, amount):
     min = 1
     max = 103
