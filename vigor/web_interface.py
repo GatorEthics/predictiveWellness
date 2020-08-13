@@ -6,7 +6,7 @@ import health_query
 from createData import comprehensive_individual_labeling as label
 from createData import create_custom_individual as custom_individual
 from createData import create_individual_data as provided_individual
-
+from createData import create_custom_data as customized_data
 
 import streamlit as st
 import pandas as pd
@@ -25,7 +25,7 @@ def customized_setup():
     """Input and store personal information for data generation."""
     age = st.number_input("Please enter your age (in years)", min_value=1)
     weight = st.number_input("Please enter your weight (in pounds)", min_value=1.0)
-    height = st.number_input("Please enter your height (in inche)s", min_value=1.0)
+    height = st.number_input("Please enter your height (in inches)", min_value=1.0)
     activity_level = st.slider(
         "Please enter your activity level", min_value=1, max_value=5, value=None
     )
@@ -188,6 +188,99 @@ def individual_analysis():
         query_pubmed(individual_data)
 
 
+def create_personalized_data():
+    data = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/selectedData.csv")
+    data_type = st.selectbox("What type of data would you like to produce?", ["Individual", "Community"])
+    amount = st.number_input("How much data would you like to be produced?", min_value=1)
+
+    if data_type == "Community":
+        create_community_data(data, amount)
+
+    if data_type == "Individual":
+        create_individual_data(data, amount)
+
+    customized_data.remove_empty_columns(data)
+    data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/selectedData.csv")
+
+
+def create_community_data(data, amount):
+    time_box = st.checkbox("Time")
+    age_box = st.checkbox("Age")
+    first_name_box = st.checkbox("First Name")
+    last_name_box = st.checkbox("Last Name")
+    ssn_box = st.checkbox("Social Security Number (SSN)")
+    insurance_box = st.checkbox("Insurance Type")
+    medication_box = st.checkbox("Medications")
+    sitting_box = st.checkbox("Minutes Sitting Daily")
+    active_box = st.checkbox("Minutes Active Daily")
+    temperature_box = st.checkbox("Temperature")
+    bp_box = st.checkbox("Blood Pressure")
+    hr_box = st.checkbox("Heart Rate")
+    steps_box = st.checkbox("Steps")
+
+    if time_box is True:
+        customized_data.create_time(data, amount)
+    if age_box is True:
+        customized_data.create_age(data, amount)
+    if first_name_box is True:
+        customized_data.create_first_name(data, amount)
+    if last_name_box is True:
+        customized_data.create_last_name(data, amount)
+    if ssn_box is True:
+        customized_data.create_ssn(data, amount)
+    if insurance_box is True:
+        customized_data.create_insurance(data, amount)
+    if medication_box is True:
+        customized_data.create_medications(data, amount)
+    # if sitting_box is True:
+    #     customized_data.create_minutes_sitting()
+
+
+def create_individual_data(data, amount):
+    age = st.number_input("How old is the individual?", min_value=1)
+    activity_level = st.slider(
+        "What is the individual's activity level?", min_value=1, max_value=5, value=None
+    )
+    if activity_level == 1:
+        st.write("Level 1: Extremely inactive")
+    if activity_level == 2:
+        st.write("Level 2: Sedentary lifestyle (little to no exercise)")
+    if activity_level == 3:
+        st.write("Level 3: Moderately active")
+    if activity_level == 4:
+        st.write("Level 4: Vigorously active")
+    if activity_level == 5:
+        st.write("Level 5: Extremely active (competitive athlete)")
+    date_box = st.checkbox("Date")
+    time_box = st.checkbox("Time")
+    medication_box = st.checkbox("Medications")
+    sitting_box = st.checkbox("Minutes Sitting Daily")
+    active_box = st.checkbox("Minutes Active Daily")
+    temperature_box = st.checkbox("Temperature")
+    bp_box = st.checkbox("Blood Pressure")
+    hr_box = st.checkbox("Heart Rate")
+    steps_box = st.checkbox("Steps")
+
+    if date_box is True:
+        customized_data.create_date(data, amount)
+    if time_box is True:
+        customized_data.create_time(data, amount)
+    if medication_box is True:
+        customized_data.create_medications(data, amount)
+    if sitting_box is True:
+        customized_data.create_minutes_sitting(data, activity_level, amount)
+    if active_box is True:
+        customized_data.create_minutes_active(data, age, activity_level, amount)
+    if temperature_box is True:
+        customized_data.create_temperature(data, age, amount)
+    if bp_box is True:
+        customized_data.create_blood_pressure(data, age, activity_level, amount)
+    if hr_box is True:
+        customized_data.create_heart_rate(data, age, activity_level, amount)
+    if steps_box is True:
+        customized_data.create_steps(data, activity_level, amount)
+
+
 def follow():
     """Give contact information with images."""
     st.title("Follow Us")
@@ -220,8 +313,9 @@ def setup():
         "Menu",
         [
             "Home",
-            "Data Generation with Faker",
+            "Using Faker",
             "Understanding Classification Algorithms",
+            "Customized Data Generation",
             "Individual Health Analysis",
             "Community Health Analysis",
             "About Vigor",
@@ -234,7 +328,7 @@ def setup():
         ) as home_file:
             st.markdown(home_file.read())
         follow()
-    if home_menu == "Data Generation with Faker":
+    if home_menu == "Using Faker":
         with open(
             # pylint: disable=C0301
             "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataGeneration/faker_instructions.md"
@@ -247,6 +341,9 @@ def setup():
             "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/classification_description.md"
         ) as classification:
             st.markdown(classification.read())
+        follow()
+    if home_menu == "Customized Data Generation":
+        create_personalized_data()
         follow()
     if home_menu == "Individual Health Analysis":
         individual_analysis()
