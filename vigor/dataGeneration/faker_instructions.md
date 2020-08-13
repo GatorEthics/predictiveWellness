@@ -27,11 +27,15 @@ This package dependency can be installed using the command `pipenv install --dev
 - Additionally, the provider which you are interested in using for data generation also must be imported at the beginning of your program
 `from faker.providers import name_of_provider`
 
+![Using Faker](faker1.mp4)
+
 - Depending on the provider, there are different functions, which allow random generation of data. Some functions require numberical boundaries, and all functions require the amount of random data which should be generated.
 
 ## Writing to CSV Files
 
 It is easiest to store the generated fake information in a list. This list should then be converted to an array and assigned to the specific column in your data file.
+
+![Writing to .cvs files](faker2.mp4)
 
 ## Helpful Tutorials
 
