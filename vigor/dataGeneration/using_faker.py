@@ -1,7 +1,7 @@
 """A program to depict using Faker for data generation."""
 
-# import necessary packages 
-import pandas as pd 
+# import necessary packages
+import pandas as pd
 import numpy as np
 
 # import Faker and providers
@@ -36,4 +36,3 @@ data["Dates"] = date_array
 
 # Convert pandas dataframe back to .csv file
 data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataGeneration/faker.csv")
-
