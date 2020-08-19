@@ -21,41 +21,9 @@ def randomize_int(min, max, amount):
     return integer_list
 
 
-def add_missing_columns(df):
-    """Add columns for data labeling."""
-    if "Date" not in df.columns:
-        df["Date"] = ""
-    if "Time" not in df.columns:
-        df["Time"] = ""
-    if "Last Name" not in df.columns:
-        df["Last Name"] = ""
-    if "First Name" not in df.columns:
-        df["First Name"] = ""
-    if "SSN" not in df.columns:
-        df["SSN"] = ""
+def create_age(df, amount):
     if "Age" not in df.columns:
         df["Age"] = ""
-    if "Activity Level" not in df.columns:
-        df["Activity Level"] = ""
-    if "Insurance" not in df.columns:
-        df["Insurance"] = ""
-    if "Medications" not in df.columns:
-        df["Medications"] = ""
-    if "Temperature" not in df.columns:
-        df["Temperature"] = ""
-    if "Heart Rate" not in df.columns:
-        df["Heart Rate"] = ""
-    if "Blood Pressure" not in df.columns:
-        df["Blood Pressure"] = ""
-    if "Physical Activity" not in df.columns:
-        df["Physical Activity"] = ""
-    if "Minutes Sitting" not in df.columns:
-        df["Minutes Sitting"] = ""
-    if "Daily Steps" not in df.columns:
-        df["Daily Steps"] = ""
-
-
-def create_age(df, amount):
     min = 1
     max = 103
     age_list = randomize_int(min, max, amount)
@@ -65,6 +33,8 @@ def create_age(df, amount):
 
 
 def create_activity_level(df, amount):
+    if "Activity Level" not in df.columns:
+        df["Activity Level"] = ""
     min = 1
     max = 5
     activity_level_list = randomize_int(min, max, amount)
@@ -74,6 +44,8 @@ def create_activity_level(df, amount):
 
 
 def create_date(df, amount):
+    if "Date" not in df.columns:
+        df["Date"] = ""
     date_list = []
     Faker.seed(0)
     for x in range(amount):
@@ -84,6 +56,8 @@ def create_date(df, amount):
 
 
 def create_time(df, amount):
+    if "Time" not in df.columns:
+        df["Time"] = ""
     time_list = []
     Faker.seed(0)
     for x in range(amount):
@@ -94,6 +68,8 @@ def create_time(df, amount):
 
 
 def create_first_name(df, amount):
+    if "First Name" not in df.columns:
+        df["First Name"] = ""
     first_name_list = []
     Faker.seed(0)
     for x in range(amount):
@@ -104,6 +80,8 @@ def create_first_name(df, amount):
 
 
 def create_last_name(df, amount):
+    if "Last Name" not in df.columns:
+        df["Last Name"] = ""
     last_name_list = []
     Faker.seed(0)
     for x in range(amount):
@@ -114,6 +92,8 @@ def create_last_name(df, amount):
 
 
 def create_ssn(df, amount):
+    if "SSN" not in df.columns:
+        df["SSN"] = ""
     ssn_list = []
     Faker.seed(0)
     for x in range(amount):
@@ -124,6 +104,8 @@ def create_ssn(df, amount):
 
 
 def create_insurance(df, amount):
+    if "Insurance" not in df.columns:
+        df["Insurance"] = ""
     insurance_list = []
     Faker.seed(0)
     for x in range(amount):
@@ -134,6 +116,8 @@ def create_insurance(df, amount):
 
 
 def create_medications(df, amount):
+    if "Medications" not in df.columns:
+        df["Medications"] = ""
     medication_list = []
     Faker.seed(0)
     for x in range(amount):
@@ -145,6 +129,8 @@ def create_medications(df, amount):
 
 def create_minutes_sitting(df, activity_level, amount):
     """Create minutes sitting based on activity level."""
+    if "Minutes Sitting" not in df.columns:
+        df["Minutes Sitting"] = ""
     # age, activity_level = get_individual_information()
     # Minutes sitting for sedentary lifestyle
     if activity_level == 1:
@@ -185,6 +171,8 @@ def create_minutes_sitting(df, activity_level, amount):
 
 def create_minutes_active(df, age, activity_level, amount):
     """Create physical activity based on age and activity."""
+    if "Physical Activity" not in df.columns:
+        df["Physical Activity"] = ""
     # age, activity_level = get_individual_information()
     # physical activity for school-aged children and adolescents (6-17)
     if 6 < age < 17:
@@ -225,6 +213,8 @@ def create_minutes_active(df, age, activity_level, amount):
 
 
 def create_temperature(df, age, amount):
+    if "Temperature" not in df.columns:
+        df["Temperature"] = ""
     temperature_list = []
     Faker.seed(0)
     if 6 < age < 17:
@@ -246,6 +236,8 @@ def create_temperature(df, age, amount):
 
 def create_blood_pressure(df, age, activity_level, amount):
     """Create blood pressure based on age and activity level."""
+    if "Blood Pressure" not in df.columns:
+        df["Blood Pressure"] = ""
     # Systolic Blood Pressure
     if 6 < age < 13:
         if 3 < activity_level < 5:
@@ -301,6 +293,8 @@ def create_blood_pressure(df, age, activity_level, amount):
 
 def create_heart_rate(df, age, activity_level, amount):
     """Create heart rate based on age and activity level."""
+    if "Heart Rate" not in df.columns:
+        df["Heart Rate"] = ""
     if age <= 20:
         if 3 < activity_level < 5:
             min = 100
@@ -375,6 +369,8 @@ def create_heart_rate(df, age, activity_level, amount):
 
 def create_steps(df, activity_level, amount):
     """Create steps based on activity level."""
+    if "Daily Steps" not in df.columns:
+        df["Daily Steps"] = ""
     # age, activity_level = get_individual_information()
     # Steps for sedentary lifestyle
     if activity_level == 1:
@@ -413,6 +409,10 @@ def create_steps(df, activity_level, amount):
         df["Daily Steps"] = steps_array
 
 
+# def remove_unwanted_data(df, name):
+#     df.drop(columns='name', axis=1)
+
+
 def remove_empty_columns(df):
     df.dropna(axis='columns', inplace=True)
 
@@ -422,19 +422,5 @@ if __name__ == "__main__":
     amount = 10
     age = 20
     activity_level = 2
-    add_missing_columns(data)
-    # create_date(data, amount)
-    # create_time(data, amount)
-    # create_first_name(data, amount)
-    # create_last_name(data, amount)
-    # create_ssn(data, amount)
-    # create_insurance(data, amount)
-    # create_medications(data, amount)
-    # create_minutes_sitting(data, activity_level, amount)
-    # create_minutes_active(data, age, activity_level, amount)
-    # create_temperature(data, age, amount)
-    # create_blood_pressure(data, age, activity_level, amount)
-    # create_heart_rate(data, age, activity_level, amount)
-    # create_steps(data, activity_level, amount)
     data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/selectedData.csv")
     # print(data)
