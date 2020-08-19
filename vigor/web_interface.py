@@ -10,6 +10,7 @@ from createData import create_custom_data as customized_data
 
 import streamlit as st
 import pandas as pd
+import os
 
 
 def individual_analysis_type():
@@ -189,7 +190,14 @@ def individual_analysis():
 
 
 def create_personalized_data():
-    data = pd.read_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/selectedData.csv")
+    filename = st.text_input('Enter a file path:')
+    try:
+        with open(filename) as input:
+            st.text(input.read())
+    except FileNotFoundError:
+        st.error('File not found.')
+
+    data = pd.read_csv(filename)
     data_type = st.selectbox("What type of data would you like to produce?", ["Individual", "Community"])
     amount = st.number_input("How much data would you like to be produced?", min_value=1)
 
@@ -200,7 +208,8 @@ def create_personalized_data():
         create_individual_data(data, amount)
 
     customized_data.remove_empty_columns(data)
-    data.to_csv("/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/selectedData.csv")
+    data.to_csv(filename)
+    st.dataframe(data)
 
 
 def create_community_data(data, amount):
@@ -220,18 +229,32 @@ def create_community_data(data, amount):
 
     if time_box is True:
         customized_data.create_time(data, amount)
+    else:
+        data.drop("Time", axis=1, inplace=True)
     if age_box is True:
         customized_data.create_age(data, amount)
+    else:
+        data.drop("Age", axis=1, inplace=True)
     if first_name_box is True:
         customized_data.create_first_name(data, amount)
+    else:
+        data.drop("First Name", axis=1, inplace=True)
     if last_name_box is True:
         customized_data.create_last_name(data, amount)
+    else:
+        data.drop("Last Name", axis=1, inplace=True)
     if ssn_box is True:
         customized_data.create_ssn(data, amount)
+    else:
+        data.drop("SSN", axis=1, inplace=True)
     if insurance_box is True:
         customized_data.create_insurance(data, amount)
+    else:
+        data.drop("Insurance", axis=1, inplace=True)
     if medication_box is True:
         customized_data.create_medications(data, amount)
+    else:
+        data.drop("Medications", axis=1, inplace=True)
     # if sitting_box is True:
     #     customized_data.create_minutes_sitting()
 
@@ -263,22 +286,40 @@ def create_individual_data(data, amount):
 
     if date_box is True:
         customized_data.create_date(data, amount)
+    else:
+        data.drop("Date", axis=1, inplace=True)
     if time_box is True:
         customized_data.create_time(data, amount)
+    else:
+        data.drop("Time", axis=1, inplace=True)
     if medication_box is True:
         customized_data.create_medications(data, amount)
+    else:
+        data.drop("Medications", axis=1, inplace=True)
     if sitting_box is True:
         customized_data.create_minutes_sitting(data, activity_level, amount)
+    else:
+        data.drop("Minutes Sitting", axis=1, inplace=True)
     if active_box is True:
         customized_data.create_minutes_active(data, age, activity_level, amount)
+    else:
+        data.drop("Physical Activity", axis=1, inplace=True)
     if temperature_box is True:
         customized_data.create_temperature(data, age, amount)
+    else:
+        data.drop("Temperature", axis=1, inplace=True)
     if bp_box is True:
         customized_data.create_blood_pressure(data, age, activity_level, amount)
+    else:
+        data.drop("Blood Pressure", axis=1, inplace=True)
     if hr_box is True:
         customized_data.create_heart_rate(data, age, activity_level, amount)
+    else:
+        data.drop("Heart Rate", axis=1, inplace=True)
     if steps_box is True:
         customized_data.create_steps(data, activity_level, amount)
+    else:
+        data.drop("Daily Steps", axis=1, inplace=True)
 
 
 def follow():
