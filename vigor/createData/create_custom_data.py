@@ -9,6 +9,7 @@ from faker.providers import date_time
 fake = Faker()
 fake.add_provider(python)
 fake.add_provider(date_time)
+Faker.seed(0)
 
 
 def randomize_int(min, max, amount):
@@ -133,7 +134,7 @@ def create_blood_type(df, amount):
     ordered_dictionary = {}
     ordered_dictionary = dict([("O Positive", 0.35), ("O Negative", 0.13), ("A Positive", 0.30), ("A Negative", 0.8), ("B Positive", 0.8), ("B Negative", 0.2), ("AB Positive", 2), ("AB Negative", 0.1)])
     type_list = []
-    Faker.seed(0)
+    # Faker.seed(0)
     for x in range(amount):
         blood_type = fake.random_element(elements=ordered_dictionary)
         type_list.append(blood_type)

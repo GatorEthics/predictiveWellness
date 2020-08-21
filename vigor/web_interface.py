@@ -10,7 +10,6 @@ from createData import create_custom_data as customized_data
 
 import streamlit as st
 import pandas as pd
-import os
 
 
 def individual_analysis_type():
@@ -152,11 +151,17 @@ def classify_data(dataset, data_type):
 
 def query_pubmed(classification, data_type):
     st.header("Discovery with PubMed")
+    filename = st.text_input('Enter a file path:')
+    try:
+        with open(filename) as input:
+            st.text(input.read())
+    except FileNotFoundError:
+        st.error('File not found.')
     # classification = st.text_input("What classification would you like to query results from?")
     amount = st.number_input("How many articles would you like to read?", min_value=1)
     start_query = st.button("Perform search for health risks")
     if start_query:
-        results = health_query.perform_methods(classification, data_type, amount)
+        results = health_query.perform_methods(filename, classification, data_type, amount)
         # st.dataframe(results)
 
     for i, j in results.iterrows():
@@ -197,7 +202,7 @@ def create_personalized_data():
     except FileNotFoundError:
         st.error('File not found.')
 
-    data = pd.read_csv(filename)
+    data = pd.read_csv(filename, index_col=0)
     data_type = st.selectbox("What type of data would you like to produce?", ["Individual", "Community"])
     amount = st.number_input("How much data would you like to be produced?", min_value=1)
 
@@ -219,6 +224,7 @@ def create_community_data(data, amount):
     last_name_box = st.checkbox("Last Name")
     ssn_box = st.checkbox("Social Security Number (SSN)")
     insurance_box = st.checkbox("Insurance Type")
+    blood_type_box = st.checkbox("Blood Type")
     medication_box = st.checkbox("Medications")
     sitting_box = st.checkbox("Minutes Sitting Daily")
     active_box = st.checkbox("Minutes Active Daily")
@@ -251,6 +257,10 @@ def create_community_data(data, amount):
         customized_data.create_insurance(data, amount)
     else:
         data.drop("Insurance", axis=1, inplace=True)
+    if blood_type_box is True:
+        customized_data.create_blood_type(data, amount)
+    else:
+        data.drop("Blood Type", axis=1, inplace=True)
     if medication_box is True:
         customized_data.create_medications(data, amount)
     else:
@@ -322,6 +332,28 @@ def create_individual_data(data, amount):
         data.drop("Daily Steps", axis=1, inplace=True)
 
 
+def perform_pubmed_discovery():
+    filename = st.text_input('Enter a file path:')
+    try:
+        with open(filename) as input:
+            st.text(input.read())
+    except FileNotFoundError:
+        st.error('File not found.')
+    st.header("Discovery with PubMed")
+    # classification = st.text_input("What classification would you like to query results from?")
+    amount = st.number_input("How many articles would you like to read?", min_value=1)
+    keywords = st.text_input("What keywords would you like to search for?")
+    start_query = st.button("Perform search for health risks")
+    if start_query:
+        results = health_query.perform_methods_for_discovery(filename, keywords, amount)
+        # st.dataframe(results)
+
+    for i, j in results.iterrows():
+        st.header(j["Titles"])
+        st.write(j["Date Published"])
+        st.write(j["Abstract"])
+
+
 def follow():
     """Give contact information with images."""
     st.title("Follow Us")
@@ -356,6 +388,7 @@ def setup():
             "Home",
             "Using Faker",
             "Understanding Classification Algorithms",
+            "Discovery with PubMed",
             "Customized Data Generation",
             "Individual Health Analysis",
             "Community Health Analysis",
@@ -382,6 +415,14 @@ def setup():
             "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/classification_description.md"
         ) as classification:
             st.markdown(classification.read())
+        follow()
+    if home_menu == "Discovery with PubMed":
+        with open(
+            # pylint: disable=C0301
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/about_pubmed.md"
+        ) as pubmed:
+            st.markdown(pubmed.read())
+        perform_pubmed_discovery()
         follow()
     if home_menu == "Customized Data Generation":
         create_personalized_data()
