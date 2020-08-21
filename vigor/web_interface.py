@@ -382,41 +382,34 @@ def setup():
         width=900,
     )
     st.sidebar.title("Welcome to Vigor!")
-    home_menu = st.selectbox(
+    initial_menu = st.selectbox(
         "Menu",
         [
             "Home",
-            "Using Faker",
-            "Understanding Classification Algorithms",
+            "Data Generation with Faker",
             "Discovery with PubMed",
-            "Customized Data Generation",
-            "Individual Health Analysis",
-            "Community Health Analysis",
+            "Vigor's Predictive Wellness",
             "About Vigor",
-        ],
+
+        ]
     )
-    if home_menu == "Home":
+    if initial_menu == "Home":
         with open(
             # pylint: disable=C0301
             "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/home_page.md"
         ) as home_file:
             st.markdown(home_file.read())
         follow()
-    if home_menu == "Using Faker":
-        with open(
-            # pylint: disable=C0301
-            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataGeneration/faker_instructions.md"
-        ) as faker_file:
-            st.markdown(faker_file.read())
-        follow()
-    if home_menu == "Understanding Classification Algorithms":
-        with open(
-            # pylint: disable=C0301
-            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/classification_description.md"
-        ) as classification:
-            st.markdown(classification.read())
-        follow()
-    if home_menu == "Discovery with PubMed":
+    if initial_menu == "Data Generation with Faker":
+        st.write("Faker")
+        faker_menu = st.selectbox(
+            "Faker Menu",
+            [
+                "Using Faker",
+                "Customized Data Generation",
+            ]
+        )
+    if initial_menu == "Discovery with PubMed":
         with open(
             # pylint: disable=C0301
             "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/about_pubmed.md"
@@ -424,21 +417,45 @@ def setup():
             st.markdown(pubmed.read())
         perform_pubmed_discovery()
         follow()
-    if home_menu == "Customized Data Generation":
-        create_personalized_data()
-        follow()
-    if home_menu == "Individual Health Analysis":
-        individual_analysis()
-        follow()
-    if home_menu == "Community Health Analysis":
-        st.write("Comming Soon!")
-        follow()
-    if home_menu == "About Vigor":
+    if initial_menu == "Vigor's Predictive Wellness":
+        wellness_menu = st.selectbox(
+            "Predictive Wellness Menu",
+            [
+                "Understanding Classification Algorithms",
+                "Individual Health Analysis",
+                "Community Health Analysis",
+            ]
+        )
+    if initial_menu == "About Vigor":
         with open(
             # pylint: disable=C0301
             "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/about.md"
         ) as about:
             st.markdown(about.read())
+        follow()
+
+    if faker_menu == "Using Faker":
+        with open(
+            # pylint: disable=C0301
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataGeneration/faker_instructions.md"
+        ) as faker_file:
+            st.markdown(faker_file.read())
+        follow()
+    if faker_menu == "Customized Data Generation":
+        create_personalized_data()
+        follow()
+    if wellness_menu == "Understanding Classification Algorithms":
+        with open(
+            # pylint: disable=C0301
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/classification_description.md"
+        ) as classification:
+            st.markdown(classification.read())
+        follow()
+    if wellness_menu == "Individual Health Analysis":
+        individual_analysis()
+        follow()
+    if wellness_menu == "Community Health Analysis":
+        st.write("Comming Soon!")
         follow()
 
 
