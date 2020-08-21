@@ -100,13 +100,8 @@ def classify_data(dataset, data_type):
     gini_interpretation = ""
     entropy_interpretation = ""
     svm_interpretation = ""
-    naive = False
-    gini = False
-    entropy = False
-    support_vector = False
     amount = st.number_input("How much data would you like to be produced?", min_value=1)
 
-    # classification_type = 0
     st.header("Please Choose Your Method of Classification:")
     naive_classification = st.checkbox("Naive Bayes Classification")
     gini_classification = st.checkbox("Gini Index Decision Tree Classification")
@@ -119,7 +114,10 @@ def classify_data(dataset, data_type):
             st.area_chart(new_data["Health"])
             naive_interpretation = naive_bayes.perform_methods(data_type)
             naive_results = health_query.perform_methods(filename, naive_interpretation, amount)
-            naive = True
+            for i, j in naive_results.iterrows():
+                st.header(j["Titles"])
+                st.write(j["Date Published"])
+                st.write(j["Abstract"])
         st.success("Complete!")
 
     if gini_classification:
@@ -128,7 +126,10 @@ def classify_data(dataset, data_type):
             st.area_chart(new_data["Health"])
             gini_interpretation = decision_tree.perform_gini_index(data_type)
             gini_results = health_query.perform_methods(filename, gini_interpretation, amount)
-            gini = True
+            for i, j in gini_results.iterrows():
+                st.header(j["Titles"])
+                st.write(j["Date Published"])
+                st.write(j["Abstract"])
         st.success("Complete!")
 
     if entropy_classification:
@@ -137,7 +138,10 @@ def classify_data(dataset, data_type):
             st.area_chart(new_data["Health"])
             entropy_interpretation = decision_tree.perform_entropy(data_type)
             entropy_results = health_query.perform_methods(filename, entropy_interpretation, amount)
-            entropy = True
+            for i, j in entropy_results.iterrows():
+                st.header(j["Titles"])
+                st.write(j["Date Published"])
+                st.write(j["Abstract"])
         st.success("Complete!")
 
     if svm_classification:
@@ -146,76 +150,28 @@ def classify_data(dataset, data_type):
             st.area_chart(new_data["Health"])
             svm_interpretation = svm.perform_methods(data_type)
             svm_results = health_query.perform_methods(filename, svm_interpretation, amount)
-            support_vector = True
+            for i, j in svm_results.iterrows():
+                st.header(j["Titles"])
+                st.write(j["Date Published"])
+                st.write(j["Abstract"])
         st.success("Complete!")
-
-    return naive_results, gini_results, entropy_results, svm_results, naive, gini, entropy, support_vector
 
 
 def individual_analysis():
     """Perform analysis for individual data."""
     individual_data = individual_analysis_type()
-    naive_results = ""
-    gini_results = ""
-    entropy_results = ""
-    svm_results = ""
-    naive = False
-    gini = False
-    entropy = False
-    svm = False
 
-    naive_results, gini_results, entropy_results, svm_results, naive, gini, entropy, svm = classify_data(labeled_data, individual_data)
-    
     # classification_name = ""
     if individual_data == "Customized":
         age, weight, height, activity_level, bmi = customized_setup()
         data = create_custom_individual(age, activity_level)
         labeled_data = label_data(data, individual_data)
-        # naive, gini, entropy, support_vector = classify_data(labeled_data, individual_data)
-        if naive is True:
-            for i, j in naive_results.iterrows():
-                st.header(j["Titles"])
-                st.write(j["Date Published"])
-                st.write(j["Abstract"])
-        if gini is True:
-            for i, j in gini_results.iterrows():
-                st.header(j["Titles"])
-                st.write(j["Date Published"])
-                st.write(j["Abstract"])
-        if entropy is True:
-            for i, j in entropy_results.iterrows():
-                st.header(j["Titles"])
-                st.write(j["Date Published"])
-                st.write(j["Abstract"])
-        if svm is True:
-            for i, j in svm_results.iterrows():
-                st.header(j["Titles"])
-                st.write(j["Date Published"])
-                st.write(j["Abstract"])
+        classify_data(labeled_data, individual_data)
+
     if individual_data == "Provided":
         data = create_provided_individual()
         labeled_data = label_data(data, individual_data)
         classify_data(labeled_data, individual_data)
-        if naive is True:
-            for i, j in naive_results.iterrows():
-                st.header(j["Titles"])
-                st.write(j["Date Published"])
-                st.write(j["Abstract"])
-        if gini is True:
-            for i, j in gini_results.iterrows():
-                st.header(j["Titles"])
-                st.write(j["Date Published"])
-                st.write(j["Abstract"])
-        if entropy is True:
-            for i, j in entropy_results.iterrows():
-                st.header(j["Titles"])
-                st.write(j["Date Published"])
-                st.write(j["Abstract"])
-        if svm is True:
-            for i, j in svm_results.iterrows():
-                st.header(j["Titles"])
-                st.write(j["Date Published"])
-                st.write(j["Abstract"])
 
 
 def create_personalized_data():
@@ -289,8 +245,6 @@ def create_community_data(data, amount):
         customized_data.create_medications(data, amount)
     else:
         data.drop("Medications", axis=1, inplace=True)
-    # if sitting_box is True:
-    #     customized_data.create_minutes_sitting()
 
 
 def create_individual_data(data, amount):
@@ -449,8 +403,7 @@ def setup():
                 st.markdown(classification.read())
             follow()
         if wellness_menu == "Individual Health Analysis":
-            results = individual_analysis()
-            print_articles(results)
+            individual_analysis()
             follow()
         if wellness_menu == "Community Health Analysis":
             st.write("Comming Soon!")
