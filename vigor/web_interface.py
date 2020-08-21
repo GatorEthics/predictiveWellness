@@ -146,7 +146,7 @@ def classify_data(dataset, data_type):
 
     st.header("Health Risks:")
     st.write(interpretation)
-    return naive , gini, entropy, support_vector
+    return naive, gini, entropy, support_vector
 
 
 def query_pubmed(classification, data_type):
