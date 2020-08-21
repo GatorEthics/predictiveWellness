@@ -71,10 +71,8 @@ def determine_keywords(database_results):
     return keywords_list
 
 
-def convert_to_file(title, id, date, authors, abstract):
-    pubmed_file = pd.read_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/PubMedArticles.csv"
-    )
+def convert_to_file(file, title, id, date, authors, abstract):
+    pubmed_file = pd.read_csv(file)
     title_array = np.array(title)
     id_array = np.array(id)
     date_array = np.array(date)
@@ -88,23 +86,25 @@ def convert_to_file(title, id, date, authors, abstract):
     pubmed_file["Abstract"] = abstract_array
     # file["Keywords"] = keywords_array
 
-    pubmed_file.to_csv(
-        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/PubMedArticles.csv"
-    )
+    pubmed_file.to_csv(file)
 
     return pubmed_file
-    #     steps_array = np.array(integer_list)
-    # df["Steps_taken"] = steps_array
-    # file[title]
 
 
-def perform_methods(classification, data_type, amount):
+def perform_methods_for_discovery(file, keywords, amount):
+    results = perform_query(keywords, amount)
+    titles, identification, date_published, authors, abstract = gather_results(results)
+    file = convert_to_file(file, titles, identification, date_published, authors, abstract)
+    return file
+
+
+def perform_methods(file, classification, data_type, amount):
     # dataframe = drop_data()
     keywords = define_query(classification, data_type)
     results = perform_query(classification, amount)
     title, id, date, authors, abstract = gather_results(results)
     # keywords = determine_keywords(results)
-    data_file = convert_to_file(title, id, date, authors, abstract)
+    data_file = convert_to_file(file, title, id, date, authors, abstract)
     return data_file
 
 
