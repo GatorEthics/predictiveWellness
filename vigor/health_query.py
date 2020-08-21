@@ -98,10 +98,9 @@ def perform_methods_for_discovery(file, keywords, amount):
     return file
 
 
-def perform_methods(file, classification, data_type, amount):
+def perform_methods(file, keywords, amount):
     # dataframe = drop_data()
-    keywords = define_query(classification, data_type)
-    results = perform_query(classification, amount)
+    results = perform_query(keywords, amount)
     title, id, date, authors, abstract = gather_results(results)
     # keywords = determine_keywords(results)
     data_file = convert_to_file(file, title, id, date, authors, abstract)

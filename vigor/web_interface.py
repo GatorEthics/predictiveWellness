@@ -95,25 +95,30 @@ def label_data(data, data_type):
 
 def classify_data(dataset, data_type):
     """Classify data and health risks with selected classification."""
-    interpretation = ""
+    filename = "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataFiles/PubMedArticles.csv"
+    naive_interpretation = ""
+    gini_interpretation = ""
+    entropy_interpretation = ""
+    svm_interpretation = ""
     naive = False
     gini = False
     entropy = False
     support_vector = False
+    amount = st.number_input("How much data would you like to be produced?", min_value=1)
 
     # classification_type = 0
     st.header("Please Choose Your Method of Classification:")
-    naive_classification = st.button("Naive Bayes Classification")
-    gini_classification = st.button("Gini Index Decision Tree Classification")
-    entropy_classification = st.button("Entropy Decision Tree Classification")
-    svm_classification = st.button("Support Vector Machine Classification")
+    naive_classification = st.checkbox("Naive Bayes Classification")
+    gini_classification = st.checkbox("Gini Index Decision Tree Classification")
+    entropy_classification = st.checkbox("Entropy Decision Tree Classification")
+    svm_classification = st.checkbox("Support Vector Machine Classification")
 
     if naive_classification:
         with st.spinner("Classifying with Naive Bayes..."):
             new_data = naive_bayes.import_data(data_type)
             st.area_chart(new_data["Health"])
-            interpretation = naive_bayes.perform_methods(data_type)
-            # classification_type = 1
+            naive_interpretation = naive_bayes.perform_methods(data_type)
+            naive_results = health_query.perform_methods(filename, naive_interpretation, amount)
             naive = True
         st.success("Complete!")
 
@@ -121,8 +126,8 @@ def classify_data(dataset, data_type):
         with st.spinner("Classifying with Gini Index..."):
             new_data = decision_tree.import_data(data_type)
             st.area_chart(new_data["Health"])
-            interpretation = decision_tree.perform_gini_index(data_type)
-            # classification_type = 2
+            gini_interpretation = decision_tree.perform_gini_index(data_type)
+            gini_results = health_query.perform_methods(filename, gini_interpretation, amount)
             gini = True
         st.success("Complete!")
 
@@ -130,68 +135,87 @@ def classify_data(dataset, data_type):
         with st.spinner("Classifying with Entropy..."):
             new_data = decision_tree.import_data(data_type)
             st.area_chart(new_data["Health"])
-            interpretation = decision_tree.perform_entropy(data_type)
+            entropy_interpretation = decision_tree.perform_entropy(data_type)
+            entropy_results = health_query.perform_methods(filename, entropy_interpretation, amount)
             entropy = True
-            # classification_type = 3
         st.success("Complete!")
 
     if svm_classification:
         with st.spinner("Classifying with Support Vector Machine..."):
             new_data = svm.import_data(data_type)
             st.area_chart(new_data["Health"])
-            interpretation = svm.perform_methods(data_type)
+            svm_interpretation = svm.perform_methods(data_type)
+            svm_results = health_query.perform_methods(filename, svm_interpretation, amount)
             support_vector = True
-            # classification_type = 4
         st.success("Complete!")
 
-    st.header("Health Risks:")
-    st.write(interpretation)
-    return naive, gini, entropy, support_vector
-
-
-def query_pubmed(classification, data_type):
-    st.header("Discovery with PubMed")
-    filename = st.text_input('Enter a file path:')
-    try:
-        with open(filename) as input:
-            st.text(input.read())
-    except FileNotFoundError:
-        st.error('File not found.')
-    # classification = st.text_input("What classification would you like to query results from?")
-    amount = st.number_input("How many articles would you like to read?", min_value=1)
-    start_query = st.button("Perform search for health risks")
-    if start_query:
-        results = health_query.perform_methods(filename, classification, data_type, amount)
-        # st.dataframe(results)
-
-    for i, j in results.iterrows():
-        st.header(j["Titles"])
-        st.write(j["Date Published"])
-        st.write(j["Abstract"])
+    return naive_results, gini_results, entropy_results, svm_results, naive, gini, entropy, support_vector
 
 
 def individual_analysis():
     """Perform analysis for individual data."""
     individual_data = individual_analysis_type()
+    naive_results = ""
+    gini_results = ""
+    entropy_results = ""
+    svm_results = ""
+    naive = False
+    gini = False
+    entropy = False
+    svm = False
+
+    naive_results, gini_results, entropy_results, svm_results, naive, gini, entropy, svm = classify_data(labeled_data, individual_data)
+    
     # classification_name = ""
     if individual_data == "Customized":
         age, weight, height, activity_level, bmi = customized_setup()
         data = create_custom_individual(age, activity_level)
         labeled_data = label_data(data, individual_data)
-        naive, gini, entropy, support_vector = classify_data(labeled_data, individual_data)
+        # naive, gini, entropy, support_vector = classify_data(labeled_data, individual_data)
         if naive is True:
-            query_pubmed(1, individual_data)
+            for i, j in naive_results.iterrows():
+                st.header(j["Titles"])
+                st.write(j["Date Published"])
+                st.write(j["Abstract"])
         if gini is True:
-            query_pubmed(2, individual_data)
+            for i, j in gini_results.iterrows():
+                st.header(j["Titles"])
+                st.write(j["Date Published"])
+                st.write(j["Abstract"])
         if entropy is True:
-            query_pubmed(3, individual_data)
+            for i, j in entropy_results.iterrows():
+                st.header(j["Titles"])
+                st.write(j["Date Published"])
+                st.write(j["Abstract"])
         if svm is True:
-            query_pubmed(4, individual_data)
+            for i, j in svm_results.iterrows():
+                st.header(j["Titles"])
+                st.write(j["Date Published"])
+                st.write(j["Abstract"])
     if individual_data == "Provided":
         data = create_provided_individual()
         labeled_data = label_data(data, individual_data)
         classify_data(labeled_data, individual_data)
-        query_pubmed(individual_data)
+        if naive is True:
+            for i, j in naive_results.iterrows():
+                st.header(j["Titles"])
+                st.write(j["Date Published"])
+                st.write(j["Abstract"])
+        if gini is True:
+            for i, j in gini_results.iterrows():
+                st.header(j["Titles"])
+                st.write(j["Date Published"])
+                st.write(j["Abstract"])
+        if entropy is True:
+            for i, j in entropy_results.iterrows():
+                st.header(j["Titles"])
+                st.write(j["Date Published"])
+                st.write(j["Abstract"])
+        if svm is True:
+            for i, j in svm_results.iterrows():
+                st.header(j["Titles"])
+                st.write(j["Date Published"])
+                st.write(j["Abstract"])
 
 
 def create_personalized_data():
@@ -425,7 +449,8 @@ def setup():
                 st.markdown(classification.read())
             follow()
         if wellness_menu == "Individual Health Analysis":
-            individual_analysis()
+            results = individual_analysis()
+            print_articles(results)
             follow()
         if wellness_menu == "Community Health Analysis":
             st.write("Comming Soon!")
