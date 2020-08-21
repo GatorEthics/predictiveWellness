@@ -1,0 +1,6 @@
+streamlit==0.62.1
+numpy==1.18.1
+pandas==1.0.5
+Faker==4.1.1
+pymed==0.8.9
+scikit_learn==0.23.2
