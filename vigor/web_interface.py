@@ -6,7 +6,7 @@ import health_query
 from createData import comprehensive_individual_labeling as label
 from createData import create_custom_individual as custom_individual
 from createData import create_individual_data as provided_individual
-from createData import create_custom_data as customized_data
+from dataGeneration import create_custom_data as customized_data
 
 import streamlit as st
 import pandas as pd
