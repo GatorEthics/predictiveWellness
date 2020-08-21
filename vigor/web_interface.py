@@ -400,15 +400,6 @@ def setup():
         ) as home_file:
             st.markdown(home_file.read())
         follow()
-    if initial_menu == "Data Generation with Faker":
-        st.write("Faker")
-        faker_menu = st.selectbox(
-            "Faker Menu",
-            [
-                "Using Faker",
-                "Customized Data Generation",
-            ]
-        )
     if initial_menu == "Discovery with PubMed":
         with open(
             # pylint: disable=C0301
@@ -418,14 +409,27 @@ def setup():
         perform_pubmed_discovery()
         follow()
     if initial_menu == "Vigor's Predictive Wellness":
-        wellness_menu = st.selectbox(
+        wellness_menu = st.radio(
             "Predictive Wellness Menu",
-            [
+            (
                 "Understanding Classification Algorithms",
                 "Individual Health Analysis",
-                "Community Health Analysis",
-            ]
+                "Community Health Analysis"
+            )
         )
+        if wellness_menu == "Understanding Classification Algorithms":
+            with open(
+                # pylint: disable=C0301
+                "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/classification_description.md"
+            ) as classification:
+                st.markdown(classification.read())
+            follow()
+        if wellness_menu == "Individual Health Analysis":
+            individual_analysis()
+            follow()
+        if wellness_menu == "Community Health Analysis":
+            st.write("Comming Soon!")
+            follow()
     if initial_menu == "About Vigor":
         with open(
             # pylint: disable=C0301
@@ -433,29 +437,24 @@ def setup():
         ) as about:
             st.markdown(about.read())
         follow()
-
-    if faker_menu == "Using Faker":
-        with open(
-            # pylint: disable=C0301
-            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataGeneration/faker_instructions.md"
-        ) as faker_file:
-            st.markdown(faker_file.read())
-        follow()
+    if initial_menu == "Data Generation with Faker":
+        st.write("Faker")
+        faker_menu = st.radio(
+            "Faker Menu",
+            (
+                "Using Faker",
+                "Customized Data Generation"
+            )
+        )
+        if faker_menu == "Using Faker":
+            with open(
+                # pylint: disable=C0301
+                "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/dataGeneration/faker_instructions.md"
+            ) as faker_file:
+                st.markdown(faker_file.read())
+            follow()
     if faker_menu == "Customized Data Generation":
         create_personalized_data()
-        follow()
-    if wellness_menu == "Understanding Classification Algorithms":
-        with open(
-            # pylint: disable=C0301
-            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/classification_description.md"
-        ) as classification:
-            st.markdown(classification.read())
-        follow()
-    if wellness_menu == "Individual Health Analysis":
-        individual_analysis()
-        follow()
-    if wellness_menu == "Community Health Analysis":
-        st.write("Comming Soon!")
         follow()
 
 
