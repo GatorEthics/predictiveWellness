@@ -329,6 +329,11 @@ def setup():
         width=900,
     )
     st.sidebar.title("Welcome to Vigor!")
+    st.image(
+        # pylint: disable=C0301
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/VigorImages/mini_vigor.png",
+        width=50,
+    )
     initial_menu = st.selectbox(
         "Menu",
         [
