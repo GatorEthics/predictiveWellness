@@ -4,20 +4,16 @@
 
 ## Data Generation with Faker
 
-Vigor utilizes a Python package called [Faker](https://faker.readthedocs.io/en/master/) to generate appropriate health data and vitals based on personal information. Faker is an *extremely helpful* package, that is easy to install, understand, and use for general and customzied data generation. If you are interested in learning more about Faker, please choose the **Data Generation with Faker** menu option.
+Vigor utilizes a Python package known as [Faker](https://faker.readthedocs.io/en/master/index.html) for data generation of vitals, as well as for customized data generation. Interested in understanding how it works and how to use it? or in generating your own customized data for personal projects and future use? Please choose the **Data Generation with Faker** menu option.
 
-## Understanding Classification Algorithms
+## Discovery with PubMed
 
-In order to accurately predict the health risks of an individual based on vitals and health data, Vigor uses machine learning classification. Vigor provides the opportunity to investigate and understand the three backbone classification algorithms, including *Naive Bayes*, *Decision Tree*, and *Support Vector Machine*. For more information on what classification is, and how each of these algorithms are written and work, please choose the **Understanding Classification Algorithms** menu option.
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/), maintained by the National Center for Biotechnology Information, is the database utilized by Vigor for health risk analysis based on an individual's vitals. If you are interested in learning more about how PubMed works, and also performing discovery based on your field, or certain topics please choose the **Discovery with PubMed** menu option.
 
-## Individual Health Analysis
+## Vigor's Predictive Wellness
 
-Vigor is a tool that encompases creating accurate health data, and also interpreting those results in order to determine the specific health risks of an individual, with intentions of leading to ethical discussions about the usage of personal wellness information. This tool provides the opportunity to analyze and discuss both *provided*, and *customized* individual health data. In order to use Vigor, please choose the **Individual Health Analysis** menu option.
-
-## Community Health Analysis
-
-Currently, Vigor is a tool which only focuses on individual health data. In the future, we are hoping to expand this tool to work with data concerning an entire community, to investigate the health concerns of a large population of individuals. If you are interested in the progress of this tool element, please choose the **Community Health Analysis** menu option.
+The main feature of Vigor, a heath analysis done with artificial intelligence, predictive analytics and multiple classification algorithms. Taking vitals into consideration, such as heart rate, blood pressure, daily steps taken, minutes sitting per day, and more Vigor can determine the possible risk that an individual has for hypertension, cardiovascular disease, metabolic syndrome, and type II diabetes as well as give helpful articles about these health risks. If you are interested in learning more about classification, or investigating this feature please choose the **Vigor's Predictive Wellness** menu option.
 
 ## About Vigor
 
-For a more comprehensive summary of how Vigor was created, and what is does, please choose the **About Vigor** menu option.
+For a more comprehensive summary of Vigor please choose the **About Vigor** menu option. Here, you can learn more about Vigor's purpose and why it was created, as well as see the data, packages, and research that was used in the implememtation of this tool.
