@@ -359,11 +359,19 @@ def setup():
         wellness_menu = st.radio(
             "Predictive Wellness Menu",
             (
+                "Predictive Wellness Home",
                 "Understanding Classification Algorithms",
                 "Individual Health Analysis",
                 "Community Health Analysis"
             )
         )
+        if wellness_menu == "Predictive Wellness Home":
+            with open(
+                # pylint: disable=C0301
+                "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/vigor_applications.md"
+            ) as classification:
+                st.markdown(classification.read())
+            follow()
         if wellness_menu == "Understanding Classification Algorithms":
             with open(
                 # pylint: disable=C0301
