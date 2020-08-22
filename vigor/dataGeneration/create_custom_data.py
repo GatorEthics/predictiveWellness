@@ -131,12 +131,17 @@ def create_medications(df, amount):
 def create_blood_type(df, amount):
     if "Blood Type" not in df.columns:
         df["Blood Type"] = ""
-    ordered_dictionary = {}
-    ordered_dictionary = dict([("O Positive", 0.35), ("O Negative", 0.13), ("A Positive", 0.30), ("A Negative", 0.8), ("B Positive", 0.8), ("B Negative", 0.2), ("AB Positive", 2), ("AB Negative", 0.1)])
     type_list = []
     # Faker.seed(0)
     for x in range(amount):
-        blood_type = fake.random_element(elements=ordered_dictionary)
+        blood_type = fake.random_element(elements=dict(
+            [
+                ("a", 0.45),
+                ("b", 0.35),
+                ("c", 0.15),
+                ("d", 0.05),
+            ])
+        )
         type_list.append(blood_type)
     type_array = np.array(type_list)
     df["Blood Type"] = type_array
