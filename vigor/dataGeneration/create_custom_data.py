@@ -134,14 +134,7 @@ def create_blood_type(df, amount):
     type_list = []
     # Faker.seed(0)
     for x in range(amount):
-        blood_type = fake.random_element(elements=dict(
-            [
-                ("a", 0.45),
-                ("b", 0.35),
-                ("c", 0.15),
-                ("d", 0.05),
-            ])
-        )
+        blood_type = fake.random_element(elements=("O Positive", "O Negative", "A Positive", "A Negative", "B Positive", "B Negative", "AB Positive", "AB Negative"))
         type_list.append(blood_type)
     type_array = np.array(type_list)
     df["Blood Type"] = type_array
