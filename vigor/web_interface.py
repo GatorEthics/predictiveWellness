@@ -389,10 +389,18 @@ def setup():
         faker_menu = st.radio(
             "Faker Menu",
             (
+                "Faker Home",
                 "Using Faker",
                 "Customized Data Generation"
             )
         )
+        if faker_menu == "Faker Home":
+            with open(
+                # pylint: disable=C0301
+                "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/faker_applications.md"
+            ) as faker_applications:
+                st.markdown(faker_applications.read())
+            follow()
         if faker_menu == "Using Faker":
             with open(
                 # pylint: disable=C0301
