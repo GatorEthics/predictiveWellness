@@ -206,45 +206,32 @@ def create_community_data(data, amount):
     insurance_box = st.checkbox("Insurance Type")
     blood_type_box = st.checkbox("Blood Type")
     medication_box = st.checkbox("Medications")
-    sitting_box = st.checkbox("Minutes Sitting Daily")
-    active_box = st.checkbox("Minutes Active Daily")
-    temperature_box = st.checkbox("Temperature")
-    bp_box = st.checkbox("Blood Pressure")
-    hr_box = st.checkbox("Heart Rate")
-    steps_box = st.checkbox("Steps")
+    activity_level_box = st.checkbox("Activity Level")
+    # sitting_box = st.checkbox("Minutes Sitting Daily")
+    # active_box = st.checkbox("Minutes Active Daily")
+    # temperature_box = st.checkbox("Temperature")
+    # bp_box = st.checkbox("Blood Pressure")
+    # hr_box = st.checkbox("Heart Rate")
+    # steps_box = st.checkbox("Steps")
 
     if time_box is True:
         customized_data.create_time(data, amount)
-    else:
-        data.drop("Time", axis=1, inplace=True)
     if age_box is True:
         customized_data.create_age(data, amount)
-    else:
-        data.drop("Age", axis=1, inplace=True)
     if first_name_box is True:
         customized_data.create_first_name(data, amount)
-    else:
-        data.drop("First Name", axis=1, inplace=True)
     if last_name_box is True:
         customized_data.create_last_name(data, amount)
-    else:
-        data.drop("Last Name", axis=1, inplace=True)
     if ssn_box is True:
         customized_data.create_ssn(data, amount)
-    else:
-        data.drop("SSN", axis=1, inplace=True)
     if insurance_box is True:
         customized_data.create_insurance(data, amount)
-    else:
-        data.drop("Insurance", axis=1, inplace=True)
     if blood_type_box is True:
         customized_data.create_blood_type(data, amount)
-    else:
-        data.drop("Blood Type", axis=1, inplace=True)
     if medication_box is True:
         customized_data.create_medications(data, amount)
-    else:
-        data.drop("Medications", axis=1, inplace=True)
+    if activity_level_box is True:
+        customized_data.create_activity_level(data, amount)
 
 
 def create_individual_data(data, amount):
@@ -274,40 +261,22 @@ def create_individual_data(data, amount):
 
     if date_box is True:
         customized_data.create_date(data, amount)
-    else:
-        data.drop("Date", axis=1, inplace=True)
     if time_box is True:
         customized_data.create_time(data, amount)
-    else:
-        data.drop("Time", axis=1, inplace=True)
     if medication_box is True:
         customized_data.create_medications(data, amount)
-    else:
-        data.drop("Medications", axis=1, inplace=True)
     if sitting_box is True:
         customized_data.create_minutes_sitting(data, activity_level, amount)
-    else:
-        data.drop("Minutes Sitting", axis=1, inplace=True)
     if active_box is True:
         customized_data.create_minutes_active(data, age, activity_level, amount)
-    else:
-        data.drop("Physical Activity", axis=1, inplace=True)
     if temperature_box is True:
         customized_data.create_temperature(data, age, amount)
-    else:
-        data.drop("Temperature", axis=1, inplace=True)
     if bp_box is True:
         customized_data.create_blood_pressure(data, age, activity_level, amount)
-    else:
-        data.drop("Blood Pressure", axis=1, inplace=True)
     if hr_box is True:
         customized_data.create_heart_rate(data, age, activity_level, amount)
-    else:
-        data.drop("Heart Rate", axis=1, inplace=True)
     if steps_box is True:
         customized_data.create_steps(data, activity_level, amount)
-    else:
-        data.drop("Daily Steps", axis=1, inplace=True)
 
 
 def perform_pubmed_discovery():

@@ -1,1 +1,10 @@
-Index
+,Time,First Name,Last Name,SSN,Insurance,Blood Type,Medications,Age,Activity Level
+0,07:46:39,Megan,Richard,865-50-6891,Private Insurance,B Positive,Losartan,50,4
+1,08:43:22,Katherine,Chang,042-34-8377,Private Insurance,AB Negative,Simvastatin,98,4
+2,05:52:26,Robert,Fisher,498-52-4970,Medicare,B Positive,Metformin,54,1
+3,09:51:25,Jonathan,Green,489-46-9559,Medicare,A Positive,Lisinopril,6,3
+4,19:14:57,William,Dixon,224-65-2282,Private Insurance,AB Positive,Amlodipine,34,5
+5,19:09:38,Richard,Sullivan,289-18-1554,Medicare,B Positive,Metformin,66,4
+6,16:37:16,Kristen,Bowers,634-33-8726,Private Insurance,A Positive,Simvastatin,63,4
+7,21:05:08,Kevin,Turner,723-78-2408,Medicare,AB Negative,Atorvastin,52,3
+8,21:09:22,Thomas,Woods,318-13-1209,Medicare,AB Negative,Amlodipine,101,4
