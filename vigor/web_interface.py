@@ -329,11 +329,33 @@ def setup():
         width=900,
     )
     st.sidebar.title("Welcome to Vigor!")
-    st.image(
+    st.sidebar.image(
         # pylint: disable=C0301
         "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/VigorImages/mini_vigor.png",
-        width=50,
+        width=200,
     )
+    with open(
+        # pylint: disable=C0301
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/sidebar.md"
+    ) as faker_file:
+        st.sidebar.markdown(faker_file.read())
+    st.title("Follow Us")
+    st.sidebar.image(
+        # pylint: disable=C0301
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/VigorImages/github.png",
+        width=300,
+    )
+    st.sidebar.image(
+        # pylint: disable=C0301
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/VigorImages/instagram.png",
+        width=300,
+    )
+    st.sidebar.image(
+        # pylint: disable=C0301
+        "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/VigorImages/website.png",
+        width=300,
+    )
+
     initial_menu = st.selectbox(
         "Menu",
         [
