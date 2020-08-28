@@ -444,6 +444,11 @@ def setup():
                 st.markdown(faker_file.read())
             follow()
     if faker_menu == "Customized Data Generation":
+        with open(
+            # pylint: disable=C0301
+            "/home/maddykapfhammer/Documents/Allegheny/MozillaFellows/predictiveWellness/vigor/writing/custom_data_description.md"
+        ) as data_file:
+            st.markdown(data_file.read())
         create_personalized_data()
         follow()
 
