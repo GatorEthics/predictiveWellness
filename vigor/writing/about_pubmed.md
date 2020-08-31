@@ -1,1 +1,9 @@
-# PubMed
+# PubMed - The Gateway to Biomedical Literature
+
+PubMed is a widely used database created and maintained by National Center of Biomedical Information, National Library of Medicine, and the National Institute of Health. This database is comprised of of more than 30 million citations for biomedical literature from many credible online books and scientific journals. PubMed allows fuzzy searching and querying of many articles and research papers according to keywords. These keywords can occur in any combination and PubMed will return a number of results that contain the keywords you are interested in.
+
+Vigor makes it possible for you to search through PubMed according to health keywords which you are interested in. It has functionality for choosing a set of keywords from a set list (all which were choosen carefully according to Vigor's focus) and also allows students to write and search for customized queries. This is all made possible by the PyMed Python Package. This package was designed and is maintained to permit the querying of PubMed without visiting PubMed's website. It is an extremely interesting tool which is still being improved, if you are interested in understanding it's functionality please visit [PyMed's Documentation](https://pypi.org/project/pymed/) and [PyMed's GitHub Repository](https://github.com/PyMed/PyMed).
+
+With your search, Vigor will return the number of articles (which you specify), including the name/title, authors, date published, ID number, and abstract. Currently, Vigor's developers are in the process of including a link to the citation iteself, for future use.
+
+Disclaimer: This is not meant to function exactly as PubMed does, but rather to combine the predictive attributes of Vigor and curiosities of students into the same web interface. If you are interested in understanding more about PubMed or would like to investigate a topic more in-depth, please visit the [PubMed Website](https://pubmed.ncbi.nlm.nih.gov/).
