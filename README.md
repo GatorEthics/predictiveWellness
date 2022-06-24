@@ -4,7 +4,7 @@
 
 # Predictive Analysis with Health and Wellness Data
 
-Allegheny College Mozilla Fellows
+Allegheny College Ethics Technical Leaders
 
 Dr. Jumadinova and Madelyn Kapfhammer
 
