@@ -27,7 +27,7 @@ jobs:
       # Run the mdl linting tool
       # Refers to .mdlrc file in repository
       - name: Run markdown linting
-        uses: actionshub/markdownlint@master
+        uses: actionshub/markdownlint@main
       # Setup Python for the current language version
       - name: Setup Python ${{ matrix.python-version }}
         uses: actions/setup-python@v1
