@@ -48,19 +48,19 @@ jobs:
         uses: andstor/file-existence-action@v1
         with:
           files: "pull_request_template.md, bug_report.md, feature_request.md"
-      - name: Build pyenv
-        uses: gabrielfalcao/pyenv-action@v5
-        with:
-          default: "${{ matrix.python }}"
-          command: pip install -U pip  # upgrade pip after installing python
+      #- name: Build pyenv
+      #  uses: gabrielfalcao/pyenv-action@v5
+      #  with:
+      #    default: "${{ matrix.python }}"
+      #    command: pip install -U pip  # upgrade pip after installing python
       # Install pipenv
-      - name: Install Pipenv
-        run: |
-          pip install pipenv
+      #- name: Install Pipenv
+      #  run: |
+      #    pip install pipenv
       # Install dependencies
-      - name: Install dependencies
-        run: |
-          pipenv install --dev
+      #- name: Install dependencies
+      #  run: |
+      #    pipenv install --dev
       # - name: Perform pre-commit checks
       #   run: |
       #     pipenv run pre-commit install-hooks
